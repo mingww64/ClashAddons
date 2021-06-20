@@ -1,1 +1,1 @@
-[info](https://github.com/wmyfelix/ClashConfigsSharing/blob/NPO/info.png)
+![info](https://github.com/wmyfelix/ClashConfigsSharing/blob/NPO/info.png)
