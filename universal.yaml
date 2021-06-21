@@ -176,10 +176,6 @@ proxy-groups:
   
 - name: Auto - UrlTest
   type: url-test
-  proxies:
-  
-  
-  
   use:
   - Yahaha-NPO
   - Sakura
@@ -207,10 +203,7 @@ proxy-groups:
   interval: '300'
   tolerance: '150'
 - name: Auto - Fallback
-  type: fallback
-  proxies:
-  
-  
+  type: fallback  
   use:
   - Yahaha-NPO
   - Sakura
@@ -251,7 +244,7 @@ proxy-groups:
 - name: j01.best
   type: url-test
   use:
-   
+   - j01.best
   url: https://cp.cloudflare.com/generate_204
 - name: Proxy
   type: select
