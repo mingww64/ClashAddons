@@ -266,6 +266,9 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
+  - Auto - UrlTest
+  - Auto - Fallback
+  - Auto - load-balance
   - DIRECT
   - Domestic
 - name: Apple
@@ -348,6 +351,9 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
+  - Auto - UrlTest
+  - Auto - Fallback
+  - Auto - load-balance
   - DIRECT
   - extra
   use:
@@ -409,6 +415,9 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
+  - Auto - UrlTest
+  - Auto - Fallback
+  - Auto - load-balance
   - extra
 rule-providers:
   Reject:
