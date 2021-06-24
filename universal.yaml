@@ -124,7 +124,7 @@ proxy-providers:
   getfree.cloud:
     type: http
     path: "./proxy_provider/getfree.cloud.yaml"
-    url: https://api.10101.io/sub?target=clash&url=https%3a%2f%2frss.getfree.win%2flink%2f8FF08IStcxG8RIRe%3fsub%3d1&list=true&exclude=id|adsl|过期|剩余|时间|回家
+    url: https://api.10101.io/sub?target=clash&url=https%3a%2f%2frss.getfree.win%2flink%2f8FF08IStcxG8RIRe%3fsub%3d1&list=true&exclude=id|adsl|过期|剩余|时间|回家|home|官网
     interval: 3600
     health-check:
       enable: true
@@ -133,7 +133,7 @@ proxy-providers:
   adsl.cloud:
     type: http
     path: "./proxy_provider/adsl.cloud.yaml"
-    url: https://api.10101.io/sub?target=clash&url=https%3A%2F%2Frss.epon.cloud%2Flink%2FVasve5Pu5e6UPZWp%3Fsub%3D1&list=true&exclude=id|adsl|过期|剩余|时间|回家
+    url: https://api.10101.io/sub?target=clash&url=https%3A%2F%2Frss.epon.cloud%2Flink%2FVasve5Pu5e6UPZWp%3Fsub%3D1&list=true&exclude=id|adsl|过期|剩余|时间|回家|home|官网
     interval: 3600
     health-check:
       enable: true
