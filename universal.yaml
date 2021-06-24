@@ -106,7 +106,7 @@ proxy-providers:
   Yahaha-NPO:
     type: http
     path: "./proxy_provider/Yahaha-NPO.yaml"
-    url: https://api.10101.io/sub?target=clash&url=http%3a%2f%2fsub.yahahanpo.top%2flink%2fMPsna0K3Q1JBfwNf%3fmu%3d1&list=true&exclude=耗尽
+    url: https://api.10101.io/sub?target=clash&url=http%3a%2f%2fsub.yahahanpo.top%2flink%2fMPsna0K3Q1JBfwNf%3fmu%3d1&list=true&exclude=耗尽|维护
     interval: 3600
     health-check:
       enable: true
