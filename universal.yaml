@@ -1,11 +1,9 @@
----
 port: 7890
 socks-port: 7891
 redir-port: 7892
 ipv6: true
 mode: script
 log-level: info
-secret: wmy20050309
 allow-lan: true
 bind-address: "*"
 tun:
@@ -149,19 +147,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 300
 proxies:
-- name: Home
-  type: socks5
-  server: myip.felixw.ml
-  port: 7894
-proxy-groups:
-- name: extra
-  type: select
-  proxies:
-  - Home
-  
-  
-  
-- name: Auto - UrlTest
+ - name: Auto - UrlTest
   type: url-test
   use:
   - Yahaha-NPO
@@ -231,16 +217,13 @@ proxy-groups:
 - name: Proxy
   type: select
   proxies:
-  - extra
+  
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
   - j01.best
-   
-  
-  
-  - Auto - UrlTest
+ - Auto - UrlTest
   - Auto - Fallback
   - Auto - load-balance
   - DIRECT
@@ -268,7 +251,7 @@ proxy-groups:
   proxies:
   - GlobalTV
   - DIRECT
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -280,7 +263,7 @@ proxy-groups:
   proxies:
   - GlobalTV
   - DIRECT
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -292,7 +275,7 @@ proxy-groups:
   proxies:
   - GlobalTV
   - DIRECT
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -304,7 +287,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -322,7 +305,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -337,7 +320,7 @@ proxy-groups:
   - Auto - Fallback
   - Auto - load-balance
   - DIRECT
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -349,7 +332,7 @@ proxy-groups:
   proxies:
   - Proxy
   - DIRECT
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -361,7 +344,7 @@ proxy-groups:
   proxies:
   - Proxy
   - DIRECT
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -373,7 +356,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -385,7 +368,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - extra
+  
   use:
   - Yahaha-NPO
   - Sakura
@@ -400,7 +383,7 @@ proxy-groups:
   - Auto - UrlTest
   - Auto - Fallback
   - Auto - load-balance
-  - extra
+  
 rule-providers:
   Reject:
     type: http
