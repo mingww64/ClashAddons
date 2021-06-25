@@ -152,20 +152,7 @@ proxies:
 - name: Home
   type: socks5
   server: myip.felixw.ml
-  port: 7891
-- name: DE-cf
-  server: 104.19.76.184
-  port: 443
-  type: vmess
-  uuid: dd520f3e-259d-11eb-8cd1-01f1b0ae0f25
-  alterId: 0
-  cipher: none
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: "/ws/"
-  ws-headers:
-    Host: de.realnet.ml
+  port: 7893
 proxy-groups:
 - name: extra
   type: select
