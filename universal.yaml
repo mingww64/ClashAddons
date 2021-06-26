@@ -183,6 +183,14 @@ proxies:
   url: https://cp.cloudflare.com/generate_204
   interval: '300'
   tolerance: '150'
+- name: Providers
+- type: select
+- use:   
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
 - name: Yahaha-NPO
   type: url-test
   use:
@@ -217,7 +225,7 @@ proxies:
 - name: Proxy
   type: select
   proxies:
-  
+  - Providers
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
