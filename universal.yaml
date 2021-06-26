@@ -184,8 +184,8 @@ proxies:
   interval: '300'
   tolerance: '150'
 - name: Providers
-- type: select
-- use:   
+  type: select
+  use:   
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -231,7 +231,7 @@ proxies:
   - getfree.cloud
   - adsl.cloud
   - j01.best
- - Auto - UrlTest
+  - Auto - UrlTest
   - Auto - Fallback
   - Auto - load-balance
   - DIRECT
