@@ -225,15 +225,15 @@ proxy-groups:
 - name: Proxy
   type: select
   proxies:
+   - Auto - UrlTest
+  - Auto - Fallback
+  - Auto - load-balance
   - Providers
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
   - j01.best
-  - Auto - UrlTest
-  - Auto - Fallback
-  - Auto - load-balance
   - DIRECT
 - name: Others
   type: select
