@@ -675,6 +675,12 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Apple.yaml
     path: "./rule_provider/Apple"
     interval: 86400
+  Darklist:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/DarkList.yaml
+    path: "./rule_provider/Darklist"
+    interval: 86400
   Domestic IPs:
     type: http
     behavior: ipcidr
@@ -737,6 +743,7 @@ script:
             "Microsoft": "Microsoft",
             "PROXY": "Proxy",
             "Apple": "Apple",
+            "Darklist": "REJECT"
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
             "LAN": "DIRECT"
