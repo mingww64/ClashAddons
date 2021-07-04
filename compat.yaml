@@ -2,16 +2,10 @@ port: 7890
 socks-port: 7891
 redir-port: 7892
 ipv6: true
-mode: script
+mode: rule
 log-level: info
 allow-lan: true
 bind-address: "*"
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-  - tcp://8.8.8.8:53
-  - tcp://8.8.4.4:53
 dns:
   listen: 0.0.0.0:7874
   enable: true
@@ -826,7 +820,3 @@ rules:
 - GEOIP,CN,Domestic
 - DOMAIN-KEYWORD,epicgames,DIRECT
 - MATCH,Others
-mixed-port: 7893
-external-controller: 0.0.0.0:9090
-profile:
-  store-selected: true

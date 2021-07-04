@@ -1,6 +1,7 @@
 ## [Subscribe Link](https://raw.githubusercontent.com/wmyfelix/ClashConfigsSharing/NPO/universal.yaml)
-###  [国内环境订阅链接](https://raw.githubusercontent.com/wmyfelix/ClashConfigsSharing/NPO/universal.yaml)
-![info](https://github.com/wmyfelix/ClashConfigsSharing/blob/NPO/info.png)
+### [国内环境订阅链接](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/universal.yaml)
+### [Compatible Version](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/compat.yaml)
+![info](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/info.png)
 ## Credit
 * [MIT License](https://github.com/vernesong/OpenClash/blob/master/LICENSE)
 * 内核 [clash](https://github.com/Dreamacro/clash) by [Dreamacro](https://github.com/Dreamacro)
