@@ -140,7 +140,7 @@ proxy-providers:
   j01.best:
     type: http
     path: "./proxy_provider/j01.best.yaml"
-    url: https://api.10101.io/sub?target=clash&url=https%3A%2F%2Fj03.space%2Flink%2FjlwhXsGtuj9NJV9J%3Fclash%3D2&insert=false&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
+    url: https://api.10101.io/sub?target=clash&url=https://j03.space/link/ZDBeCKqTYejHLYJ3?clash=2&insert=false&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
     interval: 3600
     health-check:
       enable: true
@@ -383,6 +383,13 @@ proxy-groups:
   - getfree.cloud
   - adsl.cloud
   - j01.best
+  
+- name: Darklist
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  - Proxy
 - name: Domestic
   type: select
   proxies:
@@ -743,7 +750,7 @@ script:
             "Microsoft": "Microsoft",
             "PROXY": "Proxy",
             "Apple": "Apple",
-            "Darklist": "REJECT",
+            "Darklist": "Darklist",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
             "LAN": "DIRECT"
@@ -817,7 +824,7 @@ rules:
 - RULE-SET,Microsoft,Microsoft
 - RULE-SET,PROXY,Proxy
 - RULE-SET,Apple,Apple
-- RULE-SET,Darklist,REJECT
+- RULE-SET,Darklist,Darklist
 - RULE-SET,Domestic,Domestic
 - RULE-SET,Domestic IPs,Domestic
 - RULE-SET,LAN,DIRECT
