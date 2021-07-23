@@ -149,7 +149,7 @@ proxy-providers:
 proxies:
 - name: localhost
   type: socks5
-  server: 192.168.0.128
+  server: 192.168.1.128
   port: 7891
   udp: true
   skip-cert-verify: false
@@ -242,6 +242,7 @@ proxy-groups:
   - getfree.cloud
   - adsl.cloud
   - j01.best
+  - localhost
   - DIRECT
 - name: Others
   type: select
@@ -774,9 +775,12 @@ script:
 
         ip = metadata["dst_ip"] or ctx.resolve_ip(metadata["host"])
 
+        if ip == "192.168.1.128":
+          return "DIRECT"
+        
         if ip == "":
           return "DIRECT"
-
+        
         code = ctx.geoip(ip)
 
         if code == "CN":
