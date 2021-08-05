@@ -1,6 +1,6 @@
-## [Subscribe Link](https://raw.githubusercontent.com/wmyfelix/ClashConfigsSharing/NPO/universal.yaml)
-### [国内环境订阅链接](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/universal.yaml)
+### [Subscribe Link](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/universal.yaml)
 ### [Compatible Version](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/compat.yaml)
+#### Testing  [QuantumultX](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/QuantumultX.conf)
 ![info](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/info.png)
 ## Credit
 * [MIT License](https://github.com/vernesong/OpenClash/blob/master/LICENSE)
