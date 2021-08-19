@@ -156,9 +156,8 @@ proxy-groups:
   - adsl.cloud
   - j01.best
    
-  url: https://cp.cloudflare.com/generate_204
-  interval: '300'
-  tolerance: '150'
+  url: http://www.gstatic.com/generate_204
+  interval: 60
 - name: Auto - load-balance
   type: load-balance
   use:
@@ -168,7 +167,7 @@ proxy-groups:
   - adsl.cloud
   - j01.best
    
-  url: https://cp.cloudflare.com/generate_204
+  url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
 - name: Auto - Fallback
@@ -180,7 +179,7 @@ proxy-groups:
   - adsl.cloud
   - j01.best
    
-  url: https://cp.cloudflare.com/generate_204
+  url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
 - name: Providers
@@ -195,33 +194,33 @@ proxy-groups:
   type: url-test
   use:
   - Yahaha-NPO
-  url: https://cp.cloudflare.com/generate_204
+  url: http://www.gstatic.com/generate_204
   interval: '600'
   tolerance: '150'
 - name: Sakura
   type: url-test
   use:
   - Sakura
-  url: https://cp.cloudflare.com/generate_204
+  url: http://www.gstatic.com/generate_204
   interval: '600'
   tolerance: '150'
 - name: getfree.cloud
   type: url-test
   use:
   - getfree.cloud
-  url: https://cp.cloudflare.com/generate_204
+  url: http://www.gstatic.com/generate_204
   interval: '600'
   tolerance: '150'
 - name: adsl.cloud
   type: url-test
   use:
   - adsl.cloud
-  url: https://cp.cloudflare.com/generate_204
+  url: http://www.gstatic.com/generate_204
 - name: j01.best
   type: url-test
   use:
    - j01.best
-  url: https://cp.cloudflare.com/generate_204
+  url: http://www.gstatic.com/generate_204
 - name: Proxy
   type: select
   proxies:
