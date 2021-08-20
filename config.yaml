@@ -101,15 +101,15 @@ dns:
   - 221.179.155.161
   - 1.2.4.8
 proxy-providers:
-  Yahaha-NPO:
-    type: http
-    path: "./proxy_provider/Yahaha-NPO.yaml"
-    url: https://api.10101.io/sub?target=clash&url=http%3a%2f%2fsub.yahahanpo.top%2flink%2fMPsna0K3Q1JBfwNf%3fmu%3d1&list=true&exclude=耗尽|维护
-    interval: 3600
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 300
+ # Yahaha-NPO:
+ #   type: http
+ #   path: "./proxy_provider/Yahaha-NPO.yaml"
+ #   url: https://api.10101.io/sub?target=clash&url=http%3a%2f%2fsub.yahahanpo.top%2flink%2fMPsna0K3Q1JBfwNf%3fmu%3d1&list=true&exclude=耗尽|维护
+ #   interval: 3600
+ #   health-check:
+ #     enable: true
+ #     url: http://www.gstatic.com/generate_204
+ #     interval: 300
   Sakura:
     type: http
     path: "./proxy_provider/Sakura.yaml"
@@ -158,7 +158,7 @@ proxy-groups:
 - name: Auto - UrlTest
   type: url-test
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -169,7 +169,7 @@ proxy-groups:
 - name: Auto - load-balance
   type: load-balance
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -181,7 +181,7 @@ proxy-groups:
 - name: Auto - Fallback
   type: fallback  
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -193,7 +193,7 @@ proxy-groups:
 - name: Providers
   type: select
   use:   
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -201,7 +201,7 @@ proxy-groups:
 - name: Yahaha-NPO
   type: url-test
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   url: http://www.gstatic.com/generate_204
   interval: '600'
   tolerance: '150'
@@ -236,7 +236,7 @@ proxy-groups:
   - Auto - Fallback
   - Auto - load-balance
   - Providers
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -269,7 +269,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -281,7 +281,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -293,7 +293,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -305,7 +305,7 @@ proxy-groups:
   - Proxy
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -323,7 +323,7 @@ proxy-groups:
   - Proxy
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -338,7 +338,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -350,7 +350,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -362,7 +362,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -374,7 +374,7 @@ proxy-groups:
   - Proxy
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -386,7 +386,7 @@ proxy-groups:
   - Proxy
   
   use:
-  - Yahaha-NPO
+  # # - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
