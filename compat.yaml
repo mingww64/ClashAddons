@@ -105,13 +105,13 @@ proxy-groups:
   - getfree.cloud
   - adsl.cloud
   - j01.best
-- name: Yahaha-NPO
-  type: url-test
-  use:
-  # - Yahaha-NPO
-  url: https://cp.cloudflare.com/generate_204
-  interval: '600'
-  tolerance: '150'
+#- name: Yahaha-NPO
+#  type: url-test
+#  use:
+#  # - Yahaha-NPO
+#  url: https://cp.cloudflare.com/generate_204
+#  interval: '600'
+#  tolerance: '150'
 - name: Sakura
   type: url-test
   use:
