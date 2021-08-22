@@ -33,7 +33,7 @@ jobs:
       run: |
         git config --local user.email "felicia@realnet.ml"
         git config --local user.name "FeliciaWen"
-        if [ ! -z $(git status -u |grep "up to date")];then
+        if [ ! -z $(git status -u |grep "up to date") ];then
           echo "Nothing Updated."
           exit 0
         fi
