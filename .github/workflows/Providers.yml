@@ -29,14 +29,6 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Download Providers
       run: bash update.sh
-    - name: Commit files
-      run: |
-        if [ $Updated=0 ];then
-          exit 0
-        fi
-        git config --local user.email "felicia@realnet.ml"
-        git config --local user.name "FeliciaWen"
-        git commit -m "Update Proxy Provider." -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

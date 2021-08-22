@@ -14,9 +14,10 @@ for num in $(seq 0 $nnum);do
         git add -A
         if [ -z "$(git status -u |grep "Changes to be committed:")" ];then
             echo "Nothing Updated."
-            export Updated=0
         else 
-            export Updated=1
+            git config --local user.email "felicia@realnet.ml"
+            git config --local user.name "FeliciaWen"
+            git commit -m "Update Proxy Provider." -a
         fi
         exit 0
     fi
