@@ -21,3 +21,7 @@ for num in $(seq 0 $nnum);do
         rm tmp
     fi
 done
+
+if [ ! -z $(git status -u |grep "up to date") ];then
+echo "Nothing Updated."
+exit 0
