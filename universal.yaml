@@ -101,19 +101,19 @@ dns:
   - 221.179.155.161
   - 1.2.4.8
 proxy-providers:
-  #Yahaha-NPO:
-  #  type: http
-  #  path: "./proxy_provider/Yahaha-NPO.yaml"
-  #  url: https://api.wcc.best/sub?target=clash&url=http%3a%2f%2fsub.yahahanpo.top%2flink%2fMPsna0K3Q1JBfwNf%3fmu%3d1&list=true&exclude=耗尽|维护
-  #  interval: 3600
-  #  health-check:
-  #    enable: true
-  #    url: http://www.gstatic.com/generate_204
-  #    interval: 300
+  Yahaha-NPO:
+    type: http
+    path: "./proxy_provider/Yahaha-NPO.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/Yahaha-NPO.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   Sakura:
     type: http
     path: "./proxy_provider/Sakura.yaml"
-    url: https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Fsubscribe.connect-node.xyz%2Flink%2FeYXuRuK1xeeD2Z2H%3Fclash%3D1&exclude=%E4%B8%8B%E8%BD%BD&emoji=true&list=true
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/Sakura.yaml
     interval: 3600
     health-check:
       enable: true
@@ -122,7 +122,7 @@ proxy-providers:
   getfree.cloud:
     type: http
     path: "./proxy_provider/getfree.cloud.yaml"
-    url: https://api.wcc.best/sub?target=clash&url=https%3a%2f%2frss.getfree.win%2flink%2f8FF08IStcxG8RIRe%3fsub%3d1&list=true&exclude=id|adsl|过期|剩余|时间|回家|home|官网
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/getfree.cloud.yaml
     interval: 3600
     health-check:
       enable: true
@@ -131,7 +131,7 @@ proxy-providers:
   adsl.cloud:
     type: http
     path: "./proxy_provider/adsl.cloud.yaml"
-    url: https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Frss.epon.cloud%2Flink%2FVasve5Pu5e6UPZWp%3Fsub%3D1&list=true&exclude=id|adsl|过期|剩余|时间|回家|home|官网
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/adsl.cloud.yaml
     interval: 3600
     health-check:
       enable: true
@@ -140,7 +140,7 @@ proxy-providers:
   j01.best:
     type: http
     path: "./proxy_provider/j01.best.yaml"
-    url: https://api.wcc.best/sub?target=clash&url=https://j03.space/link/ZDBeCKqTYejHLYJ3?clash=2&insert=false&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/j01.best.yaml
     interval: 3600
     health-check:
       enable: true
@@ -150,18 +150,17 @@ proxy-groups:
 - name: Auto - UrlTest
   type: url-test
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
   - j01.best
-   
   url: http://www.gstatic.com/generate_204
   interval: 60
 - name: Auto - load-balance
   type: load-balance
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -173,30 +172,29 @@ proxy-groups:
 - name: Auto - Fallback
   type: fallback  
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
   - j01.best
-   
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
 - name: Providers
   type: select
   use:   
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
   - j01.best
-#- name: Yahaha-NPO
-#  type: url-test
-#  use:
-#  # - Yahaha-NPO
-# url: http://www.gstatic.com/generate_204
-#  interval: '600'
-#  tolerance: '150'
+- name: Yahaha-NPO
+  type: url-test
+  use:
+  - Yahaha-NPO
+  url: http://www.gstatic.com/generate_204
+  interval: '600'
+  tolerance: '150'
 - name: Sakura
   type: url-test
   use:
@@ -228,7 +226,7 @@ proxy-groups:
   - Auto - Fallback
   - Auto - load-balance
   - Providers
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -260,7 +258,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -272,7 +270,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -284,7 +282,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -296,7 +294,7 @@ proxy-groups:
   - Proxy
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -314,7 +312,7 @@ proxy-groups:
   - Proxy
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -329,7 +327,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -341,7 +339,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -353,7 +351,7 @@ proxy-groups:
   - DIRECT
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -365,7 +363,7 @@ proxy-groups:
   - Proxy
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
@@ -377,7 +375,7 @@ proxy-groups:
   - Proxy
   
   use:
-  # - Yahaha-NPO
+  - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
