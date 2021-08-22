@@ -5,15 +5,15 @@ name: Update Provider
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-workflow_dispatch:
-push:
-    branches:
-        - NPO
-schedule:
-    - cron: '20 12,18 * * *'
-watch:
-    types: 
-        - started
+  workflow_dispatch:
+  push:
+      branches:
+          - NPO
+  schedule:
+      - cron: '20 12,18 * * *'
+  watch:
+      types: 
+          - started
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
