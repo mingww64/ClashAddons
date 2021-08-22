@@ -11,17 +11,19 @@ fi
 for num in $(seq 0 $nnum);do
     if [ $num == $nnum ];then
         echo "Completed. "
+        if [ ! -z "$(git status -u |grep "up to date")" ];then
+            echo "Nothing Updated."
+            Updated=0
+        else 
+            Updated=1
+        fi
         exit 0
     fi
     curl -SsL ${link[$num]} -o tmp
-    if [ ! -z $(grep proxies tmp) ];then
+    if [ ! -z "$(grep proxies tmp)" ];then
         echo "Writing ${name[$num]}"
         mv tmp proxy_provider/${name[$num]}
     else
         rm tmp
     fi
 done
-
-if [ ! -z $(git status -u |grep "up to date") ];then
-echo "Nothing Updated."
-exit 0
