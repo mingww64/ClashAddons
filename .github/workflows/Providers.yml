@@ -31,7 +31,7 @@ jobs:
       run: bash update.sh
     - name: Commit files
       run: |
-        if [ $Updated == 0 ];then
+        if [ $Updated=0 ];then
           exit 0
         fi
         git config --local user.email "felicia@realnet.ml"
