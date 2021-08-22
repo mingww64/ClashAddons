@@ -5,12 +5,15 @@ name: Update Provider
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      Run:
-  schedule:
-     - cron: 0 11 * * *
+workflow_dispatch:
+push:
+    branches:
+        - NPO
+schedule:
+    - cron: '20 12,18 * * *'
+watch:
+    types: 
+        - started
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -32,7 +35,7 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git commit -m "Add changes" -a
+        git commit -m "Update Proxy Provider." -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

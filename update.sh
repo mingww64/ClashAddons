@@ -1,6 +1,4 @@
 #!/bin/bash
-mkdir proxy_provider
-
 link=($(grep -o 'http.*sub.*' ./config.yaml))
 name=($(grep -o './proxy_provider.*.yaml' ./config.yaml |awk -F/ '{print $3}'))
 nnum=${#name[@]}
