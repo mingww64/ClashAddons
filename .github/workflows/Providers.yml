@@ -36,7 +36,6 @@ jobs:
         fi
         git config --local user.email "felicia@realnet.ml"
         git config --local user.name "FeliciaWen"
-        git add -A
         git commit -m "Update Proxy Provider." -a
     - name: Push changes
       uses: ad-m/github-push-action@master
