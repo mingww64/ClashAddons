@@ -11,7 +11,8 @@ fi
 for num in $(seq 0 $nnum);do
     if [ $num == $nnum ];then
         echo "Completed. "
-        if [ ! -z "$(git status -u |grep "up to date")" ];then
+        git add -A
+        if [ -z "$(git status -u |grep "Changes to be committed:")" ];then
             echo "Nothing Updated."
             Updated=0
         else 
