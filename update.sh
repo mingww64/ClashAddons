@@ -14,9 +14,9 @@ for num in $(seq 0 $nnum);do
         git add -A
         if [ -z "$(git status -u |grep "Changes to be committed:")" ];then
             echo "Nothing Updated."
-            Updated=0
+            export Updated=0
         else 
-            Updated=1
+            export Updated=1
         fi
         exit 0
     fi
