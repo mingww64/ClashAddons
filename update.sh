@@ -1,6 +1,6 @@
 #!/bin/bash
-link=($(grep -o 'http.*sub.*' ./config.yaml))
-name=($(grep -o './proxy_provider.*.yaml' ./config.yaml |awk -F/ '{print $3}'))
+link=($(grep -o 'http.*sub.*' ./Orginal.yaml))
+name=($(grep -o './proxy_provider.*.yaml' ./Orginal.yaml |awk -F/ '{print $3}'))
 nnum=${#name[@]}
 lnum=${#link[@]}
 if [ $nnum != $lnum ];then
