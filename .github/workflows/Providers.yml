@@ -23,7 +23,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Download Providers
-      run: update.sh
+      run: ./update.sh
     - name: Checkout
       uses: actions/checkout@v2
       with:
