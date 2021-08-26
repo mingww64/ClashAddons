@@ -96,10 +96,19 @@ dns:
   - "*.realnet.*"
   - realnet.ga
   - realnet.ml
-  nameserver:
-  - 221.179.155.177
-  - 221.179.155.161
-  - 1.2.4.8
+nameserver:
+- 114.114.114.114
+- 119.29.29.29
+- 119.28.28.28
+- 223.5.5.5
+- 1.2.4.8
+fallback:
+- https://doh.pub/dns-query
+- https://dns.alidns.com/dns-query
+- https://cloudflare-dns.com/dns-query
+- https://dns.rubyfish.cn/dns-query
+- "[2001:4860:4860::8888]:53"
+- "[2001:4860:4860::8844]:53"
 proxy-providers:
   Yahaha-NPO:
     type: http
