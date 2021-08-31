@@ -96,13 +96,13 @@ dns:
   - "*.realnet.*"
   - realnet.ga
   - realnet.ml
-nameserver:
+  nameserver:
   - 114.114.114.114
   - 119.29.29.29
   - 119.28.28.28
   - 223.5.5.5
   - 1.2.4.8
-fallback:
+  fallback:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
   - https://cloudflare-dns.com/dns-query
