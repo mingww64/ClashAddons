@@ -385,13 +385,7 @@ proxy-groups:
   - getfree.cloud
   - adsl.cloud
   - j01.best
-  
-- name: Darklist
-  type: select
-  proxies:
-  - REJECT
-  - DIRECT
-  - Proxy
+
 - name: Domestic
   type: select
   proxies:
@@ -752,7 +746,7 @@ script:
             "Microsoft": "Microsoft",
             "PROXY": "Proxy",
             "Apple": "Apple",
-            "Darklist": "Darklist",
+            "Darklist": "REJECT",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
             "LAN": "DIRECT"
