@@ -612,12 +612,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/PBS.yaml
     path: "./rule_provider/PBS"
     interval: 86400
-  Pornhub:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/Pornhub.yaml
-    path: "./rule_provider/Pornhub"
-    interval: 86400
   Soundcloud:
     type: http
     behavior: classical
@@ -736,7 +730,6 @@ script:
             "myTV SUPER": "GlobalTV",
             "Pandora": "GlobalTV",
             "PBS": "GlobalTV",
-            "Pornhub": "REJECT",
             "Soundcloud": "GlobalTV",
             "ViuTV": "GlobalTV",
             "Telegram": "Telegram",
@@ -810,7 +803,6 @@ rules:
 - RULE-SET,myTV SUPER,GlobalTV
 - RULE-SET,Pandora,GlobalTV
 - RULE-SET,PBS,GlobalTV
-- RULE-SET,Pornhub,REJECT
 - RULE-SET,Soundcloud,GlobalTV
 - RULE-SET,ViuTV,GlobalTV
 - RULE-SET,Telegram,Telegram
@@ -820,7 +812,7 @@ rules:
 - RULE-SET,Microsoft,Microsoft
 - RULE-SET,PROXY,Proxy
 - RULE-SET,Apple,Apple
-- RULE-SET,Darklist,Darklist
+- RULE-SET,Darklist,REJECT
 - RULE-SET,Domestic,Domestic
 - RULE-SET,Domestic IPs,Domestic
 - RULE-SET,LAN,DIRECT
