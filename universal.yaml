@@ -3,7 +3,7 @@ socks-port: 7891
 redir-port: 7892
 ipv6: true
 mode: script
-log-level: slient
+log-level: silent
 allow-lan: true
 bind-address: "*"
 tun:
@@ -403,7 +403,7 @@ proxy-groups:
 rule-providers:
   Reject:
     type: http
-    behavior: classical
+    behavior: domain
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
     path: "./rule_provider/Reject"
     interval: 86400
@@ -661,20 +661,20 @@ rule-providers:
     interval: 86400
   PROXY:
     type: http
-    behavior: classical
+    behavior: domain
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
     path: "./rule_provider/Proxy"
     interval: 86400
   Domestic:
     type: http
-    behavior: classical
+    behavior: domain
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
     path: "./rule_provider/Domestic"
     interval: 86400
   Apple:
     type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Apple.yaml
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
     path: "./rule_provider/Apple"
     interval: 86400
   Darklist:
@@ -691,8 +691,8 @@ rule-providers:
     interval: 86400
   LAN:
     type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
     path: "./rule_provider/LAN"
     interval: 86400
 script:
