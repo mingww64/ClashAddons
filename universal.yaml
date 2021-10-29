@@ -3,7 +3,7 @@ socks-port: 7891
 redir-port: 7892
 ipv6: true
 mode: script
-log-level: info
+log-level: slient
 allow-lan: true
 bind-address: "*"
 tun:
@@ -94,8 +94,8 @@ dns:
   - "*.linksyssmartwifi.com"
   nameserver:
   - 114.114.114.114
-  - 119.29.29.29
-  - 119.28.28.28
+  - 119.29.29.29 #CMCC DNS
+  - 119.28.28.28 #CMCC DNS
   - 223.5.5.5
   - 1.2.4.8
   fallback:
@@ -151,9 +151,16 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
+proxies:
+- name: RemoteProcV6
+  type: socks5
+  server: myip.felixw.ml
+  port: 8893
 proxy-groups:
 - name: Auto - UrlTest
   type: url-test
+  proxies:
+  - RemoteProcV6
   use:
   - Yahaha-NPO
   - Sakura
@@ -161,8 +168,9 @@ proxy-groups:
   - adsl.cloud
   - j01.best
   url: http://www.gstatic.com/generate_204
-  interval: 60
-- name: Auto - load-balance
+  interval: '300'
+  tolerance: '150'
+- name: Auto - LoadBalance
   type: load-balance
   use:
   - Yahaha-NPO
@@ -170,7 +178,6 @@ proxy-groups:
   - getfree.cloud
   - adsl.cloud
   - j01.best
-   
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -185,14 +192,6 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
-- name: Providers
-  type: select
-  use:   
-  - Yahaha-NPO
-  - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
 - name: Yahaha-NPO
   type: url-test
   use:
@@ -229,13 +228,13 @@ proxy-groups:
   proxies:
   - Auto - UrlTest
   - Auto - Fallback
-  - Auto - load-balance
-  - Providers
+  - Auto - LoadBalance
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
   - j01.best
+  - RemoteProcV6
   - DIRECT
 - name: Others
   type: select
@@ -243,26 +242,39 @@ proxy-groups:
   - Proxy
   - Auto - UrlTest
   - Auto - Fallback
-  - Auto - load-balance
+  - Auto - LoadBalance
   - DIRECT
   - Domestic
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
 - name: Apple
   type: select
   proxies:
   - DIRECT
   - Proxy
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
 - name: Microsoft
   type: select
   proxies:
   - DIRECT
   - Proxy
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
 - name: Netflix
   type: select
   proxies:
   - GlobalTV
   - DIRECT
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -273,8 +285,6 @@ proxy-groups:
   proxies:
   - GlobalTV
   - DIRECT
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -285,8 +295,6 @@ proxy-groups:
   proxies:
   - GlobalTV
   - DIRECT
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -297,8 +305,6 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -315,8 +321,6 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -328,10 +332,8 @@ proxy-groups:
   - Proxy
   - Auto - UrlTest
   - Auto - Fallback
-  - Auto - load-balance
+  - Auto - LoadBalance
   - DIRECT
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -342,7 +344,12 @@ proxy-groups:
   proxies:
   - Proxy
   - DIRECT
-  
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
+  - RemoteProcV6
   use:
   - Yahaha-NPO
   - Sakura
@@ -354,8 +361,6 @@ proxy-groups:
   proxies:
   - Proxy
   - DIRECT
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -366,8 +371,6 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
@@ -378,28 +381,30 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  
-  use:
   - Yahaha-NPO
   - Sakura
   - getfree.cloud
   - adsl.cloud
   - j01.best
-
 - name: Domestic
   type: select
   proxies:
   - DIRECT
   - Proxy
+  - RemoteProcV6
   - Auto - UrlTest
   - Auto - Fallback
-  - Auto - load-balance
-  
+  - Auto - LoadBalance
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
 rule-providers:
   Reject:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Reject.yaml
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
     path: "./rule_provider/Reject"
     interval: 86400
   Special:
@@ -627,7 +632,7 @@ rule-providers:
   Telegram:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Telegram.yaml
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
     path: "./rule_provider/Telegram"
     interval: 86400
   Steam:
@@ -657,13 +662,13 @@ rule-providers:
   PROXY:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Proxy.yaml
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
     path: "./rule_provider/Proxy"
     interval: 86400
   Domestic:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Domestic.yaml
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
     path: "./rule_provider/Domestic"
     interval: 86400
   Apple:
@@ -681,13 +686,13 @@ rule-providers:
   Domestic IPs:
     type: http
     behavior: ipcidr
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Domestic%20IPs.yaml
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
     path: "./rule_provider/Domestic_IPs"
     interval: 86400
   LAN:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/LAN.yaml
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
     path: "./rule_provider/LAN"
     interval: 86400
 script:
@@ -722,7 +727,7 @@ script:
             "HBO": "GlobalTV",
             "Hulu Japan": "GlobalTV",
             "Hulu": "GlobalTV",
-            "Japonx": "GlobalTV",
+            "Japonx": "REJECT",
             "JOOX": "GlobalTV",
             "KKBOX": "GlobalTV",
             "KKTV": "GlobalTV",
@@ -819,7 +824,6 @@ rules:
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - IP-CIDR,94.140.14.1/16,DIRECT
 - GEOIP,CN,Domestic
-- DOMAIN-KEYWORD,epicgames,DIRECT
 - MATCH,Others
 mixed-port: 7893
 external-controller: 0.0.0.0:9090
