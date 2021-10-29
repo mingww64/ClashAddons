@@ -631,7 +631,7 @@ rule-providers:
     interval: 86400
   Telegram:
     type: http
-    behavior: classical
+    behavior: ipcidr
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
     path: "./rule_provider/Telegram"
     interval: 86400
