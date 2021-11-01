@@ -587,7 +587,7 @@ rule-providers:
     type: http
     behavior: domain
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
-    path: ""./rule_provider/iCloud"
+    path: "./rule_provider/iCloud"
     interval: 86400
   Japonx:
     type: http
