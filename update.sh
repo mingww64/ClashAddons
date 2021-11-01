@@ -1,8 +1,8 @@
 #!/bin/bash
 link=($(grep -o 'http.*sub.*' ./Orginal.yaml))
 name=($(grep -o './proxy_provider.*.yaml' ./Orginal.yaml |awk -F/ '{print $3}'))
-nnum=${#name[@]}
-lnum=${#link[@]}
+nnum=${#name[@]} # Numbers of providers
+lnum=${#link[@]} # Numbers of subscribe links
 if [ $nnum != $lnum ];then
     echo "Url ≠ Name"
     exit 1
@@ -22,10 +22,10 @@ for num in $(seq 0 $nnum);do
         exit 0
     fi
     curl -SsL ${link[$num]} -o tmp
-    if [ ! -z "$(grep proxies tmp)" ];then
+    if [ ! -z "$(grep proxies tmp)" ];then # Check if any proxies available
         echo "Writing ${name[$num]}"
         mv tmp proxy_provider/${name[$num]}
     else
-        rm tmp
+        rm tmp # Keep last file and make no change
     fi
 done
