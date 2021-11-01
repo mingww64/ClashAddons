@@ -156,6 +156,10 @@ proxies:
   type: socks5
   server: myip.felixw.ml
   port: 8893
+- name: UnBlock163
+  type: http
+  server: myip.felixw.ml
+  port: 5201
 proxy-groups:
 - name: Auto - UrlTest
   type: url-test
@@ -250,7 +254,12 @@ proxy-groups:
   - getfree.cloud
   - adsl.cloud
   - j01.best
-- name: Apple
+- name: iCloud
+  type: select
+  proxies:
+  - DIRECT
+  - Apple
+  - name: Apple
   type: select
   proxies:
   - DIRECT
@@ -270,6 +279,11 @@ proxy-groups:
   - getfree.cloud
   - adsl.cloud
   - j01.best
+- name: Netease Music
+  type: select
+  proxies:
+  - AsianTV
+  - UnBlock163
 - name: Netflix
   type: select
   proxies:
@@ -569,6 +583,12 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/Hulu.yaml
     path: "./rule_provider/Hulu"
     interval: 86400
+  iCloud:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
+    path: ""./rule_provider/iCloud"
+    interval: 86400
   Japonx:
     type: http
     behavior: classical
@@ -700,6 +720,7 @@ script:
     def main(ctx, metadata):
         port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
         ruleset_action = {"Reject": "AdBlock",
+            "Darklist": "REJECT",
             "Special": "DIRECT",
             "Netflix": "Netflix",
             "Spotify": "Spotify",
@@ -708,7 +729,7 @@ script:
             "Bilibili": "AsianTV",
             "iQiyi": "AsianTV",
             "Letv": "AsianTV",
-            "Netease Music": "AsianTV",
+            "Netease Music": "Netease Music",
             "Tencent Video": "AsianTV",
             "Youku": "AsianTV",
             "WeTV": "AsianTV",
@@ -742,9 +763,9 @@ script:
             "Speedtest": "Speedtest",
             "PayPal": "PayPal",
             "Microsoft": "Microsoft",
-            "PROXY": "Proxy",
+            "iCloud": "iCloud",
             "Apple": "Apple",
-            "Darklist": "REJECT",
+            "PROXY": "Proxy",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
             "LAN": "DIRECT"
@@ -770,9 +791,8 @@ script:
 
         return "Others"
 rules:
-- DOMAIN-KEYWORD,epicgames,DIRECT
-- DOMAIN-KEYWORD,akamazied,DIRECT
 - RULE-SET,Reject,AdBlock
+- RULE-SET,Darklist,REJECT
 - RULE-SET,Special,DIRECT
 - RULE-SET,Netflix,Netflix
 - RULE-SET,Spotify,Spotify
@@ -781,7 +801,7 @@ rules:
 - RULE-SET,Bilibili,AsianTV
 - RULE-SET,iQiyi,AsianTV
 - RULE-SET,Letv,AsianTV
-- RULE-SET,Netease Music,AsianTV
+- RULE-SET,Netease Music,Netease Music
 - RULE-SET,Tencent Video,AsianTV
 - RULE-SET,Youku,AsianTV
 - RULE-SET,WeTV,AsianTV
@@ -815,9 +835,9 @@ rules:
 - RULE-SET,Speedtest,Speedtest
 - RULE-SET,PayPal,PayPal
 - RULE-SET,Microsoft,Microsoft
-- RULE-SET,PROXY,Proxy
+- RULE_SET,iCloud,iCloud
 - RULE-SET,Apple,Apple
-- RULE-SET,Darklist,REJECT
+- RULE-SET,PROXY,Proxy
 - RULE-SET,Domestic,Domestic
 - RULE-SET,Domestic IPs,Domestic
 - RULE-SET,LAN,DIRECT
