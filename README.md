@@ -3,10 +3,12 @@ It's a providers caching system for now.
 # Why?
  To prevent `Clash` initialize problem caused by unreachable providers.  
 # How?
-It does contains providers' links, and it work. 
- > BUT USE THEM AT YOUR OWN RISK.
-    [Subscribe Link](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/universal.yaml)  
-     Testing  [QuantumultX](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/QuantumultX.conf) *//Since I don't own any IOS device,The **Test** may last forever.*
+It does contains providers' links, and it works. 
+ > BUT USE THEM AT YOUR OWN RISK.  
+     [Subscribe Link](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/universal.yaml)  
+     Testing  [QuantumultX](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/QuantumultX.conf) *//Since I don't own any IOS device,The **Test** may last forever.*  
+
+NSFW sites are **Blocked** by default.
 ## Credit
 * [MIT License](https://github.com/vernesong/OpenClash/blob/master/LICENSE)
 * [Clash](https://github.com/Dreamacro/clash) by [Dreamacro](https://github.com/Dreamacro)
