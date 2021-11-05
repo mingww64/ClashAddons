@@ -5,8 +5,8 @@ It's a providers caching system for now.
 # How?
 It does contains providers' links, and it works. 
  > BUT USE THEM AT YOUR OWN RISK.  
-     [Subscribe Link](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/universal.yaml)  
-     Testing  [QuantumultX](https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/QuantumultX.conf) *//Since I don't own any IOS device,The **Test** may last forever.*  
+     [Subscribe Link](https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/universal.yaml)  
+     Testing  [QuantumultX](https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/QuantumultX.conf) *//Since I don't own any IOS device,The **Test** may last forever.*  
 
 NSFW sites are **Blocked** by default.
 ## Credit
