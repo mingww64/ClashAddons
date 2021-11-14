@@ -1,7 +1,12 @@
 port: 7890
 socks-port: 7891
 redir-port: 7892
+mixed-port: 7893
 ipv6: true
+external-controller: 0.0.0.0:9090
+profile:
+  store-selected: true
+secret: ''
 mode: script
 log-level: silent
 allow-lan: true
@@ -712,7 +717,7 @@ rule-providers:
   Darklist:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/rules/Darklist.yaml
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/rules/Darklist.yaml
     path: "./rule_provider/Darklist"
     interval: 86400
   Domestic IPs:
@@ -862,8 +867,3 @@ rules:
 - IP-CIDR,94.140.14.1/16,DIRECT
 - GEOIP,CN,Domestic
 - MATCH,Others
-mixed-port: 7893
-external-controller: 0.0.0.0:9090
-profile:
-  store-selected: true
-secret: ''
