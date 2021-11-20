@@ -111,10 +111,10 @@ dns:
   - "[2001:4860:4860::8888]:53"
   - "[2001:4860:4860::8844]:53"
 proxy-providers:
-  Yahaha-NPO:
+  YahahaNPO:
     type: http
-    path: "./proxy_provider/Yahaha-NPO.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/Yahaha-NPO.yaml
+    path: "./proxy_provider/YahahaNPO.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/YahahaNPO
     interval: 3600
     health-check:
       enable: true
@@ -123,34 +123,34 @@ proxy-providers:
   Sakura:
     type: http
     path: "./proxy_provider/Sakura.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/Sakura.yaml
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/Sakura
     interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-  getfree.cloud:
+  Getfree:
     type: http
-    path: "./proxy_provider/getfree.cloud.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/getfree.cloud.yaml
+    path: "./proxy_provider/Getfree.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/Getfree
     interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-  adsl.cloud:
+  ADSL:
     type: http
-    path: "./proxy_provider/adsl.cloud.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/adsl.cloud.yaml
+    path: "./proxy_provider/ADSL.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ADSL
     interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-  j01.best:
+  ChinaG:
     type: http
-    path: "./proxy_provider/j01.best.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/proxy_provider/j01.best.yaml
+    path: "./proxy_provider/ChinaG.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG
     interval: 3600
     health-check:
       enable: true
@@ -171,40 +171,40 @@ proxy-groups:
   proxies:
   - RemoteProcV6
   use:
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
 - name: Auto - LoadBalance
   type: load-balance
   use:
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
 - name: Auto - Fallback
   type: fallback  
   use:
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
-- name: Yahaha-NPO
+- name: YahahaNPO
   type: url-test
   use:
-  - Yahaha-NPO
+  - YahahaNPO
   url: http://www.gstatic.com/generate_204
   interval: '600'
   tolerance: '150'
@@ -215,22 +215,22 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '600'
   tolerance: '150'
-- name: getfree.cloud
+- name: Getfree
   type: url-test
   use:
-  - getfree.cloud
+  - Getfree
   url: http://www.gstatic.com/generate_204
   interval: '600'
   tolerance: '150'
-- name: adsl.cloud
+- name: ADSL
   type: url-test
   use:
-  - adsl.cloud
+  - ADSL
   url: http://www.gstatic.com/generate_204
-- name: j01.best
+- name: ChinaG
   type: url-test
   use:
-   - j01.best
+   - ChinaG
   url: http://www.gstatic.com/generate_204
 - name: Proxy
   type: select
@@ -238,11 +238,11 @@ proxy-groups:
   - Auto - UrlTest
   - Auto - Fallback
   - Auto - LoadBalance
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
   - RemoteProcV6
   - DIRECT
 - name: Others
@@ -254,11 +254,11 @@ proxy-groups:
   - Auto - LoadBalance
   - DIRECT
   - Domestic
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: iCloud
   type: select
   proxies:
@@ -269,21 +269,21 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Microsoft
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Netease Music
   type: select
   proxies:
@@ -294,41 +294,41 @@ proxy-groups:
   proxies:
   - GlobalTV
   - DIRECT
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Youtube
   type: select
   proxies:
   - GlobalTV
   - DIRECT
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Spotify
   type: select
   proxies:
   - GlobalTV
   - DIRECT
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Steam
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: AdBlock
   type: select
   proxies:
@@ -340,11 +340,11 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: GlobalTV
   type: select
   proxies:
@@ -353,58 +353,58 @@ proxy-groups:
   - Auto - Fallback
   - Auto - LoadBalance
   - DIRECT
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Speedtest
   type: select
   proxies:
   - Proxy
   - DIRECT
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
   - RemoteProcV6
   use:
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Telegram
   type: select
   proxies:
   - Proxy
   - DIRECT
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: PayPal
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Disney
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: Domestic
   type: select
   proxies:
@@ -414,11 +414,11 @@ proxy-groups:
   - Auto - UrlTest
   - Auto - Fallback
   - Auto - LoadBalance
-  - Yahaha-NPO
+  - YahahaNPO
   - Sakura
-  - getfree.cloud
-  - adsl.cloud
-  - j01.best
+  - Getfree
+  - ADSL
+  - ChinaG
 - name: QUIC
   type: select
   proxies:
