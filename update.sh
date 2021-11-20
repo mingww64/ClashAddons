@@ -23,7 +23,7 @@ p_name=($(echo $(getconf ".ProxyProviders|keys"|sed "s/- //")))
 p_url=($(echo $(getconf .ProxyProviders.[])))
 clash_args=$(echo $(getconf .ClashProviders|sed "s/: /=/")|sed "s/ /\&/g")
 quanx_args=$(echo $(getconf .QuantumultXRemotes|sed "s/: /=/")|sed "s/ /\&/g")
-filters=$(getconf .ExcludeExp)
+filters="exclude=$(getconf .ExcludeExp)"
 nnum=${#p_name[@]} # Numbers of providers
 lnum=${#p_url[@]} # Numbers of subscribe links
 checknode="The following link doesn't contain any valid node info:|No nodes were found!"
