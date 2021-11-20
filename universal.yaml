@@ -698,8 +698,8 @@ rule-providers:
     interval: 86400
   PROXY:
     type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Proxy.yaml
     path: "./rule_provider/Proxy"
     interval: 86400
   Domestic:
