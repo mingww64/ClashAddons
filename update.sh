@@ -38,7 +38,7 @@ for num in $(seq 0 $nnum);do
             echo "SmartFiltering Activated."
             chmod +x ./classify.py
             ./classify.py proxies/Clash/$name
-        }
+        }||echo sssssssssssss
         echo "Completed. "
         git add -A
         if [ -z "$(git status -u |grep "Changes to be committed:")" ];then
