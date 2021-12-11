@@ -23,13 +23,21 @@ p_name=($(echo $(getconf ".ProxyProviders|keys"|sed "s/- //")))
 p_url=($(echo $(getconf .ProxyProviders.[])))
 clash_args=$(echo $(getconf .ClashProviders|sed "s/: /=/")|sed "s/ /\&/g")
 quanx_args=$(echo $(getconf .QuantumultXRemotes|sed "s/: /=/")|sed "s/ /\&/g")
-filters="exclude=$(getconf .ExcludeExp)"
+filters="exclude=$(getconf .ExcludeExp.syntax)"
+whitelist=(echo $(getconf .ExcludeExp.whitelist.[]))
+classify=(echo $(getconf .SmartFilter.[]))
 nnum=${#p_name[@]} # Numbers of providers
 lnum=${#p_url[@]} # Numbers of subscribe links
 checknode="The following link doesn't contain any valid node info:|No nodes were found!"
 for num in $(seq 0 $nnum);do
+    name="${p_name[$num]}"
+    url="${p_url[$num]}"
     if [ $num == $nnum ];then
         if [ $(getconf .QuickGenQX) == true ];then QuickGen; fi
+        [[$classify == $name ]] && {
+            chmod +x ./classify.py
+            ./classify.py proxies/Clash/$name
+        }
         echo "Completed. "
         git add -A
         if [ -z "$(git status -u |grep "Changes to be committed:")" ];then
@@ -41,18 +49,20 @@ for num in $(seq 0 $nnum);do
         fi
         exit 0
     fi
-    curl -SsL "$server/sub?url=${p_url[$num]}&$clash_args&$filters" -o tmpc
-    curl -SsL "$server/sub?url=${p_url[$num]}&$quanx_args&$filters" -o tmpq
+    [[ $whitelist =~ $name ]] && filters=""
+    [[ $filters == null ]] && filters=""
+    curl -SsL "$server/sub?url=$url&$clash_args&$filters" -o tmpc
+    curl -SsL "$server/sub?url=$url&$quanx_args&$filters" -o tmpq
 
     if [ -z "$(grep -E "$checknode" tmpc)" ];then # Check if any proxies available
-        echo "Clash: Writing ${p_name[$num]}"
-        mv -f tmpc proxies/Clash/${p_name[$num]}
+        echo "Clash: Writing $name"
+        mv -f tmpc proxies/Clash/$name
     else
         rm tmpc # Keep last file and make no change
     fi
     if [ -z "$(grep -E "$checknode" tmpq)" ];then
-        echo "QuantumultX: Writing ${p_name[$num]}"
-        mv -f tmpq proxies/QuantumultX/${p_name[$num]}
+        echo "QuantumultX: Writing $name"
+        mv -f tmpq proxies/QuantumultX/$name
     else
         rm tmpq
     fi

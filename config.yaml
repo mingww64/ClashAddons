@@ -15,5 +15,10 @@ ClashProviders:
 QuantumultXRemotes: 
   target: quanx
   list: true
-ExcludeExp: 奈飞小铺|过期时间|剩余流量|官网
+ExcludeExp: 
+  syntax: 奈飞小铺|过期时间|剩余流量|官网
+  whitelist: 
+  - ChinaG
 QuickGenQX: true
+SmartFilter: 
+- ChinaG
