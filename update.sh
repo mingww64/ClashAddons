@@ -47,15 +47,15 @@ for num in $(seq 0 $nnum);do
         exit 0
     fi
 
-    [[ $whitelist =~ $name ]] || [[ $filters == "null" ]] && {
+    if [[ $whitelist =~ $name ]] || [[ $filters == "null" ]];then
         echo nof
         curl -SsL "$server/sub?url=$url&$clash_args" -o tmpc
         curl -SsL "$server/sub?url=$url&$quanx_args" -o tmpq
-    }||{
+    else
         echo withf
         curl -SsL "$server/sub?url=$url&$clash_args&$filters" -o tmpc
         curl -SsL "$server/sub?url=$url&$quanx_args&$filters" -o tmpq
-    }
+    fi
     if [ -z "$(grep -E "$checknode" tmpc)" ];then # Check if any proxies available
         echo "Clash: Writing $name"
         mv -f tmpc proxies/Clash/$name
