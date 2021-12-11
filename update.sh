@@ -49,8 +49,8 @@ for num in $(seq 0 $nnum);do
 
     if [[ $whitelist =~ $name ]] || [[ $filters == "null" ]];then
         echo NoFilter.
-        curl -SsL "$server/sub?url=$url&$clash_args&exclude=" -o tmpc
-        curl -SsL "$server/sub?url=$url&$quanx_args&exclude=" -o tmpq
+        curl -SsL "$server/sub?url=$url&$clash_args&exclude=false" -o tmpc
+        curl -SsL "$server/sub?url=$url&$quanx_args&exclude=false" -o tmpq
     else
         echo WithFilter.
         curl -SsL "$server/sub?url=$url&$clash_args&$filters" -o tmpc
