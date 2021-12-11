@@ -34,7 +34,7 @@ for num in $(seq 0 $nnum);do
     url="${p_url[$num]}"
     if [ $num == $nnum ];then
         if [ $(getconf .QuickGenQX) == true ];then QuickGen; fi
-        [[$classify == $name ]] && {
+        [[ $classify == $name ]] && {
             chmod +x ./classify.py
             ./classify.py proxies/Clash/$name
         }
