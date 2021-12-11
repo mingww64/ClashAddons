@@ -25,6 +25,6 @@ with open(file_path) as file:
                     all_lines+=oline
                 out+=[obj]
         with open(file_path+"_plain","w+") as plain:
-            plain.write(f)
+            plain.write("proxies:\n"+f)
         print(out)
     else: print("pattern cannot be matched.")
