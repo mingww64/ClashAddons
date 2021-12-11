@@ -150,7 +150,43 @@ proxy-providers:
   ChinaG:
     type: http
     path: "./proxy_provider/ChinaG.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_plain
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  ChinaG_2.5x:
+    type: http
+    path: "./proxy_provider/ChinaG.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_2.5x
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  ChinaG_3x:
+    type: http
+    path: "./proxy_provider/ChinaG.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_3x
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  ChinaG_5x:
+    type: http
+    path: "./proxy_provider/ChinaG.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_5x
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  ChinaG_6x:
+    type: http
+    path: "./proxy_provider/ChinaG.yaml"
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_6x
     interval: 3600
     health-check:
       enable: true
@@ -228,9 +264,37 @@ proxy-groups:
   - ADSL
   url: http://www.gstatic.com/generate_204
 - name: ChinaG
+  type: select
+  proxies:
+  - ChinaG 1x
+  - ChinaG 2.5x
+  - ChinaG 3x
+  - ChinaG 5x
+  - ChinaG 6x
+- name: ChinaG 1x
   type: url-test
   use:
-   - ChinaG
+  - ChinaG
+  url: http://www.gstatic.com/generate_204
+- name: ChinaG 2.5x
+  type: url-test
+  use:
+  - ChinaG_2.5x
+  url: http://www.gstatic.com/generate_204
+- name: ChinaG 3x
+  type: url-test
+  use:
+  - ChinaG_3x
+  url: http://www.gstatic.com/generate_204
+- name: ChinaG 5x
+  type: url-test
+  use:
+  - ChinaG_5x
+  url: http://www.gstatic.com/generate_204
+- name: ChinaG 6x
+  type: url-test
+  use:
+  - ChinaG_6x
   url: http://www.gstatic.com/generate_204
 - name: Proxy
   type: select
