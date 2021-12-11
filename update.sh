@@ -34,11 +34,11 @@ for num in $(seq 0 $nnum);do
     url="${p_url[$num]}"
     if [ $num == $nnum ];then
         if [ $(getconf .QuickGenQX) == true ];then QuickGen; fi
-        [[ $classify == $name ]] && {
+        [[ $classify =~ $name ]] && {
             echo "SmartFiltering Activated."
             chmod +x ./classify.py
             ./classify.py proxies/Clash/$name
-        }||echo sssssssssssss
+        }|| echo aaaaaa
         echo "Completed. "
         git add -A
         if [ -z "$(git status -u |grep "Changes to be committed:")" ];then
