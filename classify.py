@@ -9,22 +9,20 @@ with open(file_path) as file:
     f=(file.read())
     if re.search(syx,f):
         matches=(re.finditer(syx,f))
-        all_lines=""
         for obj in matches:
             obj=obj.group()
             if not obj in out:
                 with open(f"{file_path}_{obj}","w+") as output:
                     lines=re.findall(".*\[{}\].*".format(obj),f)
-                    oline=""
+                    all_lines=""
                     for line in lines: 
-                        if oline=="": oline=line
-                        else: oline+="\n"+line
+                        if all_lines=="": all_lines=line
+                        else: all_lines+="\n"+line
                         f=f.replace("\n"+line,"")
                         f=f.replace(line,"")
-                    output.write(oline)
-                    all_lines+=oline
+                    output.write("proxies:\n"+all_lines)
                 out+=[obj]
         with open(file_path+"_plain","w+") as plain:
-            plain.write("proxies:\n"+f)
+            plain.write(f)
         print(out)
     else: print("pattern cannot be matched.")

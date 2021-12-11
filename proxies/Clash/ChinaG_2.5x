@@ -1,3 +1,4 @@
+proxies:
   - {name: "🇨🇳 H+.[2.5x]TW.台北⇠HiNet:RC31121", server: yqy31121.china-cdn-net.com, port: 31121, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 48529:tCIwlf, obfs-param: data.bilibili.com/8d41348529, udp: true}
   - {name: "🇨🇳 H+.[2.5x]TW.台北⇠HiNet:RC31222", server: yqy31222.china-cdn-net.com, port: 31222, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 48529:tCIwlf, obfs-param: data.bilibili.com/8d41348529, udp: true}
   - {name: "🇨🇳 H+.[2.5x]TW.台北⇠HiNet:VC31132", server: yqy31132.china-cdn-net.com, port: 31132, type: vmess, uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /iso, ws-headers: {Host: yqy31132.china-cdn-net.com}, udp: true}
