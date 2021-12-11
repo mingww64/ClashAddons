@@ -47,10 +47,10 @@ for num in $(seq 0 $nnum);do
         exit 0
     fi
     [[ $whitelist =~ $name ]] && {
-        filters=""
+        unset filters
         echo "$name is in whitelist,skip filtering."
     }
-    [[ $filters == null ]] && filters=""
+    [[ $filters == null ]] && unset filters
     curl -SsL "$server/sub?url=$url&$clash_args&$filters" -o tmpc
     curl -SsL "$server/sub?url=$url&$quanx_args&$filters" -o tmpq
 
