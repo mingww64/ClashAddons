@@ -23,7 +23,7 @@ p_name=($(echo $(getconf ".ProxyProviders|keys"|sed "s/- //")))
 p_url=($(echo $(getconf .ProxyProviders.[])))
 clash_args=$(echo $(getconf .ClashProviders|sed "s/: /=/")|sed "s/ /\&/g")
 quanx_args=$(echo $(getconf .QuantumultXRemotes|sed "s/: /=/")|sed "s/ /\&/g")
-#filters="exclude=$(getconf .ExcludeExp.syntax)"
+filters="exclude=$(getconf .ExcludeExp.syntax)"
 whitelist=($(echo $(getconf .ExcludeExp.whitelist.[])))
 classify=($(echo $(getconf .SmartFilter.[])))
 nnum=${#p_name[@]} # Numbers of providers
@@ -49,8 +49,8 @@ for num in $(seq 0 $nnum);do
 
     if [[ $whitelist =~ $name ]] || [[ $filters == "null" ]];then
         echo NoFilter.
-        curl -SsL "$server/sub?url=$url&$clash_args" -o tmpc
-        curl -SsL "$server/sub?url=$url&$quanx_args" -o tmpq
+        curl -SsL "$server/sub?url=$url&$clash_args&exclude=false" -o tmpc
+        curl -SsL "$server/sub?url=$url&$quanx_args&exclude=false" -o tmpq
     else
         echo WithFilter.
         curl -SsL "$server/sub?url=$url&$clash_args&$filters" -o tmpc
