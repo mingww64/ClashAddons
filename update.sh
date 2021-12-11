@@ -48,9 +48,11 @@ for num in $(seq 0 $nnum);do
     fi
 
     [[ $whitelist =~ $name ]] || [[ $filters == "null" ]] && {
+        nof
         curl -SsL "$server/sub?url=$url&$clash_args" -o tmpc
         curl -SsL "$server/sub?url=$url&$quanx_args" -o tmpq
     }||{
+        echo withf
         curl -SsL "$server/sub?url=$url&$clash_args&$filters" -o tmpc
         curl -SsL "$server/sub?url=$url&$quanx_args&$filters" -o tmpq
     }
