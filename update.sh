@@ -24,8 +24,8 @@ p_url=($(echo $(getconf .ProxyProviders.[])))
 clash_args=$(echo $(getconf .ClashProviders|sed "s/: /=/")|sed "s/ /\&/g")
 quanx_args=$(echo $(getconf .QuantumultXRemotes|sed "s/: /=/")|sed "s/ /\&/g")
 filters="exclude=$(getconf .ExcludeExp.syntax)"
-whitelist=(echo $(getconf .ExcludeExp.whitelist.[]))
-classify=(echo $(getconf .SmartFilter.[]))
+whitelist=($(echo $(getconf .ExcludeExp.whitelist.[])))
+classify=($(echo $(getconf .SmartFilter.[])))
 nnum=${#p_name[@]} # Numbers of providers
 lnum=${#p_url[@]} # Numbers of subscribe links
 checknode="The following link doesn't contain any valid node info:|No nodes were found!"
@@ -35,6 +35,7 @@ for num in $(seq 0 $nnum);do
     if [ $num == $nnum ];then
         if [ $(getconf .QuickGenQX) == true ];then QuickGen; fi
         [[ $classify == $name ]] && {
+            echo "SmartFiltering Activated."
             chmod +x ./classify.py
             ./classify.py proxies/Clash/$name
         }
