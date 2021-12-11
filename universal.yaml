@@ -149,7 +149,7 @@ proxy-providers:
       interval: 300
   ChinaG:
     type: http
-    path: "./proxy_provider/ChinaG.yaml"
+    path: "./proxy_provider/ChinaG_plain.yaml"
     url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_plain
     interval: 3600
     health-check:
@@ -158,7 +158,7 @@ proxy-providers:
       interval: 300
   ChinaG_2.5x:
     type: http
-    path: "./proxy_provider/ChinaG.yaml"
+    path: "./proxy_provider/ChinaG_2.5x.yaml"
     url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_2.5x
     interval: 3600
     health-check:
@@ -167,7 +167,7 @@ proxy-providers:
       interval: 300
   ChinaG_3x:
     type: http
-    path: "./proxy_provider/ChinaG.yaml"
+    path: "./proxy_provider/ChinaG_3x.yaml"
     url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_3x
     interval: 3600
     health-check:
@@ -176,7 +176,7 @@ proxy-providers:
       interval: 300
   ChinaG_5x:
     type: http
-    path: "./proxy_provider/ChinaG.yaml"
+    path: "./proxy_provider/ChinaG_5x.yaml"
     url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_5x
     interval: 3600
     health-check:
@@ -185,7 +185,7 @@ proxy-providers:
       interval: 300
   ChinaG_6x:
     type: http
-    path: "./proxy_provider/ChinaG.yaml"
+    path: "./proxy_provider/ChinaG_6x.yaml"
     url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_6x
     interval: 3600
     health-check:
