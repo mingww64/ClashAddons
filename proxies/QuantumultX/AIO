@@ -1,5 +1,6 @@
 
 #ADSL
+shadowsocks = cloudflare.com:10086, method=chacha20-ietf, password=wX7v2s, fast-open=false, udp-relay=true, tag=[奈飞小铺]naifei.id
 shadowsocks = hinet.rdns.link:51655, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, fast-open=false, udp-relay=true, tag=Lv1 台湾A ☀
 shadowsocks = hinet.rdns.link:51656, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, fast-open=false, udp-relay=true, tag=Lv1 台湾B ☀
 shadowsocks = hinet.rdns.link:51657, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, fast-open=false, udp-relay=true, tag=Lv1 台湾C ☀
@@ -88,6 +89,7 @@ shadowsocks = yqy32128.china-cdn-net.com:32128, method=aes-256-cfb, password=htt
 vmess = yqy32137.china-cdn-net.com:32137, method=chacha20-ietf-poly1305, password=27d52299-cc4e-3a79-830a-bc7ee4c81a8e, obfs=ws, obfs-host=yqy32137.china-cdn-net.com, obfs-uri=/iso, fast-open=false, udp-relay=true, tag=I.[6x]TW.彰化⇠HiNet:VC32137
 vmess = yqy32138.china-cdn-net.com:32138, method=chacha20-ietf-poly1305, password=27d52299-cc4e-3a79-830a-bc7ee4c81a8e, obfs=ws, obfs-host=yqy32138.china-cdn-net.com, obfs-uri=/iso, fast-open=false, udp-relay=true, tag=I.[6x]TW.彰化⇠HiNet:VC32138
 #Getfree
+shadowsocks = cloudflare.com:10086, method=chacha20-ietf, password=MbSz1L, fast-open=false, udp-relay=true, tag=[奈飞小铺]naifei.id
 shadowsocks = hinet.rdns.link:50021, method=aes-256-cfb, password=Getfree.Cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=7933:MbSz1L, obfs=tls1.2_ticket_auth, obfs-host=cff407933.software-download.microsoft.com, fast-open=false, udp-relay=true, tag=Lv1 台湾 A | Netflix
 shadowsocks = hinet.rdns.link:50022, method=aes-256-cfb, password=Getfree.Cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=7933:MbSz1L, obfs=tls1.2_ticket_auth, obfs-host=cff407933.software-download.microsoft.com, fast-open=false, udp-relay=true, tag=Lv1 台湾 B | Netflix
 shadowsocks = hinet.rdns.link:50023, method=aes-256-cfb, password=Getfree.Cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=7933:MbSz1L, obfs=tls1.2_ticket_auth, obfs-host=cff407933.software-download.microsoft.com, fast-open=false, udp-relay=true, tag=Lv1 台湾 C | Netflix

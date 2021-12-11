@@ -23,7 +23,7 @@ p_name=($(echo $(getconf ".ProxyProviders|keys"|sed "s/- //")))
 p_url=($(echo $(getconf .ProxyProviders.[])))
 clash_args=$(echo $(getconf .ClashProviders|sed "s/: /=/")|sed "s/ /\&/g")
 quanx_args=$(echo $(getconf .QuantumultXRemotes|sed "s/: /=/")|sed "s/ /\&/g")
-filters="exclude=$(getconf .ExcludeExp.syntax)"
+#filters="exclude=$(getconf .ExcludeExp.syntax)"
 whitelist=($(echo $(getconf .ExcludeExp.whitelist.[])))
 classify=($(echo $(getconf .SmartFilter.[])))
 nnum=${#p_name[@]} # Numbers of providers
