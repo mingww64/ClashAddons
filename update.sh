@@ -47,7 +47,7 @@ for num in $(seq 0 $nnum);do
         exit 0
     fi
 
-    [[ $whitelist =~ $name ] || [[ $filters == null ]] && {
+    [[ $whitelist =~ $name ]] || [[ $filters == "null" ]] && {
         curl -SsL "$server/sub?url=$url&$clash_args" -o tmpc
         curl -SsL "$server/sub?url=$url&$quanx_args" -o tmpq
     }||{
