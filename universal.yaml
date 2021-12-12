@@ -147,6 +147,16 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
+  JDYun:
+  type: http
+  path: "./proxy_provider/JDYun.yaml"
+  url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/JDYun
+  interval: 3600
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
   ChinaG_Plain:
     type: http
     path: "./proxy_provider/ChinaG_plain.yaml"
@@ -212,6 +222,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -224,6 +235,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -236,6 +248,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -264,6 +277,11 @@ proxy-groups:
   type: url-test
   use:
   - ADSL
+  url: http://www.gstatic.com/generate_204
+- name: JDYun
+  type: url-test
+  use:
+  - JDYun
   url: http://www.gstatic.com/generate_204
 - name: ChinaG
   type: select
@@ -308,6 +326,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
   - RemoteProcV6
   - DIRECT
@@ -324,6 +343,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: iCloud
   type: select
@@ -339,6 +359,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Microsoft
   type: select
@@ -349,6 +370,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Github
   type: select
@@ -359,6 +381,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Netease Music
   type: select
@@ -374,6 +397,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Youtube
   type: select
@@ -384,6 +408,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Spotify
   type: select
@@ -394,6 +419,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Steam
   type: select
@@ -404,6 +430,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: AdBlock
   type: select
@@ -420,6 +447,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: GlobalTV
   type: select
@@ -433,6 +461,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Speedtest
   type: select
@@ -443,6 +472,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
   - RemoteProcV6
   use:
@@ -450,6 +480,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
 - name: Telegram
   type: select
   proxies:
@@ -459,6 +490,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: PayPal
   type: select
@@ -469,6 +501,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Disney
   type: select
@@ -479,6 +512,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: Domestic
   type: select
@@ -493,6 +527,7 @@ proxy-groups:
   - Sakura
   - Getfree
   - ADSL
+  - JDYun
   - ChinaG
 - name: QUIC
   type: select
