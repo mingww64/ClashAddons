@@ -17,7 +17,7 @@ QuickGen(){
     curl -SsL "$server/sub?url=$location&target=quanx&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=true" -o ./QuantumultX.conf
     sed -i "s/"$server"/"$remote_server"/g" ./QuantumultX.conf 
 }
-[ $(getconf .Enabled) != "true" ] && echo Update Disabled. && exit 0
+[[ $(getconf .Enabled) != "true" ]] && echo "Update Disabled." && exit 0
 server=$(getconf .SCServer)
 remote_server=$(getconf .SCServerRemote)
 p_name=($(echo $(getconf ".ProxyProviders|keys"|sed "s/- //")))
@@ -27,6 +27,8 @@ quanx_args=$(echo $(getconf .QuantumultXRemotes|sed "s/: /=/")|sed "s/ /\&/g")
 filters="exclude=$(getconf .ExcludeExp.syntax)"
 whitelist=($(echo $(getconf .ExcludeExp.whitelist.[])))
 classify=($(echo $(getconf .SmartFilter.[])))
+git_email=($(getconf .Git.email))
+git_name=($(getconf .Git.name))
 nnum=${#p_name[@]} # Numbers of providers
 lnum=${#p_url[@]} # Numbers of subscribe links
 checknode="The following link doesn't contain any valid node info:|No nodes were found!"
@@ -41,8 +43,8 @@ for num in $(seq 0 $nnum);do
         if [ -z "$(git status -u |grep "Changes to be committed:")" ];then
             echo "Nothing Updated."
         else 
-            git config --local user.email "felicia@realnet.ml"
-            git config --local user.name "FeliciaWen"
+            git config --local user.email $git_email
+            git config --local user.name $git_name
             git commit -m "Update Proxy Provider." -a
         fi
         exit 0
