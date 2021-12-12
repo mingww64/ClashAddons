@@ -147,7 +147,7 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-  ChinaG:
+  ChinaG_Plain:
     type: http
     path: "./proxy_provider/ChinaG_plain.yaml"
     url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_plain
@@ -206,34 +206,36 @@ proxy-groups:
   type: url-test
   proxies:
   - RemoteProcV6
+  - ChinaG
   use:
   - YahahaNPO
   - Sakura
   - Getfree
   - ADSL
-  - ChinaG
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
 - name: Auto - LoadBalance
   type: load-balance
+  proxies:
+  - ChinaG
   use:
   - YahahaNPO
   - Sakura
   - Getfree
   - ADSL
-  - ChinaG
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
 - name: Auto - Fallback
   type: fallback  
+  proxies:
+  - ChinaG
   use:
   - YahahaNPO
   - Sakura
   - Getfree
   - ADSL
-  - ChinaG
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -274,7 +276,7 @@ proxy-groups:
 - name: ChinaG 1x
   type: url-test
   use:
-  - ChinaG
+  - ChinaG_Plain
   url: http://www.gstatic.com/generate_204
 - name: ChinaG 2.5x
   type: url-test
