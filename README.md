@@ -1,5 +1,5 @@
 # What?
-It's a providers caching/Classifying system for now.
+It's a providers Caching/Classifying system for now.
 
 NSFW sites are **Blocked** by default.
 ## Credit
