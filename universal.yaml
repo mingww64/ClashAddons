@@ -114,7 +114,7 @@ proxy-providers:
   YahahaNPO:
     type: http
     path: "./proxy_provider/YahahaNPO.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/YahahaNPO
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/YahahaNPO
     interval: 3600
     health-check:
       enable: true
@@ -123,7 +123,7 @@ proxy-providers:
   Sakura:
     type: http
     path: "./proxy_provider/Sakura.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/Sakura
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/Sakura
     interval: 3600
     health-check:
       enable: true
@@ -132,7 +132,7 @@ proxy-providers:
   Getfree:
     type: http
     path: "./proxy_provider/Getfree.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/Getfree
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/Getfree
     interval: 3600
     health-check:
       enable: true
@@ -141,7 +141,7 @@ proxy-providers:
   ADSL:
     type: http
     path: "./proxy_provider/ADSL.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ADSL
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ADSL
     interval: 3600
     health-check:
       enable: true
@@ -150,7 +150,7 @@ proxy-providers:
   ChinaG_Plain:
     type: http
     path: "./proxy_provider/ChinaG_plain.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_plain
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_plain
     interval: 3600
     health-check:
       enable: true
@@ -159,7 +159,7 @@ proxy-providers:
   ChinaG_2.5x:
     type: http
     path: "./proxy_provider/ChinaG_2.5x.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_2.5x
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_2.5x
     interval: 3600
     health-check:
       enable: true
@@ -168,7 +168,7 @@ proxy-providers:
   ChinaG_3x:
     type: http
     path: "./proxy_provider/ChinaG_3x.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_3x
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_3x
     interval: 3600
     health-check:
       enable: true
@@ -177,7 +177,7 @@ proxy-providers:
   ChinaG_5x:
     type: http
     path: "./proxy_provider/ChinaG_5x.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_5x
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_5x
     interval: 3600
     health-check:
       enable: true
@@ -186,7 +186,7 @@ proxy-providers:
   ChinaG_6x:
     type: http
     path: "./proxy_provider/ChinaG_6x.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/proxies/Clash/ChinaG_6x
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_6x
     interval: 3600
     health-check:
       enable: true
@@ -558,7 +558,7 @@ rule-providers:
   Netease Music:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@NPO/rules/NeteaseMusic.yaml
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashConfigsSharing@OMC/rules/NeteaseMusic.yaml
     path: "./rule_provider/Netease_Music"
     interval: 86400
   Tencent Video:
@@ -774,7 +774,7 @@ rule-providers:
   PROXY:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/rules/Proxy.yaml
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/rules/Proxy.yaml
     path: "./rule_provider/Proxy"
     interval: 86400
   Domestic:
@@ -792,19 +792,19 @@ rule-providers:
   Github:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/rules/Github.yaml
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/rules/Github.yaml
     path: "./rule_provider/Github"
     interval: 86400
   Darklist:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/rules/Darklist.yaml
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/rules/Darklist.yaml
     path: "./rule_provider/Darklist"
     interval: 86400
   Fixes:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@NPO/rules/Fixes.yaml
+    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/rules/Fixes.yaml
     path: "./rule_provider/Fixes"
     interval: 86400
   Domestic IPs:
