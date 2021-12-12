@@ -107,6 +107,9 @@ shadowsocks = hkt.rdns.link:50013, method=aes-256-cfb, password=Getfree.Cloud, s
 shadowsocks = hkt.rdns.link:50014, method=aes-256-cfb, password=Getfree.Cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=7933:MbSz1L, obfs=tls1.2_ticket_auth, obfs-host=cff407933.software-download.microsoft.com, tag=🇭🇰 Lv2 香港 D | Netflix
 shadowsocks = hkt.rdns.link:50015, method=aes-256-cfb, password=Getfree.Cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=7933:MbSz1L, obfs=tls1.2_ticket_auth, obfs-host=cff407933.software-download.microsoft.com, tag=🇭🇰 Lv2 香港 E | Netflix
 shadowsocks = hkt.rdns.link:50016, method=aes-256-cfb, password=Getfree.Cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=7933:MbSz1L, obfs=tls1.2_ticket_auth, obfs-host=cff407933.software-download.microsoft.com, tag=🇭🇰 Lv2 香港 F | Netflix
+#JDYun
+vmess = us-trail.inode.top:80, method=chacha20-ietf-poly1305, password=26a00f50-806f-30aa-8816-9144900a17ae, obfs=ws, obfs-host=us-trail.inode.top, obfs-uri=/ws, tag=🇺🇸 美国-Trail 1G 80 ws
+vmess = tunnel-trail.inode.top:80, method=chacha20-ietf-poly1305, password=26a00f50-806f-30aa-8816-9144900a17ae, obfs=ws, obfs-host=tunnel-trail.inode.top, obfs-uri=/ws, tag=🇭🇰 香港-Trail 30M 80 ws 隧道
 #Sakura
 vmess = apn-pw.connect-node.xyz:8443, method=chacha20-ietf-poly1305, password=fb60eebc-9998-3cdf-a81a-a29a0b08d6f5, obfs=wss, obfs-host=pw-sg.connect-node.xyz, obfs-uri=/web, udp-relay=true, tag=🇸🇬 新加坡 | 公益 | Anycast
 vmess = apn-pw.connect-node.xyz:8443, method=chacha20-ietf-poly1305, password=fb60eebc-9998-3cdf-a81a-a29a0b08d6f5, obfs=wss, obfs-host=pw-usa.connect-node.xyz, obfs-uri=/web, udp-relay=true, tag=🇺🇸 美国 圣路易斯 | 公益 | Anycast
