@@ -17,7 +17,7 @@ QuickGen(){
     curl -SsL "$server/sub?url=$location&target=quanx&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=true" -o ./QuantumultX.conf
     sed -i "s/"$server"/"$remote_server"/g" ./QuantumultX.conf 
 }
-[ getconf .Enabled != "true" ] && echo Update Disabled. && exit 0
+[ $(getconf .Enabled) != "true" ] && echo Update Disabled. && exit 0
 server=$(getconf .SCServer)
 remote_server=$(getconf .SCServerRemote)
 p_name=($(echo $(getconf ".ProxyProviders|keys"|sed "s/- //")))
