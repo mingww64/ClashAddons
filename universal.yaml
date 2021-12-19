@@ -448,6 +448,12 @@ proxy-groups:
   - ADSL
   - JDYun
   - ChinaG
+- name: Bilibili
+  type: select
+  proxies:
+  - AsianTV
+  - DIRECT
+  - Proxy
 - name: GlobalTV
   type: select
   proxies:
@@ -868,7 +874,7 @@ script:
             "Spotify": "Spotify",
             "YouTube": "Youtube",
             "Disney Plus": "Disney",
-            "Bilibili": "AsianTV",
+            "Bilibili": "Bilibili",
             "iQiyi": "AsianTV",
             "Letv": "AsianTV",
             "Netease Music": "Netease Music",
@@ -944,7 +950,7 @@ rules:
 - RULE-SET,Spotify,Spotify
 - RULE-SET,YouTube,Youtube
 - RULE-SET,Disney Plus,Disney
-- RULE-SET,Bilibili,AsianTV
+- RULE-SET,Bilibili,Bilibili
 - RULE-SET,iQiyi,AsianTV
 - RULE-SET,Letv,AsianTV
 - RULE-SET,Netease Music,Netease Music
