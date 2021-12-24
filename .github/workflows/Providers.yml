@@ -28,7 +28,7 @@ jobs:
         curl -SsL https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz -o subconverter.tar.gz
         tar -xzf subconverter.tar.gz
         cd subconverter
-        nohup ./subconverter >SC.log &
+        nohup ./subconverter > "$GITHUB_WORKSPACE"/SC.log &
     - name: Checkout
       uses: actions/checkout@v2
       with:
