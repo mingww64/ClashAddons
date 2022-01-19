@@ -42,7 +42,7 @@ class Proxy:
       return ret
     def gen_rules():
       sets = re.findall('.*RULE-SET.*',self.rules)
-      rules_proxies = []
+      rules_proxies = ['Others']
       for x in sets:
         rule_name = re.split(',',x)[-1]
         if rule_name not in rules_proxies:
