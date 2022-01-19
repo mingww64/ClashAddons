@@ -1,11 +1,7 @@
 
 #ADSL
-shadowsocks = hinet.rdns.link:51655, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇨🇳 Lv1 台湾A ☀
-shadowsocks = hinet.rdns.link:51656, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇨🇳 Lv1 台湾B ☀
-shadowsocks = hinet.rdns.link:51657, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇨🇳 Lv1 台湾C ☀
-shadowsocks = hinet.rdns.link:51658, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇺🇸 Lv1 美国A ☀
-shadowsocks = hinet.rdns.link:51659, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇺🇸 Lv1 美国B ☀
-shadowsocks = hinet.rdns.link:51660, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇺🇸 Lv1 美国C ☀
+shadowsocks = dghk.rdns.link:32102, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇺🇸 Lv2 BGP 中继 美国A
+shadowsocks = dghk.rdns.link:32102, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇺🇸 Lv2 BGP 中继 美国B
 shadowsocks = dghk.rdns.link:32102, method=aes-256-cfb, password=adsl.cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=6332:wX7v2s, obfs=tls1.2_ticket_auth, obfs-host=428886332.software-download.microsoft.com, tag=🇺🇸 Lv2 BGP 中继 美国C
 #ChinaG
 shadowsocks = yqy2321.china-cdn-net.com:2321, method=aes-256-cfb, password=http://cc.ax/, ssr-protocol=auth_aes128_md5, ssr-protocol-param=48529:tCIwlf, obfs=plain, obfs-host=data.bilibili.com/0943b48529, tag=🇨🇳 01.『ChinaG』几鸡-学习助理
