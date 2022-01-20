@@ -1,7 +1,7 @@
     ${name}:
       type: http
       path: "./proxy_provider/${name}.yaml"
-      url: ${location}/${name}
+      url: ${location}
       interval: 3600
       health-check:
         enable: true

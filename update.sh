@@ -37,6 +37,7 @@ for num in $(seq 0 $nnum);do
     url="${p_url[$num]}"
     if [ $num == $nnum ];then
         if [ $(getconf .QuickGenQX) == true ];then QuickGen; fi
+        python ./region.py
         python ./load.py
         echo "Completed. "
         git add -A

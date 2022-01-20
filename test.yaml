@@ -134,51 +134,6 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    ChinaG_2.5x:
-      type: http
-      path: "./proxy_provider/ChinaG_2.5x.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_2.5x
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    ChinaG_3x:
-      type: http
-      path: "./proxy_provider/ChinaG_3x.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_3x
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    ChinaG_5x:
-      type: http
-      path: "./proxy_provider/ChinaG_5x.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_5x
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    ChinaG_6x:
-      type: http
-      path: "./proxy_provider/ChinaG_6x.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_6x
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    ChinaG_plain:
-      type: http
-      path: "./proxy_provider/ChinaG_plain.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/ChinaG_plain
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     Getfree:
       type: http
       path: "./proxy_provider/Getfree.yaml"
@@ -215,6 +170,69 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
+    🇨🇳:
+      type: http
+      path: "./proxy_provider/🇨🇳.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/region/🇨🇳
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇭🇰:
+      type: http
+      path: "./proxy_provider/🇭🇰.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/region/🇭🇰
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇯🇵:
+      type: http
+      path: "./proxy_provider/🇯🇵.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/region/🇯🇵
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇵🇭:
+      type: http
+      path: "./proxy_provider/🇵🇭.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/region/🇵🇭
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇸🇬:
+      type: http
+      path: "./proxy_provider/🇸🇬.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/region/🇸🇬
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇺🇸:
+      type: http
+      path: "./proxy_provider/🇺🇸.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/region/🇺🇸
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🏳️‍🌈:
+      type: http
+      path: "./proxy_provider/🏳️‍🌈.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/region/🏳️‍🌈
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
 
 proxy-groups:
 - name: All
@@ -222,15 +240,17 @@ proxy-groups:
   proxies:
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   
   
@@ -244,15 +264,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -271,15 +293,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -290,15 +314,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -309,15 +335,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -328,15 +356,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -347,15 +377,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -366,15 +398,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -385,15 +419,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -404,15 +440,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -423,15 +461,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -442,15 +482,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -461,15 +503,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -480,15 +524,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -499,15 +545,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -518,15 +566,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -537,15 +587,17 @@ proxy-groups:
   - All
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
@@ -557,15 +609,17 @@ proxy-groups:
   - Proxy
   - ADSL
   - ChinaG
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_5x
-  - ChinaG_6x
-  - ChinaG_plain
   - Getfree
   - JDYun
   - Sakura
   - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   
   
@@ -585,56 +639,6 @@ proxy-groups:
   
   use:
   - ChinaG
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: ChinaG_2.5x
-  type: url-test
-  
-  use:
-  - ChinaG_2.5x
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: ChinaG_3x
-  type: url-test
-  
-  use:
-  - ChinaG_3x
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: ChinaG_5x
-  type: url-test
-  
-  use:
-  - ChinaG_5x
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: ChinaG_6x
-  type: url-test
-  
-  use:
-  - ChinaG_6x
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: ChinaG_plain
-  type: url-test
-  
-  use:
-  - ChinaG_plain
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -675,6 +679,76 @@ proxy-groups:
   
   use:
   - YahahaNPO
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇨🇳
+  type: url-test
+  
+  use:
+  - 🇨🇳
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇭🇰
+  type: url-test
+  
+  use:
+  - 🇭🇰
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇯🇵
+  type: url-test
+  
+  use:
+  - 🇯🇵
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇵🇭
+  type: url-test
+  
+  use:
+  - 🇵🇭
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇸🇬
+  type: url-test
+  
+  use:
+  - 🇸🇬
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇺🇸
+  type: url-test
+  
+  use:
+  - 🇺🇸
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🏳️‍🌈
+  type: url-test
+  
+  use:
+  - 🏳️‍🌈
   
   url: http://www.gstatic.com/generate_204
   interval: 300
