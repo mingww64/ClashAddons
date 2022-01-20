@@ -20,12 +20,10 @@ def processor(path, out = ""):
     for num, re_ in list(enumerate(re_list)):
         re_match = re_.split(',')[0]
         re_emoji = re_.split(',')[1]
-        print(re_match)
         locals()[f'list_{num}'] = []
         list_reg = locals()[f"list_{num}"] # use local() func mannally, otherwise would be recognize as str. because var is spliced by string.format.
         for proxies in gather_files(path):
             if re.search(re_match,proxies):
-                print('matched.')
                 list_reg.append(proxies)
         if len(list_reg) != 0:
             with open(out + re_emoji,'w') as f:
