@@ -115,33 +115,6 @@ clash-for-android:
   # append-system-dns: true # 追加系统 DNS 到 nameserver 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 proxy-providers:
-    Sakura:
-      type: http
-      path: "./proxy_provider/Sakura.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/Sakura
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    Getfree:
-      type: http
-      path: "./proxy_provider/Getfree.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/Getfree
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    JDYun:
-      type: http
-      path: "./proxy_provider/JDYun.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/JDYun
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     ADSL:
       type: http
       path: "./proxy_provider/ADSL.yaml"
@@ -155,87 +128,6 @@ proxy-providers:
       type: http
       path: "./proxy_provider/ChinaG.yaml"
       url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/ChinaG
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    YahahaNPO:
-      type: http
-      path: "./proxy_provider/YahahaNPO.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/YahahaNPO
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇺🇸:
-      type: http
-      path: "./proxy_provider/🇺🇸.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇺🇸
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇸🇬:
-      type: http
-      path: "./proxy_provider/🇸🇬.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇸🇬
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇨🇳:
-      type: http
-      path: "./proxy_provider/🇨🇳.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇨🇳
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇯🇵:
-      type: http
-      path: "./proxy_provider/🇯🇵.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇯🇵
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇭🇰:
-      type: http
-      path: "./proxy_provider/🇭🇰.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇭🇰
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇵🇭:
-      type: http
-      path: "./proxy_provider/🇵🇭.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇵🇭
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🏳️‍🌈:
-      type: http
-      path: "./proxy_provider/🏳️‍🌈.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🏳️‍🌈
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    ChinaG_5x:
-      type: http
-      path: "./proxy_provider/ChinaG_5x.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/ChinaG_/ChinaG_5x
       interval: 3600
       health-check:
         enable: true
@@ -259,10 +151,10 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    ChinaG_plain:
+    ChinaG_5x:
       type: http
-      path: "./proxy_provider/ChinaG_plain.yaml"
-      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/ChinaG_/ChinaG_plain
+      path: "./proxy_provider/ChinaG_5x.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/ChinaG_/ChinaG_5x
       interval: 3600
       health-check:
         enable: true
@@ -277,29 +169,137 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
+    ChinaG_plain:
+      type: http
+      path: "./proxy_provider/ChinaG_plain.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/ChinaG_/ChinaG_plain
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    Getfree:
+      type: http
+      path: "./proxy_provider/Getfree.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/Getfree
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    JDYun:
+      type: http
+      path: "./proxy_provider/JDYun.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/JDYun
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    Sakura:
+      type: http
+      path: "./proxy_provider/Sakura.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/Sakura
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaNPO:
+      type: http
+      path: "./proxy_provider/YahahaNPO.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/YahahaNPO
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇨🇳:
+      type: http
+      path: "./proxy_provider/🇨🇳.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇨🇳
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇭🇰:
+      type: http
+      path: "./proxy_provider/🇭🇰.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇭🇰
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇯🇵:
+      type: http
+      path: "./proxy_provider/🇯🇵.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇯🇵
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇵🇭:
+      type: http
+      path: "./proxy_provider/🇵🇭.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇵🇭
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇸🇬:
+      type: http
+      path: "./proxy_provider/🇸🇬.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇸🇬
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇺🇸:
+      type: http
+      path: "./proxy_provider/🇺🇸.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇺🇸
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🏳️‍🌈:
+      type: http
+      path: "./proxy_provider/🏳️‍🌈.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🏳️‍🌈
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
 
 proxy-groups:
 - name: All
   type: url-test
   proxies:
-  - Sakura
-  - Getfree
-  - JDYun
   - ADSL
   - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
   - ChinaG_2.5x
   - ChinaG_3x
-  - ChinaG_plain
+  - ChinaG_5x
   - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   
   
@@ -307,32 +307,6 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: Others
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
 - name: AdBlock
   type: select
   proxies:
@@ -341,106 +315,28 @@ proxy-groups:
   - Proxy
   
   
-- name: Netflix
+- name: Apple
   type: select
   proxies:
   - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
   - ADSL
   - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
   - ChinaG_2.5x
   - ChinaG_3x
-  - ChinaG_plain
+  - ChinaG_5x
   - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Spotify
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
+  - ChinaG_plain
   - Getfree
   - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: YouTube
-  type: select
-  proxies:
-  - Proxy
   - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
   - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
   - 🇨🇳
-  - 🇯🇵
   - 🇭🇰
+  - 🇯🇵
   - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Disney
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
   - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
+  - 🇺🇸
   - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
 
   - DIRECT
   
@@ -449,284 +345,50 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
   - ADSL
   - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
   - ChinaG_2.5x
   - ChinaG_3x
-  - ChinaG_plain
+  - ChinaG_5x
   - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
 
   - DIRECT
   
   
-- name: Global TV
+- name: Disney
   type: select
   proxies:
   - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
   - ADSL
   - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
   - ChinaG_2.5x
   - ChinaG_3x
-  - ChinaG_plain
+  - ChinaG_5x
   - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Telegram
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
+  - ChinaG_plain
   - Getfree
   - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Steam
-  type: select
-  proxies:
-  - Proxy
   - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
   - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
   - 🇨🇳
-  - 🇯🇵
   - 🇭🇰
+  - 🇯🇵
   - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Speedtest
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
   - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: PayPal
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
   - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
   - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Microsoft
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Apple
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Google FCM
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Scholar
-  type: select
-  proxies:
-  - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
-
-  - DIRECT
-  
-  
-- name: Proxy
-  type: select
-  proxies:
-  - All
-  - Sakura
-  - Getfree
-  - JDYun
-  - ADSL
-  - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
-  - ChinaG_2.5x
-  - ChinaG_3x
-  - ChinaG_plain
-  - ChinaG_6x
 
   - DIRECT
   
@@ -736,57 +398,365 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
   - ADSL
   - ChinaG
-  - YahahaNPO
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
-  - 🇭🇰
-  - 🇵🇭
-  - 🏳️‍🌈
-  - ChinaG_5x
   - ChinaG_2.5x
   - ChinaG_3x
-  - ChinaG_plain
+  - ChinaG_5x
   - ChinaG_6x
-
-  
-  
-
-- name: Sakura
-  type: url-test
-  
-  use:
-  - Sakura
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: Getfree
-  type: url-test
-  
-  use:
+  - ChinaG_plain
   - Getfree
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: JDYun
-  type: url-test
-  
-  use:
   - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
   
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
+  
+- name: Global TV
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Google FCM
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Microsoft
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Netflix
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Others
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: PayPal
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Proxy
+  type: select
+  proxies:
+  - All
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Scholar
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Speedtest
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Spotify
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Steam
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: Telegram
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
+- name: YouTube
+  type: select
+  proxies:
+  - Proxy
+  - ADSL
+  - ChinaG
+  - ChinaG_2.5x
+  - ChinaG_3x
+  - ChinaG_5x
+  - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
+  - 🇨🇳
+  - 🇭🇰
+  - 🇯🇵
+  - 🇵🇭
+  - 🇸🇬
+  - 🇺🇸
+  - 🏳️‍🌈
+
+  - DIRECT
+  
+  
 
 - name: ADSL
   type: url-test
@@ -803,96 +773,6 @@ proxy-groups:
   
   use:
   - ChinaG
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: YahahaNPO
-  type: url-test
-  
-  use:
-  - YahahaNPO
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇺🇸
-  type: url-test
-  
-  use:
-  - 🇺🇸
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇸🇬
-  type: url-test
-  
-  use:
-  - 🇸🇬
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇨🇳
-  type: url-test
-  
-  use:
-  - 🇨🇳
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇯🇵
-  type: url-test
-  
-  use:
-  - 🇯🇵
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇭🇰
-  type: url-test
-  
-  use:
-  - 🇭🇰
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇵🇭
-  type: url-test
-  
-  use:
-  - 🇵🇭
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🏳️‍🌈
-  type: url-test
-  
-  use:
-  - 🏳️‍🌈
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: ChinaG_5x
-  type: url-test
-  
-  use:
-  - ChinaG_5x
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -918,11 +798,11 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: ChinaG_plain
+- name: ChinaG_5x
   type: url-test
   
   use:
-  - ChinaG_plain
+  - ChinaG_5x
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -933,6 +813,126 @@ proxy-groups:
   
   use:
   - ChinaG_6x
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ChinaG_plain
+  type: url-test
+  
+  use:
+  - ChinaG_plain
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: Getfree
+  type: url-test
+  
+  use:
+  - Getfree
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: JDYun
+  type: url-test
+  
+  use:
+  - JDYun
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: Sakura
+  type: url-test
+  
+  use:
+  - Sakura
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaNPO
+  type: url-test
+  
+  use:
+  - YahahaNPO
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇨🇳
+  type: url-test
+  
+  use:
+  - 🇨🇳
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇭🇰
+  type: url-test
+  
+  use:
+  - 🇭🇰
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇯🇵
+  type: url-test
+  
+  use:
+  - 🇯🇵
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇵🇭
+  type: url-test
+  
+  use:
+  - 🇵🇭
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇸🇬
+  type: url-test
+  
+  use:
+  - 🇸🇬
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇺🇸
+  type: url-test
+  
+  use:
+  - 🇺🇸
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🏳️‍🌈
+  type: url-test
+  
+  use:
+  - 🏳️‍🌈
   
   url: http://www.gstatic.com/generate_204
   interval: 300

@@ -17,6 +17,8 @@ class Proxy:
       names[x] = Template(y)
     self.urltest = self.urltest.substitute(url = 'http://www.gstatic.com/generate_204', interval = 300, tolerance = 180)
     self.list_path, self.list_name = self.get_filename('proxies/Clash')
+    self.list_name.sort()
+    self.list_path.sort()
   def get_filename(self,_dir):
     full_path = []
     name_only = []
@@ -40,10 +42,11 @@ class Proxy:
       sets = re.findall('.*RULE-SET.*',self.rules)
       rules_proxies = ['Others']
       for x in sets:
-        rule_name = re.split(',',x)[-1]
+        rule_name = re.split(',',x)[-1] # structure: RULE-SET,rules,proxy-group
         if rule_name not in rules_proxies:
           rules_proxies.append(rule_name)
       ret = ""
+      rules_proxies.sort()
       for x in rules_proxies:
         if x == 'AdBlock': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = "proxies:\n\t- REJECT\n\t- DIRECT\n\t- Proxy", uses = '', urltest = '')
         elif x == 'DIRECT': continue
