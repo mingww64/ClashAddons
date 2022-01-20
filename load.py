@@ -1,9 +1,12 @@
+from cgitb import strong
 from string import Template
 import os, requests, re
 class Proxy:
   '''self represents the instance of the class.'''
   rules = requests.get('https://raw.githubusercontent.com/lhie1/Rules/master/Clash/Rule.yaml').content.decode('utf-8')
   head = requests.get('https://raw.githubusercontent.com/lhie1/Rules/master/Clash/Head_dns.yaml').content.decode('utf-8')
+#  storage = 'https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/'
+  storage = 'https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/'
   def __init__(self):
     names = self.__dict__
     for x in ['proxy_groups','proxy_providers','urltest']: # dynamic variable. https://www.runoob.com/w3cnote/python-dynamic-var.html
@@ -26,7 +29,7 @@ class Proxy:
   def gen_proxy_providers(self):
     ret = ""
     for num, x in enumerate(self.list_name): # enumerate list to locate num of path.
-      ret += self.proxy_providers.substitute(name = x, location = 'https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/'+self.list_path[num])
+      ret += self.proxy_providers.substitute(name = x, location = self.storage + self.list_path[num])
     return ret
   def gen_all_proxies(self):
     def all_proxies():
@@ -69,5 +72,5 @@ rules:
   """
   file = file.replace('\t','  ') # YAML dont support Tabulator key.
   with open('test.yaml','w') as f:
-    f.write(file)    
+    f.write(file.strip())
 arranger()
