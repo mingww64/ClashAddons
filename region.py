@@ -30,6 +30,7 @@ def processor(path, out = ""):
                 txt = "proxies:\n"
                 for x in list_reg:
                     txt += x
+                txt.replace('\t','  ')
                 f.write(txt)
 
 processor('proxies/Clash')  
