@@ -1,4 +1,3 @@
-from cgitb import strong
 from string import Template
 import os, requests, re
 class Proxy:

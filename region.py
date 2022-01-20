@@ -17,7 +17,7 @@ def processor(path, out = ""):
     os.makedirs(out,exist_ok=True)
     parsed = requests.get('https://raw.githubusercontent.com/tindy2013/subconverter/master/base/snippets/emoji.txt', allow_redirects=True).content.decode('utf-8')
     re_list = parsed.strip().split('\n')
-    for num, re_ in list(enumerate(re_list)):
+    for num, re_ in list(enumerate(re_list)): # make a list of each region proxies and put them in for better flexbility.
         re_match = re_.split(',')[0]
         re_emoji = re_.split(',')[1]
         locals()[f'list_{num}'] = []
