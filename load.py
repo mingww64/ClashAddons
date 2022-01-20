@@ -18,7 +18,7 @@ class Proxy:
   def gen_proxy_providers(self):
     ret = ""
     for x in self.list_name:
-      ret += self.proxy_providers.substitute(name = x)
+      ret += self.proxy_providers.substitute(name = x, location = 'https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash')
     return ret
   def gen_all_proxies(self):
     def all_proxies():

@@ -1,9 +1,9 @@
     ${name}:
-    type: http
-    path: "./proxy_provider/${name}.yaml"
-    url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/Clash/${name}
-    interval: 3600
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 300
+      type: http
+      path: "./proxy_provider/${name}.yaml"
+      url: ${location}/${name}
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
