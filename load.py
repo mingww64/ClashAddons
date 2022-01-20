@@ -35,7 +35,7 @@ class Proxy:
           rules_proxies.append(rule_name)
       ret = ""
       for x in rules_proxies:
-        if x == 'AdBlock': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = "proxies:\n\tREJECT\n\t- DIRECT\n\t- Proxy", uses = '', urltest = '')
+        if x == 'AdBlock': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = "proxies:\n\t- REJECT\n\t- DIRECT\n\t- Proxy", uses = '', urltest = '')
         elif x == 'DIRECT': continue
         elif x == 'Proxy': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = 'proxies:\n\t- All\n' + all_proxies()+'\n\t- DIRECT', uses = '', urltest = '')
         elif x == 'Domestic': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = 'proxies:\n\t- DIRECT\n\t- Proxy\n' + all_proxies(), uses = '', urltest = '')
