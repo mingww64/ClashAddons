@@ -242,17 +242,17 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - Sakura
-  - Getfree
-  - JDYun
   - ADSL
   - ChinaG
-  - ChinaG_5x
   - ChinaG_2.5x
   - ChinaG_3x
-  - ChinaG_plain
-  - YahahaNPO
+  - ChinaG_5x
   - ChinaG_6x
+  - ChinaG_plain
+  - Getfree
+  - JDYun
+  - Sakura
+  - YahahaNPO
 
   - DIRECT
   
@@ -260,7 +260,7 @@ proxy-groups:
 - name: AdBlock
   type: select
   proxies:
-  - REJECT
+  REJECT
   - DIRECT
   - Proxy
   
@@ -554,7 +554,6 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-
   - Proxy
   - ADSL
   - ChinaG

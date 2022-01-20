@@ -1,13 +1,12 @@
 from string import Template
-import os, requests, re, yaml
-from tempfile import template
+import os, requests, re
 class Proxy:
   '''self represents the instance of the class.'''
   rules = requests.get('https://raw.githubusercontent.com/lhie1/Rules/master/Clash/Rule.yaml').content.decode('utf-8')
   head = requests.get('https://raw.githubusercontent.com/lhie1/Rules/master/Clash/Head_dns.yaml').content.decode('utf-8')
   def __init__(self):
     names = self.__dict__
-    for x in ['proxy_groups','proxy_providers','urltest']:
+    for x in ['proxy_groups','proxy_providers','urltest']: # dynamic variable. https://www.runoob.com/w3cnote/python-dynamic-var.html
       template_file = './template/clash/'+x
       if os.path.isfile(template_file):
         y = open(template_file).read()
@@ -36,10 +35,10 @@ class Proxy:
           rules_proxies.append(rule_name)
       ret = ""
       for x in rules_proxies:
-        if x == 'AdBlock': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = "proxies:\n" + '\t- REJECT\n\t- DIRECT\n\t- Proxy', uses = '', urltest = '')
+        if x == 'AdBlock': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = "proxies:\n\tREJECT\n\t- DIRECT\n\t- Proxy", uses = '', urltest = '')
         elif x == 'DIRECT': continue
-        elif x == 'Proxy': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = "proxies:\n\t- All\n" + all_proxies()+'\n\t- DIRECT', uses = '', urltest = '')
-        elif x == 'Domestic': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = 'proxies:\n\t- DIRECT\n' + '\n\t- Proxy\n' + all_proxies(), uses = '', urltest = '')
+        elif x == 'Proxy': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = 'proxies:\n\t- All\n' + all_proxies()+'\n\t- DIRECT', uses = '', urltest = '')
+        elif x == 'Domestic': ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = 'proxies:\n\t- DIRECT\n\t- Proxy\n' + all_proxies(), uses = '', urltest = '')
         else: ret += self.proxy_groups.substitute(name = x, type = 'select', proxies = 'proxies:\n\t- Proxy\n'+all_proxies() + '\n\t- DIRECT', uses = '', urltest = '')
       return ret
     return self.proxy_groups.substitute(name = 'All', type = 'url-test', proxies = "proxies:\n" + all_proxies(), uses = '', urltest = self.urltest) + gen_rules()
@@ -49,8 +48,6 @@ class Proxy:
       ret += self.proxy_groups.substitute(name = x, type = 'url-test', proxies = '', uses = f"use:\n\t- {x}", urltest = self.urltest)
     return ret
 proxy = Proxy() # instance: proxy
-def get_list(file):
-  return yaml.dump(file)
 def arranger():
   file = f"""
 {proxy.head}
