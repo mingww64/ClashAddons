@@ -260,7 +260,7 @@ proxy-groups:
 - name: AdBlock
   type: select
   proxies:
-  REJECT
+  - REJECT
   - DIRECT
   - Proxy
   
