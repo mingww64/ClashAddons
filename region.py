@@ -29,7 +29,7 @@ def processor(path, out = ""):
             with open(out + re_emoji,'w') as f:
                 txt = "proxies:\n"
                 for x in list_reg:
-                    txt += x.strip() + '\n' # fix unexpected '\n' missing.
+                    txt += "  " + x.strip() + '\n' # fix unexpected '\n' missing.
                 f.write(txt.strip())
 
 processor('proxies/Clash')  
