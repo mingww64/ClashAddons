@@ -18,26 +18,22 @@ class Proxy:
 
       names[x] = Template(y)
     self.urltest = self.urltest.substitute(url = 'http://www.gstatic.com/generate_204', interval = 300, tolerance = 180)
-    self.list_path, self.list_name = self.get_filename(exec_dir)
-    self.list_name.sort()
-    self.list_path.sort()
+    self.name_path= self.get_filename(exec_dir)
   def get_filename(self,_dir):
-    full_path = []
-    name_only = []
+    name_path = dict()
     for root, dirs, names in os.walk(_dir): # recognize parrent dirs as well.
         for name in names:
-            full_path.append(os.path.join(root,name).replace('\\','/')) # fix NT "\".
-            name_only.append(name)
-    return full_path, name_only
+            name_path[name] = os.path.join(root,name).replace('\\','/') # fix NT "\".
+    return name_path
   def gen_proxy_providers(self):
     ret = ""
-    for num, x in enumerate(self.list_name): # enumerate list to locate num of path.
-      ret += self.proxy_providers.substitute(name = x, location = self.storage +'/'+ self.list_path[num])
+    for x, y in self.name_path.items():
+      ret += self.proxy_providers.substitute(name = x, location = self.storage +'/'+ y)
     return ret
   def gen_all_proxies(self):
     def all_proxies():
       ret = ""
-      for x in self.list_name:
+      for x in self.name_path:
           ret += f"\t- {x}\n"
       return ret
     def gen_rules():
@@ -59,7 +55,7 @@ class Proxy:
     return self.proxy_groups.substitute(name = 'All', type = 'url-test', proxies = "proxies:\n" + all_proxies(), uses = '', urltest = self.urltest) + gen_rules()
   def gen_each_proxies(self):
     ret = ""
-    for x in self.list_name:
+    for x in self.name_path:
       ret += self.proxy_groups.substitute(name = x, type = 'url-test', proxies = '', uses = f"use:\n\t- {x}", urltest = self.urltest)
     return ret
 #proxy = Proxy() # instance: proxy
