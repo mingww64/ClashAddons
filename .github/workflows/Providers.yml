@@ -36,7 +36,7 @@ jobs:
     - name: Convert Providers
       run: python smart.py
     - name: Commit
-      run: check_commit.sh
+      run: bash check_commit.sh
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
