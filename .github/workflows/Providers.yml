@@ -34,7 +34,9 @@ jobs:
       with:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Convert Providers
-      run: bash update.sh
+      run: python smart.py
+    - name: Commit
+      run: check_commit.sh
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

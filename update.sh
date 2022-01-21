@@ -1,3 +1,4 @@
+# Deprecated.
 #!/bin/bash
 config=./config.yaml
 getconf(){
