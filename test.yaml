@@ -205,6 +205,15 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
+    YahahaLTD:
+      type: http
+      path: "./proxy_provider/YahahaLTD.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/YahahaLTD
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
     YahahaNPO:
       type: http
       path: "./proxy_provider/YahahaNPO.yaml"
@@ -223,6 +232,15 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
+    🇩🇪:
+      type: http
+      path: "./proxy_provider/🇩🇪.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇩🇪
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
     🇭🇰:
       type: http
       path: "./proxy_provider/🇭🇰.yaml"
@@ -236,6 +254,15 @@ proxy-providers:
       type: http
       path: "./proxy_provider/🇯🇵.yaml"
       url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇯🇵
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇲🇴:
+      type: http
+      path: "./proxy_provider/🇲🇴.yaml"
+      url: https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC/proxies/Clash/region/🇲🇴
       interval: 3600
       health-check:
         enable: true
@@ -292,10 +319,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -329,10 +359,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -355,10 +388,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -381,10 +417,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -408,10 +447,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -433,10 +475,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -459,10 +504,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -485,10 +533,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -511,10 +562,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -537,10 +591,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -563,10 +620,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -589,10 +649,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -615,10 +678,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -641,10 +707,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -667,10 +736,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -693,10 +765,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -719,10 +794,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -745,10 +823,13 @@ proxy-groups:
   - Getfree
   - JDYun
   - Sakura
+  - YahahaLTD
   - YahahaNPO
   - 🇨🇳
+  - 🇩🇪
   - 🇭🇰
   - 🇯🇵
+  - 🇲🇴
   - 🇵🇭
   - 🇸🇬
   - 🇺🇸
@@ -858,6 +939,16 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
+- name: YahahaLTD
+  type: url-test
+  
+  use:
+  - YahahaLTD
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
 - name: YahahaNPO
   type: url-test
   
@@ -878,6 +969,16 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
+- name: 🇩🇪
+  type: url-test
+  
+  use:
+  - 🇩🇪
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
 - name: 🇭🇰
   type: url-test
   
@@ -893,6 +994,16 @@ proxy-groups:
   
   use:
   - 🇯🇵
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇲🇴
+  type: url-test
+  
+  use:
+  - 🇲🇴
   
   url: http://www.gstatic.com/generate_204
   interval: 300
