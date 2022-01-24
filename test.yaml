@@ -115,10 +115,37 @@ clash-for-android:
   # append-system-dns: true # 追加系统 DNS 到 nameserver 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 proxy-providers:
+    JDYun:
+      type: http
+      path: "./proxy_provider/JDYun.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/JDYun
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ADSL:
+      type: http
+      path: "./proxy_provider/ADSL.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/ADSL
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
     ChinaG_All:
       type: http
       path: "./proxy_provider/ChinaG_All.yaml"
       url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/ChinaG_All
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_All:
+      type: http
+      path: "./proxy_provider/YahahaLTD_All.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_All
       interval: 3600
       health-check:
         enable: true
@@ -142,100 +169,10 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    JDYun:
+    🇲🇴:
       type: http
-      path: "./proxy_provider/JDYun.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/JDYun
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    ADSL:
-      type: http
-      path: "./proxy_provider/ADSL.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/ADSL
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    YahahaLTD_All:
-      type: http
-      path: "./proxy_provider/YahahaLTD_All.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_All
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    YahahaLTD_Game:
-      type: http
-      path: "./proxy_provider/YahahaLTD_Game.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_/YahahaLTD_Game
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    YahahaLTD_限速:
-      type: http
-      path: "./proxy_provider/YahahaLTD_限速.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_/YahahaLTD_限速
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    YahahaLTD_原生:
-      type: http
-      path: "./proxy_provider/YahahaLTD_原生.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_/YahahaLTD_原生
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    YahahaLTD_IEPL:
-      type: http
-      path: "./proxy_provider/YahahaLTD_IEPL.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_/YahahaLTD_IEPL
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇺🇸:
-      type: http
-      path: "./proxy_provider/🇺🇸.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇺🇸
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇸🇬:
-      type: http
-      path: "./proxy_provider/🇸🇬.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇸🇬
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇨🇳:
-      type: http
-      path: "./proxy_provider/🇨🇳.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇨🇳
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇯🇵:
-      type: http
-      path: "./proxy_provider/🇯🇵.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇯🇵
+      path: "./proxy_provider/🇲🇴.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇲🇴
       interval: 3600
       health-check:
         enable: true
@@ -259,19 +196,10 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    🇲🇴:
+    🇨🇳:
       type: http
-      path: "./proxy_provider/🇲🇴.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇲🇴
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🏳️‍🌈:
-      type: http
-      path: "./proxy_provider/🏳️‍🌈.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🏳️‍🌈
+      path: "./proxy_provider/🇨🇳.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇨🇳
       interval: 3600
       health-check:
         enable: true
@@ -286,10 +214,37 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    ChinaG_5x:
+    🇯🇵:
       type: http
-      path: "./proxy_provider/ChinaG_5x.yaml"
-      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/ChinaG_/ChinaG_5x
+      path: "./proxy_provider/🇯🇵.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇯🇵
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🏳️‍🌈:
+      type: http
+      path: "./proxy_provider/🏳️‍🌈.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🏳️‍🌈
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇸🇬:
+      type: http
+      path: "./proxy_provider/🇸🇬.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇸🇬
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇺🇸:
+      type: http
+      path: "./proxy_provider/🇺🇸.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/region/🇺🇸
       interval: 3600
       health-check:
         enable: true
@@ -299,6 +254,15 @@ proxy-providers:
       type: http
       path: "./proxy_provider/ChinaG_2.5x.yaml"
       url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/ChinaG_/ChinaG_2.5x
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ChinaG_5x:
+      type: http
+      path: "./proxy_provider/ChinaG_5x.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/ChinaG_/ChinaG_5x
       interval: 3600
       health-check:
         enable: true
@@ -331,35 +295,71 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
+    YahahaLTD_IEPL:
+      type: http
+      path: "./proxy_provider/YahahaLTD_IEPL.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_/YahahaLTD_IEPL
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_限速:
+      type: http
+      path: "./proxy_provider/YahahaLTD_限速.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_/YahahaLTD_限速
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_Game:
+      type: http
+      path: "./proxy_provider/YahahaLTD_Game.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_/YahahaLTD_Game
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_原生:
+      type: http
+      path: "./proxy_provider/YahahaLTD_原生.yaml"
+      url: https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC/proxies/clash/YahahaLTD_/YahahaLTD_原生
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
 
 proxy-groups:
 - name: All
   type: url-test
   proxies:
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   
   
@@ -379,30 +379,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -411,30 +411,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -443,30 +443,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -476,30 +476,30 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   
   
@@ -507,30 +507,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -539,30 +539,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -571,30 +571,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -603,30 +603,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -635,30 +635,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -667,30 +667,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -699,30 +699,30 @@ proxy-groups:
   type: select
   proxies:
   - All
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -731,30 +731,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -763,30 +763,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -795,30 +795,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -827,30 +827,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -859,30 +859,30 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
@@ -891,40 +891,70 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ChinaG_All
-  - Sakura
-  - Getfree
   - JDYun
   - ADSL
+  - ChinaG_All
   - YahahaLTD_All
-  - YahahaLTD_Game
-  - YahahaLTD_限速
-  - YahahaLTD_原生
-  - YahahaLTD_IEPL
-  - 🇺🇸
-  - 🇸🇬
-  - 🇨🇳
-  - 🇯🇵
+  - Sakura
+  - Getfree
+  - 🇲🇴
   - 🇭🇰
   - 🇵🇭
-  - 🇲🇴
-  - 🏳️‍🌈
+  - 🇨🇳
   - 🇩🇪
-  - ChinaG_5x
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
   - ChinaG_2.5x
+  - ChinaG_5x
   - ChinaG_3x
   - ChinaG_plain
   - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
 
   - DIRECT
   
   
+
+- name: JDYun
+  type: url-test
+  
+  use:
+  - JDYun
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ADSL
+  type: url-test
+  
+  use:
+  - ADSL
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
 
 - name: ChinaG_All
   type: url-test
   
   use:
   - ChinaG_All
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_All
+  type: url-test
+  
+  use:
+  - YahahaLTD_All
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -950,111 +980,11 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: JDYun
+- name: 🇲🇴
   type: url-test
   
   use:
-  - JDYun
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: ADSL
-  type: url-test
-  
-  use:
-  - ADSL
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: YahahaLTD_All
-  type: url-test
-  
-  use:
-  - YahahaLTD_All
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: YahahaLTD_Game
-  type: url-test
-  
-  use:
-  - YahahaLTD_Game
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: YahahaLTD_限速
-  type: url-test
-  
-  use:
-  - YahahaLTD_限速
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: YahahaLTD_原生
-  type: url-test
-  
-  use:
-  - YahahaLTD_原生
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: YahahaLTD_IEPL
-  type: url-test
-  
-  use:
-  - YahahaLTD_IEPL
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇺🇸
-  type: url-test
-  
-  use:
-  - 🇺🇸
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇸🇬
-  type: url-test
-  
-  use:
-  - 🇸🇬
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇨🇳
-  type: url-test
-  
-  use:
-  - 🇨🇳
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇯🇵
-  type: url-test
-  
-  use:
-  - 🇯🇵
+  - 🇲🇴
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -1080,21 +1010,11 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: 🇲🇴
+- name: 🇨🇳
   type: url-test
   
   use:
-  - 🇲🇴
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🏳️‍🌈
-  type: url-test
-  
-  use:
-  - 🏳️‍🌈
+  - 🇨🇳
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -1110,11 +1030,41 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: ChinaG_5x
+- name: 🇯🇵
   type: url-test
   
   use:
-  - ChinaG_5x
+  - 🇯🇵
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🏳️‍🌈
+  type: url-test
+  
+  use:
+  - 🏳️‍🌈
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇸🇬
+  type: url-test
+  
+  use:
+  - 🇸🇬
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇺🇸
+  type: url-test
+  
+  use:
+  - 🇺🇸
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -1125,6 +1075,16 @@ proxy-groups:
   
   use:
   - ChinaG_2.5x
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ChinaG_5x
+  type: url-test
+  
+  use:
+  - ChinaG_5x
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -1155,6 +1115,46 @@ proxy-groups:
   
   use:
   - ChinaG_6x
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_IEPL
+  type: url-test
+  
+  use:
+  - YahahaLTD_IEPL
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_限速
+  type: url-test
+  
+  use:
+  - YahahaLTD_限速
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_Game
+  type: url-test
+  
+  use:
+  - YahahaLTD_Game
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_原生
+  type: url-test
+  
+  use:
+  - YahahaLTD_原生
   
   url: http://www.gstatic.com/generate_204
   interval: 300
