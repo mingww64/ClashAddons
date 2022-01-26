@@ -1,0 +1,872 @@
+port: 8888
+socks-port: 8889
+mixed-port: 8899
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:6170
+experimental:
+  ignore-resolve-fail: true
+dns:
+  enable: true
+  # ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - "time.*.com"
+    - "time.*.gov"
+    - "time.*.edu.cn"
+    - "time.*.apple.com"
+    - "time1.*.com"
+    - "time2.*.com"
+    - "time3.*.com"
+    - "time4.*.com"
+    - "time5.*.com"
+    - "time6.*.com"
+    - "time7.*.com"
+    - "ntp.*.com"
+    - "ntp1.*.com"
+    - "ntp2.*.com"
+    - "ntp3.*.com"
+    - "ntp4.*.com"
+    - "ntp5.*.com"
+    - "ntp6.*.com"
+    - "ntp7.*.com"
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - "time1.cloud.tencent.com"
+    - "music.163.com"
+    - "*.music.163.com"
+    - "*.126.net"
+    - "musicapi.taihe.com"
+    - "music.taihe.com"
+    - "songsearch.kugou.com"
+    - "trackercdn.kugou.com"
+    - "*.kuwo.cn"
+    - "api-jooxtt.sanook.com"
+    - "api.joox.com"
+    - "joox.com"
+    - "y.qq.com"
+    - "*.y.qq.com"
+    - "streamoc.music.tc.qq.com"
+    - "mobileoc.music.tc.qq.com"
+    - "isure.stream.qqmusic.qq.com"
+    - "dl.stream.qqmusic.qq.com"
+    - "aqqmusic.tc.qq.com"
+    - "amobile.music.tc.qq.com"
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - "music.migu.cn"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - "msftconnecttest.com"
+    - "msftncsi.com"
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    - "+.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - "xbox.*.microsoft.com"
+    - "xnotify.xboxlive.com"
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
+    - "proxy.golang.org"
+    - "stun.*.*"
+    - "stun.*.*.*"
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "heartbeat.belkin.com"
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - "mesu.apple.com"
+    - "swscan.apple.com"
+    - "swquery.apple.com"
+    - "swdownload.apple.com"
+    - "swcdn.apple.com"
+    - "swdist.apple.com"
+    - "lens.l.google.com"
+    - "stun.l.google.com"
+    - "+.nflxvideo.net"
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+clash-for-android: 
+  # append-system-dns: true # 追加系统 DNS 到 nameserver 
+  ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
+
+proxy-providers:
+    JDYun:
+      type: http
+      path: "./proxy_provider/JDYun.yaml"
+      url: realnet.ga/proxies/clash/JDYun
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ADSL:
+      type: http
+      path: "./proxy_provider/ADSL.yaml"
+      url: realnet.ga/proxies/clash/ADSL
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ChinaG_All:
+      type: http
+      path: "./proxy_provider/ChinaG_All.yaml"
+      url: realnet.ga/proxies/clash/ChinaG_All
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_All:
+      type: http
+      path: "./proxy_provider/YahahaLTD_All.yaml"
+      url: realnet.ga/proxies/clash/YahahaLTD_All
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    Sakura:
+      type: http
+      path: "./proxy_provider/Sakura.yaml"
+      url: realnet.ga/proxies/clash/Sakura
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    Getfree:
+      type: http
+      path: "./proxy_provider/Getfree.yaml"
+      url: realnet.ga/proxies/clash/Getfree
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇲🇴:
+      type: http
+      path: "./proxy_provider/🇲🇴.yaml"
+      url: realnet.ga/proxies/clash/region/🇲🇴
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇭🇰:
+      type: http
+      path: "./proxy_provider/🇭🇰.yaml"
+      url: realnet.ga/proxies/clash/region/🇭🇰
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇵🇭:
+      type: http
+      path: "./proxy_provider/🇵🇭.yaml"
+      url: realnet.ga/proxies/clash/region/🇵🇭
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇨🇳:
+      type: http
+      path: "./proxy_provider/🇨🇳.yaml"
+      url: realnet.ga/proxies/clash/region/🇨🇳
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇩🇪:
+      type: http
+      path: "./proxy_provider/🇩🇪.yaml"
+      url: realnet.ga/proxies/clash/region/🇩🇪
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇯🇵:
+      type: http
+      path: "./proxy_provider/🇯🇵.yaml"
+      url: realnet.ga/proxies/clash/region/🇯🇵
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🏳️‍🌈:
+      type: http
+      path: "./proxy_provider/🏳️‍🌈.yaml"
+      url: realnet.ga/proxies/clash/region/🏳️‍🌈
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇸🇬:
+      type: http
+      path: "./proxy_provider/🇸🇬.yaml"
+      url: realnet.ga/proxies/clash/region/🇸🇬
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇺🇸:
+      type: http
+      path: "./proxy_provider/🇺🇸.yaml"
+      url: realnet.ga/proxies/clash/region/🇺🇸
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ChinaG_2.5x:
+      type: http
+      path: "./proxy_provider/ChinaG_2.5x.yaml"
+      url: realnet.ga/proxies/clash/ChinaG_/ChinaG_2.5x
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ChinaG_5x:
+      type: http
+      path: "./proxy_provider/ChinaG_5x.yaml"
+      url: realnet.ga/proxies/clash/ChinaG_/ChinaG_5x
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ChinaG_3x:
+      type: http
+      path: "./proxy_provider/ChinaG_3x.yaml"
+      url: realnet.ga/proxies/clash/ChinaG_/ChinaG_3x
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ChinaG_plain:
+      type: http
+      path: "./proxy_provider/ChinaG_plain.yaml"
+      url: realnet.ga/proxies/clash/ChinaG_/ChinaG_plain
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ChinaG_6x:
+      type: http
+      path: "./proxy_provider/ChinaG_6x.yaml"
+      url: realnet.ga/proxies/clash/ChinaG_/ChinaG_6x
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_IEPL:
+      type: http
+      path: "./proxy_provider/YahahaLTD_IEPL.yaml"
+      url: realnet.ga/proxies/clash/YahahaLTD_/YahahaLTD_IEPL
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_限速:
+      type: http
+      path: "./proxy_provider/YahahaLTD_限速.yaml"
+      url: realnet.ga/proxies/clash/YahahaLTD_/YahahaLTD_限速
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_Game:
+      type: http
+      path: "./proxy_provider/YahahaLTD_Game.yaml"
+      url: realnet.ga/proxies/clash/YahahaLTD_/YahahaLTD_Game
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    YahahaLTD_原生:
+      type: http
+      path: "./proxy_provider/YahahaLTD_原生.yaml"
+      url: realnet.ga/proxies/clash/YahahaLTD_/YahahaLTD_原生
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+
+proxy-groups:
+- name: All
+  type: url-test
+  proxies:
+  - JDYun
+  - ADSL
+  - ChinaG_All
+  - YahahaLTD_All
+  - Sakura
+  - Getfree
+  - 🇲🇴
+  - 🇭🇰
+  - 🇵🇭
+  - 🇨🇳
+  - 🇩🇪
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
+  - ChinaG_2.5x
+  - ChinaG_5x
+  - ChinaG_3x
+  - ChinaG_plain
+  - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
+
+  
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: Advertising
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  - Proxy
+  
+  
+- name: Domestic
+  type: select
+  proxies:
+  - DIRECT
+  - Proxy
+  - JDYun
+  - ADSL
+  - ChinaG_All
+  - YahahaLTD_All
+  - Sakura
+  - Getfree
+  - 🇲🇴
+  - 🇭🇰
+  - 🇵🇭
+  - 🇨🇳
+  - 🇩🇪
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
+  - ChinaG_2.5x
+  - ChinaG_5x
+  - ChinaG_3x
+  - ChinaG_plain
+  - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
+
+  
+  
+- name: Hijacking
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  - Proxy
+  
+  
+- name: Others
+  type: select
+  proxies:
+  - Proxy
+  - JDYun
+  - ADSL
+  - ChinaG_All
+  - YahahaLTD_All
+  - Sakura
+  - Getfree
+  - 🇲🇴
+  - 🇭🇰
+  - 🇵🇭
+  - 🇨🇳
+  - 🇩🇪
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
+  - ChinaG_2.5x
+  - ChinaG_5x
+  - ChinaG_3x
+  - ChinaG_plain
+  - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
+
+  - DIRECT
+  
+  
+- name: Privacy
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  - Proxy
+  
+  
+- name: Proxy
+  type: select
+  proxies:
+  - All
+  - JDYun
+  - ADSL
+  - ChinaG_All
+  - YahahaLTD_All
+  - Sakura
+  - Getfree
+  - 🇲🇴
+  - 🇭🇰
+  - 🇵🇭
+  - 🇨🇳
+  - 🇩🇪
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
+  - ChinaG_2.5x
+  - ChinaG_5x
+  - ChinaG_3x
+  - ChinaG_plain
+  - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
+
+  - DIRECT
+  
+  
+- name: Streaming
+  type: select
+  proxies:
+  - Proxy
+  - JDYun
+  - ADSL
+  - ChinaG_All
+  - YahahaLTD_All
+  - Sakura
+  - Getfree
+  - 🇲🇴
+  - 🇭🇰
+  - 🇵🇭
+  - 🇨🇳
+  - 🇩🇪
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
+  - ChinaG_2.5x
+  - ChinaG_5x
+  - ChinaG_3x
+  - ChinaG_plain
+  - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
+
+  - DIRECT
+  
+  
+- name: StreamingSE
+  type: select
+  proxies:
+  - DIRECT
+  - Proxy
+  - JDYun
+  - ADSL
+  - ChinaG_All
+  - YahahaLTD_All
+  - Sakura
+  - Getfree
+  - 🇲🇴
+  - 🇭🇰
+  - 🇵🇭
+  - 🇨🇳
+  - 🇩🇪
+  - 🇯🇵
+  - 🏳️‍🌈
+  - 🇸🇬
+  - 🇺🇸
+  - ChinaG_2.5x
+  - ChinaG_5x
+  - ChinaG_3x
+  - ChinaG_plain
+  - ChinaG_6x
+  - YahahaLTD_IEPL
+  - YahahaLTD_限速
+  - YahahaLTD_Game
+  - YahahaLTD_原生
+
+  
+  
+
+- name: JDYun
+  type: url-test
+  
+  use:
+  - JDYun
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ADSL
+  type: url-test
+  
+  use:
+  - ADSL
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ChinaG_All
+  type: url-test
+  
+  use:
+  - ChinaG_All
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_All
+  type: url-test
+  
+  use:
+  - YahahaLTD_All
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: Sakura
+  type: url-test
+  
+  use:
+  - Sakura
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: Getfree
+  type: url-test
+  
+  use:
+  - Getfree
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇲🇴
+  type: url-test
+  
+  use:
+  - 🇲🇴
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇭🇰
+  type: url-test
+  
+  use:
+  - 🇭🇰
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇵🇭
+  type: url-test
+  
+  use:
+  - 🇵🇭
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇨🇳
+  type: url-test
+  
+  use:
+  - 🇨🇳
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇩🇪
+  type: url-test
+  
+  use:
+  - 🇩🇪
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇯🇵
+  type: url-test
+  
+  use:
+  - 🇯🇵
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🏳️‍🌈
+  type: url-test
+  
+  use:
+  - 🏳️‍🌈
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇸🇬
+  type: url-test
+  
+  use:
+  - 🇸🇬
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇺🇸
+  type: url-test
+  
+  use:
+  - 🇺🇸
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ChinaG_2.5x
+  type: url-test
+  
+  use:
+  - ChinaG_2.5x
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ChinaG_5x
+  type: url-test
+  
+  use:
+  - ChinaG_5x
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ChinaG_3x
+  type: url-test
+  
+  use:
+  - ChinaG_3x
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ChinaG_plain
+  type: url-test
+  
+  use:
+  - ChinaG_plain
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ChinaG_6x
+  type: url-test
+  
+  use:
+  - ChinaG_6x
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_IEPL
+  type: url-test
+  
+  use:
+  - YahahaLTD_IEPL
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_限速
+  type: url-test
+  
+  use:
+  - YahahaLTD_限速
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_Game
+  type: url-test
+  
+  use:
+  - YahahaLTD_Game
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: YahahaLTD_原生
+  type: url-test
+  
+  use:
+  - YahahaLTD_原生
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+
+
+rule-providers:
+  Unbreak:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Unbreak.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    interval: 86400
+  Advertising:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Advertising.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    interval: 86400
+  Hijacking:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Hijacking.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
+    interval: 86400
+  Privacy:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Privacy.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
+    interval: 86400
+  Streaming:
+    type: http
+    behavior: classical
+    path: "./RuleSet/StreamingMedia/Streaming.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    interval: 86400
+  StreamingSE:
+    type: http
+    behavior: classical
+    path: "./RuleSet/StreamingMedia/StreamingSE.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Global.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    path: "./RuleSet/China.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    interval: 86400
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    path: "./RuleSet/Extra/ChinaIP.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
+    interval: 86400
+rules:
+- RULE-SET,Unbreak,DIRECT
+- RULE-SET,Advertising,Advertising
+- RULE-SET,Hijacking,Hijacking
+- RULE-SET,Privacy,Privacy
+- RULE-SET,Streaming,Streaming
+- RULE-SET,StreamingSE,StreamingSE
+- RULE-SET,Global,Proxy
+- RULE-SET,China,Domestic
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+- IP-CIDR,fe80::/10,DIRECT
+- RULE-SET,ChinaIP,Domestic
+- IP-CIDR,119.28.28.28/32,DIRECT
+- IP-CIDR,182.254.116.0/24,DIRECT
+- MATCH,Others
