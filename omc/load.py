@@ -2,12 +2,6 @@ from string import Template
 import os, requests, re
 class Proxy:
   '''self represents the instance of the class.'''
-#  rules = requests.get('https://raw.githubusercontent.com/lhie1/Rules/master/Clash/Rule.yaml').content.decode('utf-8')
-#  head = requests.get('https://raw.githubusercontent.com/lhie1/Rules/master/Clash/Head_dns.yaml').content.decode('utf-8')
-#  rules = requests.get('https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Rule.yaml').content.decode('utf-8').replace('https://raw.lhie1.com/lhie1/Rules/master', 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master')
-#  head = requests.get('https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Head_dns.yaml').content.decode('utf-8')
-#  storage = 'https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC'
-#  storage = 'https://raw.githubusercontent.com/wmyfelix/ClashAddons/OMC'
   def __init__(self, exec_dir, output_path, rules = './template/clash/connershua/rules.yml', head = './template/clash/head.yaml', storage = 'https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path = './template/clash'):
     self.storage = storage
     self.output_path = output_path
