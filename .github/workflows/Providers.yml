@@ -29,16 +29,22 @@ jobs:
         tar -xzf subconverter.tar.gz
         cd subconverter
         nohup ./subconverter > "$GITHUB_WORKSPACE"/SC.log &
-    - name: Checkout
+    - name: Checkout This Repo
       uses: actions/checkout@v2
       with:
-        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-    - name: Convert Providers
-      run: python smart.py
-    - name: Commit
-      run: bash check_commit.sh
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+        path: exec
+    - name: Checkout Deploy Repo
+      uses: actions/checkout@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        path: deploy
+        token: ${{ secrets.TOKEN }}
+    - name: Convert Providers
+      run: |
+        cd exec
+        python smart.py
+    - name: Commit & push
+      run: | 
+        cp -r exec/proxies deploy
+        cd deploy
+        bash ../exec/check_commit.sh
+        git push

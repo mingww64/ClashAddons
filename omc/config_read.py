@@ -21,6 +21,8 @@ which cause undefined / no such file errors'''  # i can use function though...
             exit('Disabled.')
         self.subc = parse_conf['SCServer']
         self.subc_remote = parse_conf['SCServerRemote']
+        self.head = parse_conf['Rules']['Clash']['head']
+        self.rules = parse_conf['Rules']['Clash']['rules']
         self.parse_conf = parse_conf
 
     def check_if_available(self, content):

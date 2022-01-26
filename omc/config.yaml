@@ -1,9 +1,11 @@
 Enabled: true
+Output Dir: proxies
 Git:
   email: felicia@realnet.ml
   name: FeliciaWen
 SCServer: 127.0.0.1:25500
 SCServerRemote: api.wcc.best
+Storage: realnet.ga
 ProxyProviders:
   YahahaNPO: http://sub.yahahanpo.top/link/MPsna0K3Q1JBfwNf?mu=1
   YahahaLTD: http://yahahasub.com/link/GNMR6Hv4UNg8KdrG?mu=0
@@ -29,3 +31,7 @@ QuickGenQX: true
 SmartFilter: 
   ChinaG: \d*\.*\d+(?:x|X|倍|倍率)
   YahahaLTD: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
+Rules:
+  Clash:
+    head: template/clash/head.yml
+    rules: template/clash/connershua/rules.yml 
