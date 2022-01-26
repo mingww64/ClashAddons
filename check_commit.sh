@@ -1,5 +1,5 @@
 #!/bin/bash
-config=./omc/config.yaml
+config=../exec/omc/config.yaml
 getconf(){
     yq e $1 $2 $config 
 }
