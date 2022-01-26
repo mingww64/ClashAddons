@@ -36,9 +36,8 @@ jobs:
     - name: Checkout Deploy Repo
       uses: actions/checkout@v2
       with:
-        repository: 'wmyfelix/OMC'
+        ref: deploy
         path: deploy
-        token: ${{ secrets.TOKEN }}
     - name: Convert Providers
       run: |
         cd exec
