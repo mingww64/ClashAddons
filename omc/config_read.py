@@ -26,7 +26,7 @@ which cause undefined / no such file errors'''  # i can use function though...
         self.parse_conf = parse_conf
 
     def check_if_available(self, content):
-        if ("The following link doesn't contain any valid node info:" or "No nodes were found!") in content:
+        if "The following link doesn't contain any valid node info:" in content or "No nodes were found!" in content:
             return False
         else:
             return True
