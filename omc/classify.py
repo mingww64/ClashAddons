@@ -35,7 +35,7 @@ def run(syx, file_path):
                 else:
                     left_set.remove('proxies:') # 'proxies:' may not be on the first line, so remove it and add it later.
                     with open(f"{file_path}_/{file_name}_plain","w+") as plain:
-                            plain.write("proxies:\n".join(left_set)) # New method! str.join(<str>)
+                            plain.write('proxies:\n' + "\n".join(left_set)) # New method! str.join(<str>)
             else: print("'proxies:' not found, check the proceeded file.")
             print("Matched: ", out)
             file.close()
