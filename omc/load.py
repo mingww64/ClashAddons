@@ -35,7 +35,7 @@ class Proxy:
     def all_proxies():
       ret = ""
       for x in self.name_path:
-        if re.search('限速', x): pass
+        if re.search('限速|游戏|game', x, re.IGNORECASE): pass
         else: ret += f"\t- {x}\n"
       return ret
     def gen_rules():

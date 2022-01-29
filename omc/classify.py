@@ -32,11 +32,10 @@ def rm_old(path):
         os.makedirs(exec_path)
 
 
-def dumper(iter):
-    lines = '\n  - '.join(iter)
-    return 'proxies:\n  - ' + lines
-
-
+def dumper(list_dict,file):
+    _dump = dict()
+    _dump['proxies'] = list_dict
+    yaml.dump(_dump, file, allow_unicode=True) # allow_unicode = True : fix emoji and etc...
 def run(syx, file_path):
     _in = {}
     _plain = []
@@ -47,9 +46,9 @@ def run(syx, file_path):
     with open(file_path) as f:
         f = f.read()
         for x, y in get_name(f).items():
-            matched = re.search(syx, x)
+            matched = re.search(syx, x, re.IGNORECASE) # re.search.group() only return the first matched match.
             if matched:
-                if matched.group() not in _matched_list:  # re.search.group() only return the first match ?
+                if matched.group() not in _matched_list: 
                     _matched_list.append(matched.group())
                     _in[matched.group()] = [y]
                 else:
@@ -64,11 +63,7 @@ def run(syx, file_path):
         # rename_original(file_path)
         for x, y in _in.items():
             with open('{}_/{}_{}'.format(file_path, file_name, x), 'w') as f:
-                _dump = dict()
-                _dump['proxies'] = y
-                yaml.dump(_dump, f, default_flow_style=False,
-                          allow_unicode=True)
-        with open('{}_/{}_plain'.format(file_path, file_name), 'w') as f:
-            _dump = dict()
-            _dump['proxies'] = _plain
-            yaml.dump(_dump, f, default_flow_style=False, allow_unicode=True)
+                dumper(y, f)
+        if _plain != []:
+            with open('{}_/{}_plain'.format(file_path, file_name), 'w') as f:
+                dumper(_plain, f)
