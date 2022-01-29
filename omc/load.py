@@ -35,7 +35,8 @@ class Proxy:
     def all_proxies():
       ret = ""
       for x in self.name_path:
-          ret += f"\t- {x}\n"
+        if re.search('限速', x): pass
+        else: ret += f"\t- {x}\n"
       return ret
     def gen_rules():
       sets = re.findall('.*RULE-SET.*',self.rules)
