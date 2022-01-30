@@ -2,9 +2,10 @@ from string import Template
 import os, requests, re
 class Proxy:
   '''self represents the instance of the class.'''
-  def __init__(self, exec_dir, output_path, rules = './template/clash/connershua/rules.yml', head = './template/clash/head.yaml', storage = 'https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path = './template/clash'):
+  def __init__(self, exec_dir, output_path, rules = './template/clash/connershua/rules.yml', head = './template/clash/head.yaml', storage = 'https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path = './template/clash', re_exclude = '限速|游戏|game'):
     self.storage = storage
     self.output_path = output_path
+    self._All_exclude = re_exclude
     if 'http' in rules: self.rules = requests.get(rules).content.decode('utf-8') 
     else: self.rules = open(rules, 'r').read()
     if 'rules:' not in self.rules: self.rules = 'rules:\n' + self.rules 
@@ -35,7 +36,7 @@ class Proxy:
     def all_proxies():
       ret = ""
       for x in self.name_path:
-        if re.search('限速|游戏|game', x, re.IGNORECASE): pass
+        if re.search(self._All_exclude, x, re.IGNORECASE): pass
         else: ret += f"\t- {x}\n"
       return ret
     def gen_rules():

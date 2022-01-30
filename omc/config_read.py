@@ -33,14 +33,14 @@ which cause undefined / no such file errors'''  # i can use function though...
 
     def get_providers(self, dir):
         def load_args(target, provider):
-            if self.parse_conf.__contains__('ExcludeExp'):
+            if self.parse_conf.__contains__('Exclude Args'):
                 ret = "exclude=false&"  # Disable exclude func
-                if self.parse_conf['ExcludeExp'].__contains__('syntax'):
+                if self.parse_conf['Exclude Args'].__contains__('syntax'):
                     ret = "exclude=" + \
-                        self.parse_conf['ExcludeExp']['syntax'] + '&'
-                if self.parse_conf['ExcludeExp'].__contains__('whitelist') and type(self.parse_conf['ExcludeExp']['whitelist']) == list:
+                        self.parse_conf['Exclude Args']['syntax'] + '&'
+                if self.parse_conf['Exclude Args'].__contains__('whitelist') and type(self.parse_conf['Exclude Args']['whitelist']) == list:
                     # disable exclude func for providers in whitelist
-                    if provider in self.parse_conf['ExcludeExp']['whitelist']:
+                    if provider in self.parse_conf['Exclude Args']['whitelist']:
                         ret = "exclude=false&"
             else:
                 ret = ""  # exclude with subC default filters

@@ -6,6 +6,7 @@ Git:
 SCServer: 127.0.0.1:25500
 SCServerRemote: api.wcc.best
 Storage: https://realnet.ga
+Template: ./template/clash
 ProxyProviders:
   YahahaNPO: http://sub.yahahanpo.top/link/MPsna0K3Q1JBfwNf?mu=1
   YahahaLTD: http://yahahasub.com/link/oSmrgjMRXcAcz0O8?mu=0
@@ -23,7 +24,10 @@ ClashProviders:
 QuantumultXRemotes: 
   target: quanx
   list: true
-ExcludeExp: 
+Exclude:
+  All: 限速|游戏|game
+  region: 限速|游戏|game
+Exclude Args: 
   syntax: 奈飞小铺|过期时间|剩余流量|官网|机场|维护
   whitelist: 
   - ChinaG
