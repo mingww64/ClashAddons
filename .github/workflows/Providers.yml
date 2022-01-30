@@ -24,11 +24,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Deploy SubConverter
       run: |
-        cd ~
-        curl -SsL https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz -o subconverter.tar.gz
-        tar -xzf subconverter.tar.gz
-        cd subconverter
-        nohup ./subconverter > "$GITHUB_WORKSPACE"/SC.log &
+        docker run -d --restart=always -p 25500:25500 tindy2013/subconverter:latest
+        curl http://localhost:25500/version
     - name: Checkout This Repo
       uses: actions/checkout@v2
       with:
