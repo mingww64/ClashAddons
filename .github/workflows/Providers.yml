@@ -25,7 +25,8 @@ jobs:
     - name: Deploy SubConverter
       run: |
         docker run -d --restart=always -p 25500:25500 tindy2013/subconverter:latest
-        curl http://localhost:25500/version
+        sleep 10
+        curl http://127.0.0.1:25500/version
     - name: Checkout This Repo
       uses: actions/checkout@v2
       with:
