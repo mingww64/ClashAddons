@@ -1,5 +1,8 @@
 proxies:
   - {name: 59.125.11.158:8158, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 59.125.11.158:8158 2, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: cm08.paofuvip.xyz:5951, server: cm08.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.co%%, udp: true}
+  - {name: cm08.paofuvip.xyz:5958, server: cm08.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.co%%, udp: true}
+  - {name: cm09.paofuvip.xyz:5951, server: cm09.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.co%%, udp: true}
   - {name: 🇯🇵 jp-am46.eqnode.net:8081, server: jp-am46.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3oaJ5K2Wn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.co%%, udp: true}
   - {name: 🇯🇵 jp-am48-9.eqnode.net:8081, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
