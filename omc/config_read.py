@@ -80,5 +80,7 @@ which cause undefined / no such file errors'''  # i can use function though...
             f.write(txt)
 
     def smart_filter(self, exec_dir):
-        for provider, syntax in self.parse_conf['SmartFilter'].items():
-            classify.run(syntax, "{}/{}".format(exec_dir, provider))
+        if 'SmartFilter' in self.parse_conf:
+            for provider, syntax in self.parse_conf['SmartFilter'].items():
+                classify.run(syntax, "{}/{}".format(exec_dir, provider))
+        else: print('SmartFilter Disabled.')
