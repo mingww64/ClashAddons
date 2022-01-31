@@ -3,7 +3,7 @@ config = config_read.pro('./omc/config.yaml')
 dirx = config.parse_conf['Output Dir']
 config.get_providers(dirx)
 if config.parse_conf['QuickGenQX']:
-    config.gen_quanx(dirx+'/quanx', '.')
+    config.gen_quanx(dirx+'/quanx', dirx)
 config.smart_filter(dirx+'/clash')
 
 region.processor(dirx+'/clash',exclude= config.parse_conf['Exclude']['region'])
