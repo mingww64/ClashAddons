@@ -1,6 +1,6 @@
 proxies:
   - {name: 🇯🇵 jp-am46.eqnode.net:8081, server: jp-am46.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3oaJ5K2Wn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.co%%, udp: true}
   - {name: 🇯🇵 jp-am48-9.eqnode.net:8081, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: SG_1128, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp-tokyo-node2.ycgyg.com}}, udp: true}
-  - {name: CN_588, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: SfobRIcergHchqBFzzua, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: CN_590, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: UiLPqefVfielqkDjEwBV, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: JP_900, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: SG_1114, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp-tokyo-node2.ycgyg.com}}, udp: true}
+  - {name: CN_570, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: SfobRIcergHchqBFzzua, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
