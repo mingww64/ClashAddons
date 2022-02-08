@@ -28,7 +28,7 @@ which cause undefined / no such file errors'''  # i can use function though...
     def check_if_available(self, content):
         num = len(re.findall('\n', content))
         print(num)
-        if num == 0 and '=' not in content: return False
+        if num == 0 or '=' not in content: return False
         return True
         
     def get_providers(self, dir):
