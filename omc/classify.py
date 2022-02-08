@@ -9,7 +9,6 @@ def get_name(content):
     ret = {}
     for x in yaml.safe_load(content)['proxies']:
         ret[x['name']] = x
-    print(ret)
     return ret
 
 
