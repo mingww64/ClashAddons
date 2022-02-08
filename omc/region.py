@@ -13,6 +13,7 @@ def gather_files(path, exclude):
                 for name in list(ret): # Dict can't be motified during iteration, so change it to list.
                     if re.search(exclude, name, re.IGNORECASE): 
                         del ret[name]
+    print(ret)
     return ret
 def processor(path, out = "", exclude = '限速|游戏|game'):
     if out == "": out = path+'/region/' # Shouldnt be same as path, make duplication.
@@ -27,6 +28,7 @@ def processor(path, out = "", exclude = '限速|游戏|game'):
         locals()[f'list_{num}'] = []
         list_reg = locals()[f"list_{num}"] # use local() func mannally, otherwise would be recognize as str. because var is spliced by string.format.
         for proxies, line in list(proxies_dict.items()):
+            print(proxies_dict)
             if re.search(re_match,proxies):
                 print('\tMatched: ', proxies)
                 list_reg.append(line)
