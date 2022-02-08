@@ -26,7 +26,7 @@ def processor(path, out = "", exclude = '限速|游戏|game'):
         print('Regexp: ',re_emoji)
         locals()[f'list_{num}'] = []
         list_reg = locals()[f"list_{num}"] # use local() func mannally, otherwise would be recognize as str. because var is spliced by string.format.
-        for proxies, line in proxies_dict.items():
+        for proxies, line in list(proxies_dict.items()):
             if re.search(re_match,proxies):
                 print('\tMatched: ', proxies)
                 list_reg.append(line)
