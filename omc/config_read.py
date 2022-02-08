@@ -25,10 +25,11 @@ which cause undefined / no such file errors'''  # i can use function though...
         self.rules = parse_conf['Rules']['Clash']['rules']
         self.parse_conf = parse_conf
 
-    def check_if_available(self, content):
+    def check_if_available(self, content, typ):
         num = len(re.findall('\n', content))
         print(num)
-        if num == 0 or '=' not in content: return False
+        if num == 0 and typ == 'clash': return False
+        if '=' not in content and typ == 'quanx': return False
         return True
         
     def get_providers(self, dir):
@@ -57,7 +58,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                     self.subc, url, locals()[x+'_args'])
                 print("{}'s {}: {}".format(provider, x, subc_url))
                 txt = requests.get(subc_url).content.decode('utf-8','ignore')
-                if self.check_if_available(txt):
+                if self.check_if_available(txt, x):
                     os.makedirs(f'{dir}/{x}/', exist_ok=True)
                     with open(f'{dir}/{x}/' + provider, 'w+') as f:
                         f.write(txt)
