@@ -1,8 +1,8 @@
 import os
 import requests
 import yaml
+import re
 from . import classify
-
 
 class pro:
     '''use class to handle variables change, 
@@ -26,11 +26,11 @@ which cause undefined / no such file errors'''  # i can use function though...
         self.parse_conf = parse_conf
 
     def check_if_available(self, content):
-        if "The following link doesn't contain any valid node info:" in content or "No nodes were found!" in content:
-            return False
-        else:
-            return True
-
+        num = len(re.findall('\n', content))
+        print(num)
+        if num == 0 and '=' not in content: return False
+        return True
+        
     def get_providers(self, dir):
         def load_args(target, provider):
             if self.parse_conf.__contains__('Exclude Args'):
@@ -56,7 +56,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                 subc_url = "http://{}/sub?url={}&{}".format(
                     self.subc, url, locals()[x+'_args'])
                 print("{}'s {}: {}".format(provider, x, subc_url))
-                txt = requests.get(subc_url).content.decode('utf-8')
+                txt = requests.get(subc_url).content.decode('utf-8','ignore')
                 if self.check_if_available(txt):
                     os.makedirs(f'{dir}/{x}/', exist_ok=True)
                     with open(f'{dir}/{x}/' + provider, 'w+') as f:
@@ -72,7 +72,7 @@ which cause undefined / no such file errors'''  # i can use function though...
         abs_path = os.path.abspath(out_dir + "/tmp_quanx")
         subc_url = "http://{}/sub?target=quanx&url={}".format(
             self.subc, abs_path)
-        subc_txt = requests.get(subc_url).content.decode('utf-8')
+        subc_txt = requests.get(subc_url).content.decode('utf-8','ignore')
         os.remove(out_dir + "/tmp_quanx")  # remove tmp after instantiation
         os.makedirs(out_dir, exist_ok=True)
         with open(out_dir+'/'+"quanx.conf", 'w') as f:
