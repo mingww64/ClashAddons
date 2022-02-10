@@ -7,7 +7,7 @@ import yaml
 
 def get_name(content):
     ret = {}
-    for x in yaml.safe_load(content)['proxies']:
+    for x in yaml.load(content, Loader=yaml.BaseLoader)['proxies']:
         ret[x['name']] = x
     return ret
 
@@ -31,10 +31,13 @@ def rm_old(path):
         os.makedirs(exec_path)
 
 
-def dumper(list_dict,file):
+def dumper(list_dict, file):
     _dump = dict()
     _dump['proxies'] = list_dict
-    yaml.dump(_dump, file, allow_unicode=True) # allow_unicode = True : fix emoji and etc...
+    # allow_unicode = True : fix emoji and etc...
+    yaml.dump(_dump, file, allow_unicode=True)
+
+
 def run(syx, file_path):
     _in = {}
     _plain = []
@@ -45,9 +48,10 @@ def run(syx, file_path):
     with open(file_path) as f:
         f = f.read()
         for x, y in get_name(f).items():
-            matched = re.search(syx, x, re.IGNORECASE) # re.search.group() only return the first matched match.
+            # re.search.group() only return the first matched match.
+            matched = re.search(syx, x, re.IGNORECASE)
             if matched:
-                if matched.group() not in _matched_list: 
+                if matched.group() not in _matched_list:
                     _matched_list.append(matched.group())
                     _in[matched.group()] = [y]
                 else:
