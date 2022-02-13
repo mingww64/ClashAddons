@@ -7,7 +7,7 @@ import yaml
 
 def get_name(content):
     ret = {}
-    for x in yaml.load(content, Loader=yaml.BaseLoader)['proxies']:
+    for x in yaml.load(content, Loader=yaml.Loader)['proxies']:
         ret[x['name']] = x
     return ret
 
