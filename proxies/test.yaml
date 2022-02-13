@@ -170,6 +170,15 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
+    🇮🇳:
+      type: http
+      path: "./proxy_provider/🇮🇳.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/region/🇮🇳
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
     🇯🇵:
       type: http
       path: "./proxy_provider/🇯🇵.yaml"
@@ -190,6 +199,7 @@ proxy-groups:
   - trojan
   - 🇨🇦
   - 🇺🇸
+  - 🇮🇳
   - 🇯🇵
 
   
@@ -217,6 +227,7 @@ proxy-groups:
   - trojan
   - 🇨🇦
   - 🇺🇸
+  - 🇮🇳
   - 🇯🇵
 
   
@@ -239,6 +250,7 @@ proxy-groups:
   - trojan
   - 🇨🇦
   - 🇺🇸
+  - 🇮🇳
   - 🇯🇵
 
   - DIRECT
@@ -262,6 +274,7 @@ proxy-groups:
   - trojan
   - 🇨🇦
   - 🇺🇸
+  - 🇮🇳
   - 🇯🇵
 
   - DIRECT
@@ -277,6 +290,7 @@ proxy-groups:
   - trojan
   - 🇨🇦
   - 🇺🇸
+  - 🇮🇳
   - 🇯🇵
 
   - DIRECT
@@ -293,6 +307,7 @@ proxy-groups:
   - trojan
   - 🇨🇦
   - 🇺🇸
+  - 🇮🇳
   - 🇯🇵
 
   
@@ -353,6 +368,16 @@ proxy-groups:
   
   use:
   - 🇺🇸
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇮🇳
+  type: url-test
+  
+  use:
+  - 🇮🇳
   
   url: http://www.gstatic.com/generate_204
   interval: 300
