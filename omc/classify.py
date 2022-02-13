@@ -4,10 +4,16 @@ import re
 import os
 import yaml
 
+class SafeLoaderIgnoreUnknown(yaml.SafeLoader):
+    def ignore_unknown(self, node):
+        return None 
+
+SafeLoaderIgnoreUnknown.add_constructor(None, SafeLoaderIgnoreUnknown.ignore_unknown)
+
 
 def get_name(content):
     ret = {}
-    for x in yaml.load(content, Loader=yaml.Loader)['proxies']:
+    for x in yaml.load(content, Loader=SafeLoaderIgnoreUnknown)['proxies']:
         ret[x['name']] = x
     return ret
 
