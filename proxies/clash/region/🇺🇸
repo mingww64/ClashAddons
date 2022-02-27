@@ -1,5 +1,16 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 🇺🇸 us-am11.eqnode.net:8080
+  obfs: tls1.2_ticket_auth
+  obfs-param: releases.ubuntu.co%%
+  password: vGndzdmPB
+  port: 8080
+  protocol: origin
+  protocol-param: ''
+  server: us-am11.eqnode.net
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
   name: 🇺🇸 us-am32-5.eqnode.net:8081
   obfs: tls1.2_ticket_auth
   obfs-param: ''
