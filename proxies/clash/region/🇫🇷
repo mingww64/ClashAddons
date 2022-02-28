@@ -1,2 +1,12 @@
 proxies:
-  - {name: FR_704, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+- cipher: aes-256-cfb
+  name: 🇫🇷 fr-am1-1.eqsunshine.com:8181
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: gVWc0WaJn
+  port: 8181
+  protocol: origin
+  protocol-param: ''
+  server: fr-am1-1.eqsunshine.com
+  type: ssr
+  udp: true
