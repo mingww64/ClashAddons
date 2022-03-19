@@ -24,12 +24,16 @@ which cause undefined / no such file errors'''  # i can use function though...
         self.head = parse_conf['Rules']['Clash']['head']
         self.rules = parse_conf['Rules']['Clash']['rules']
         self.parse_conf = parse_conf
-
-    def check_if_available(self, content, typ):
+        self.unavailable_providers = list()
+        
+    def check_if_available(self, content, typ, provider_name):
         num = len(re.findall('\n', content))
+        def set_unavailable():
+            self.unavailable_providers.append(provider_name)
+            return False
         print(num)
-        if num == 0 and typ == 'clash': return False
-        if '=' not in content and typ == 'quanx': return False
+        if num == 0 and typ == 'clash': return set_unavailable()
+        if '=' not in content and typ == 'quanx': return set_unavailable()
         return True
         
     def get_providers(self, dir):
@@ -58,7 +62,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                     self.subc, url, locals()[x+'_args'])
                 print("{}'s {}: {}".format(provider, x, subc_url))
                 txt = requests.get(subc_url).content.decode('utf-8','ignore')
-                if self.check_if_available(txt, x):
+                if self.check_if_available(txt, x, provider):
                     os.makedirs(f'{dir}/{x}/', exist_ok=True)
                     with open(f'{dir}/{x}/' + provider, 'w+') as f:
                         f.write(txt)
@@ -83,5 +87,6 @@ which cause undefined / no such file errors'''  # i can use function though...
     def smart_filter(self, exec_dir):
         if 'SmartFilter' in self.parse_conf:
             for provider, syntax in self.parse_conf['SmartFilter'].items():
+                if provider in self.unavailable_providers: continue
                 classify.run(syntax, "{}/{}".format(exec_dir, provider))
         else: print('SmartFilter Disabled.')
