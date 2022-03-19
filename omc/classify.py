@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+
+# run() ex. 
+# RegExp: [6x]
+# <proxy group>'s <proxies>
+# ChinaG's [6x]HKT --> ChinaG_6x's [6x]HKT
+
 import re
 import os
 import yaml
