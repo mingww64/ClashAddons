@@ -69,9 +69,10 @@ class Proxy:
 
         def all_proxies():
             ret = ""
-            for x in self.name_path:
-                ret += f"\t- {x}\n"
-            return ret
+            for v in [self.name_path, self.icon_path]:
+                for x in v:
+                    ret += f"\t- {x}\n"
+                return ret
 
         def gen_rules():
             sets = re.findall('.*RULE-SET.*', self.rules)
@@ -106,9 +107,9 @@ class Proxy:
     def gen_each_proxies(self):
         ret = ""
         for v in [self.name_path, self.icon_path]:
-          for x in v:
-              ret += self.proxy_groups.substitute(
-                  name=x, type='url-test', proxies='', uses=f"use:\n\t- {x}", urltest=self.urltest)
+            for x in v:
+                ret += self.proxy_groups.substitute(
+                    name=x, type='url-test', proxies='', uses=f"use:\n\t- {x}", urltest=self.urltest)
         return ret
 # proxy = Proxy() # instance: proxy
 
