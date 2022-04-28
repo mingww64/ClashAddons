@@ -116,15 +116,6 @@ clash-for-android:
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
 proxy-providers:
-    vmess:
-      type: http
-      path: "./proxy_provider/vmess.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/vmess
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     trojan:
       type: http
       path: "./proxy_provider/trojan.yaml"
@@ -143,19 +134,19 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    ss-sip002:
+    vmess:
       type: http
-      path: "./proxy_provider/ss-sip002.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/ss-sip002
+      path: "./proxy_provider/vmess.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/vmess
       interval: 3600
       health-check:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    🇺🇸:
+    ss-sip002:
       type: http
-      path: "./proxy_provider/🇺🇸.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/region/🇺🇸
+      path: "./proxy_provider/ss-sip002.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/ss-sip002
       interval: 3600
       health-check:
         enable: true
@@ -175,11 +166,10 @@ proxy-groups:
 - name: All
   type: url-test
   proxies:
-  - vmess
   - trojan
   - ssr
+  - vmess
   - ss-sip002
-  - 🇺🇸
   - 🇮🇳
 
   
@@ -201,11 +191,10 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - vmess
   - trojan
   - ssr
+  - vmess
   - ss-sip002
-  - 🇺🇸
   - 🇮🇳
 
   
@@ -222,11 +211,10 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - vmess
   - trojan
   - ssr
+  - vmess
   - ss-sip002
-  - 🇺🇸
   - 🇮🇳
 
   - DIRECT
@@ -244,11 +232,10 @@ proxy-groups:
   type: select
   proxies:
   - All
-  - vmess
   - trojan
   - ssr
+  - vmess
   - ss-sip002
-  - 🇺🇸
   - 🇮🇳
 
   - DIRECT
@@ -258,11 +245,10 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - vmess
   - trojan
   - ssr
+  - vmess
   - ss-sip002
-  - 🇺🇸
   - 🇮🇳
 
   - DIRECT
@@ -273,25 +259,14 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - vmess
   - trojan
   - ssr
+  - vmess
   - ss-sip002
-  - 🇺🇸
   - 🇮🇳
 
   
   
-
-- name: vmess
-  type: url-test
-  
-  use:
-  - vmess
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
 
 - name: trojan
   type: url-test
@@ -313,21 +288,21 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: ss-sip002
+- name: vmess
   type: url-test
   
   use:
-  - ss-sip002
+  - vmess
   
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 180
 
-- name: 🇺🇸
+- name: ss-sip002
   type: url-test
   
   use:
-  - 🇺🇸
+  - ss-sip002
   
   url: http://www.gstatic.com/generate_204
   interval: 300
