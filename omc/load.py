@@ -52,9 +52,10 @@ class Proxy:
 
     def gen_proxy_providers(self):
         ret = ""
-        for x, y in self.name_path.items():
-            ret += self.proxy_providers.substitute(
-                name=x, location=self.storage + '/' + y)
+        for v in [self.name_path, self.icon_path]:
+            for x, y in v.items():
+                ret += self.proxy_providers.substitute(
+                    name=x, location=self.storage + '/' + y)
         return ret
 
     def gen_all_proxies(self):
