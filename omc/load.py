@@ -72,7 +72,7 @@ class Proxy:
             for v in [self.name_path, self.icon_path]:
                 for x in v:
                     ret += f"\t- {x}\n"
-                return ret
+            return ret
 
         def gen_rules():
             sets = re.findall('.*RULE-SET.*', self.rules)
