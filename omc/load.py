@@ -40,7 +40,7 @@ class Proxy:
         # recognize parrent dirs as well.
         for root, dirs, names in os.walk(_dir):
             for name in names:
-                if 'region' not in dirs:
+                if root.split('/')[-1] == 'region':
                     # fix NT "\".
                     region_icons[name] = os.path.join(
                         root, name).replace('\\', '/')
