@@ -105,9 +105,10 @@ class Proxy:
 
     def gen_each_proxies(self):
         ret = ""
-        for x in self.name_path + self.icon_path:
-            ret += self.proxy_groups.substitute(
-                name=x, type='url-test', proxies='', uses=f"use:\n\t- {x}", urltest=self.urltest)
+        for v in ['self.name_path', 'self.icon_path']:
+          for x in v:
+              ret += self.proxy_groups.substitute(
+                  name=x, type='url-test', proxies='', uses=f"use:\n\t- {x}", urltest=self.urltest)
         return ret
 # proxy = Proxy() # instance: proxy
 
