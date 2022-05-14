@@ -25,7 +25,7 @@ def processor(path, out="", exclude='限速|游戏|game'):
     if out == "":
         out = path+'/region/'  # Shouldnt be same as path, make duplication.
     os.makedirs(out, exist_ok=True)
-    parsed = requests.get('https://raw.githubusercontent.com/tindy2013/subconverter/master/base/snippets/emoji.txt',
+    parsed = requests.get('https://raw.githubusercontent.com/wmyfelix/subconverter/master/base/snippets/emoji.txt',
                           allow_redirects=True).content.decode('utf-8').replace('🇨🇳','🇹🇼',1)
     re_list = parsed.strip().split('\n')
     proxies_dict = gather_files(path, exclude)
