@@ -1,50 +1,33 @@
-vmess = 152.67.102.225:46360, method=chacha20-ietf-poly1305, password=61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d, aead=true, fast-open=false, udp-relay=true, tag=AU_14
-vmess = 129.154.48.221:37372, method=chacha20-ietf-poly1305, password=6f4454a9-e732-46c6-c50f-73f13da31f7b, aead=true, fast-open=false, udp-relay=true, tag=AU_15
-vmess = in-sg-1.onebox6.org:38701, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=www.ivpnpro.net, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_62
-vmess = ingress-i2.onebox6.org:38101, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=www.ivpnpro.net, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_63
-vmess = ingress-i1.onebox6.org:38106, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=www.ivpnpro.net, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_64
-vmess = sxqxj.cn:2164, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=true, tls13=false, obfs=wss, obfs-host=%7B%22Host%22:%22sxqxj.cn%22%7D, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=CN_65
-vmess = ingress-i1.onebox6.org:38201, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=aweikeji-YouTube, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_66
-vmess = ingress-i1.onebox6.org:38701, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=aweikeji-YouTube, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_67
-vmess = ingress-i2.onebox6.org:38104, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=www.ivpnpro.net, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_68
-vmess = 146.56.108.108:26113, method=chacha20-ietf-poly1305, password=1071810b-8a51-4fba-de7f-1efe88c87ea8, aead=true, fast-open=false, udp-relay=true, tag=JP_93
-vmess = 422wkl.fans8.xyz:443, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=422wkl.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=RU_175
-vmess = 129.226.215.211:49981, method=chacha20-ietf-poly1305, password=876631b4-3f5c-4289-f266-3c7afa5b9e70, aead=true, fast-open=false, udp-relay=true, tag=SG_176
-vmess = 129.226.214.28:15430, method=chacha20-ietf-poly1305, password=6e9a4ae9-e60b-4cea-af9f-9de18d37404e, aead=true, fast-open=false, udp-relay=true, tag=SG_177
-vmess = 129.226.216.4:35562, method=chacha20-ietf-poly1305, password=48409bbd-a9ee-4d9e-f725-4c81cc0d5009, aead=true, fast-open=false, udp-relay=true, tag=SG_178
-vmess = 129.226.213.30:35006, method=chacha20-ietf-poly1305, password=1bdeedc8-ab5d-4d0e-ce89-72a8deb80b64, aead=true, fast-open=false, udp-relay=true, tag=SG_179
-vmess = 129.226.214.101:51332, method=chacha20-ietf-poly1305, password=6951282c-94d5-4f5d-cbc5-1e97f90bfe39, aead=true, fast-open=false, udp-relay=true, tag=SG_180
-vmess = 129.226.216.160:49056, method=chacha20-ietf-poly1305, password=89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e, aead=true, fast-open=false, udp-relay=true, tag=SG_181
-vmess = 129.226.216.121:49381, method=chacha20-ietf-poly1305, password=2f6d0f82-80c4-42ed-fd46-c76e7cc81de0, aead=true, fast-open=false, udp-relay=true, tag=SG_182
-vmess = 129.226.216.150:16984, method=chacha20-ietf-poly1305, password=5a964737-0f49-4a42-9a70-b273207ecf5e, aead=true, fast-open=false, udp-relay=true, tag=SG_183
-vmess = 129.226.213.241:24824, method=chacha20-ietf-poly1305, password=8c1e17cf-c378-403f-862c-62897510116c, aead=true, fast-open=false, udp-relay=true, tag=SG_184
-vmess = 129.226.215.95:43613, method=chacha20-ietf-poly1305, password=9e1be3ad-911d-4dcc-822f-f8f8e79f62e2, aead=true, fast-open=false, udp-relay=true, tag=SG_185
-vmess = 129.226.216.124:14728, method=chacha20-ietf-poly1305, password=eea3d090-e068-4b74-8039-91fd79218d1a, aead=true, fast-open=false, udp-relay=true, tag=SG_186
-vmess = 129.226.217.168:15322, method=chacha20-ietf-poly1305, password=7676a524-3603-473e-de41-2bc6273d52fc, aead=true, fast-open=false, udp-relay=true, tag=SG_187
-vmess = ahdaeph8.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=ahdaeph8.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_263
-vmess = sg.guiqing.ml:43956, method=chacha20-ietf-poly1305, password=91df6837-896d-45bc-ec6f-0fe4b792b369, aead=true, fast-open=false, udp-relay=true, tag=US_264
-vmess = 45.35.84.162:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-dallas.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_265
-vmess = usa-dallas.lvuft.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-dallas.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_266
-vmess = 150.230.4.136:11151, method=chacha20-ietf-poly1305, password=18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, aead=true, fast-open=false, udp-relay=true, tag=US_267
-vmess = 34.215.130.186:10089, method=chacha20-ietf-poly1305, password=3608c9dc-1eeb-48b0-b570-43074b4a0c9e, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=US_268
-vmess = 154.94.214.2:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_269
-vmess = 511hk.fans8.xyz:80, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=511hk.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_270
-vmess = lvuft.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_271
-vmess = 104.166.135.10:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=ahdaeph8.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_272
-vmess = u4.anmu.one:16166, method=chacha20-ietf-poly1305, password=8228550e-7f53-4809-8cb1-5f9420380d13, aead=true, tls13=false, obfs=over-tls, obfs-host=u4.anmu.one, fast-open=false, udp-relay=true, tag=US_273
-vmess = u4.anmu.one:16199, method=chacha20-ietf-poly1305, password=07ec59da-18ad-4224-8ad9-c5a66b1447a9, aead=true, tls13=false, obfs=over-tls, obfs-host=u4.anmu.one, fast-open=false, udp-relay=true, tag=US_274
-vmess = 527hk1.fans8.xyz:80, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=527hk1.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_275
-vmess = v2.ssrsub.com:443, method=chacha20-ietf-poly1305, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, aead=true, tls13=false, obfs=wss, obfs-host=v2.ssrsub.com, obfs-uri=/api/v3/download.getFile, fast-open=false, udp-relay=true, tag=US_276
-vmess = v5.ssrsub.com:443, method=chacha20-ietf-poly1305, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, aead=true, tls13=false, obfs=wss, obfs-host=v5.ssrsub.com, obfs-uri=/api/v3/download.getFile, fast-open=false, udp-relay=true, tag=US_277
-vmess = v1.ssrsub.com:443, method=chacha20-ietf-poly1305, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, aead=true, tls13=false, obfs=wss, obfs-host=v1.ssrsub.com, obfs-uri=/api/v3/download.getFile, fast-open=false, udp-relay=true, tag=US_278
-vmess = 331tw.fans8.xyz:80, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=331tw.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_279
-vmess = 330tw.fans8.xyz:443, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=330tw.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_280
-vmess = v4.ssrsub.com:443, method=chacha20-ietf-poly1305, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, aead=true, tls13=false, obfs=wss, obfs-host=v4.ssrsub.com, obfs-uri=/api/v3/download.getFile, fast-open=false, udp-relay=true, tag=US_281
-vmess = 51jp1.fans8.xyz:80, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=51jp1.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_282
-vmess = 129.226.95.71:56916, method=chacha20-ietf-poly1305, password=29d4cfd8-9aea-4796-9320-b2b9234fc141, aead=true, fast-open=false, udp-relay=true, tag=VN_290
-vmess = 129.226.94.145:51848, method=chacha20-ietf-poly1305, password=ad4757f1-e28c-47b8-970c-51b232c653d8, aead=true, fast-open=false, udp-relay=true, tag=VN_291
-vmess = 129.226.95.188:20792, method=chacha20-ietf-poly1305, password=b7335dae-b946-46ae-f341-acbf8df21c86, aead=true, fast-open=false, udp-relay=true, tag=VN_292
-vmess = 129.226.94.27:23785, method=chacha20-ietf-poly1305, password=d0771055-cccc-4b79-c4db-d2942f8c9e62, aead=true, fast-open=false, udp-relay=true, tag=VN_293
-vmess = 129.226.93.161:40236, method=chacha20-ietf-poly1305, password=931416fe-98f2-4098-c8e7-3634e27ce6f4, aead=true, fast-open=false, udp-relay=true, tag=VN_294
-vmess = 129.226.93.47:54592, method=chacha20-ietf-poly1305, password=5b1e77bf-a73c-4756-e64a-4f02ac35ed43, aead=true, fast-open=false, udp-relay=true, tag=VN_295
-vmess = 129.226.94.246:33357, method=chacha20-ietf-poly1305, password=f1fcdce3-ebd3-4506-b455-c3d3fde62658, aead=true, fast-open=false, udp-relay=true, tag=VN_296
+vmess = 129.154.48.221:37372, method=chacha20-ietf-poly1305, password=6f4454a9-e732-46c6-c50f-73f13da31f7b, aead=true, fast-open=false, udp-relay=true, tag=AU_14
+vmess = ingress-i1.onebox6.org:38701, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=aweikeji-YouTube, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_54
+vmess = 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place:8212, method=chacha20-ietf-poly1305, password=a6dd6851-92ed-3b76-ab58-1f95310d8183, aead=true, tls13=false, obfs=wss, obfs-host=0f26c8e0-b624-4f5f-9a3d-2476e036a987.jp.node.touhou.place, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=CN_55
+vmess = sxqxj.cn:2164, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=true, tls13=false, obfs=wss, obfs-host=%7B%22Host%22:%22sxqxj.cn%22%7D, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=CN_56
+vmess = ingress-i1.onebox6.org:38106, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=www.ivpnpro.net, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_57
+vmess = ingress-i1.onebox6.org:38201, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=false, obfs=ws, obfs-host=aweikeji-YouTube, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_58
+vmess = 422wkl.fans8.xyz:443, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=422wkl.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=RU_164
+vmess = 129.226.215.211:49981, method=chacha20-ietf-poly1305, password=876631b4-3f5c-4289-f266-3c7afa5b9e70, aead=true, fast-open=false, udp-relay=true, tag=SG_165
+vmess = 129.226.216.160:49056, method=chacha20-ietf-poly1305, password=89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e, aead=true, fast-open=false, udp-relay=true, tag=SG_166
+vmess = 129.226.213.30:35006, method=chacha20-ietf-poly1305, password=1bdeedc8-ab5d-4d0e-ce89-72a8deb80b64, aead=true, fast-open=false, udp-relay=true, tag=SG_167
+vmess = 129.226.216.121:49381, method=chacha20-ietf-poly1305, password=2f6d0f82-80c4-42ed-fd46-c76e7cc81de0, aead=true, fast-open=false, udp-relay=true, tag=SG_168
+vmess = 129.226.216.150:16984, method=chacha20-ietf-poly1305, password=5a964737-0f49-4a42-9a70-b273207ecf5e, aead=true, fast-open=false, udp-relay=true, tag=SG_169
+vmess = 129.226.217.153:15184, method=chacha20-ietf-poly1305, password=bb02fa5b-1d15-46f4-fa47-053c6db61e39, aead=true, fast-open=false, udp-relay=true, tag=SG_170
+vmess = 129.226.217.168:15322, method=chacha20-ietf-poly1305, password=7676a524-3603-473e-de41-2bc6273d52fc, aead=true, fast-open=false, udp-relay=true, tag=SG_171
+vmess = 129.226.214.28:15430, method=chacha20-ietf-poly1305, password=6e9a4ae9-e60b-4cea-af9f-9de18d37404e, aead=true, fast-open=false, udp-relay=true, tag=SG_172
+vmess = 129.226.213.241:24824, method=chacha20-ietf-poly1305, password=8c1e17cf-c378-403f-862c-62897510116c, aead=true, fast-open=false, udp-relay=true, tag=SG_173
+vmess = sg.guiqing.ml:43956, method=chacha20-ietf-poly1305, password=91df6837-896d-45bc-ec6f-0fe4b792b369, aead=true, fast-open=false, udp-relay=true, tag=US_248
+vmess = 34.215.130.186:10089, method=chacha20-ietf-poly1305, password=3608c9dc-1eeb-48b0-b570-43074b4a0c9e, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=US_249
+vmess = 331tw.fans8.xyz:80, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=331tw.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_250
+vmess = 330tw.fans8.xyz:443, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=330tw.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_251
+vmess = 45.35.84.162:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-dallas.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_252
+vmess = usa-dallas.lvuft.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-dallas.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_253
+vmess = v1.ssrsub.com:443, method=chacha20-ietf-poly1305, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, aead=true, tls13=false, obfs=wss, obfs-host=v1.ssrsub.com, obfs-uri=/api/v3/download.getFile, fast-open=false, udp-relay=true, tag=US_254
+vmess = 527hk1.fans8.xyz:80, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=527hk1.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_255
+vmess = 150.230.4.136:11151, method=chacha20-ietf-poly1305, password=18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, aead=true, fast-open=false, udp-relay=true, tag=US_256
+vmess = lvuft.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_257
+vmess = 51jp1.fans8.xyz:80, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=51jp1.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_258
+vmess = 511hk.fans8.xyz:80, method=chacha20-ietf-poly1305, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, aead=false, tls13=false, obfs=wss, obfs-host=511hk.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=US_259
+vmess = 154.94.214.2:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=US_260
+vmess = 129.226.94.145:51848, method=chacha20-ietf-poly1305, password=ad4757f1-e28c-47b8-970c-51b232c653d8, aead=true, fast-open=false, udp-relay=true, tag=VN_265
+vmess = 129.226.93.161:40236, method=chacha20-ietf-poly1305, password=931416fe-98f2-4098-c8e7-3634e27ce6f4, aead=true, fast-open=false, udp-relay=true, tag=VN_266
+vmess = 129.226.94.246:33357, method=chacha20-ietf-poly1305, password=f1fcdce3-ebd3-4506-b455-c3d3fde62658, aead=true, fast-open=false, udp-relay=true, tag=VN_267
+vmess = 129.226.94.31:21509, method=chacha20-ietf-poly1305, password=fbeb626c-8095-4e3b-aaf6-5a57971955b0, aead=true, fast-open=false, udp-relay=true, tag=VN_268
