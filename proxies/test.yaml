@@ -116,15 +116,6 @@ clash-for-android:
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
 proxy-providers:
-    ssr:
-      type: http
-      path: "./proxy_provider/ssr.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/ssr
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     vmess:
       type: http
       path: "./proxy_provider/vmess.yaml"
@@ -134,10 +125,10 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    ss-sip002:
+    ssr:
       type: http
-      path: "./proxy_provider/ss-sip002.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/ss-sip002
+      path: "./proxy_provider/ssr.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/ssr
       interval: 3600
       health-check:
         enable: true
@@ -152,11 +143,30 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
+    ss-sip002:
+      type: http
+      path: "./proxy_provider/ss-sip002.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/ss-sip002
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇺🇸:
+      type: http
+      path: "./proxy_provider/🇺🇸.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/region/🇺🇸
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
 
 proxy-groups:
 - name: All
   type: url-test
   proxies:
+  - 🇺🇸
 
   
   
@@ -177,10 +187,11 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - ssr
   - vmess
-  - ss-sip002
+  - ssr
   - trojan
+  - ss-sip002
+  - 🇺🇸
 
   
   
@@ -196,10 +207,11 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ssr
   - vmess
-  - ss-sip002
+  - ssr
   - trojan
+  - ss-sip002
+  - 🇺🇸
 
   - DIRECT
   
@@ -216,10 +228,11 @@ proxy-groups:
   type: select
   proxies:
   - All
-  - ssr
   - vmess
-  - ss-sip002
+  - ssr
   - trojan
+  - ss-sip002
+  - 🇺🇸
 
   - DIRECT
   
@@ -228,10 +241,11 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ssr
   - vmess
-  - ss-sip002
+  - ssr
   - trojan
+  - ss-sip002
+  - 🇺🇸
 
   - DIRECT
   
@@ -241,13 +255,24 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - ssr
   - vmess
-  - ss-sip002
+  - ssr
   - trojan
+  - ss-sip002
+  - 🇺🇸
 
   
   
+
+- name: vmess
+  type: url-test
+  
+  use:
+  - vmess
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
 
 - name: ssr
   type: url-test
@@ -259,11 +284,11 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: vmess
+- name: trojan
   type: url-test
   
   use:
-  - vmess
+  - trojan
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -279,11 +304,11 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: trojan
+- name: 🇺🇸
   type: url-test
   
   use:
-  - trojan
+  - 🇺🇸
   
   url: http://www.gstatic.com/generate_204
   interval: 300
