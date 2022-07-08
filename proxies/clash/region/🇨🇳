@@ -1,2 +1,56 @@
 proxies:
-  - {name: CN_568, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+- cipher: chacha20-ietf
+  name: 🇨🇳 aiaph1.www.klrxyru.cn:1641
+  obfs: plain
+  obfs-param: b43e313.wns.windows.c%
+  password: mtbv8n
+  port: 1641
+  protocol: auth_aes128_md5
+  protocol-param: 84393:25lGIs
+  server: aiaph1.www.klrxyru.cn
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 🇨🇳 relayjp1.vip.www.klrxyru.cn:1451
+  obfs: plain
+  obfs-param: b43e313.wns.windows.c%
+  password: mtbv8n
+  port: 1451
+  protocol: auth_aes128_md5
+  protocol-param: 84393:25lGIs
+  server: relayjp1.vip.www.klrxyru.cn
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 🇨🇳 relayjp2.vip.www.klrxyru.cn:1452
+  obfs: plain
+  obfs-param: b43e313.wns.windows.c%
+  password: mtbv8n
+  port: 1452
+  protocol: auth_aes128_md5
+  protocol-param: 84393:25lGIs
+  server: relayjp2.vip.www.klrxyru.cn
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 🇨🇳 relayjp3.vip.www.klrxyru.cn:1453
+  obfs: plain
+  obfs-param: b43e313.wns.windows.c%
+  password: mtbv8n
+  port: 1453
+  protocol: auth_aes128_md5
+  protocol-param: 84393:25lGIs
+  server: relayjp3.vip.www.klrxyru.cn
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 🇨🇳 shkr2.vip.www.klrxyru.cn:1552
+  obfs: plain
+  obfs-param: 8d83584393.wns.windows.c%
+  password: mtbv8n
+  port: 1552
+  protocol: auth_aes128_md5
+  protocol-param: 84393:25lGIs
+  server: shkr2.vip.www.klrxyru.cn
+  type: ssr
+  udp: true
