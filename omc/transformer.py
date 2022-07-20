@@ -34,7 +34,7 @@ which cause undefined / no such file errors'''  # i can use function though...
 
     def check_if_available(self, content, typ, provider_name):
         # This counting method has a issue with single line files.
-        num = sum(re.findall('\n', content))
+        num = len(re.findall('\n', content))
 
         def set_unavailable():
             self.unavailable_providers.append(provider_name)
