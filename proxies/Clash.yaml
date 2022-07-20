@@ -1,0 +1,393 @@
+port: 8888
+socks-port: 8889
+mixed-port: 8899
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:6170
+experimental:
+  ignore-resolve-fail: true
+dns:
+  enable: true
+  # ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - "time.*.com"
+    - "time.*.gov"
+    - "time.*.edu.cn"
+    - "time.*.apple.com"
+    - "time1.*.com"
+    - "time2.*.com"
+    - "time3.*.com"
+    - "time4.*.com"
+    - "time5.*.com"
+    - "time6.*.com"
+    - "time7.*.com"
+    - "ntp.*.com"
+    - "ntp1.*.com"
+    - "ntp2.*.com"
+    - "ntp3.*.com"
+    - "ntp4.*.com"
+    - "ntp5.*.com"
+    - "ntp6.*.com"
+    - "ntp7.*.com"
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - "time1.cloud.tencent.com"
+    - "music.163.com"
+    - "*.music.163.com"
+    - "*.126.net"
+    - "musicapi.taihe.com"
+    - "music.taihe.com"
+    - "songsearch.kugou.com"
+    - "trackercdn.kugou.com"
+    - "*.kuwo.cn"
+    - "api-jooxtt.sanook.com"
+    - "api.joox.com"
+    - "joox.com"
+    - "y.qq.com"
+    - "*.y.qq.com"
+    - "streamoc.music.tc.qq.com"
+    - "mobileoc.music.tc.qq.com"
+    - "isure.stream.qqmusic.qq.com"
+    - "dl.stream.qqmusic.qq.com"
+    - "aqqmusic.tc.qq.com"
+    - "amobile.music.tc.qq.com"
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - "music.migu.cn"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - "msftconnecttest.com"
+    - "msftncsi.com"
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    - "+.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - "xbox.*.microsoft.com"
+    - "xnotify.xboxlive.com"
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
+    - "proxy.golang.org"
+    - "stun.*.*"
+    - "stun.*.*.*"
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "heartbeat.belkin.com"
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - "mesu.apple.com"
+    - "swscan.apple.com"
+    - "swquery.apple.com"
+    - "swdownload.apple.com"
+    - "swcdn.apple.com"
+    - "swdist.apple.com"
+    - "lens.l.google.com"
+    - "stun.l.google.com"
+    - "+.nflxvideo.net"
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+clash-for-android: 
+  # append-system-dns: true # 追加系统 DNS 到 nameserver 
+  ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
+
+proxy-providers:
+    trojan:
+      type: http
+      path: "./proxy_provider/trojan.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/trojan
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ssr:
+      type: http
+      path: "./proxy_provider/ssr.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/ssr
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    vmess:
+      type: http
+      path: "./proxy_provider/vmess.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/vmess
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    ss-sip002:
+      type: http
+      path: "./proxy_provider/ss-sip002.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/ss-sip002
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇺🇸:
+      type: http
+      path: "./proxy_provider/🇺🇸.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/region/🇺🇸
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+
+proxy-groups:
+- name: All
+  type: url-test
+  proxies:
+  - 🇺🇸
+
+  
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: Advertising
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  - Proxy
+  
+  
+- name: Domestic
+  type: select
+  proxies:
+  - DIRECT
+  - Proxy
+  - trojan
+  - ssr
+  - vmess
+  - ss-sip002
+  - 🇺🇸
+
+  
+  
+- name: Hijacking
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  - Proxy
+  
+  
+- name: Others
+  type: select
+  proxies:
+  - Proxy
+  - trojan
+  - ssr
+  - vmess
+  - ss-sip002
+  - 🇺🇸
+
+  - DIRECT
+  
+  
+- name: Privacy
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  - Proxy
+  
+  
+- name: Proxy
+  type: select
+  proxies:
+  - All
+  - trojan
+  - ssr
+  - vmess
+  - ss-sip002
+  - 🇺🇸
+
+  - DIRECT
+  
+  
+- name: Streaming
+  type: select
+  proxies:
+  - Proxy
+  - trojan
+  - ssr
+  - vmess
+  - ss-sip002
+  - 🇺🇸
+
+  - DIRECT
+  
+  
+- name: StreamingSE
+  type: select
+  proxies:
+  - DIRECT
+  - Proxy
+  - trojan
+  - ssr
+  - vmess
+  - ss-sip002
+  - 🇺🇸
+
+  
+  
+
+- name: trojan
+  type: url-test
+  
+  use:
+  - trojan
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ssr
+  type: url-test
+  
+  use:
+  - ssr
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: vmess
+  type: url-test
+  
+  use:
+  - vmess
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: ss-sip002
+  type: url-test
+  
+  use:
+  - ss-sip002
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇺🇸
+  type: url-test
+  
+  use:
+  - 🇺🇸
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+
+
+rule-providers:
+  Unbreak:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Unbreak.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    interval: 86400
+  Advertising:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Advertising.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    interval: 86400
+  Hijacking:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Hijacking.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
+    interval: 86400
+  Privacy:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Privacy.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
+    interval: 86400
+  Streaming:
+    type: http
+    behavior: classical
+    path: "./RuleSet/StreamingMedia/Streaming.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    interval: 86400
+  StreamingSE:
+    type: http
+    behavior: classical
+    path: "./RuleSet/StreamingMedia/StreamingSE.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    path: "./RuleSet/Global.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    path: "./RuleSet/China.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    interval: 86400
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    path: "./RuleSet/Extra/ChinaIP.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
+    interval: 86400
+rules:
+- RULE-SET,Unbreak,DIRECT
+- RULE-SET,Advertising,Advertising
+- RULE-SET,Hijacking,Hijacking
+- RULE-SET,Privacy,Privacy
+- RULE-SET,Streaming,Streaming
+- RULE-SET,StreamingSE,StreamingSE
+- RULE-SET,Global,Proxy
+- RULE-SET,China,Domestic
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+- IP-CIDR,fe80::/10,DIRECT
+- RULE-SET,ChinaIP,Domestic
+- IP-CIDR,119.28.28.28/32,DIRECT
+- IP-CIDR,182.254.116.0/24,DIRECT
+- MATCH,Others
