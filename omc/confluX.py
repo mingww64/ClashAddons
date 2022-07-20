@@ -1,3 +1,4 @@
+from importlib.resources import contents
 from string import Template
 import os
 import requests
@@ -37,7 +38,7 @@ class Proxy:
 
     def get_filename(self, _dir):
         name_path, region_icons = dict(), dict()
-        # recognize parrent dirs as well.
+        # recognize sub dirs as well.
         for root, dirs, names in os.walk(_dir):
             for name in names:
                 if root.split('/')[-1] == 'region':
@@ -126,3 +127,32 @@ proxy-groups:
         file = file.replace('\t', '  ')  # YAML dont support Tabulator key.
         with open(self.output_path, 'w') as f:
             f.write(file.strip())
+
+
+class QuanX:
+    def __init__(self, exec_dir, output_path, storage='https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path='./template/quanx/conf', re_exclude='🇨🇳'):
+        self.storage = storage
+        self.output_path = output_path
+        self._All_exclude = re_exclude
+        self.name_path = [(name, os.path.join(root, name).replace('\\', '/'))
+                          for root, dirs, names in os.walk(exec_dir) for name in names]
+        self.template_path = template_path
+
+    def arranger(self):
+        content = ""
+        for name, path in self.name_path:
+            if not re.search(self._All_exclude, name, re.IGNORECASE):
+                enable_proxies = "true"
+            else:
+                enable_proxies = "false"
+            content += ";{0}, tag={1}, as-policy=static, enabled={2}\n".format(
+                self.storage + '/' + path, name, enable_proxies)
+        content = content.strip()
+        if 'http' in self.template_path:
+            conf_content = requests.get(
+                self.template_path).content.decode('utf-8')
+        else:
+            with open(self.template_path) as tmp:
+                conf_content = tmp.read().format(content)
+        with open(self.output_path, 'w') as conf:
+            conf.write(conf_content)

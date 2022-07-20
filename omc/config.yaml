@@ -4,9 +4,11 @@ Git:
   email: felicia@realnet.ml
   name: FeliciaWen
 SCServer: 127.0.0.1:25500
-SCServerRemote: api.10101.io
+SCServerRemote: suc.usuc.cc
 Storage: https://realnet.ga
-Template: ./template/clash
+Template: 
+  Clash: ./template/clash # Directory
+  Quantumult X: https://raw.githubusercontent.com/wmyfelix/Rules-For-Quantumult-X/main/Sample.conf # File
 ProxyProviders:
   YahahaNPO: http://sub.yahahanpo.top/link/MPsna0K3Q1JBfwNf?mu=1
   YahahaLTD: http://yahahasub.com/link/oSmrgjMRXcAcz0O8?mu=0
