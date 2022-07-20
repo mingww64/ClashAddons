@@ -150,7 +150,7 @@ class QuanX:
         content = content.strip()
         if 'http' in self.template_path:
             conf_content = requests.get(
-                self.template_path).content.decode('utf-8')
+                self.template_path).content.decode('utf-8').format(content)
         else:
             with open(self.template_path) as tmp:
                 conf_content = tmp.read().format(content)

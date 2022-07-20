@@ -17,12 +17,12 @@ if len(sys.argv[1:]) == 0:
     mk_clash_config = confluX.Proxy(dirx+'/clash', dirx+'/Clash.yaml', config.rules, config.head,
                                     config.parse_conf['Storage'], config.parse_conf['Template']['Clash'], config.parse_conf['Exclude']['All'])
     mk_clash_config.arranger()
-    mk_quanx_config = confluX.QuanX(dirx+'/quanx', dirx+'/QuanX,conf',
+    mk_quanx_config = confluX.QuanX(dirx+'/quanx', dirx+'/QuanX.conf',
                                     config.parse_conf['Storage'], config.parse_conf['Template']['Quantumult X'], config.parse_conf['Exclude']['All'])
     mk_quanx_config.arranger()
 else:
     for arg in sys.argv[1:]:
-        if arg == '--get_providers':
+        if arg == '--get-providers':
             config.get_providers(dirx)
         elif arg == '--subconverter':
             config.subconverter(dirx+'/quanx', dirx)
