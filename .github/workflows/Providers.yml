@@ -24,7 +24,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Deploy SubConverter
       run: |
-        docker run -d --restart=always -p 25500:25500 tindy2013/subconverter:latest
+        docker run -d --restart=always -p 25500:25500 -v $(readlink -f ./):$(readlink -f ./) tindy2013/subconverter:latest
         sleep 10
         curl http://127.0.0.1:25500/version
     - name: Checkout This Branch
