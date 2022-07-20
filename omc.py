@@ -7,7 +7,7 @@ if len(sys.argv[1:]) == 0:
     # Download proxies from providers and Convert them to Clash/QuantumultX node list with the provider's name.
     config.get_providers(dirx)
     # Generate configuration from former node lists by subconverter directly.
-    config.subconverter(dirx+'/quanx', dirx)
+    config.subconverter(dirx+'/quanx', dirx+'/sub')
     # Filter nodes matched to the regular expression.
     config.classifier(dirx+'/clash')
     # Classify proxy providers correspond to the region of nodes.
