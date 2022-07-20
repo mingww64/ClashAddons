@@ -5,18 +5,16 @@ Git:
   name: FeliciaWen
 SCServer: 127.0.0.1:25500
 SCServerRemote: suc.usuc.cc
-Storage: https://realnet.ga
+Storage: https://clashaddons.pages.dev
 Template: 
   Clash: ./template/clash # Directory
   Quantumult X: https://raw.githubusercontent.com/wmyfelix/Rules-For-Quantumult-X/main/Sample.conf # File
 ProxyProviders:
-  YahahaNPO: http://sub.yahahanpo.top/link/MPsna0K3Q1JBfwNf?mu=1
-  YahahaLTD: http://yahahasub.com/link/oSmrgjMRXcAcz0O8?mu=0
-  Sakura: https://subscribe.connect-node.net/link/qSJlYVsRF85rIGWC?clash=1
-  Getfree: https://rss.getfree.win/link/WXdDzEXi5DVXpOc1?sub=1
-  ADSL: https://rss.epon.cloud/link/wRa8eyB5WguX7iOM?sub=1
-  ChinaG: https://a.luxury/link/cHDgH9k2VEv56gkv?clash=2
-  JDYun: https://subscribe.somersaultcloud.xyz/link/PyXlvYUgoMajTtan?sub=3&extend=1
+  ss: https://proxypoolss.fly.dev/ss/sub
+  ss-sip002: https://proxypoolss.fly.dev/sip002/sub
+  ssr: https://proxypoolss.fly.dev/ssr/sub
+  vmess: https://proxypoolss.fly.dev/vmess/sub
+  trojan: https://proxypoolss.fly.dev/trojan/sub
 ClashProviders:
   target: clash
   list: true
@@ -39,9 +37,9 @@ Subconverter:
   - v2ray
   - clash
   - quanx
-Group Classify: 
-  ChinaG: \d*\.*\d+(?:x|X|倍|倍率)
-  YahahaLTD: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
+#Group Classify: 
+#  name1: \d*\.*\d+(?:x|X|倍|倍率)
+#  name2: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
 Rules:
   Clash:
     head: template/clash/head.yml
