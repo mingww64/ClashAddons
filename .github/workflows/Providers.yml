@@ -27,11 +27,11 @@ jobs:
         docker run -d --restart=always -p 25500:25500 tindy2013/subconverter:latest
         sleep 10
         curl http://127.0.0.1:25500/version
-    - name: Checkout This Repo
+    - name: Checkout This Branch
       uses: actions/checkout@v2
       with:
         path: exec
-    - name: Checkout Deploy Repo
+    - name: Checkout Deployment Branch
       uses: actions/checkout@v2
       with:
         ref: deploy
@@ -39,7 +39,7 @@ jobs:
     - name: Convert Providers
       run: |
         cd exec
-        python smart.py
+        python omc.py
     - name: Commit & push
       run: | 
         cp -r exec/proxies deploy
