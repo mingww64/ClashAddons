@@ -79,10 +79,8 @@ which cause undefined / no such file errors'''  # i can use function though...
 
     def subconverter(self, read_dir, out_dir):
         if 'Subconverter' in self.parse_conf and type(self.parse_conf['Subconverter']) == list:
-            _list = []
-            for file in os.listdir(read_dir):
-                with open(read_dir + '/' + file, 'r') as f:
-                    _list += f.readlines()
+            _list = [open(read_dir + '/' + file, 'r').readlines() for file in os.listdir(read_dir)]
+            os.makedirs(out_dir, exist_ok=True)
             with open(out_dir + "/tmp_predefined", 'w') as f:
                 f.writelines(_list)
             abs_path = os.path.abspath(out_dir + "/tmp_predefined")
