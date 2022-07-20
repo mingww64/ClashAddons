@@ -112,7 +112,6 @@ class Proxy:
                 ret += self.proxy_groups.substitute(
                     name=x, type='url-test', proxies='', uses=f"use:\n\t- {x}", urltest=self.urltest)
         return ret
-# proxy = Proxy() # instance: proxy
 
     def arranger(self):
         file = f"""

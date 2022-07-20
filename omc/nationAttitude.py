@@ -3,7 +3,7 @@
 import os
 import re
 import requests
-from .classify import get_name, dumper
+from .regExpresser import get_name, dumper
 
 
 def gather_files(path, exclude):
