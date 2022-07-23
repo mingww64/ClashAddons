@@ -1,12 +1,9 @@
-vmess = in-jp-1.iivvppnn.info:38301, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=true, obfs=ws, obfs-host=in-jp-1.iivvppnn.info, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_18
-vmess = 117.28.242.156:2164, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=sxqxj.cn, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=CN_19
-vmess = ingress-i2.iivvppnn.info:38106, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=true, obfs=ws, obfs-host=ingress-i2.iivvppnn.info, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_20
-vmess = sxqxj.cn:2164, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=sxqxj.cn, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=CN_21
-vmess = 203.218.84.13:39999, method=chacha20-ietf-poly1305, password=67c50f6a-816d-3555-89b4-19dd29608f8b, aead=true, tls13=false, obfs=over-tls, obfs-host=, fast-open=false, udp-relay=true, tag=HK_43
-vmess = v3.tgfaka.com:8443, method=chacha20-ietf-poly1305, password=00b19c02-bc00-440a-a397-faf70ac3f44e, aead=true, tls13=false, obfs=wss, obfs-host=v3.tgfaka.com, obfs-uri=/api/v3/download.getFile, fast-open=false, udp-relay=true, tag=US_149
-vmess = 51.81.223.26:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_150
-vmess = 51.81.223.20:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_151
-vmess = 51.81.223.22:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_152
-vmess = 51.81.223.10:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_153
-vmess = v1.tgfaka.com:8443, method=chacha20-ietf-poly1305, password=00b19c02-bc00-440a-a397-faf70ac3f44e, aead=true, tls13=false, obfs=wss, obfs-host=v1.tgfaka.com, obfs-uri=/api/v3/download.getFile, fast-open=false, udp-relay=true, tag=US_154
-vmess = 152.69.197.60:1069, method=chacha20-ietf-poly1305, password=ac8e26fe-8150-4b60-ae64-82fc77eba2cf, aead=true, fast-open=false, udp-relay=true, tag=US_155
+vmess = 117.28.242.156:2164, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=sxqxj.cn, obfs-uri=/ws, fast-open=false, udp-relay=true, tag=CN_20
+vmess = ingress-i2.iivvppnn.info:38106, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=true, obfs=ws, obfs-host=ingress-i2.iivvppnn.info, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_21
+vmess = in-jp-1.iivvppnn.info:38301, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=true, obfs=ws, obfs-host=in-jp-1.iivvppnn.info, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_22
+vmess = 203.218.84.13:39999, method=chacha20-ietf-poly1305, password=67c50f6a-816d-3555-89b4-19dd29608f8b, aead=true, tls13=false, obfs=over-tls, obfs-host=, fast-open=false, udp-relay=true, tag=HK_46
+vmess = 51.81.223.10:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_159
+vmess = 51.81.223.26:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_160
+vmess = 51.81.223.20:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_161
+vmess = 51.81.223.22:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_162
+vmess = 152.69.197.60:1069, method=chacha20-ietf-poly1305, password=ac8e26fe-8150-4b60-ae64-82fc77eba2cf, aead=true, fast-open=false, udp-relay=true, tag=US_163
