@@ -1,56 +1,467 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 🇨🇳 aiaph1.www.klrxyru.cn:1641
-  obfs: plain
-  obfs-param: b43e313.wns.windows.c%
-  password: mtbv8n
-  port: 1641
-  protocol: auth_aes128_md5
-  protocol-param: 84393:25lGIs
-  server: aiaph1.www.klrxyru.cn
-  type: ssr
+- name: CN_222 |27.58Mb
+  password: LTKPTMbjBDYisdMxKEBDzcduXacOvIVY
+  port: 889
+  server: jp-tyo-04-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 🇨🇳 relayjp1.vip.www.klrxyru.cn:1451
-  obfs: plain
-  obfs-param: b43e313.wns.windows.c%
-  password: mtbv8n
-  port: 1451
-  protocol: auth_aes128_md5
-  protocol-param: 84393:25lGIs
-  server: relayjp1.vip.www.klrxyru.cn
-  type: ssr
+- name: CN_276
+  password: SfobRIcergHchqBFzzua
+  port: 21089
+  server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 🇨🇳 relayjp2.vip.www.klrxyru.cn:1452
-  obfs: plain
-  obfs-param: b43e313.wns.windows.c%
-  password: mtbv8n
-  port: 1452
-  protocol: auth_aes128_md5
-  protocol-param: 84393:25lGIs
-  server: relayjp2.vip.www.klrxyru.cn
-  type: ssr
+- name: CN_277
+  password: uDTmEAGwuCUZXZvwhWJk
+  port: 21089
+  server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 🇨🇳 relayjp3.vip.www.klrxyru.cn:1453
-  obfs: plain
-  obfs-param: b43e313.wns.windows.c%
-  password: mtbv8n
-  port: 1453
-  protocol: auth_aes128_md5
-  protocol-param: 84393:25lGIs
-  server: relayjp3.vip.www.klrxyru.cn
-  type: ssr
+- name: CN_278
+  password: uDTmEAGwuCUZXZvwhWJk
+  port: 889
+  server: jp-tyo-04-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 🇨🇳 shkr2.vip.www.klrxyru.cn:1552
-  obfs: plain
-  obfs-param: 8d83584393.wns.windows.c%
-  password: mtbv8n
-  port: 1552
-  protocol: auth_aes128_md5
-  protocol-param: 84393:25lGIs
-  server: shkr2.vip.www.klrxyru.cn
-  type: ssr
+- name: CN_279
+  password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn
+  port: 21089
+  server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_280
+  password: uDTmEAGwuCUZXZvwhWJk
+  port: 10089
+  server: tw-tpe-h-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_281
+  password: a13820c547fa34c5c45515c12f0cd576
+  port: 10051
+  server: jp2.91js.pw
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_282
+  password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn
+  port: 10089
+  server: tw-tpe-h-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_283
+  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
+  port: 50207
+  server: cscu.wecanfly.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_284 | 8.26Mb
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  port: 34002
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_285
+  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
+  port: 50207
+  server: t2.doggogogo.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_286
+  password: 084a8035-579c-3486-bb59-b6ab3b31b131
+  port: 19206
+  server: 19206tj.matrixxx888.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_287 | 4.34Mb
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
+  port: 30003
+  server: cm.spacez.cloud
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_288
+  password: a13820c547fa34c5c45515c12f0cd576
+  port: 10051
+  server: zz6.91js.pw
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_289 | 3.40Mb
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  port: 34001
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_290 | 4.29Mb
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  port: 34003
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_291
+  password: SfobRIcergHchqBFzzua
+  port: 889
+  server: jp-tyo-04-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_292
+  password: a13820c547fa34c5c45515c12f0cd576
+  port: 10051
+  server: ct.91js.pw
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_293
+  password: UiLPqefVfielqkDjEwBV
+  port: 889
+  server: jp-tyo-04-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_294 | 3.03Mb
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  port: 34004
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 4
+  cipher: auto
+  name: CN_261 |10.87Mb
+  network: ws
+  port: 2164
+  server: 117.28.242.156
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: sxqxj.cn
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: CN_262
+  port: 13102
+  server: 120.197.130.126
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
+- alterId: 0
+  cipher: auto
+  name: CN_267 | 5.33Mb
+  network: ws
+  port: 38106
+  server: ingress-i2.iivvppnn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: ingress-i2.iivvppnn.info
+    path: /hls/cctv5phd.m3u8
+- alterId: 4
+  cipher: auto
+  name: CN_268 |13.85Mb
+  network: ws
+  port: 2164
+  server: sxqxj.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: sxqxj.cn
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: CN_269
+  network: ws
+  port: 65024
+  server: 120.233.150.146
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  ws-opts:
+    path: /rocket
+- alterId: 0
+  cipher: auto
+  name: CN_270 | 2.24Mb
+  network: ws
+  port: 65092
+  server: 120.233.150.146
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  ws-opts:
+    headers:
+      Host: 120.233.150.146
+    path: /rocket
+- alterId: 0
+  cipher: auto
+  name: CN_271 | 2.64Mb
+  network: ws
+  port: 38401
+  server: in-us-1.onebox6.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  name: CN_272 | 3.43Mb
+  network: ws
+  port: 38201
+  server: 120.240.55.137
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: aweikeji-YouTube
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: CN_275 | 2.28Mb
+  port: 13002
+  server: 120.197.130.126
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
+- cipher: aes-128-gcm
+  name: CN_220
+  password: Hk6KvsfBlZMDoGgy
+  port: 30005
+  server: 40.73.113.150
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_221 | 2.10Mb
+  password: QazEdcTgb159@$*
+  port: 24005
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_224 | 1.15Mb
+  password: QazEdcTgb159@$*
+  port: 25268
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_225 | 7.10Mb
+  password: QazEdcTgb159@$*
+  port: 25297
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_227 | 2.59Mb
+  password: QazEdcTgb159@$*
+  port: 25256
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_228 |10.28Mb
+  password: QazEdcTgb159@$*
+  port: 25217
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_229 | 6.80Mb
+  password: QazEdcTgb159@$*
+  port: 25280
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_230 | 2.57Mb
+  password: QazEdcTgb159@$*
+  port: 25207
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_231 | 2.58Mb
+  password: QazEdcTgb159@$*
+  port: 25254
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_233 | 0.13Mb
+  password: QazEdcTgb159@$*
+  port: 25271
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_234 | 7.67Mb
+  password: QazEdcTgb159@$*
+  port: 25235
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_235 | 2.48Mb
+  password: QazEdcTgb159@$*
+  port: 25252
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_236 | 2.02Mb
+  password: QazEdcTgb159@$*
+  port: 25259
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_238 | 2.03Mb
+  password: QazEdcTgb159@$*
+  port: 25241
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_239 | 2.03Mb
+  password: QazEdcTgb159@$*
+  port: 11047
+  server: 14.29.124.174
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_240 | 1.68Mb
+  password: QazEdcTgb159@$*
+  port: 25218
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_242 | 0.84Mb
+  password: QazEdcTgb159@$*
+  port: 25270
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_243 | 5.34Mb
+  password: QazEdcTgb159@$*
+  port: 25222
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_245 | 3.63Mb
+  password: QazEdcTgb159@$*
+  port: 25238
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_247 | 3.06Mb
+  password: QazEdcTgb159@$*
+  port: 25279
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_249 | 8.39Mb
+  password: QazEdcTgb159@$*
+  port: 25251
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_251 | 0.23Mb
+  password: QazEdcTgb159@$*
+  port: 25220
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_252 | 6.18Mb
+  password: QazEdcTgb159@$*
+  port: 25284
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_253 |10.02Mb
+  password: QazEdcTgb159@$*
+  port: 24009
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_254 | 8.39Mb
+  password: QazEdcTgb159@$*
+  port: 25261
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_255 | 0.99Mb
+  password: QazEdcTgb159@$*
+  port: 25233
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_256 |10.94Mb
+  password: QazEdcTgb159@$*
+  port: 25283
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_257 | 0.58Mb
+  password: QazEdcTgb159@$*
+  port: 25266
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_258 | 1.92Mb
+  password: QazEdcTgb159@$*
+  port: 25289
+  server: 14.29.124.168
+  type: ss
   udp: true
