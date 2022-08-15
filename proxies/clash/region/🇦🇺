@@ -161,7 +161,7 @@ proxies:
   type: trojan
   udp: true
 - name: AU_123
-  password: 7b4066ae-acccc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  password: 54c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
@@ -203,7 +203,7 @@ proxies:
   type: trojan
   udp: true
 - name: AU_129
-  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11ea3fa58b581353bb375d2ddad0f327938
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   port: 443
   server: hk-server-02.selfupay.com
   skip-cert-verify: true
@@ -231,9 +231,9 @@ proxies:
   type: trojan
   udp: true
 - name: AU_133
-  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11ea3fa58b581353bb375d2ddad0f327938
   port: 443
-  server: jgwxn2.gaox.ml
+  server: hk-server-02.selfupay.com
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -357,30 +357,30 @@ proxies:
   type: trojan
   udp: true
 - name: AU_151
-  password: 54c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_152
-  password: 540801c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_153
   password: 54080c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_154
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+- name: AU_152
+  password: 7b4066ae-acccc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
-  server: hk-server-02.selfupay.com
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_153
+  password: 540801c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_154
+  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -556,9 +556,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b
+- alterId: 64
+  cipher: auto
+  name: AU_75 |13.26Mb
+  port: 50303
+  server: 140.83.34.234
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8e1bb84-f0f2-41c5-e2bf-34c17b528e45
 - alterId: 0
   cipher: auto
-  name: AU_75 | 5.76Mb
+  name: AU_76 | 5.76Mb
   port: 21953
   server: 43.156.35.124
   skip-cert-verify: true
@@ -566,16 +576,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 4ef2b7d6-3f58-42c2-95ad-061001b712d3
-- alterId: 0
-  cipher: auto
-  name: AU_76 |11.05Mb
-  port: 23702
-  server: 43.154.190.154
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a4d1a670-b727-4f2e-f392-9794215e54ac
 - alterId: 64
   cipher: auto
   name: AU_77 | 8.51Mb
@@ -629,23 +629,23 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_52 | 6.47Mb
+  name: AU_52 | 9.03Mb
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 185.167.116.253
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: AU_53 | 6.47Mb
   password: EXN3S3eQpjE7EJu8
   port: 9027
   server: 185.167.116.38
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_53 | 8.86Mb
+  name: AU_54 | 8.86Mb
   password: UWZQeLRWnkqgkseq
   port: 9032
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_54 | 6.04Mb
-  password: QWDDvVE9npNurQfA
-  port: 9026
   server: 185.167.116.38
   type: ss
   udp: true
@@ -685,10 +685,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_60 | 6.59Mb
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  server: 185.167.116.253
+  name: AU_60 | 8.32Mb
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 185.167.116.24
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -720,10 +720,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_65 | 9.55Mb
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 185.167.116.253
+  name: AU_65 | 9.75Mb
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  server: 185.167.116.38
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -734,9 +734,9 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_67 |10.01Mb
-  password: f8npKgNzdkss2ytn
-  port: 9088
+  name: AU_67 | 4.75Mb
+  password: p9z5BVADH2YFs3MN
+  port: 9040
   server: 185.167.116.253
   type: ss
   udp: true
@@ -755,10 +755,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_70 | 9.75Mb
-  password: a3GFYt36Sm82Vys9
-  port: 9000
-  server: 185.167.116.38
+  name: AU_70 |10.01Mb
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
