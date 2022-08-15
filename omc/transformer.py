@@ -31,6 +31,7 @@ which cause undefined / no such file errors'''  # i can use function though...
         self.rules = parse_conf['Rules']['Clash']['rules']
         self.parse_conf = parse_conf
         self.unavailable_providers = list()
+        self.available_count = 0
 
     def check_if_available(self, content, typ, provider_name):
         # This counting method has a issue with single line files.
@@ -44,6 +45,7 @@ which cause undefined / no such file errors'''  # i can use function though...
             return set_unavailable()
         if ' = ' not in content and ', ' not in content and num == 0 and typ == 'quanx':
             return set_unavailable()
+        self.available_count += 1
         return True
 
     def get_providers(self, dir):
@@ -76,10 +78,15 @@ which cause undefined / no such file errors'''  # i can use function though...
                     os.makedirs(f'{dir}/{x}/', exist_ok=True)
                     with open(f'{dir}/{x}/' + provider, 'w+') as f:
                         f.write(txt)
+        if self.available_count == 0:
+            exit("No available node.")
+        else:
+            print("Node Available: ", self.available_count)
 
     def subconverter(self, read_dir, out_dir):
         if 'Subconverter' in self.parse_conf and type(self.parse_conf['Subconverter']) == list:
-            _list = [ line for file in os.listdir(read_dir) for line in open(read_dir + '/' + file, 'r').readlines()]
+            _list = [line for file in os.listdir(read_dir) for line in open(
+                read_dir + '/' + file, 'r').readlines()]
             os.makedirs(out_dir, exist_ok=True)
             with open(out_dir + "/tmp_predefined", 'w') as f:
                 f.writelines(_list)
