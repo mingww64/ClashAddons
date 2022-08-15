@@ -116,6 +116,15 @@ clash-for-android:
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
 proxy-providers:
+    trojan:
+      type: http
+      path: "./proxy_provider/trojan.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/trojan
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
     ssr:
       type: http
       path: "./proxy_provider/ssr.yaml"
@@ -129,15 +138,6 @@ proxy-providers:
       type: http
       path: "./proxy_provider/vmess.yaml"
       url: https://clashaddons.pages.dev/proxies/clash/vmess
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    trojan:
-      type: http
-      path: "./proxy_provider/trojan.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/trojan
       interval: 3600
       health-check:
         enable: true
@@ -187,9 +187,9 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
+  - trojan
   - ssr
   - vmess
-  - trojan
   - ss-sip002
   - 🇺🇸
 
@@ -207,9 +207,9 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
+  - trojan
   - ssr
   - vmess
-  - trojan
   - ss-sip002
   - 🇺🇸
 
@@ -228,9 +228,9 @@ proxy-groups:
   type: select
   proxies:
   - All
+  - trojan
   - ssr
   - vmess
-  - trojan
   - ss-sip002
   - 🇺🇸
 
@@ -241,9 +241,9 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
+  - trojan
   - ssr
   - vmess
-  - trojan
   - ss-sip002
   - 🇺🇸
 
@@ -255,14 +255,24 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
+  - trojan
   - ssr
   - vmess
-  - trojan
   - ss-sip002
   - 🇺🇸
 
   
   
+
+- name: trojan
+  type: url-test
+  
+  use:
+  - trojan
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
 
 - name: ssr
   type: url-test
@@ -279,16 +289,6 @@ proxy-groups:
   
   use:
   - vmess
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: trojan
-  type: url-test
-  
-  use:
-  - trojan
   
   url: http://www.gstatic.com/generate_204
   interval: 300
