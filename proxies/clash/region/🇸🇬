@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: SG_898 | 3.71Mb
+  name: SG_921 | 3.71Mb
   network: ws
   port: 80
   server: 8.214.33.158
@@ -12,115 +12,143 @@ proxies:
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
   ws-opts:
     path: /
-- name: SG_899 | 9.66Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_900
-  password: 97fdf760-7bbf-11eb-8e14-1239d0255272
-  port: 443
-  server: sg3-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_901
-  password: 28d98f761aca9d636f44db62544628eb
-  port: 443
-  server: 81.90.189.85
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_902
-  password: 08964210-e7b8-11ec-95aa-1239d0255272
-  port: 443
-  server: w12.udpgw.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_903
+- name: SG_922
   password: 8db1b560-019d-11ed-8bdf-1239d0255272
   port: 443
   server: trojan3.udpgw.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_904 |22.58Mb
-  password: 208d536b-a83e-3006-97d7-9c5e15dc3669
+- name: SG_923
+  password: 97fdf760-7bbf-11eb-8e14-1239d0255272
   port: 443
-  server: v2sg02.connauto.com
+  server: sg3-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_905
-  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
-  port: 4598
-  server: qlhk2.doubledou.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_906
-  password: 5c5ceb40-902b-11eb-945a-1239d0255272
+- name: SG_924
+  password: 28d98f761aca9d636f44db62544628eb
   port: 443
-  server: sg1-trojan.bonds.id
+  server: 81.90.189.85
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_907
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  port: 8443
-  server: sg-02.licom.ml
+- name: SG_925
+  password: affae2e0-e84b-11ec-b09f-1239d0255272
+  port: 443
+  server: trojan1.udpgw.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_908 |37.10Mb
+- name: SG_926
+  password: 08964210-e7b8-11ec-95aa-1239d0255272
+  port: 443
+  server: w12.udpgw.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_927 |10.31Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_928 |37.10Mb
   password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
   port: 40025
   server: cmi.doubledou.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_909
-  password: 4c7985e0-79e8-11eb-b8d3-1239d0255272
-  port: 443
-  server: sg3-trojan.bonds.id
+- name: SG_929 |22.59Mb
+  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
+  port: 4598
+  server: qlhk2.doubledou.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_910
+- name: SG_930
+  password: 5c5ceb40-902b-11eb-945a-1239d0255272
+  port: 443
+  server: sg1-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_931
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  port: 8443
+  server: sg-02.licom.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_932
   password: 41742_920c8caa
   port: 443
   server: hk31.ssgnode.ga
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: SG_933
+  password: 4c7985e0-79e8-11eb-b8d3-1239d0255272
+  port: 443
+  server: sg3-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_934 |12.33Mb
+  password: 208d536b-a83e-3006-97d7-9c5e15dc3669
+  port: 443
+  server: v2sg02.connauto.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_884 | 2.11Mb
+  name: SG_891 | 1.08Mb
   password: G!yBwPWH3Vao
-  port: 800
-  server: 81.90.189.152
+  port: 812
+  server: 217.197.161.136
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_887 | 2.92Mb
+  name: SG_903 | 1.15Mb
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_904 | 1.04Mb
   password: G!yBwPWH3Vao
   port: 809
+  server: 81.90.189.184
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_908 | 2.47Mb
+  password: G!yBwPWH3Vao
+  port: 805
   server: 81.90.189.152
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_888 | 2.77Mb
+  name: SG_910 | 2.22Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.152
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_889 | 2.47Mb
+  name: SG_911 | 2.36Mb
   password: G!yBwPWH3Vao
-  port: 805
+  port: 809
+  server: 81.90.189.152
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_915 | 2.27Mb
+  password: G!yBwPWH3Vao
+  port: 800
   server: 81.90.189.152
   type: ss
   udp: true
