@@ -1,5 +1,20 @@
 proxies:
-- name: RU_857
+- alterId: 0
+  cipher: auto
+  name: RU_854
+  network: ws
+  port: 43688
+  server: 195.133.53.192
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /
+- name: RU_855
   password: LiX1tV
   port: 443
   server: 141.98.168.251
@@ -7,373 +22,464 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: RU_787 | 7.47Mb
-  password: 639.939.9554.368254.
-  port: 3006
-  server: 45.144.176.135
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_789 |42.36Mb
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_791 |44.58Mb
-  password: BNmAXXxAHYpTRdzu
-  port: 9020
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_792 |42.53Mb
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_793 |43.22Mb
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_794 |17.32Mb
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_795 |21.21Mb
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  server: 217.30.10.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_796 |30.26Mb
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_797 |20.94Mb
-  password: TPqX8edgbAURcAMb
-  port: 9079
-  server: 217.30.10.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_798 |46.88Mb
+  name: RU_772 |42.39Mb
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 217.30.10.65
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: RU_800 |14.29Mb
-  password: 36rtuhZfAeUh78Sa
-  port: 3002
-  server: 45.144.176.135
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_801 | 9.03Mb
-  password: qazwsxplmjbufeefvgedgrwchgtrchrdgfbrdvgedecmmdfe
-  port: 3000
-  server: 45.144.176.135
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_806 |24.75Mb
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_808 |15.92Mb
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_809 |33.14Mb
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_811 |20.11Mb
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 217.30.10.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_813 |30.57Mb
-  password: p9z5BVADH2YFs3MN
-  port: 9040
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_814 |44.69Mb
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_815 | 1.04Mb
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 217.30.10.64
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_816 |20.63Mb
-  password: a3GFYt36Sm82Vys9
-  port: 9000
-  server: 217.30.10.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_817 |40.73Mb
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_818 |25.23Mb
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_819 |43.52Mb
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_820 |44.57Mb
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_821 | 8.88Mb
-  password: 987.085wrcgrwqs36.985
-  port: 3005
-  server: 45.144.176.135
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_822 |27.82Mb
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_823 |47.75Mb
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_824 |29.90Mb
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_825 | 8.74Mb
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
-  server: 217.30.10.68
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_826 |43.26Mb
-  password: SBM7R883jBmnqe6C
-  port: 9053
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_827 |10.65Mb
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 217.30.10.68
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_828 |42.56Mb
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_830 |31.55Mb
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_831 |40.65Mb
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_832 |48.00Mb
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_833 |41.79Mb
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_835 |28.47Mb
-  password: y9VURyNzJWNRYEGQ
-  port: 9008
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_838 |32.98Mb
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 217.30.10.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_839 | 8.31Mb
-  password: qazplmn1236547dr42q
-  port: 3001
-  server: 45.144.176.135
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_840 |34.22Mb
-  password: vDS9G2p
-  port: 21247
-  server: 185.4.65.6
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_841 |43.27Mb
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_843 |36.24Mb
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_844 |40.65Mb
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_845 |28.43Mb
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_846 |12.68Mb
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 217.30.10.68
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_847 |37.70Mb
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_848 |12.18Mb
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 217.30.10.68
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_850 |49.35Mb
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 217.30.10.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_851 |16.15Mb
-  password: werty33588761qwfdees
-  port: 3003
-  server: 45.144.176.135
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: RU_852 |48.99Mb
+  name: RU_773 |34.08Mb
   password: TPqX8edgbAURcAMb
   port: 9079
   server: 217.30.10.65
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: RU_853 |12.97Mb
+  name: RU_774 |39.01Mb
+  password: QWDDvVE9npNurQfA
+  port: 9026
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_775 |37.99Mb
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_776 |34.15Mb
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_777 |44.65Mb
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_778 | 3.28Mb
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 217.30.10.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_779 |13.42Mb
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  server: 217.30.10.68
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_782 |34.55Mb
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_783 |16.03Mb
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.68
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_784 | 3.65Mb
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  server: 217.30.10.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_785 |32.45Mb
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_786 |18.37Mb
+  password: 36rtuhZfAeUh78Sa
+  port: 3002
+  server: 45.144.176.135
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_787 | 5.05Mb
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  server: 217.30.10.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_789 |44.47Mb
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_790 |34.59Mb
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_791 |29.03Mb
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_792 |18.51Mb
+  password: qazplmn1236547dr42q
+  port: 3001
+  server: 45.144.176.135
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_793 |20.31Mb
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 217.30.10.68
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_794 |43.48Mb
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_795 |42.16Mb
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_796 |18.55Mb
+  password: 987.085wrcgrwqs36.985
+  port: 3005
+  server: 45.144.176.135
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_799 |42.40Mb
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_800 |36.95Mb
+  password: f63gg8EruDnUrmz4
+  port: 9010
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_801 |18.60Mb
   password: 3682oiuvefwwmbc1475
   port: 3004
   server: 45.144.176.135
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: RU_854 |35.60Mb
+  name: RU_802 |18.63Mb
+  password: werty33588761qwfdees
+  port: 3003
+  server: 45.144.176.135
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_805 |18.42Mb
+  password: 639.939.9554.368254.
+  port: 3006
+  server: 45.144.176.135
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_807 |16.71Mb
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.68
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_809 | 3.40Mb
+  password: vDS9G2p
+  port: 21247
+  server: 185.4.65.6
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_810 |42.04Mb
+  password: QWDDvVE9npNurQfA
+  port: 9026
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_811 |45.78Mb
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_812 |31.37Mb
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_813 |38.80Mb
   password: TN2YqghxeFDKZfLU
   port: 9037
   server: 217.30.10.65
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: RU_856 |43.11Mb
-  password: fG2artUmHfNT2cX7
-  port: 9018
+  name: RU_814 |19.79Mb
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 217.30.10.68
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_815 |42.63Mb
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_816 |41.55Mb
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
   server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_818 |38.98Mb
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_819 |37.21Mb
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_820 |41.01Mb
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_821 |21.60Mb
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_822 |39.96Mb
+  password: SBM7R883jBmnqe6C
+  port: 9053
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_823 |50.55Mb
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_824 |18.58Mb
+  password: qazwsxplmjbufeefvgedgrwchgtrchrdgfbrdvgedecmmdfe
+  port: 3000
+  server: 45.144.176.135
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_825 |42.79Mb
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_826 |43.13Mb
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_827 |10.70Mb
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 217.30.10.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_828 |37.07Mb
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_829 |30.17Mb
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_830 |25.25Mb
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 217.30.10.68
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_831 | 4.53Mb
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_832
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  server: 217.30.10.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_833 |22.19Mb
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.68
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_834
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 217.30.10.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_835 |33.77Mb
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_836 |39.65Mb
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_842 |35.55Mb
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_843 |44.08Mb
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_844 |49.68Mb
+  password: y9VURyNzJWNRYEGQ
+  port: 9008
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_845 |40.05Mb
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  server: 217.30.10.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_846 |44.93Mb
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_847 |33.34Mb
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_848 |36.00Mb
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_849 |28.52Mb
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_850 |46.13Mb
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 217.30.10.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_851
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 217.30.10.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: RU_852 |28.42Mb
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  server: 217.30.10.63
   type: ss
   udp: true
