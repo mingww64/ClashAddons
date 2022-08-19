@@ -1,33 +1,19 @@
 proxies:
-- name: FR_401
+- name: FR_353
   password: e4307a50-9853-11ec-9b4b-1239d0255272
   port: 443
   server: fr-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_402
+- name: FR_354
   password: 7c9b7560-b0f7-11eb-a397-1239d0255272
   port: 443
   server: fr-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_403 |16.62Mb
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  port: 11050
-  server: fr-01.jc-middellande.nl
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_404 |16.61Mb
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  port: 11050
-  server: kr-01.licom.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_405
+- name: FR_355
   password: iKR3Ft
   port: 443
   server: 193.178.210.29
@@ -35,457 +21,450 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: FR_336 |37.93Mb
+  name: FR_289 |38.74Mb
   password: Ultr@r00t_2017
   port: 811
   server: 51.38.118.42
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: FR_337 |52.11Mb
-  password: null
-  port: 50004
-  server: 5.188.93.79
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: FR_338 |46.14Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_339 |45.73Mb
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_340 |42.64Mb
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_341 |32.52Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_342 |45.23Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_343 |44.97Mb
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_344 |42.79Mb
+  name: FR_290 |38.72Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_345 |42.39Mb
+  name: FR_291 |39.82Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_292 |43.02Mb
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_293 |44.48Mb
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_294 |44.41Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_295 |41.73Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_296 |43.13Mb
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_297 |43.53Mb
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_346 |44.49Mb
+  name: FR_298 |38.54Mb
   password: KixLvKzwjekG00rm
   port: 5500
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_347 |42.74Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 62.210.113.98
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_348 |42.81Mb
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_349 |33.62Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_350 |45.20Mb
+  name: FR_299 |24.49Mb
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 149.202.82.172
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: FR_351
-  password: instgram.com/openvpnssh
-  port: 44
-  server: 51.38.112.84
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: FR_352 |44.14Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 195.154.200.150
+  name: FR_300 |41.61Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: FR_353 |58.00Mb
+  name: FR_301 |49.15Mb
+  password: null
+  port: 50004
+  server: 5.188.93.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: FR_302 |56.53Mb
   password: null
   port: 50004
   server: 62.210.213.6
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_354 |42.42Mb
+  name: FR_303 |37.54Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 62.210.113.98
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_304 |45.18Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_305 |43.74Mb
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_306 |43.08Mb
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_307 |43.01Mb
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_308 |38.13Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_309 |42.87Mb
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_355 |41.28Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_356 |45.28Mb
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_357 |44.36Mb
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 195.154.200.150
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_358 |42.31Mb
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_359 |42.28Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_360 |42.74Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_361 |32.42Mb
+  name: FR_310 |41.89Mb
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: FR_362 |17.79Mb
+  name: FR_311 |37.99Mb
   password: null
   port: 50004
   server: 51.195.217.22
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_363 |42.80Mb
+  name: FR_312 |42.79Mb
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: FR_364 |39.20Mb
+  name: FR_313 |39.96Mb
   password: null
   port: 50004
   server: 51.89.164.86
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_365 |42.50Mb
+  name: FR_314 |43.31Mb
   password: XKFKl2rULjIp74
   port: 8009
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_366 |38.69Mb
+  name: FR_315 |39.31Mb
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 54.36.174.181
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_367 |42.58Mb
+  name: FR_316 |43.38Mb
   password: zDNVedRFPQexG9v
   port: 6379
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_368 |43.82Mb
+  name: FR_317 |42.71Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 62.210.113.98
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_369 |42.69Mb
+  name: FR_318 |43.48Mb
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_370 |42.43Mb
+  name: FR_319 |43.66Mb
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_371 |36.90Mb
+  name: FR_320 |43.15Mb
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_372 |43.01Mb
+  name: FR_321 |43.16Mb
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_373 |44.98Mb
+  name: FR_322 |44.15Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_374 |45.28Mb
+  name: FR_323 |44.20Mb
   password: e4FCWrgpkji3QY
   port: 9101
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_375 |42.54Mb
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 145.239.1.100
+  name: FR_324 |44.57Mb
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_376 |43.21Mb
+  name: FR_325 |43.59Mb
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: FR_377 |44.57Mb
+  name: FR_326 |36.32Mb
   password: G!yBwPWH3Vao
   port: 804
   server: 51.159.30.61
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_378 |43.44Mb
+  name: FR_327 |43.68Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_379 |42.62Mb
+  name: FR_328 |42.44Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_380 |44.06Mb
+  name: FR_329 |41.56Mb
   password: e4FCWrgpkji3QY
   port: 9102
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_381 |44.23Mb
+  name: FR_330 |29.68Mb
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_382 |43.50Mb
+  name: FR_331 |43.25Mb
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_383 |44.00Mb
+  name: FR_332 |42.69Mb
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_384 |44.89Mb
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 195.154.200.150
+  name: FR_333 |42.69Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_385 |42.65Mb
+  name: FR_334 |37.71Mb
   password: pKEW8JPByTVTLtM
   port: 443
   server: 195.154.200.150
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_386 |42.79Mb
+  name: FR_335 |44.15Mb
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: FR_387 |54.53Mb
+  name: FR_336 |69.60Mb
   password: null
   port: 50004
   server: 51.195.136.209
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_388 |42.37Mb
+  name: FR_337 |43.09Mb
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_389 |43.26Mb
+  name: FR_338 |43.59Mb
   password: XKFKl2rULjIp74
   port: 8008
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_390 |41.93Mb
+  name: FR_339 |42.79Mb
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_391 |43.39Mb
+  name: FR_340 |42.61Mb
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_392 |43.55Mb
+  name: FR_341 |43.20Mb
   password: KixLvKzwjekG00rm
   port: 5500
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_393 |45.34Mb
+  name: FR_342 |38.89Mb
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_394 |34.73Mb
+  name: FR_343 |42.22Mb
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_395 |45.35Mb
+  name: FR_344 |41.45Mb
   password: KixLvKzwjekG00rm
   port: 8000
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_396 |46.01Mb
+  name: FR_345 |39.05Mb
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_397 |44.78Mb
+  name: FR_346 |44.96Mb
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_398 |44.46Mb
+  name: FR_347 |41.51Mb
   password: XKFKl2rULjIp74
   port: 8009
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_399 |44.17Mb
+  name: FR_348 |42.34Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_349 |44.12Mb
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_400 |33.84Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 149.202.82.172
+  name: FR_350 |43.13Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_351 |42.86Mb
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_352 |37.71Mb
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 195.154.200.150
   type: ss
   udp: true
