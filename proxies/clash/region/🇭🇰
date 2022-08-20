@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_422 |25.55Mb
-  network: ws
-  port: 8080
-  server: 18.167.20.169
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: HK_423 |20.34Mb
+  name: HK_414 |19.80Mb
   network: ws
   port: 120
   server: hgc.sharecentre.xyz
@@ -27,66 +14,59 @@ proxies:
     headers:
       Host: hgc.sharecentre.xyz
     path: /nj
-- name: HK_424
-  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
-  port: 443
-  server: trohkt.doubledou.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_425
-  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
-  port: 4588
-  server: hktddns.doubledou.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_426 |24.15Mb
-  password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de
-  port: 8443
-  server: 20.187.95.117
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_427 | 9.02Mb
+- name: HK_409
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
-  port: 889
-  server: hk-hkg-hgc-a-tr.cdn.savoy.click
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_428
-  password: uDTmEAGwuCUZXZvwhWJk
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_429
+- name: HK_415
   password: 3c91d857-2d40-39b9-81c0-f6adde8037ff
   port: 4588
   server: hkcn2.doubledou.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: HK_419 | 4.20Mb
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 148.66.56.99
-  type: ss
+- name: HK_416
+  password: uDTmEAGwuCUZXZvwhWJk
+  port: 889
+  server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_417 | 9.02Mb
+  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
+  port: 889
+  server: hk-hkg-hgc-a-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_418 |23.57Mb
+  password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de
+  port: 8443
+  server: 20.187.95.117
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_420 |10.60Mb
+  name: HK_410 |14.27Mb
   password: G!yBwPWH3Vao
   port: 804
   server: 148.66.56.99
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_421 |15.72Mb
+  name: HK_411 |15.77Mb
   password: G!yBwPWH3Vao
   port: 801
+  server: 148.66.56.99
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK_412 | 8.47Mb
+  password: G!yBwPWH3Vao
+  port: 802
   server: 148.66.56.99
   type: ss
   udp: true
