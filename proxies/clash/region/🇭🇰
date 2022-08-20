@@ -1,72 +1,43 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: HK_414 |19.80Mb
-  network: ws
-  port: 120
-  server: hgc.sharecentre.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d
-  ws-opts:
-    headers:
-      Host: hgc.sharecentre.xyz
-    path: /nj
-- name: HK_409
+- name: HK_384 |22.09Mb
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_415
-  password: 3c91d857-2d40-39b9-81c0-f6adde8037ff
-  port: 4588
-  server: hkcn2.doubledou.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_416
-  password: uDTmEAGwuCUZXZvwhWJk
-  port: 889
-  server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_417 | 9.02Mb
-  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
-  port: 889
-  server: hk-hkg-hgc-a-tr.cdn.savoy.click
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_418 |23.57Mb
+- name: HK_385 |25.27Mb
   password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de
   port: 8443
   server: 20.187.95.117
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: HK_386
+  password: uDTmEAGwuCUZXZvwhWJk
+  port: 889
+  server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_410 |14.27Mb
+  name: HK_381 | 2.40Mb
   password: G!yBwPWH3Vao
-  port: 804
+  port: 802
   server: 148.66.56.99
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_411 |15.77Mb
+  name: HK_382 | 6.18Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 148.66.56.99
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_412 | 8.47Mb
+  name: HK_383 | 4.87Mb
   password: G!yBwPWH3Vao
-  port: 802
+  port: 804
   server: 148.66.56.99
   type: ss
   udp: true
