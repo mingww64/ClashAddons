@@ -1,7 +1,32 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: AU_61 | 6.83Mb
+  network: ws
+  port: 443
+  server: vau1.0bad.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vau1.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: AU_62 | 7.96Mb
+  port: 37372
+  server: 129.154.48.221
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b
 - alterId: 2
   cipher: auto
-  name: AU_72 | 8.87Mb
+  name: AU_63 |10.01Mb
   network: ws
   port: 443
   server: 810hk01.fx6688.top
@@ -14,411 +39,379 @@ proxies:
     headers:
       Host: 810hk01.fx6688.top
     path: /ray
-- alterId: 2
-  cipher: auto
-  name: AU_73 | 9.99Mb
-  network: ws
-  port: 443
-  server: 810hk03.fx6688.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-  ws-opts:
-    headers:
-      Host: 810hk03.fx6688.top
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: AU_74 |12.04Mb
-  port: 37372
-  server: 129.154.48.221
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b
 - name: AU_100
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_101
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_102
-  password: b7e0e71f-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_103
-  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1Rm-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_104
-  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_105
-  password: 8d4ab0f0-79be-11eb-be0b-1239d025c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_106
-  password: 36ebef7d1b1d6205fd0c55fc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_107
-  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5N-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_108
-  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_109
-  password: 03f9d1c7--40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_110
-  password: 03f9d-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_111
-  password: 03f9d1c7-40f9-475c-bf46-e3883ee7c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_112
-  password: YWVzLTI1Ni1nY206eHBRd3lWNF-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_113
-  password: 5c7b33c6-6d83-11eb-b7e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_114
-  password: trojan-daozhu-uallen-qbit-azure-c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_115
-  password: trojan-daozhu-uallen-qbit-azure-hkc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_116
-  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_117
-  password: a3fa-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_118 |23.51Mb
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  port: 443
-  server: jgwxn3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_119
-  password: 26-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_120 |23.57Mb
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_121 |23.46Mb
-  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_122 | 5.66Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: jgwdb4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_123
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206l-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_124
-  password: 8d4ab0f0-79c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_125
-  password: 7b4066ae-accc-11eb-a8c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: jgwxn2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_126
   password: 7b4066ae-acccc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_76
-  password: b7e0e71f-070c-c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+- name: AU_101
+  password: trojan-daozhu-uallen-qbit-azure-c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_77
-  password: 5c7b33c6-6e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_78
-  password: 36ebef7d1b1d6205fd0c55f288e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_79
-  password: 03f9d1c7-40f9-475c-bf46-e3883ec2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+- name: AU_102
+  password: trojan-daozhu-uallen-qbit-azure-hkc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_80
+- name: AU_103
+  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_104
+  password: a3fa-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_105 |14.99Mb
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  port: 443
+  server: jgwxn3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_106
+  password: 26-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_107 |14.89Mb
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_108 |14.87Mb
+  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_109 |24.34Mb
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  port: 443
+  server: jgwdb4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_110
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206l-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_111
+  password: 8d4ab0f0-79c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_112
   password: 36ebef7d1b1d6205fde8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_81
+- name: AU_113
+  password: YWVzLTI1Ni1nY206eHBRd3lWNF-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_114
+  password: b7e0e71f-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_64
+  password: 5c7b33c6-6d83-11eb-b7e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_65
+  password: 36ebef7d1b1d6205fd0c55f288e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_66
+  password: 03f9d1c7-40f9-475c-bf46-e3883ec2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_67
+  password: b7e0e71f-070c-c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_68
   password: 7b4066ae-accc-11eb-a8bf-fc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_82
+- name: AU_69
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4abc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_83
+- name: AU_70
   password: 7b4066ae-accc-11eb-a8bc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_84
+- name: AU_71
   password: b7e0e71f-070c-437a-9826-6e23caeb03c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_85
+- name: AU_72
   password: 3yFq7NCP53mVfpXJzc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_86
+- name: AU_73
   password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_87
+- name: AU_74
   password: 36ebef7d1b1d6205fd0c55f28e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_88
+- name: AU_75
   password: e4307a50-9853-11ec-9b4e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_89
+- name: AU_76
   password: 03f9d1c7-40f9-475c-bf46-e38c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_90
+- name: AU_77
   password: 2647cdace8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_91
+- name: AU_78
   password: 3e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_92
+- name: AU_79
   password: a3fa58b581353bb375d2ddad0f327938ac5ac2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_93
+- name: AU_80
   password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ac2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_94
+- name: AU_81
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_95
+- name: AU_82
   password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5fc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_96
+- name: AU_83
   password: 5-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_97
+- name: AU_84
   password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-123e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_98
+- name: AU_85
   password: 2647cdac-aa5c-4955-a13b-b667e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_99
+- name: AU_86
   password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: AU_87
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_88
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_89
+  password: 5c7b33c6-6e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_90
+  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1Rm-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_91
+  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_92
+  password: 8d4ab0f0-79be-11eb-be0b-1239d025c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_93
+  password: 36ebef7d1b1d6205fd0c55fc2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_94
+  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5N-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_95
+  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_96
+  password: 03f9d1c7--40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_97
+  password: 03f9d-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_98
+  password: 03f9d1c7-40f9-475c-bf46-e3883ee7c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_99
+  password: 7b4066ae-accc-11eb-a8c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: jgwxn2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: AU_40 | 3.73Mb
+  name: AU_41 | 4.11Mb
   password: FG5ddLsMPbV5CutE
   port: 9050
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_41 |10.53Mb
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 185.167.116.253
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_42 |10.09Mb
+  name: AU_42 | 6.22Mb
   password: GA9KzeEgvfxNrgmM
   port: 9019
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_43 | 5.84Mb
+  name: AU_43 | 5.05Mb
   password: HSZuyJQcWe8dxNdF
   port: 9043
   server: 185.167.116.253
@@ -432,184 +425,107 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_45 |10.19Mb
+  name: AU_45 | 5.97Mb
   password: f8npKgNzdkss2ytn
   port: 9088
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_46 |10.79Mb
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_47 |25.79Mb
+  name: AU_46 |25.91Mb
   password: null
   port: 50004
   server: 139.99.238.179
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_48 |10.64Mb
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 185.167.116.253
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_49 |10.50Mb
+  name: AU_47 | 7.49Mb
   password: rNBfNuuANFCAk7KB
   port: 9056
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_50 | 8.65Mb
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_51 | 9.97Mb
+  name: AU_48 |10.48Mb
   password: gYCYXfkUQEs2TaJQ
   port: 9038
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_52 | 4.24Mb
+  name: AU_49 | 2.58Mb
   password: FG5ddLsMPbV5CutE
   port: 9050
   server: 185.167.116.38
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_53 | 9.67Mb
+  name: AU_50 |10.07Mb
   password: VP8ZPxQpJtZRCjfZ
   port: 9080
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_54 | 8.46Mb
+  name: AU_51 |10.02Mb
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_55 | 9.48Mb
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
+  name: AU_52 | 6.36Mb
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_56 | 7.25Mb
+  name: AU_53 | 8.44Mb
   password: ZET59LF6DvCC8KVt
   port: 9005
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_57 | 2.81Mb
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_58 | 8.63Mb
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_59 | 6.06Mb
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_60 | 8.82Mb
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_61 | 5.42Mb
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  server: 185.167.116.253
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_62 | 1.83Mb
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_63 |10.39Mb
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 185.167.116.253
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_64 | 1.69Mb
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_65 | 9.60Mb
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 185.167.116.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AU_66 |10.55Mb
+  name: AU_54 | 9.18Mb
   password: 4R3hUfZ2FHhDmNcP
   port: 9061
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_67 | 4.40Mb
+  name: AU_55 | 6.08Mb
   password: TN2YqghxeFDKZfLU
   port: 9037
   server: 185.167.116.24
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_68 |10.29Mb
+  name: AU_56 | 7.72Mb
   password: daFYagqDdBdA6VTX
   port: 9073
   server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_69 | 1.74Mb
-  password: y9VURyNzJWNRYEGQ
-  port: 9008
-  server: 185.167.116.38
+  name: AU_57 | 9.24Mb
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 185.167.116.253
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: AU_70 | 8.43Mb
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 185.167.116.38
+  name: AU_58 | 6.34Mb
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 185.167.116.253
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: AU_59 |10.36Mb
+  password: wjTugX3ZtHMB9c3Z
+  port: 9057
+  server: 185.167.116.253
   type: ss
   udp: true
