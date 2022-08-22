@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_397 | 4.93Mb
+  name: HK_396 | 7.74Mb
+  network: ws
+  port: 4399
+  server: 203.184.132.247
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8
+  ws-opts:
+    path: /situ-hgc2
+- alterId: 0
+  cipher: auto
+  name: HK_397 | 8.73Mb
   network: ws
   port: 4399
   server: 203.184.132.248
@@ -14,7 +27,7 @@ proxies:
     path: /situ-hgc3
 - alterId: 0
   cipher: auto
-  name: HK_398 | 4.78Mb
+  name: HK_398 | 5.71Mb
   network: ws
   port: 4399
   server: 203.184.132.249
@@ -27,18 +40,27 @@ proxies:
     path: /situ-hgc4
 - alterId: 0
   cipher: auto
-  name: HK_400 | 4.47Mb
+  name: HK_399 | 8.61Mb
   network: ws
-  port: 4399
-  server: 203.184.132.247
+  port: 888
+  server: hk-gz-hk-hkt-v2-b.cdn.savoy.click
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8
+  uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7
   ws-opts:
-    path: /situ-hgc2
-- name: HK_402 |22.82Mb
+    headers:
+      Host: cdn.savoy.click
+    path: /je5x3pBN1vez3NQudNkB
+- name: HK_392 |10.16Mb
+  password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40
+  port: 50350
+  server: 103.103.245.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_402
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
@@ -53,23 +75,23 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_394 | 6.36Mb
+  name: HK_393 |13.86Mb
   password: G!yBwPWH3Vao
-  port: 802
+  port: 804
   server: 148.66.56.99
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_395 | 7.61Mb
+  name: HK_394 | 4.64Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 148.66.56.99
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_396 | 7.58Mb
+  name: HK_395 |12.69Mb
   password: G!yBwPWH3Vao
-  port: 804
+  port: 802
   server: 148.66.56.99
   type: ss
   udp: true
