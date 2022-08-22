@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_391 | 7.16Mb
-  network: ws
-  port: 8080
-  server: 18.167.20.169
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: HK_395 | 8.59Mb
+  name: HK_397 | 4.93Mb
   network: ws
   port: 4399
   server: 203.184.132.248
@@ -27,7 +14,7 @@ proxies:
     path: /situ-hgc3
 - alterId: 0
   cipher: auto
-  name: HK_396 | 3.77Mb
+  name: HK_398 | 4.78Mb
   network: ws
   port: 4399
   server: 203.184.132.249
@@ -40,7 +27,7 @@ proxies:
     path: /situ-hgc4
 - alterId: 0
   cipher: auto
-  name: HK_397 | 5.48Mb
+  name: HK_400 | 4.47Mb
   network: ws
   port: 4399
   server: 203.184.132.247
@@ -51,45 +38,38 @@ proxies:
   uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8
   ws-opts:
     path: /situ-hgc2
-- name: HK_399
+- name: HK_402 |22.82Mb
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_400
+- name: HK_403
   password: uDTmEAGwuCUZXZvwhWJk
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_401 |11.01Mb
-  password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de
-  port: 8443
-  server: 20.187.95.117
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_392 | 2.23Mb
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 148.66.56.99
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: HK_393 | 9.98Mb
+  name: HK_394 | 6.36Mb
   password: G!yBwPWH3Vao
   port: 802
   server: 148.66.56.99
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_394 | 4.15Mb
+  name: HK_395 | 7.61Mb
   password: G!yBwPWH3Vao
   port: 801
+  server: 148.66.56.99
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK_396 | 7.58Mb
+  password: G!yBwPWH3Vao
+  port: 804
   server: 148.66.56.99
   type: ss
   udp: true
