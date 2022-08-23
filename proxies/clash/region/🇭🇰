@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_396 | 7.74Mb
+  name: HK_402 |25.39Mb
+  network: ws
+  port: 8080
+  server: 18.167.20.169
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: HK_406 |13.07Mb
   network: ws
   port: 4399
   server: 203.184.132.247
@@ -14,7 +27,7 @@ proxies:
     path: /situ-hgc2
 - alterId: 0
   cipher: auto
-  name: HK_397 | 8.73Mb
+  name: HK_407 | 7.43Mb
   network: ws
   port: 4399
   server: 203.184.132.248
@@ -27,7 +40,7 @@ proxies:
     path: /situ-hgc3
 - alterId: 0
   cipher: auto
-  name: HK_398 | 5.71Mb
+  name: HK_408 | 3.19Mb
   network: ws
   port: 4399
   server: 203.184.132.249
@@ -38,36 +51,14 @@ proxies:
   uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8
   ws-opts:
     path: /situ-hgc4
-- alterId: 0
-  cipher: auto
-  name: HK_399 | 8.61Mb
-  network: ws
-  port: 888
-  server: hk-gz-hk-hkt-v2-b.cdn.savoy.click
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7
-  ws-opts:
-    headers:
-      Host: cdn.savoy.click
-    path: /je5x3pBN1vez3NQudNkB
-- name: HK_392 |10.16Mb
-  password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40
-  port: 50350
-  server: 103.103.245.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_402
+- name: HK_410
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_403
+- name: HK_411
   password: uDTmEAGwuCUZXZvwhWJk
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
@@ -75,21 +66,21 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_393 |13.86Mb
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 148.66.56.99
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: HK_394 | 4.64Mb
+  name: HK_403 | 6.91Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 148.66.56.99
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_395 |12.69Mb
+  name: HK_404 |14.81Mb
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 148.66.56.99
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK_405 |14.15Mb
   password: G!yBwPWH3Vao
   port: 802
   server: 148.66.56.99
