@@ -1,22 +1,7 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: TW_905 | 8.09Mb
-  network: ws
-  port: 443
-  server: lc-hk01-direct01.lc-hk01.lc-node.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ec736482-173e-3eff-9114-b49df8056e7d
-  ws-opts:
-    headers:
-      Host: lc-hk01-direct01.lc-hk01.lc-node.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: TW_906 | 1.28Mb
+  name: TW_899
   port: 39998
   server: tw-tb-b.zc20200426.club
   skip-cert-verify: true
@@ -26,7 +11,7 @@ proxies:
   uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
 - alterId: 0
   cipher: auto
-  name: TW_907 |23.25Mb
+  name: TW_900 |22.18Mb
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -39,7 +24,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: TW_908 |24.36Mb
+  name: TW_901 |23.73Mb
   port: 15789
   server: 61.222.202.140
   skip-cert-verify: true
@@ -47,73 +32,60 @@ proxies:
   type: vmess
   udp: true
   uuid: 4535e708-5988-4377-a083-755ed60d8068
-- name: TW_909
-  password: 283695dc-fcc8-11ea-8684-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: TW_902 | 1.95Mb
+  network: ws
   port: 443
-  server: tw.tcpbbr.net
+  server: lc-hk01-direct01.lc-hk01.lc-node.com
   skip-cert-verify: true
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: TW_910
-  password: q8uTrVmj95aTrFAa
-  port: 443
-  server: tw-oo-01.click
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_911
-  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
-  port: 443
-  server: tw.tcpbbr.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_912
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  ws-opts:
+    headers:
+      Host: lc-hk01-direct01.lc-hk01.lc-node.com
+    path: /
+- name: TW_903
   password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
   port: 443
   server: pastry.taiwanesefood.link
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_913
-  password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: tw.tcpbbr.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_914
-  password: s6rIg1Mkke73fwZU
-  port: 443
-  server: mv-tw05.link
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_915
-  password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
-  port: 443
-  server: 2.58.242.43
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_916
+- name: TW_904
   password: s6rIg1Mkke73fwZU
   port: 443
   server: tw-oo-01.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_917
-  password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
+- name: TW_905
+  password: q8uTrVmj95aTrFAa
+  port: 443
+  server: tw-oo-01.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_906
+  password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
   port: 443
   server: 2.58.242.43
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_918
-  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+- name: TW_907
+  password: s6rIg1Mkke73fwZU
   port: 443
-  server: tw.tcpbbr.net
+  server: mv-tw05.link
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_908
+  password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
+  port: 443
+  server: 2.58.242.43
   skip-cert-verify: true
   type: trojan
   udp: true

@@ -1,20 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_402 |25.39Mb
+  name: HK_392
+  port: 39999
+  server: hkbn-home-a.zc20200426.club
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- alterId: 0
+  cipher: auto
+  name: HK_393 | 2.46Mb
   network: ws
-  port: 8080
-  server: 18.167.20.169
+  port: 4399
+  server: 203.184.132.249
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8
   ws-opts:
-    path: /
+    path: /situ-hgc4
 - alterId: 0
   cipher: auto
-  name: HK_406 |13.07Mb
+  name: HK_394 | 5.23Mb
   network: ws
   port: 4399
   server: 203.184.132.247
@@ -27,7 +37,7 @@ proxies:
     path: /situ-hgc2
 - alterId: 0
   cipher: auto
-  name: HK_407 | 7.43Mb
+  name: HK_395 | 6.40Mb
   network: ws
   port: 4399
   server: 203.184.132.248
@@ -40,25 +50,42 @@ proxies:
     path: /situ-hgc3
 - alterId: 0
   cipher: auto
-  name: HK_408 | 3.19Mb
+  name: HK_396
   network: ws
-  port: 4399
-  server: 203.184.132.249
+  port: 8080
+  server: 18.167.20.169
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
   ws-opts:
-    path: /situ-hgc4
-- name: HK_410
+    path: /
+- alterId: 0
+  cipher: auto
+  name: HK_397
+  port: 30862
+  server: 23.91.100.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9
+- name: HK_398
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_411
+- name: HK_399
+  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
+  port: 889
+  server: hk-hkg-hgc-a-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_400
   password: uDTmEAGwuCUZXZvwhWJk
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
@@ -66,23 +93,23 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_403 | 6.91Mb
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 148.66.56.99
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: HK_404 |14.81Mb
+  name: HK_389 | 4.08Mb
   password: G!yBwPWH3Vao
   port: 804
   server: 148.66.56.99
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK_405 |14.15Mb
+  name: HK_390 | 2.57Mb
   password: G!yBwPWH3Vao
   port: 802
+  server: 148.66.56.99
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK_391 |10.56Mb
+  password: G!yBwPWH3Vao
+  port: 801
   server: 148.66.56.99
   type: ss
   udp: true

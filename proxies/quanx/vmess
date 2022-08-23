@@ -1,67 +1,79 @@
-vmess = 129.146.133.157:51009, method=chacha20-ietf-poly1305, password=81714cef-9bde-4a08-aa50-d6bc0172d78b, aead=true, fast-open=false, udp-relay=true, tag=_39 |22.07Mb
-vmess = crj749919467.n-tmd.com:31502, method=chacha20-ietf-poly1305, password=9b4f0258-1127-41d9-f30a-469e80737327, aead=true, tls13=false, obfs=over-tls, obfs-host=crj749919467.n-tmd.com, fast-open=false, udp-relay=true, tls-verification=false, tag=_40 |17.45Mb
-vmess = 168.138.207.66:21365, method=chacha20-ietf-poly1305, password=905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, aead=true, fast-open=false, udp-relay=true, tag=_41 |12.12Mb
-vmess = 129.159.41.233:32586, method=chacha20-ietf-poly1305, password=341a9182-c423-499c-c46e-d17838b29037, aead=true, fast-open=false, udp-relay=true, tag=_42 |79.33Mb
-vmess = 23.230.146.254:1258, method=chacha20-ietf-poly1305, password=edeb41cc-a76a-47f2-fa96-b9141e66a2b0, aead=true, fast-open=false, udp-relay=true, tag=_43 |20.08Mb
-vmess = 810hk03.fx6688.top:443, method=chacha20-ietf-poly1305, password=2cc10f9c-fb02-3e45-b619-c3b98cde912a, aead=false, tls13=false, obfs=wss, obfs-host=810hk03.fx6688.top, obfs-uri=/ray, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_76 |10.41Mb
-vmess = 810hk01.fx6688.top:443, method=chacha20-ietf-poly1305, password=f8dcfff8-3cb9-3221-bc82-5a58a336d4b9, aead=false, tls13=false, obfs=wss, obfs-host=810hk01.fx6688.top, obfs-uri=/ray, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_78 | 9.12Mb
-vmess = 129.154.48.221:37372, method=chacha20-ietf-poly1305, password=6f4454a9-e732-46c6-c50f-73f13da31f7b, aead=true, fast-open=false, udp-relay=true, tag=AU_79 |14.93Mb
-vmess = 4.3.1.fuckppppp.today:58418, method=chacha20-ietf-poly1305, password=244effd9-0204-3c4a-8537-0dca4e5fd9b5, aead=true, fast-open=false, udp-relay=true, tag=CN_194 | 8.83Mb
-vmess = 3.sg.zz.xxxxx.x-t-fuckword.network:36679, method=chacha20-ietf-poly1305, password=244effd9-0204-3c4a-8537-0dca4e5fd9b5, aead=true, fast-open=false, udp-relay=true, tag=CN_195 | 2.19Mb
-vmess = 185.167.78.193:47634, method=chacha20-ietf-poly1305, password=5cf637c0-04f2-4af4-c25b-6e467c14d496, aead=true, fast-open=false, udp-relay=true, tag=GB_399 |19.60Mb
-vmess = 18.167.20.169:8080, method=chacha20-ietf-poly1305, password=e1f97064-adcd-40d3-91a0-3f0bea035fca, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=HK_402 |25.39Mb
-vmess = 203.184.132.247:4399, method=chacha20-ietf-poly1305, password=b315a93b-cec1-34cb-a658-be53ffda7cd8, aead=true, obfs=ws, obfs-host=, obfs-uri=/situ-hgc2, fast-open=false, udp-relay=true, tag=HK_406 |13.07Mb
-vmess = 203.184.132.248:4399, method=chacha20-ietf-poly1305, password=b315a93b-cec1-34cb-a658-be53ffda7cd8, aead=true, obfs=ws, obfs-host=, obfs-uri=/situ-hgc3, fast-open=false, udp-relay=true, tag=HK_407 | 7.43Mb
-vmess = 203.184.132.249:4399, method=chacha20-ietf-poly1305, password=b315a93b-cec1-34cb-a658-be53ffda7cd8, aead=true, obfs=ws, obfs-host=, obfs-uri=/situ-hgc4, fast-open=false, udp-relay=true, tag=HK_408 | 3.19Mb
-vmess = 185.225.69.134:45081, method=chacha20-ietf-poly1305, password=3c3bfd75-dc30-4e76-8940-47e1137e21f9, aead=false, fast-open=false, udp-relay=true, tag=HU_413 |36.34Mb
-vmess = 5.181.132.234:31372, method=chacha20-ietf-poly1305, password=c40b4d06-7684-4c09-d8d9-8de7186b293a, aead=true, fast-open=false, udp-relay=true, tag=IT_420 | 6.61Mb
-vmess = 146.56.167.119:6666, method=chacha20-ietf-poly1305, password=64779fce-63a5-4faa-b59b-e4af40f4e419, aead=true, fast-open=false, udp-relay=true, tag=JP_421 | 1.75Mb
-vmess = 8.214.33.158:80, method=chacha20-ietf-poly1305, password=cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=SG_890 |11.65Mb
-vmess = lc-hk01-direct01.lc-hk01.lc-node.com:443, method=chacha20-ietf-poly1305, password=ec736482-173e-3eff-9114-b49df8056e7d, aead=false, tls13=false, obfs=wss, obfs-host=lc-hk01-direct01.lc-hk01.lc-node.com, obfs-uri=/, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_905 | 8.09Mb
-vmess = tw-tb-b.zc20200426.club:39998, method=chacha20-ietf-poly1305, password=67c50f6a-816d-3555-89b4-19dd29608f8b, aead=true, tls13=false, obfs=over-tls, obfs-host=tw-tb-b.zc20200426.club, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_906 | 1.28Mb
-vmess = 61.222.202.140:33792, method=chacha20-ietf-poly1305, password=e55cd182-01b0-4fb7-a510-363701a491c5, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=TW_907 |23.25Mb
-vmess = 61.222.202.140:15789, method=chacha20-ietf-poly1305, password=4535e708-5988-4377-a083-755ed60d8068, aead=true, fast-open=false, udp-relay=true, tag=TW_908 |24.36Mb
-vmess = 51.81.223.32:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1495 |64.11Mb
-vmess = 147.139.7.71:888, method=chacha20-ietf-poly1305, password=08d6729d-830e-4341-df76-62d3d12e75e8, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=US_1496 |24.54Mb
-vmess = 45.35.84.162:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-dallas.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1497 |43.54Mb
-vmess = 51.81.223.22:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1498 |81.79Mb
-vmess = 51.81.223.14:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1499 |76.72Mb
-vmess = 51.81.223.21:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1500 |36.26Mb
-vmess = 51.81.223.36:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1501 |82.37Mb
-vmess = 51.81.223.12:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1502 |73.55Mb
-vmess = 51.81.223.18:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1503 |64.76Mb
-vmess = 51.81.223.26:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1504 |10.84Mb
-vmess = 51.81.223.15:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1505 |72.83Mb
-vmess = 51.81.223.4:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1506 |22.20Mb
-vmess = 51.81.223.25:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1507 |21.52Mb
-vmess = 51.81.223.13:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1508 |32.99Mb
-vmess = 150.230.41.9:23292, method=chacha20-ietf-poly1305, password=956c6c2f-bf54-4b87-fafd-4b767ca12750, aead=true, fast-open=false, udp-relay=true, tag=US_1509 |42.54Mb
-vmess = 51.81.223.20:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1510 |37.63Mb
-vmess = 51.81.223.31:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1511 |31.48Mb
-vmess = 51.81.223.29:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1512 |75.67Mb
-vmess = 51.81.223.0:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1513 |38.54Mb
-vmess = 51.81.223.19:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1514 |73.88Mb
-vmess = 138.2.44.211:20081, method=chacha20-ietf-poly1305, password=593b8525-0c48-4b0f-d9af-2d73a9148973, aead=false, fast-open=false, udp-relay=true, tag=US_1516 |27.88Mb
-vmess = 51.81.223.30:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1519 |37.68Mb
-vmess = usa-dallas.lvuft.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-dallas.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1520 |40.56Mb
-vmess = 137.184.118.47:51649, method=chacha20-ietf-poly1305, password=5d0b1709-5c3c-4073-fb3f-67251426571e, aead=true, fast-open=false, udp-relay=true, tag=US_1521 |31.05Mb
-vmess = 47.242.17.122:36788, method=chacha20-ietf-poly1305, password=cf797f13-98b8-40cb-ccf9-98289361e02f, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=US_1522 |16.33Mb
-vmess = 138.2.15.23:46370, method=chacha20-ietf-poly1305, password=998151e5-0bc5-4377-e390-c41bb26fdd0c, aead=true, fast-open=false, udp-relay=true, tag=US_1523 |22.76Mb
-vmess = 107.148.162.154:16399, method=chacha20-ietf-poly1305, password=7be2219f-7ac7-4cad-f45f-4c8fef813656, aead=true, fast-open=false, udp-relay=true, tag=US_1524 | 8.64Mb
-vmess = 168.138.201.208:10328, method=chacha20-ietf-poly1305, password=bf847bf7-0ba5-4885-bd2b-da4d77afbda8, aead=true, fast-open=false, udp-relay=true, tag=US_1525 |21.52Mb
-vmess = 51.81.223.6:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1526 |23.46Mb
-vmess = 51.81.223.10:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1527 |16.99Mb
-vmess = 51.81.223.17:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1528 |14.88Mb
-vmess = 23.227.194.145:36195, method=chacha20-ietf-poly1305, password=fae6eae5-a5b5-41ba-b660-dc067340048f, aead=true, fast-open=false, udp-relay=true, tag=US_1529 | 6.43Mb
-vmess = 23.105.199.160:23903, method=chacha20-ietf-poly1305, password=60b6c1a6-6306-4e28-91d9-8d2be2449ae8, aead=true, fast-open=false, udp-relay=true, tag=US_1530 |55.93Mb
-vmess = 23.105.199.160:25078, method=chacha20-ietf-poly1305, password=964f9b2b-7ff1-4026-d4a9-41b824f4b3bb, aead=true, fast-open=false, udp-relay=true, tag=US_1531 |12.16Mb
-vmess = 23.105.199.160:27317, method=chacha20-ietf-poly1305, password=01832c71-50ac-4891-ae37-1dea8f42ae2d, aead=true, fast-open=false, udp-relay=true, tag=US_1532 |30.09Mb
-vmess = 23.105.199.160:23166, method=chacha20-ietf-poly1305, password=f1cda9da-c859-4f26-f609-a2e8837cc9b8, aead=true, fast-open=false, udp-relay=true, tag=US_1533 |77.59Mb
-vmess = 23.105.199.160:37584, method=chacha20-ietf-poly1305, password=61914893-393a-4685-fc2d-13328bd8e491, aead=true, fast-open=false, udp-relay=true, tag=US_1534 |21.03Mb
-vmess = 152.69.197.60:1069, method=chacha20-ietf-poly1305, password=ac8e26fe-8150-4b60-ae64-82fc77eba2cf, aead=true, fast-open=false, udp-relay=true, tag=US_1535 | 8.59Mb
-vmess = guibi.ml:443, method=chacha20-ietf-poly1305, password=9d090c5f-56b9-4408-fc6b-b9316cc377c1, aead=false, tls13=false, obfs=wss, obfs-host=guibi.ml, obfs-uri=/, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1536 | 3.73Mb
-vmess = 192.96.204.250:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-washington.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1537 |247.76Mb
-vmess = usa-washington.lvuft.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-washington.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1538 |13.06Mb
-vmess = 45.10.153.188:37558, method=chacha20-ietf-poly1305, password=9d0f86ad-eec3-424f-f69a-fcb37e783d06, aead=true, fast-open=false, udp-relay=true, tag=US_1539 |57.83Mb
-vmess = viibah6u.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=viibah6u.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1541 |21.36Mb
-vmess = 103.186.148.106:80, method=chacha20-ietf-poly1305, password=67468d89-cf87-443c-baca-49f1e73b5991, aead=true, obfs=ws, obfs-host=, obfs-uri=/shopvpn.net, fast-open=false, udp-relay=true, tag=ZZ_1708
+vmess = 129.159.41.233:32586, method=chacha20-ietf-poly1305, password=341a9182-c423-499c-c46e-d17838b29037, aead=true, fast-open=false, udp-relay=true, tag=_40 |40.20Mb
+vmess = 168.138.207.66:21365, method=chacha20-ietf-poly1305, password=905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, aead=true, fast-open=false, udp-relay=true, tag=_41 |30.97Mb
+vmess = 129.146.133.157:51009, method=chacha20-ietf-poly1305, password=81714cef-9bde-4a08-aa50-d6bc0172d78b, aead=true, fast-open=false, udp-relay=true, tag=_42 |43.20Mb
+vmess = 129.154.48.221:37372, method=chacha20-ietf-poly1305, password=6f4454a9-e732-46c6-c50f-73f13da31f7b, aead=true, fast-open=false, udp-relay=true, tag=AU_67 | 2.55Mb
+vmess = 810hk03.fx6688.top:443, method=chacha20-ietf-poly1305, password=2cc10f9c-fb02-3e45-b619-c3b98cde912a, aead=false, tls13=false, obfs=wss, obfs-host=810hk03.fx6688.top, obfs-uri=/ray, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_68 |10.80Mb
+vmess = 810hk01.fx6688.top:443, method=chacha20-ietf-poly1305, password=f8dcfff8-3cb9-3221-bc82-5a58a336d4b9, aead=false, tls13=false, obfs=wss, obfs-host=810hk01.fx6688.top, obfs-uri=/ray, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_70 |10.36Mb
+vmess = ingress-i2.iivvppnn.info:38106, method=chacha20-ietf-poly1305, password=79386685-16da-327c-9e14-aa6d702d86bc, aead=true, obfs=ws, obfs-host=ingress-i2.iivvppnn.info, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=true, tag=CN_223 | 1.67Mb
+vmess = 3.sg.zz.xxxxx.x-t-fuckword.network:36679, method=chacha20-ietf-poly1305, password=244effd9-0204-3c4a-8537-0dca4e5fd9b5, aead=true, fast-open=false, udp-relay=true, tag=CN_224 | 1.92Mb
+vmess = 4.3.1.fuckppppp.today:58418, method=chacha20-ietf-poly1305, password=244effd9-0204-3c4a-8537-0dca4e5fd9b5, aead=true, fast-open=false, udp-relay=true, tag=CN_225 | 2.32Mb
+vmess = 185.167.78.193:47634, method=chacha20-ietf-poly1305, password=5cf637c0-04f2-4af4-c25b-6e467c14d496, aead=true, fast-open=false, udp-relay=true, tag=GB_385 |24.28Mb
+vmess = hkbn-home-a.zc20200426.club:39999, method=chacha20-ietf-poly1305, password=67c50f6a-816d-3555-89b4-19dd29608f8b, aead=true, tls13=false, obfs=over-tls, obfs-host=hkbn-home-a.zc20200426.club, fast-open=false, udp-relay=true, tls-verification=false, tag=HK_392
+vmess = 203.184.132.249:4399, method=chacha20-ietf-poly1305, password=b315a93b-cec1-34cb-a658-be53ffda7cd8, aead=true, obfs=ws, obfs-host=, obfs-uri=/situ-hgc4, fast-open=false, udp-relay=true, tag=HK_393 | 2.46Mb
+vmess = 203.184.132.247:4399, method=chacha20-ietf-poly1305, password=b315a93b-cec1-34cb-a658-be53ffda7cd8, aead=true, obfs=ws, obfs-host=, obfs-uri=/situ-hgc2, fast-open=false, udp-relay=true, tag=HK_394 | 5.23Mb
+vmess = 203.184.132.248:4399, method=chacha20-ietf-poly1305, password=b315a93b-cec1-34cb-a658-be53ffda7cd8, aead=true, obfs=ws, obfs-host=, obfs-uri=/situ-hgc3, fast-open=false, udp-relay=true, tag=HK_395 | 6.40Mb
+vmess = 18.167.20.169:8080, method=chacha20-ietf-poly1305, password=e1f97064-adcd-40d3-91a0-3f0bea035fca, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=HK_396
+vmess = 23.91.100.243:30862, method=chacha20-ietf-poly1305, password=3b0f44e4-dd11-429d-c80f-615b10595db9, aead=true, fast-open=false, udp-relay=true, tag=HK_397
+vmess = 185.225.69.134:45081, method=chacha20-ietf-poly1305, password=3c3bfd75-dc30-4e76-8940-47e1137e21f9, aead=false, fast-open=false, udp-relay=true, tag=HU_402 |36.14Mb
+vmess = 5.181.132.234:31372, method=chacha20-ietf-poly1305, password=c40b4d06-7684-4c09-d8d9-8de7186b293a, aead=true, fast-open=false, udp-relay=true, tag=IT_409 | 5.43Mb
+vmess = 146.56.184.242:19570, method=chacha20-ietf-poly1305, password=70a998e0-ba0b-4994-af50-8deed58cdbd9, aead=true, fast-open=false, udp-relay=true, tag=JP_417
+vmess = m4.40010010.xyz:37121, method=chacha20-ietf-poly1305, password=575e4d92-1056-44c2-8cac-75ef1c859ad5, aead=true, tls13=false, obfs=over-tls, obfs-host=m4.40010010.xyz, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_466
+vmess = 146.56.167.119:6666, method=chacha20-ietf-poly1305, password=64779fce-63a5-4faa-b59b-e4af40f4e419, aead=true, fast-open=false, udp-relay=true, tag=JP_467
+vmess = ycgyg.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=ycgyg.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_852
+vmess = 202.61.141.130:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_853
+vmess = 8.214.33.158:80, method=chacha20-ietf-poly1305, password=cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=SG_881 |10.28Mb
+vmess = tw-tb-b.zc20200426.club:39998, method=chacha20-ietf-poly1305, password=67c50f6a-816d-3555-89b4-19dd29608f8b, aead=true, tls13=false, obfs=over-tls, obfs-host=tw-tb-b.zc20200426.club, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_899
+vmess = 61.222.202.140:33792, method=chacha20-ietf-poly1305, password=e55cd182-01b0-4fb7-a510-363701a491c5, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=TW_900 |22.18Mb
+vmess = 61.222.202.140:15789, method=chacha20-ietf-poly1305, password=4535e708-5988-4377-a083-755ed60d8068, aead=true, fast-open=false, udp-relay=true, tag=TW_901 |23.73Mb
+vmess = lc-hk01-direct01.lc-hk01.lc-node.com:443, method=chacha20-ietf-poly1305, password=ec736482-173e-3eff-9114-b49df8056e7d, aead=false, tls13=false, obfs=wss, obfs-host=lc-hk01-direct01.lc-hk01.lc-node.com, obfs-uri=/, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_902 | 1.95Mb
+vmess = 208.98.48.2:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_928
+vmess = 51.81.223.4:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_929 |60.06Mb
+vmess = lc-kr02-direct01.lc-kr02.lc-node.com:443, method=chacha20-ietf-poly1305, password=ec736482-173e-3eff-9114-b49df8056e7d, aead=true, tls13=false, obfs=wss, obfs-host=lc-kr02-direct01.lc-kr02.lc-node.com, obfs-uri=/, fast-open=false, udp-relay=true, tls-verification=false, tag=US_930
+vmess = 152.70.235.207:35412, method=chacha20-ietf-poly1305, password=70d95308-2a61-4f93-f139-9103d0587fd9, aead=true, fast-open=false, udp-relay=true, tag=US_931
+vmess = 51.81.223.14:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_932
+vmess = 154.94.214.2:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_933
+vmess = 154.94.218.130:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_934
+vmess = 23.105.199.160:23903, method=chacha20-ietf-poly1305, password=60b6c1a6-6306-4e28-91d9-8d2be2449ae8, aead=true, fast-open=false, udp-relay=true, tag=US_1451 |65.51Mb
+vmess = 137.184.118.47:51649, method=chacha20-ietf-poly1305, password=5d0b1709-5c3c-4073-fb3f-67251426571e, aead=true, fast-open=false, udp-relay=true, tag=US_1452 |45.14Mb
+vmess = 104.23.102.53:443, method=chacha20-ietf-poly1305, password=5c84e109-4772-4efb-a1cb-7b09d5a1791e, aead=true, tls13=false, obfs=wss, obfs-host=bissen.114514cn.me, obfs-uri=/Telegram@BDovo_qaq, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1453
+vmess = vus3.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vus3.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1454
+vmess = 51.81.223.13:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1455
+vmess = 51.81.223.25:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1456
+vmess = 51.81.223.15:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1457
+vmess = 51.81.223.18:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1458
+vmess = 51.81.223.6:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1459
+vmess = vde1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vde1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1460
+vmess = 51.81.223.17:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1461
+vmess = 107.148.162.154:16399, method=chacha20-ietf-poly1305, password=7be2219f-7ac7-4cad-f45f-4c8fef813656, aead=true, fast-open=false, udp-relay=true, tag=US_1462 | 9.23Mb
+vmess = 23.227.194.145:36195, method=chacha20-ietf-poly1305, password=fae6eae5-a5b5-41ba-b660-dc067340048f, aead=true, fast-open=false, udp-relay=true, tag=US_1463
+vmess = 23.105.199.160:37584, method=chacha20-ietf-poly1305, password=61914893-393a-4685-fc2d-13328bd8e491, aead=true, fast-open=false, udp-relay=true, tag=US_1464 |70.18Mb
+vmess = 23.105.199.160:23166, method=chacha20-ietf-poly1305, password=f1cda9da-c859-4f26-f609-a2e8837cc9b8, aead=true, fast-open=false, udp-relay=true, tag=US_1465 |74.40Mb
+vmess = 45.35.84.162:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-dallas.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1466 |63.22Mb
+vmess = 138.2.15.23:46370, method=chacha20-ietf-poly1305, password=998151e5-0bc5-4377-e390-c41bb26fdd0c, aead=true, fast-open=false, udp-relay=true, tag=US_1467 |13.83Mb
+vmess = 45.10.153.188:37558, method=chacha20-ietf-poly1305, password=9d0f86ad-eec3-424f-f69a-fcb37e783d06, aead=true, fast-open=false, udp-relay=true, tag=US_1468 |58.60Mb
+vmess = 147.139.7.71:888, method=chacha20-ietf-poly1305, password=08d6729d-830e-4341-df76-62d3d12e75e8, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=US_1469 |26.39Mb
+vmess = 51.81.223.0:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1470 |67.91Mb
+vmess = 51.81.223.32:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1471 |50.45Mb
+vmess = usa-washington.lvuft.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-washington.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1472 |205.09Mb
+vmess = 51.81.223.26:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_1473 |63.88Mb
+vmess = 152.69.197.60:1069, method=chacha20-ietf-poly1305, password=ac8e26fe-8150-4b60-ae64-82fc77eba2cf, aead=true, fast-open=false, udp-relay=true, tag=US_1474 |34.68Mb
+vmess = 51.81.223.22:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1475 |69.20Mb
+vmess = 168.138.201.208:10328, method=chacha20-ietf-poly1305, password=bf847bf7-0ba5-4885-bd2b-da4d77afbda8, aead=true, fast-open=false, udp-relay=true, tag=US_1476 |30.77Mb
+vmess = 150.230.41.9:23292, method=chacha20-ietf-poly1305, password=956c6c2f-bf54-4b87-fafd-4b767ca12750, aead=true, fast-open=false, udp-relay=true, tag=US_1477 |44.87Mb
+vmess = 51.81.223.19:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1478 |58.64Mb
+vmess = 23.105.199.160:27317, method=chacha20-ietf-poly1305, password=01832c71-50ac-4891-ae37-1dea8f42ae2d, aead=true, fast-open=false, udp-relay=true, tag=US_1479 |75.19Mb
+vmess = 23.105.199.160:25078, method=chacha20-ietf-poly1305, password=964f9b2b-7ff1-4026-d4a9-41b824f4b3bb, aead=true, fast-open=false, udp-relay=true, tag=US_1480 |58.92Mb
+vmess = 51.81.223.10:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_1481 |39.21Mb
+vmess = 51.81.223.20:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=true, fast-open=false, udp-relay=true, tag=US_1482 |38.84Mb
+vmess = 192.96.204.250:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-washington.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1483 |217.91Mb
+vmess = 47.241.220.160:46622, method=chacha20-ietf-poly1305, password=4a8610cd-ec1f-471b-f3cf-51241f1de4ff, aead=true, fast-open=false, udp-relay=true, tag=US_1484 | 1.66Mb
+vmess = 51.81.223.12:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1485 |53.41Mb
+vmess = 51.81.223.30:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1486 |39.04Mb
+vmess = 51.81.223.36:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1487 |60.16Mb
+vmess = 51.81.223.21:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1488 |57.57Mb
+vmess = 47.242.17.122:36788, method=chacha20-ietf-poly1305, password=cf797f13-98b8-40cb-ccf9-98289361e02f, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=US_1489 |21.38Mb
+vmess = viibah6u.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=viibah6u.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1490
+vmess = 138.2.44.211:20081, method=chacha20-ietf-poly1305, password=593b8525-0c48-4b0f-d9af-2d73a9148973, aead=false, fast-open=false, udp-relay=true, tag=US_1491 |33.78Mb
+vmess = 51.81.223.31:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1492 |67.60Mb
+vmess = usa-dallas.lvuft.com:443, method=chacha20-ietf-poly1305, password=aba50dd4-5484-3b05-b14a-4661caf862d5, aead=false, tls13=false, obfs=wss, obfs-host=usa-dallas.lvuft.com, obfs-uri=/ws, fast-open=false, udp-relay=true, tls-verification=false, tag=US_1493 |86.64Mb
+vmess = 51.81.223.29:443, method=chacha20-ietf-poly1305, password=c0156451-4efb-45e2-84fc-8d315c4650db, aead=false, fast-open=false, udp-relay=true, tag=US_1494 |68.72Mb
