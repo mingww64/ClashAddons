@@ -1,146 +1,140 @@
 proxies:
-- name: CA_141
-  password: a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+- alterId: 2
+  cipher: auto
+  name: CA_143 | 2.39Mb
+  network: ws
   port: 443
-  server: ca-trojan.bonds.id
+  server: 527hk1.fans8.xyz
   skip-cert-verify: true
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: CA_142
-  password: a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_143
-  password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  ws-opts:
+    headers:
+      Host: 527hk1.fans8.xyz
+    path: /ray
 - name: CA_144
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_145
-  password: TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_146
-  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_147
-  password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8
-  port: 443
-  server: 51.161.118.38
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_148
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_149
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_150
-  password: bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_151
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: CA_145
+  password: a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_146
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0--40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_147
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_148
+  password: 28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_149
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_150
+  password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8
+  port: 443
+  server: 51.161.118.38
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_151
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: CA_152
-  password: YWVzLTI1-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  password: a3fa5-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CA_153
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  password: YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CA_154
-  password: gb8cLR
-  port: 443
-  server: 165.154.226.108
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_155
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_156
   password: YWVzLTI1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: CA_155
+  password: YWVzLTI1Ni1nY206WW-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_156
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: CA_157
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  password: YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CA_158
-  password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CA_159
-  password: a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  password: YWVzLTI1N-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CA_160
-  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CA_161
-  password: 28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
@@ -154,240 +148,289 @@ proxies:
   type: trojan
   udp: true
 - name: CA_163
-  password: YWVzLTI1Ni1nY206eHBRd3-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_164
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0--40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_165
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_166
-  password: YWVzL-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_167
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_168
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_169
-  password: bc7593fe-0-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_170
-  password: a3fa5-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_171
-  password: YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_172
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_173
-  password: YWVzLTI1Ni1nY206WW-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_174
-  password: YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_175
-  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_176
-  password: YWVzLTI1N-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_177
-  password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_178
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_179
+- name: CA_164
+  password: YWVzLTI1-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_165
+  password: bc7593fe-0-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_166
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_167
+  password: gb8cLR
+  port: 443
+  server: 165.154.226.108
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_168
+  password: bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_169
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_170
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_171
+  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_172
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_173
   password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: CA_174
+  password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_175
+  password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_176
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_177
+  password: a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_178
+  password: TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_179
+  password: a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_180
+  password: YWVzLTI1Ni1nY206eHBRd3-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_181
+  password: YWVzL-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_182
+  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_121 | 7.88Mb
+  name: CA_120 |24.23Mb
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_121 |32.31Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_122 | 5.31Mb
+  name: CA_122 |15.97Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.156
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_123 | 4.51Mb
+  name: CA_123 |35.38Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_124 | 2.58Mb
+  name: CA_124 |36.45Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.156
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_125 | 5.64Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_126 |33.70Mb
+  name: CA_125 |36.81Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.156
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_127
+  name: CA_126 |37.34Mb
   password: G!yBwPWH3Vao
-  port: 805
+  port: 806
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_129 |37.47Mb
-  password: G!yBwPWH3Vao
+  name: CA_127 |60.52Mb
+  password: Ultr@r00t_2017
   port: 811
-  server: 196.247.59.156
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: CA_130 | 2.25Mb
-  password: null
-  port: 50004
-  server: 51.79.223.96
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_131 |43.51Mb
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 51.161.118.38
+  server: 138.197.166.205
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: CA_132 |16.69Mb
+  name: CA_128 |16.69Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.111.114.246
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: CA_133 | 7.83Mb
+  name: CA_129 |17.93Mb
   password: null
   port: 50004
   server: 51.79.166.171
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_134 |51.33Mb
+  name: CA_130 |97.93Mb
   password: G!yBwPWH3Vao
   port: 812
   server: 51.161.118.38
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_135 |36.39Mb
-  password: Ultr@r00t_2017
-  port: 811
-  server: 138.197.166.205
+- cipher: aes-256-cfb
+  name: CA_131 | 2.24Mb
+  password: null
+  port: 50004
+  server: 51.79.241.247
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_136 |30.05Mb
+  name: CA_132 |28.61Mb
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 196.247.59.156
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: CA_133 | 1.09Mb
+  password: null
+  port: 50004
+  server: 51.79.157.58
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_134 |100.02Mb
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 51.161.118.38
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_137 |88.14Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 51.161.118.38
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_138 |38.79Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_138 |18.73Mb
+  name: CA_139 |29.49Mb
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_140 |22.91Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 196.247.59.156
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_141 |28.74Mb
   password: G!yBwPWH3Vao
   port: 802
   server: 196.247.59.154
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_139 |27.18Mb
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 196.247.59.154
+- cipher: aes-256-cfb
+  name: CA_142 |16.97Mb
+  password: null
+  port: 50004
+  server: 51.79.223.96
   type: ss
   udp: true
