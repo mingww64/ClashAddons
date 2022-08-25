@@ -1,133 +1,120 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: GB_360 |23.49Mb
-  port: 47634
-  server: 185.167.78.193
+- name: GB_353
+  password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: 185.44.76.188
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 5cf637c0-04f2-4af4-c25b-6e467c14d496
-- alterId: 0
-  cipher: auto
-  name: GB_361 | 8.21Mb
-  port: 48986
-  server: 185.167.78.193
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 51e663d5-bd0b-447c-d483-d7a8e27d157a
-- name: GB_345 |59.31Mb
+- name: GB_354 |29.87Mb
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: jgwld1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_346 |45.23Mb
-  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
-  port: 443
-  server: jgwld2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_363
-  password: share.mjj-home.com
-  port: 443
-  server: api.mjj-home.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_364 |23.64Mb
+- name: GB_369 |23.67Mb
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   port: 3052
   server: kr05.wangxd.life
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: GB_347 |38.80Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 212.38.189.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_348 | 3.61Mb
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 109.169.72.249
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: GB_349 |37.33Mb
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 212.38.189.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_351 | 5.96Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 109.169.72.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_352 |36.27Mb
-  password: Ultr@r00t_2017
-  port: 811
-  server: 178.62.16.161
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: GB_353 |34.83Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 212.38.189.174
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: GB_354 |37.09Mb
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 212.38.189.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_355 | 6.71Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 109.169.72.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_356 | 9.58Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 163.172.110.153
-  type: ss
+- name: GB_370
+  password: share.mjj-home.com
+  port: 443
+  server: api.mjj-home.com
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: GB_357 | 4.71Mb
+  name: GB_355 | 9.63Mb
   password: null
   port: 50003
   server: 5.183.100.87
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: GB_358 |29.81Mb
+  name: GB_356 |37.94Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 212.38.189.174
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_357 |38.35Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 163.172.110.153
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_358 | 2.86Mb
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 109.169.72.249
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: GB_359 |19.10Mb
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 212.38.189.174
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_359 | 3.87Mb
+  name: GB_360 |37.53Mb
+  password: Ultr@r00t_2017
+  port: 811
+  server: 178.62.16.161
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: GB_361 |38.50Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 212.38.189.174
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_362 | 2.80Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 109.169.72.249
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_363 | 3.59Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 109.169.72.249
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_364 | 3.64Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 109.169.72.249
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: GB_365 | 0.86Mb
+  password: Ni7Xn9PJPN
+  port: 15941
+  server: 45.152.65.174
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: GB_366 |38.41Mb
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 212.38.189.174
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: GB_367 |39.50Mb
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 212.38.189.174
   type: ss
   udp: true
