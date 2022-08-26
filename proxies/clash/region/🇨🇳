@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_44 | 2.65Mb
+  name: CN_19 |10.51Mb
   port: 36679
   server: 3.sg.zz.xxxxx.x-t-fuckword.network
   skip-cert-verify: true
@@ -11,7 +11,52 @@ proxies:
   uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
 - alterId: 0
   cipher: auto
-  name: CN_51 | 2.20Mb
+  name: CN_20 | 3.89Mb
+  network: ws
+  port: 13888
+  server: hk-hkg-it2-svm-v2.node.inforun.work
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 763b2303-0e16-455e-926d-66d909c3e37b
+  ws-opts:
+    headers:
+      Host: hk-hkg-it2-svm-v2.node.inforun.work
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 64
+  cipher: auto
+  name: CN_21 | 8.45Mb
+  network: ws
+  port: 443
+  server: 119.36.161.40
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.79759381.xyz
+    path: /path/323127100515
+- alterId: 64
+  cipher: auto
+  name: CN_23 | 9.38Mb
+  network: ws
+  port: 443
+  server: 119.36.161.40
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973
+  ws-opts:
+    headers:
+      Host: www.25055502.xyz
+    path: /path/323127100515
+- alterId: 0
+  cipher: auto
+  name: CN_30 | 1.91Mb
   port: 58418
   server: 4.3.1.fuckppppp.today
   skip-cert-verify: true
@@ -19,220 +64,108 @@ proxies:
   type: vmess
   udp: true
   uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-- name: CN_45 | 4.08Mb
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  port: 30000
-  server: cm.spacez.cloud
+- name: CN_24
+  password: eda8a8e5-1076-4d7b-b1d0-5003a0350073
+  port: 35002
+  server: cn2hn.sub-nthu.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_46 | 5.44Mb
-  password: LTKPTMbjBDYisdMxKEBDzcduXacOvIVY
-  port: 889
-  server: jp-tyo-04-tr.cdn.savoy.click
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_47 | 2.16Mb
-  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
-  port: 34003
-  server: iiiieeepppplll.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_48 | 2.49Mb
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  port: 30002
-  server: cm.spacez.cloud
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_49 | 3.38Mb
+- name: CN_25 | 7.51Mb
   password: c9a3a61d-5d49-4158-9e60-6fa32684b122
   port: 30003
   server: cm.spacez.cloud
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_52
-  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
-  port: 10089
-  server: tw-tpe-h-tr.cdn.savoy.click
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_53 | 2.18Mb
-  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
-  port: 34002
+- name: CN_26 | 5.09Mb
+  password: eb2f8154-ff58-3b99-b393-28c8eecdbe64
+  port: 34003
   server: iiiieeepppplll.zhengzhongfeizhu.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_54
+- name: CN_27 | 2.23Mb
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  port: 34003
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_28 | 4.08Mb
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
+  port: 30000
+  server: cm.spacez.cloud
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_31
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 21089
   server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_55 | 2.50Mb
+- name: CN_32 | 2.33Mb
   password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
   port: 34001
   server: iiiieeepppplll.zhengzhongfeizhu.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-128-cfb
-  name: CN_16
-  password: QazEdcTgb159@$*
-  port: 25210
-  server: 14.29.124.168
-  type: ss
+- name: CN_33 | 2.18Mb
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  port: 34002
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_34
+  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
+  port: 10089
+  server: tw-tpe-h-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: CN_17 | 4.03Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 4999
-  server: sh001.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_19 | 2.90Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 8077
-  server: sh001.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_20 | 2.98Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 9000
-  server: sh001.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_21 | 2.21Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 12334
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_22 | 2.71Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 1121
-  server: sh001.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_23 | 2.87Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 5288
-  server: sh001.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_24 | 3.46Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 12333
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_25 | 2.62Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 26818
-  server: sh001.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_28 | 2.16Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 1233
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_29 | 3.35Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 20187
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_30 | 2.74Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 19992
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_31 | 2.30Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 12389
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_32 | 2.11Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 1265
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_33 | 2.74Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 20087
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_35 | 5.51Mb
+  name: CN_13 | 5.34Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 9203
+  port: 9206
   server: linux.nameserversv3.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: CN_37 | 2.11Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 30686
-  server: bgp.esmk.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_39
-  password: QazEdcTgb159@$*
-  port: 11013
-  server: 14.29.124.174
+  name: CN_14 |18.03Mb
+  password: 890471c1b0e5e3ab2d32d77d564820ae
+  port: 8743
+  server: sadfsn.domainsv3.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: CN_40 | 3.40Mb
+  name: CN_15 |10.47Mb
+  password: eb87e509-b30d-45f0-817a-8c6fae6a80a5
+  port: 60043
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: CN_16 | 3.40Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 9403
   server: sadfsn.domainsv3.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: CN_41 | 5.28Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 9405
-  server: uiug.expirationv3.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CN_42 | 5.74Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 9205
+  name: CN_17 | 8.07Mb
+  password: 2bf86435908573620556efdd3a4883ad
+  port: 9201
   server: linux.nameserversv3.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: CN_43 | 2.05Mb
-  password: 826447b8-afba-37d4-b9df-1da5f5a59f2d
-  port: 8076
-  server: sh001.esmk.xyz
+- cipher: aes-128-cfb
+  name: CN_18 |10.37Mb
+  password: QazEdcTgb159@$*
+  port: 11013
+  server: 14.29.124.174
   type: ss
   udp: true

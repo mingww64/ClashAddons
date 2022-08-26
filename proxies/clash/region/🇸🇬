@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: SG_162 | 5.84Mb
+  name: SG_140 | 5.84Mb
   port: 31848
   server: yytok.wvs22.buzz
   skip-cert-verify: true
@@ -9,45 +9,66 @@ proxies:
   type: vmess
   udp: true
   uuid: b88dd566-4fb4-42d0-bb79-7f06638d4d61
-- name: SG_164 |10.94Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_165 |12.33Mb
+- name: SG_141 | 9.42Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: SG_142 | 9.78Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_158 | 9.33Mb
+  name: SG_135 | 8.80Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 81.90.189.41
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_159 | 8.78Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 81.90.189.41
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_160 | 9.13Mb
+  name: SG_136 | 8.89Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.41
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_166 | 9.79Mb
+  name: SG_137 | 8.61Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_143 | 7.68Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_144 | 3.14Mb
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_145 | 1.30Mb
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_146 | 1.37Mb
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 217.197.160.117
   type: ss
   udp: true
