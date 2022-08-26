@@ -1,36 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CA_08 |19.44Mb
+  name: CA_07 | 6.34Mb
   password: G!yBwPWH3Vao
-  port: 800
+  port: 802
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_09 |22.13Mb
+  name: CA_08 |12.90Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: CA_09 |47.74Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.111.114.246
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_10 |61.72Mb
+  name: CA_10 |59.44Mb
   password: Ultr@r00t_2017
   port: 811
   server: 138.197.166.205
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_11 |25.22Mb
+  name: CA_11 |23.28Mb
   password: G!yBwPWH3Vao
-  port: 802
+  port: 800
   server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: CA_12 |58.56Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.111.114.246
   type: ss
   udp: true
