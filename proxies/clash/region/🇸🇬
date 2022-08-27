@@ -1,43 +1,53 @@
 proxies:
-- name: SG_168 |12.25Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
+- alterId: 0
+  cipher: auto
+  name: SG_133 | 2.12Mb
+  port: 42424
+  server: 139.180.140.20
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: SG_169 |12.25Mb
+  uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d
+- name: SG_134 |19.78Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s2.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_170 | 2.46Mb
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 217.197.160.117
-  type: ss
+- name: SG_135 |12.42Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hazz.win
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_171 | 1.96Mb
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 217.197.160.117
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_172 | 9.15Mb
+  name: SG_136 | 9.15Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.41
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_173 | 4.02Mb
+  name: SG_137 | 2.46Mb
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_138 | 4.02Mb
   password: G!yBwPWH3Vao
   port: 810
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_139 | 1.96Mb
+  password: G!yBwPWH3Vao
+  port: 801
   server: 217.197.160.117
   type: ss
   udp: true
