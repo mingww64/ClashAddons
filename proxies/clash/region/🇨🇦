@@ -1,57 +1,50 @@
 proxies:
-- name: CA_07 |11.62Mb
+- name: CA_07 | 3.53Mb
   password: 21fa8a10-6d60-42db-b0eb-543e098bcade
   port: 443
   server: 730tw01.ok365.cyou
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_08 |18.61Mb
+- name: CA_09 | 3.22Mb
   password: 21fa8a10-6d60-42db-b0eb-543e098bcade
   port: 443
   server: 727tw01.ok365.cyou
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_09 | 4.34Mb
-  password: 21fa8a10-6d60-42db-b0eb-543e098bcade
-  port: 443
-  server: 823tw.tfzhc.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: CA_10 |60.06Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.111.114.246
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_11 |15.69Mb
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_12 |14.96Mb
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_13 |15.01Mb
+  name: CA_10 |13.46Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_14 |59.56Mb
+  name: CA_11 |11.70Mb
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: CA_12 |57.38Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.111.114.246
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_13 |57.42Mb
   password: Ultr@r00t_2017
   port: 811
   server: 138.197.166.205
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_14 |13.76Mb
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 196.247.59.154
   type: ss
   udp: true

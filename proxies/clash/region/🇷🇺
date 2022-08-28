@@ -1,13 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: RU_196 | 7.53Mb
-  password: ypoq8dJBPqst
-  port: 29092
-  server: 92.223.65.31
-  type: ss
+- name: RU_131 |30.45Mb
+  password: 2e260cd3-53a7-36d2-b2f4-7046ff428ff9
+  port: 1200
+  server: ru1.nodegz.top
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: RU_197 |36.25Mb
+  name: RU_132 |39.45Mb
   password: vDS9G2p
   port: 21247
   server: 185.4.65.6
