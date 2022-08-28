@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_47 | 6.24Mb
+  name: CN_77 | 3.44Mb
   network: ws
   port: 443
   server: 49.234.34.180
@@ -16,20 +16,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: CN_51 | 2.38Mb
-  port: 58418
-  server: 4.3.1.fuckppppp.today
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-- alterId: 0
-  cipher: auto
-  name: CN_54 | 2.83Mb
+  name: CN_78
   network: ws
-  port: 10188
-  server: tw-tpe-hq-v2.node.inforun.work
+  port: 10088
+  server: tw-tpe-h-v2.jd.cjhh.mom
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -39,241 +29,401 @@ proxies:
     headers:
       Host: cdn.savoy.click
     path: /je5x3pBN1vez3NQudNkB
-- name: CN_48
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  port: 30003
-  server: cm.spacez.cloud
+- alterId: 0
+  cipher: auto
+  name: CN_83 | 0.91Mb
+  port: 36679
+  server: 3.sg.zz.xxxxx.x-t-fuckword.network
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+- alterId: 0
+  cipher: auto
+  name: CN_84 | 0.01Mb
+  port: 58418
+  server: 4.3.1.fuckppppp.today
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+- name: CN_79 |11.29Mb
+  password: LTKPTMbjBDYisdMxKEBDzcduXacOvIVY
+  port: 889
+  server: jp-tyo-04-tr.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_49 | 2.64Mb
+- name: CN_80 | 3.92Mb
   password: eb2f8154-ff58-3b99-b393-28c8eecdbe64
   port: 34003
   server: iiiieeepppplll.zhengzhongfeizhu.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_50
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  port: 30002
-  server: cm.spacez.cloud
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_55 | 3.08Mb
+- name: CN_86 | 5.65Mb
   password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
-  port: 34003
+  port: 34001
   server: iiiieeepppplll.zhengzhongfeizhu.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_56
-  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
-  port: 10089
-  server: tw-tpe-h-tr.cdn.savoy.click
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_58
+- name: CN_87
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 21089
   server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: CN_88
+  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
+  port: 10089
+  server: tw-tpe-h-tr.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_89 | 5.45Mb
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  port: 34003
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
-  name: CN_12 | 3.32Mb
+  name: CN_15 | 2.25Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6001
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: CN_16 | 6.40Mb
+  password: 6071345b7a58134cc962c96f7a502ae6
+  port: 9521
+  server: qkhxc.websitesv3.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_17 | 2.21Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6020
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_18 | 2.16Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6013
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_23
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6001
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_24 | 2.04Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6002
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_26 | 4.01Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 6003
-  server: yum-y.update.mipglxi.cn
+  server: 120.233.24.162
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_13 | 4.30Mb
+  name: CN_28 | 3.44Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6014
-  server: yum-y.update.mipglxi.cn
+  port: 6010
+  server: 120.233.24.162
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_14 | 4.71Mb
+  name: CN_29 | 2.74Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6009
-  server: yum-y.update.mipglxi.cn
+  port: 6029
+  server: 120.233.24.162
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_15 | 4.05Mb
+  name: CN_33 | 5.24Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6012
-  server: yum-y.update.mipglxi.cn
+  port: 6025
+  server: 120.233.24.162
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_16 | 1.66Mb
+  name: CN_34 | 2.11Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6021
-  server: yum-y.update.mipglxi.cn
+  port: 6028
+  server: 120.233.24.162
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_17 | 2.15Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6019
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_18 | 2.15Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6017
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_20 | 3.65Mb
+  name: CN_35 | 2.09Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 6007
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_36 | 7.27Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6029
   server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_21 | 4.05Mb
+  name: CN_37 |10.36Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6032
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_39 |10.64Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6024
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_40 | 4.05Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 6011
   server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_23 | 2.29Mb
+  name: CN_41
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6009
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_42 | 2.82Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6017
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_43 | 5.47Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6019
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_44 | 1.66Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6021
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_45 | 4.11Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6012
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_46 | 3.85Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6009
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_47 | 4.30Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6014
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_48 | 3.07Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6003
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_49 | 2.72Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6007
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_50 | 2.52Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6013
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_51 | 4.36Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6010
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: CN_52 | 1.15Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 9203
+  server: 183.232.158.66
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_53
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6008
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_54
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6012
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: CN_55 | 2.44Mb
+  password: 2bf86435908573620556efdd3a4883ad
+  port: 9201
+  server: linux.nameserversv3.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_57 | 9.04Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 6025
   server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_24
+  name: CN_58 | 2.52Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6024
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_25
-  password: 4e2c7e7b0d175c08edc96e7b946415c6
-  port: 8004
-  server: debian10.updatensv3.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_26 | 6.40Mb
-  password: d6fa3a869c3a4a3edb8416e36a59e4aa
-  port: 8015
-  server: debian10.updatensv3.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_29 | 2.04Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6026
+  port: 6020
   server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_30 | 2.50Mb
+  name: CN_59 | 5.14Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6030
+  port: 6016
   server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_31 | 3.60Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6027
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_32 | 2.09Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6028
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_35 | 2.94Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6002
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_36 | 2.05Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6006
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_37 | 2.05Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6031
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_38 | 2.55Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6004
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_39 | 2.45Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6008
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_40 | 3.01Mb
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6001
-  server: yum-y.update.mipglxi.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_41 | 1.97Mb
+  name: CN_60 | 3.36Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 6005
   server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_42 | 3.50Mb
+  name: CN_61 | 2.09Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6020
+  port: 6008
   server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_43
-  password: 68ece1cafb98b06aa7a3edfefdf91de4
-  port: 8010
-  server: debian10.updatensv3.com
+- cipher: aes-128-gcm
+  name: CN_62 | 6.18Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6004
+  server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_44 | 2.91Mb
+  name: CN_63 | 8.01Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6031
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_65 | 3.54Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6006
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_66 | 4.54Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6002
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_68
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6006
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_69 | 6.31Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6028
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_70 | 3.54Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6027
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_71 | 7.91Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6030
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_72 | 2.04Mb
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 6026
+  server: yum-y.update.mipglxi.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_74 | 2.91Mb
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 6022
   server: yum-y.update.mipglxi.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_46 | 2.54Mb
+  name: CN_76
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6016
-  server: yum-y.update.mipglxi.cn
+  port: 6005
+  server: 120.233.24.162
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: CN_82
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 9203
+  server: linux.nameserversv3.com
   type: ss
   udp: true

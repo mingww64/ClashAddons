@@ -116,15 +116,6 @@ clash-for-android:
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
 proxy-providers:
-    ssr:
-      type: http
-      path: "./proxy_provider/ssr.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/ssr
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     vmess:
       type: http
       path: "./proxy_provider/vmess.yaml"
@@ -156,6 +147,15 @@ proxy-providers:
       type: http
       path: "./proxy_provider/🇳🇱.yaml"
       url: https://clashaddons.pages.dev/proxies/clash/region/🇳🇱
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇲🇾:
+      type: http
+      path: "./proxy_provider/🇲🇾.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/region/🇲🇾
       interval: 3600
       health-check:
         enable: true
@@ -201,6 +201,15 @@ proxy-providers:
       type: http
       path: "./proxy_provider/🇦🇺.yaml"
       url: https://clashaddons.pages.dev/proxies/clash/region/🇦🇺
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇹🇼:
+      type: http
+      path: "./proxy_provider/🇹🇼.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/region/🇹🇼
       interval: 3600
       health-check:
         enable: true
@@ -275,10 +284,12 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇳🇱
+  - 🇲🇾
   - 🇸🇬
   - 🇭🇰
   - 🇷🇺
   - 🇦🇺
+  - 🇹🇼
   - 🇯🇵
   - 🇺🇸
   - 🇩🇪
@@ -306,16 +317,17 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - ssr
   - vmess
   - trojan
   - ss-sip002
   - 🇳🇱
+  - 🇲🇾
   - 🇸🇬
   - 🇨🇳
   - 🇭🇰
   - 🇷🇺
   - 🇦🇺
+  - 🇹🇼
   - 🇯🇵
   - 🇺🇸
   - 🇩🇪
@@ -338,16 +350,17 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ssr
   - vmess
   - trojan
   - ss-sip002
   - 🇳🇱
+  - 🇲🇾
   - 🇸🇬
   - 🇨🇳
   - 🇭🇰
   - 🇷🇺
   - 🇦🇺
+  - 🇹🇼
   - 🇯🇵
   - 🇺🇸
   - 🇩🇪
@@ -371,16 +384,17 @@ proxy-groups:
   type: select
   proxies:
   - All
-  - ssr
   - vmess
   - trojan
   - ss-sip002
   - 🇳🇱
+  - 🇲🇾
   - 🇸🇬
   - 🇨🇳
   - 🇭🇰
   - 🇷🇺
   - 🇦🇺
+  - 🇹🇼
   - 🇯🇵
   - 🇺🇸
   - 🇩🇪
@@ -396,16 +410,17 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - ssr
   - vmess
   - trojan
   - ss-sip002
   - 🇳🇱
+  - 🇲🇾
   - 🇸🇬
   - 🇨🇳
   - 🇭🇰
   - 🇷🇺
   - 🇦🇺
+  - 🇹🇼
   - 🇯🇵
   - 🇺🇸
   - 🇩🇪
@@ -422,16 +437,17 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - ssr
   - vmess
   - trojan
   - ss-sip002
   - 🇳🇱
+  - 🇲🇾
   - 🇸🇬
   - 🇨🇳
   - 🇭🇰
   - 🇷🇺
   - 🇦🇺
+  - 🇹🇼
   - 🇯🇵
   - 🇺🇸
   - 🇩🇪
@@ -442,16 +458,6 @@ proxy-groups:
 
   
   
-
-- name: ssr
-  type: url-test
-  
-  use:
-  - ssr
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
 
 - name: vmess
   type: url-test
@@ -488,6 +494,16 @@ proxy-groups:
   
   use:
   - 🇳🇱
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇲🇾
+  type: url-test
+  
+  use:
+  - 🇲🇾
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -538,6 +554,16 @@ proxy-groups:
   
   use:
   - 🇦🇺
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇹🇼
+  type: url-test
+  
+  use:
+  - 🇹🇼
   
   url: http://www.gstatic.com/generate_204
   interval: 300

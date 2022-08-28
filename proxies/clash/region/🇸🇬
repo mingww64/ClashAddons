@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: SG_169 | 6.36Mb
-  port: 31848
-  server: yytok.wvs22.buzz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b88dd566-4fb4-42d0-bb79-7f06638d4d61
-- alterId: 0
-  cipher: auto
-  name: SG_176 | 1.82Mb
+  name: SG_206 | 1.75Mb
   port: 42424
   server: 139.180.140.20
   skip-cert-verify: true
@@ -19,43 +9,36 @@ proxies:
   type: vmess
   udp: true
   uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d
-- name: SG_170 |12.11Mb
+- name: SG_199 |19.46Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s2.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_171 |12.38Mb
+- name: SG_200 |12.37Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_172 | 1.61Mb
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 217.197.160.117
-  type: ss
+- name: SG_201 | 1.94Mb
+  password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink
+  port: 443
+  server: kaizen-sg-01.mielink-dns2.com
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_173 | 1.94Mb
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 217.197.160.117
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_174 | 2.61Mb
+  name: SG_203 | 0.08Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_175 | 9.22Mb
+  name: SG_205 | 9.19Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.41
