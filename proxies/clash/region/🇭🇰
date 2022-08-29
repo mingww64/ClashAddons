@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_474 | 7.08Mb
+  name: HK_360 | 2.75Mb
   network: ws
   port: 443
   server: lc-hk01-direct01.lc-hk01.lc-node.com
@@ -14,28 +14,52 @@ proxies:
     headers:
       Host: lc-hk01-direct01.lc-hk01.lc-node.com
     path: /
-- name: HK_468 | 1.98Mb
-  password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink
-  port: 443
-  server: 104.208.112.180
+- alterId: 0
+  cipher: auto
+  name: HK_361
+  port: 30862
+  server: 23.91.100.243
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: HK_469 | 3.59Mb
+  uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9
+- name: HK_354 | 3.59Mb
   password: 0bdf3a1f-c046-41c2-a7e5-ed92b8155997
   port: 33305
   server: hk005.369boy.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_472 | 6.14Mb
+- name: HK_356
+  password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink
+  port: 443
+  server: 125.59.73.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_357
   password: 11b8206c-8ae2-4ab3-a92c-208cdb8cc73d
   port: 443
   server: nc.cloudorg.uk
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_475
+- name: HK_358 | 0.03Mb
+  password: 0bdf3a1f-c046-41c2-a7e5-ed92b8155997
+  port: 12287
+  server: hk002.369boy.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_359 | 3.65Mb
+  password: 8c4b04fd-245a-44c3-87db-5ca76a850e1b
+  port: 33156
+  server: hk001.369boy.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_362
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
