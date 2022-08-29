@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_59 | 4.49Mb
+  name: HK_474 | 7.08Mb
   network: ws
   port: 443
   server: lc-hk01-direct01.lc-hk01.lc-node.com
@@ -14,34 +14,28 @@ proxies:
     headers:
       Host: lc-hk01-direct01.lc-hk01.lc-node.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: HK_61 | 9.25Mb
-  network: ws
-  port: 8080
-  server: 18.167.20.169
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  ws-opts:
-    path: /
-- name: HK_54 | 1.95Mb
+- name: HK_468 | 1.98Mb
   password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink
   port: 443
   server: 104.208.112.180
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_57 | 3.58Mb
+- name: HK_469 | 3.59Mb
   password: 0bdf3a1f-c046-41c2-a7e5-ed92b8155997
   port: 33305
   server: hk005.369boy.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_62
+- name: HK_472 | 6.14Mb
+  password: 11b8206c-8ae2-4ab3-a92c-208cdb8cc73d
+  port: 443
+  server: nc.cloudorg.uk
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_475
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click

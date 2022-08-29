@@ -1,32 +1,29 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: GB_52 |17.85Mb
-  port: 46279
-  server: 185.167.77.195
+- name: GB_462 | 2.10Mb
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  port: 443
+  server: jgwcc1.gaox.ml
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 666c9436-3680-4694-d0d6-02e16f725871
-- name: GB_49 |61.33Mb
+- name: GB_463 |11.07Mb
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: jgwld1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: GB_50 | 1.92Mb
-  password: Ni7Xn9PJPN
-  port: 15941
-  server: 45.152.65.174
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_51 |26.47Mb
+  name: GB_464 |15.67Mb
   password: Ultr@r00t_2017
   port: 811
   server: 178.62.16.161
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: GB_465 | 1.98Mb
+  password: Ni7Xn9PJPN
+  port: 15941
+  server: 45.152.65.174
   type: ss
   udp: true
