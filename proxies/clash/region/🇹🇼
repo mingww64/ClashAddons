@@ -1,15 +1,22 @@
 proxies:
-- name: TW_448
-  password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink
-  port: 443
-  server: 36.227.234.46
+- name: TW_173 |12.72Mb
+  password: d02058f4f819dced
+  port: 3389
+  server: 60.249.3.226
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_450
-  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
-  port: 443
-  server: pastry.taiwanesefood.link
+- name: TW_174
+  password: d02058f4f819dced
+  port: 3389
+  server: 60.249.3.231
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_175 | 1.95Mb
+  password: d4e41ff772c7fd45
+  port: 3389
+  server: 60.249.3.126
   skip-cert-verify: true
   type: trojan
   udp: true
