@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_484 | 6.96Mb
+  name: HK_635 | 8.50Mb
   network: ws
   port: 443
   server: lc-hk01-direct01.lc-hk01.lc-node.com
@@ -14,31 +14,30 @@ proxies:
     headers:
       Host: lc-hk01-direct01.lc-hk01.lc-node.com
     path: /
-- name: HK_482 | 3.55Mb
-  password: 0bdf3a1f-c046-41c2-a7e5-ed92b8155997
-  port: 33305
-  server: hk005.369boy.com
+- alterId: 0
+  cipher: auto
+  name: HK_637
+  network: ws
+  port: 8080
+  server: 18.167.20.169
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: HK_483
-  password: 8c4b04fd-245a-44c3-87db-5ca76a850e1b
-  port: 33156
-  server: hk001.369boy.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_486
-  password: b3f3d494-d74d-4c03-9931-5c7efb75d980
-  port: 443
-  server: solink.ga
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_487
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  ws-opts:
+    path: /
+- name: HK_638
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_639 |14.14Mb
+  password: b3f3d494-d74d-4c03-9931-5c7efb75d980
+  port: 443
+  server: solink.ga
   skip-cert-verify: true
   type: trojan
   udp: true
