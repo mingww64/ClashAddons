@@ -1,13 +1,20 @@
 proxies:
-- name: RU_614
-  password: coldwar2
-  port: 8443
-  server: ttt3.swiftfalcon.app
+- name: RU_613 | 2.41Mb
+  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
+  port: 443
+  server: tr04.kaochangonline.online
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: RU_614 |30.16Mb
+  password: 2e260cd3-53a7-36d2-b2f4-7046ff428ff9
+  port: 1200
+  server: ru1.nodegz.top
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: RU_615
+  name: RU_615 |22.62Mb
   password: vDS9G2p
   port: 21247
   server: 185.4.65.6

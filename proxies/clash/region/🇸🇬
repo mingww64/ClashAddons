@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: SG_620
+  name: SG_620 | 0.05Mb
   port: 42424
   server: 139.180.140.20
   skip-cert-verify: true
@@ -9,17 +9,7 @@ proxies:
   type: vmess
   udp: true
   uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d
-- alterId: 0
-  cipher: auto
-  name: SG_621
-  port: 38941
-  server: 139.59.244.143
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
-- name: SG_616
+- name: SG_616 | 0.15Mb
   password: 594f3c57-d2aa-43a8-98c0-73e672a52b8a
   port: 443
   server: 825hk01.tfzhc.top
@@ -27,23 +17,23 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_617
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 217.197.160.117
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_618
+  name: SG_617 | 6.37Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_619
+  name: SG_618 | 6.50Mb
   password: G!yBwPWH3Vao
   port: 805
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_619 | 6.82Mb
+  password: G!yBwPWH3Vao
+  port: 810
   server: 217.197.160.117
   type: ss
   udp: true
