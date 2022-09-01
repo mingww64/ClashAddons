@@ -1,85 +1,92 @@
 proxies:
-- name: DE_483
+- name: DE_521
   password: afefa
   port: 36206
   server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_484
+- name: DE_522
   password: c-a403-846a0a458dbd
-  port: 36306
+  port: 36701
   server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_485
-  password: c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
-  port: 36116
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_486
-  password: c-a403-846a0a458dbd
-  port: 36201
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_487
+- name: DE_523
   password: ed18b935-f98d-45cf-a8c5-70bed18b935-f98d-45cf-a8c5-70b21ed0000a
   port: 36116
   server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: DE_476 |21.77Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 193.108.117.75
-  type: ss
+- name: DE_524
+  password: c-a403-846a0a458dbd
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_525
+  password: c-a403-846a0a458dbd
+  port: 36201
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_526
+  password: c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
+  port: 36116
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_477 |17.21Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_478 |19.44Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_479 |11.72Mb
+  name: DE_514 | 7.76Mb
   password: KixLvKzwjekG00rm
   port: 5500
   server: 193.108.118.30
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_480 |22.12Mb
+  name: DE_515 | 5.73Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_481 |10.58Mb
+  name: DE_516 | 4.28Mb
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_482 |15.64Mb
+  name: DE_517 |24.96Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_518 | 6.55Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_519 |11.82Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_520 | 5.98Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
