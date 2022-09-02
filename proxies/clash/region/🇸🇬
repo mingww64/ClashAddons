@@ -1,27 +1,58 @@
 proxies:
-- name: SG_659 |72.64Mb
+- alterId: 0
+  cipher: auto
+  name: SG_454 |12.94Mb
+  port: 42424
+  server: 139.180.140.20
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d
+- name: SG_447 |73.40Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_448 |72.94Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_660 | 9.52Mb
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 217.197.160.117
-  type: ss
+- name: SG_449 | 4.11Mb
+  password: opentunnel.net-1l1tdr1hmcq7g32ndx7g
+  port: 443
+  server: sgt-1.opensvr.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_450 |11.88Mb
+  password: cca88b23-9ff8-430b-a0fa-368653dce4f8
+  port: 443
+  server: 825hk01.tfzhc.top
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_661 | 8.89Mb
+  name: SG_451 | 9.32Mb
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_662 | 9.34Mb
+  name: SG_452 | 8.76Mb
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_453 | 8.27Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.160.117

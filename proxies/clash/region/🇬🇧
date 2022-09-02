@@ -1,5 +1,12 @@
 proxies:
-- name: GB_539
+- name: GB_333 | 2.35Mb
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  port: 443
+  server: jgwcc1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_334 |61.79Mb
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: jgwld1.gaox.ml
@@ -7,14 +14,14 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_540 |14.21Mb
+  name: GB_335 |12.18Mb
   password: Ultr@r00t_2017
   port: 811
   server: 178.62.16.161
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: GB_541 | 2.40Mb
+  name: GB_336 | 3.04Mb
   password: Ni7Xn9PJPN
   port: 15941
   server: 45.152.65.174
