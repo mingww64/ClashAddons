@@ -1,5 +1,22 @@
 proxies:
-- name: SG_162
+- alterId: 0
+  cipher: auto
+  name: SG_424 | 3.33Mb
+  port: 38941
+  server: 139.59.244.143
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
+- name: SG_419 |73.25Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_420 |72.69Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hazz.win
@@ -7,23 +24,23 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_163
+  name: SG_421 | 8.08Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_164
+  name: SG_422 | 8.40Mb
   password: G!yBwPWH3Vao
-  port: 810
+  port: 805
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_165
+  name: SG_423 | 6.90Mb
   password: G!yBwPWH3Vao
-  port: 805
+  port: 810
   server: 217.197.160.117
   type: ss
   udp: true
