@@ -1,64 +1,50 @@
 proxies:
-- name: DE_297
-  password: afefa
-  port: 36206
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_298
-  password: c-a403-846a0a458dbd
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: DE_290 |21.68Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 193.108.118.30
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_291 |13.05Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_292 |10.45Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_293 |16.64Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_294 |14.28Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_295 | 9.74Mb
+  name: DE_47 | 7.76Mb
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_296 |18.53Mb
+  name: DE_48 | 8.57Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_49 |12.61Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_50 | 6.17Mb
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 193.108.118.30
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_51 | 5.22Mb
   password: pKEW8JPByTVTLtM
   port: 443
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_52 | 3.34Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_53 |11.18Mb
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 193.108.117.75
   type: ss
   udp: true
