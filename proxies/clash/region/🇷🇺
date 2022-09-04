@@ -1,6 +1,13 @@
 proxies:
+- name: RU_473 | 9.10Mb
+  password: coldwar2
+  port: 8443
+  server: ttt3.swiftfalcon.app
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: RU_373 |32.76Mb
+  name: RU_474 |30.08Mb
   password: vDS9G2p
   port: 21247
   server: 185.4.65.6
