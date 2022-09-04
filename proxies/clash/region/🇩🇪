@@ -1,50 +1,64 @@
 proxies:
-- cipher: aes-256-gcm
-  name: DE_47 | 7.76Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 193.108.117.75
-  type: ss
+- name: DE_260
+  password: afefa
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_261
+  password: c-a403-846a0a458dbd
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_48 | 8.57Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_49 |12.61Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_50 | 6.17Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 193.108.118.30
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_51 | 5.22Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_52 | 3.34Mb
+  name: DE_253 |19.56Mb
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_53 |11.18Mb
+  name: DE_254 |11.63Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_255 |25.93Mb
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 193.108.118.30
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_256 |36.23Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_257 |34.70Mb
   password: faBAoD54k87UJG7
   port: 2376
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_258 |12.39Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_259 |16.32Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
   server: 193.108.117.75
   type: ss
   udp: true

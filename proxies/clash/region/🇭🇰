@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_70
+  name: HK_278 | 6.50Mb
   network: ws
   port: 443
   server: lc-hk01-direct01.lc-hk01.lc-node.com
@@ -14,38 +14,21 @@ proxies:
     headers:
       Host: lc-hk01-direct01.lc-hk01.lc-node.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: HK_71
-  port: 30862
-  server: 23.91.100.243
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9
-- name: HK_68
-  password: 8d49f74a-02c0-4fc2-95bb-a7e36c188acf
-  port: 50202
-  server: 43.229.153.169
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_69
+- name: HK_276 |21.22Mb
   password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
   port: 52000
   server: hk.vc3.hyperlinkvpn.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_72
-  password: b3f3d494-d74d-4c03-9931-5c7efb75d980
-  port: 443
-  server: solink.ga
+- name: HK_277 |20.86Mb
+  password: 8d49f74a-02c0-4fc2-95bb-a7e36c188acf
+  port: 50202
+  server: 43.229.153.169
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_73
+- name: HK_280
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
