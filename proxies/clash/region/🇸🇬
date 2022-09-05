@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: SG_478 |17.83Mb
+  name: SG_380 | 7.16Mb
   port: 42424
   server: 139.180.140.20
   skip-cert-verify: true
@@ -9,34 +9,45 @@ proxies:
   type: vmess
   udp: true
   uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d
-- alterId: 0
-  cipher: auto
-  name: SG_479 |22.14Mb
-  port: 38941
-  server: 139.59.244.143
+- name: SG_374
+  password: iyinglong
+  port: 443
+  server: 18.140.67.76
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
-- cipher: chacha20-ietf-poly1305
-  name: SG_475 | 9.88Mb
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 217.197.160.117
-  type: ss
+- name: SG_375 |24.21Mb
+  password: iyinglong
+  port: 443
+  server: 52.77.243.140
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_376 | 2.63Mb
+  password: bb07c284-4654-4358-b1f0-0007147fbf4f
+  port: 55118
+  server: 93hk05.tfzhc.top
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_476 |10.97Mb
+  name: SG_377 | 5.89Mb
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_477 | 9.36Mb
+  name: SG_378 | 2.19Mb
   password: G!yBwPWH3Vao
   port: 810
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_379 | 4.23Mb
+  password: G!yBwPWH3Vao
+  port: 801
   server: 217.197.160.117
   type: ss
   udp: true
