@@ -1,85 +1,64 @@
 proxies:
-- name: DE_255 | 4.78Mb
+- name: DE_45 | 4.78Mb
   password: 4V4kxVXmcg5Yn2DqF2
   port: 443
   server: ty1-3.nigirocloud.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_256 | 4.52Mb
+- name: DE_46 | 4.52Mb
   password: 4V4kxVXmcg5Yn2DqF2
   port: 443
   server: ty1-2.nigirocloud.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_257 | 3.94Mb
-  password: 4V4kxVXmcg5Yn2DqF2
-  port: 443
-  server: ty1-1.nigirocloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_265
-  password: afefa
-  port: 36206
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_266
-  password: c-a403-846a0a458dbd
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: DE_258 |29.97Mb
+  name: DE_47 |13.11Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_259 |42.55Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_260 |16.48Mb
+  name: DE_48 |10.34Mb
   password: KixLvKzwjekG00rm
   port: 5500
   server: 193.108.118.30
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_261 |40.80Mb
+  name: DE_49 |27.46Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_262 |42.43Mb
+  name: DE_50 |10.96Mb
   password: faBAoD54k87UJG7
   port: 2376
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_263 |37.10Mb
+  name: DE_51 | 8.70Mb
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_264 |14.12Mb
+  name: DE_52 |14.12Mb
   password: pKEW8JPByTVTLtM
   port: 443
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_53 |12.25Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
