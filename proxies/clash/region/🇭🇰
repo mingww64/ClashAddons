@@ -1,61 +1,19 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: HK_281 | 7.55Mb
-  network: ws
-  port: 443
-  server: lc-hk01-direct01.lc-hk01.lc-node.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ec736482-173e-3eff-9114-b49df8056e7d
-  ws-opts:
-    headers:
-      Host: lc-hk01-direct01.lc-hk01.lc-node.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: HK_282 |11.04Mb
-  network: ws
-  port: 8080
-  server: 18.167.20.169
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  ws-opts:
-    path: /
-- name: HK_277 |12.48Mb
-  password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40
-  port: 50350
-  server: 103.103.245.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_278 |19.77Mb
-  password: 8d49f74a-02c0-4fc2-95bb-a7e36c188acf
-  port: 50202
-  server: 43.229.153.169
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_279 |15.39Mb
-  password: 789d73af-b985-4778-9872-211047c28015
-  port: 50206
-  server: 103.103.245.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_280 |13.90Mb
+- name: HK_285 | 9.18Mb
   password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
   port: 52000
   server: hk.vc3.hyperlinkvpn.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_284
+- name: HK_286 |15.53Mb
+  password: 8d49f74a-02c0-4fc2-95bb-a7e36c188acf
+  port: 50202
+  server: 43.229.153.169
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_288
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
