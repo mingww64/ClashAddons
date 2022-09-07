@@ -1,22 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: SG_174 | 8.48Mb
-  port: 38941
-  server: 139.59.244.143
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
-- name: SG_168 |20.99Mb
-  password: iyinglong
-  port: 443
-  server: 54.255.235.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_170 | 3.49Mb
+- name: SG_174 | 9.25Mb
   password: iyinglong
   port: 443
   server: 3.1.6.157
@@ -24,23 +7,23 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_171 | 6.42Mb
+  name: SG_175 | 9.79Mb
   password: G!yBwPWH3Vao
-  port: 801
+  port: 805
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_172 | 6.77Mb
+  name: SG_176 | 6.83Mb
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_173 | 6.69Mb
+  name: SG_177 | 9.22Mb
   password: G!yBwPWH3Vao
-  port: 805
+  port: 801
   server: 217.197.160.117
   type: ss
   udp: true
