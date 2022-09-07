@@ -1,64 +1,71 @@
 proxies:
-- name: DE_48 | 8.84Mb
+- name: DE_160 | 9.21Mb
   password: 4V4kxVXmcg5Yn2DqF2
   port: 443
-  server: ty1-1.nigirocloud.com
+  server: ty1-3.nigirocloud.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_49 | 6.80Mb
+- name: DE_161 | 6.80Mb
   password: 4V4kxVXmcg5Yn2DqF2
   port: 443
   server: ty1-2.nigirocloud.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: DE_50 |35.78Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 193.108.118.30
-  type: ss
+- name: DE_162 | 8.84Mb
+  password: 4V4kxVXmcg5Yn2DqF2
+  port: 443
+  server: ty1-1.nigirocloud.com
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_51 |26.25Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_52 |24.69Mb
+  name: DE_163 |15.28Mb
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_53 |23.50Mb
+  name: DE_164 |16.99Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_54 |22.52Mb
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: DE_165 |21.08Mb
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 193.108.118.30
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_166 |15.99Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_55 |25.65Mb
+  name: DE_167 |15.59Mb
   password: pKEW8JPByTVTLtM
   port: 443
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_56 |42.85Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
+  name: DE_168 |21.25Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_169 |12.89Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
