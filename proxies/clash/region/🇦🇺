@@ -1,22 +1,36 @@
 proxies:
-- name: AU_01 |19.16Mb
+- name: AU_03 |20.22Mb
   password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   port: 443
   server: jgwxn2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_02 |13.74Mb
+- name: AU_04 |20.28Mb
   password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
   port: 443
   server: jgwxn3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_03 |12.38Mb
+- name: AU_05 |82.85Mb
+  password: coldwar2
+  port: 8443
+  server: ttt1.swiftfalcon.app
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_07 |21.92Mb
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: AU_01 | 1.78Mb
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  server: 185.167.116.24
+  type: ss
   udp: true
