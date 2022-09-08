@@ -1,43 +1,60 @@
 proxies:
-- name: SG_390 | 7.51Mb
+- alterId: 0
+  cipher: auto
+  name: SG_374 |11.75Mb
+  port: 38941
+  server: 139.59.244.143
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
+- name: SG_367 | 1.94Mb
+  password: iyinglong
+  port: 443
+  server: 18.141.8.87
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_368 | 7.51Mb
   password: a79da040-2e7c-11ed-91c2-1239d0255272
   port: 443
   server: trojan2.udpgw.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_391 |22.21Mb
+- name: SG_369 |20.43Mb
+  password: iyinglong
+  port: 443
+  server: 54.179.182.190
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_370 |22.21Mb
   password: 941a3ea0-2d2f-11ed-9982-1239d0255272
   port: 443
   server: sg6-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_392 |11.26Mb
-  password: d450d9fe-05fb-45ee-bb73-228d700792a0
-  port: 80
-  server: 96hk01.tfzhc.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_393 | 9.39Mb
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 217.197.160.117
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_394 |10.98Mb
+  name: SG_371 |10.98Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_395 | 8.96Mb
+  name: SG_372 | 8.96Mb
   password: G!yBwPWH3Vao
   port: 805
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_373 | 9.39Mb
+  password: G!yBwPWH3Vao
+  port: 810
   server: 217.197.160.117
   type: ss
   udp: true
