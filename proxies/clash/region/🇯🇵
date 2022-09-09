@@ -1,34 +1,48 @@
 proxies:
-- name: JP_279
-  password: iyinglong
-  port: 443
-  server: 3.113.25.24
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_280 |14.95Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: jgwdb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_281 | 5.60Mb
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: jgw2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_283 |14.84Mb
+- name: JP_291 |18.88Mb
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   port: 443
   server: jgwdb4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: JP_292
+  password: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac
+  port: 50001
+  server: agroup.node1.t.nodelist-gfwairport.download
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_293 | 2.07Mb
+  password: 23103894-eec7-4de1-a05a-c2e11e351287
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_294 | 3.69Mb
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: 443
+  server: jgw2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_296 |20.40Mb
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  port: 443
+  server: jgwdb3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_297
+  password: d66dccd1-90c1-4713-8972-2417a2854df2
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_284 |10.60Mb
+  name: JP_298 | 4.44Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 193.38.139.204
