@@ -1,19 +1,5 @@
 proxies:
-- name: SG_381
-  password: iyinglong
-  port: 443
-  server: 54.255.235.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_382 | 8.52Mb
-  password: iyinglong
-  port: 443
-  server: 18.140.67.76
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_383 |11.60Mb
+- name: SG_365 |11.60Mb
   password: a79da040-2e7c-11ed-91c2-1239d0255272
   port: 443
   server: trojan2.udpgw.com
@@ -21,23 +7,23 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_384 | 9.25Mb
+  name: SG_366 | 8.54Mb
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 217.197.160.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_367 | 9.25Mb
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.160.117
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_385 | 9.52Mb
+  name: SG_368 | 9.52Mb
   password: G!yBwPWH3Vao
   port: 801
-  server: 217.197.160.117
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_386 | 8.54Mb
-  password: G!yBwPWH3Vao
-  port: 805
   server: 217.197.160.117
   type: ss
   udp: true

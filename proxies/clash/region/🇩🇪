@@ -1,47 +1,19 @@
 proxies:
-- name: DE_244 | 5.04Mb
-  password: 4V4kxVXmcg5Yn2DqF2
-  port: 443
-  server: ty1-3.nigirocloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_245 | 9.94Mb
-  password: UhCF2JxsDxStDp5NTQ
-  port: 443
-  server: ty1-4.crabyakiniku.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_246 |10.74Mb
-  password: 4V4kxVXmcg5Yn2DqF2
-  port: 443
-  server: ty1-1.nigirocloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_247 |55.33Mb
+- name: DE_244 |45.31Mb
   password: d8182760-49e8-4e76-abb2-f3ed213f1f7e
   port: 2053
   server: ae.755657.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_248 | 6.15Mb
-  password: 4V4kxVXmcg5Yn2DqF2
-  port: 443
-  server: ty1-2.nigirocloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_256
+- name: DE_252
   password: c-a403-846a0a458dbd
   port: 36306
   server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_257
+- name: DE_253
   password: afefa
   port: 36206
   server: bauhinia01.allbluedns.xyz
@@ -49,51 +21,51 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_249 | 6.58Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_250 | 3.03Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 193.108.118.30
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_251 | 3.05Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_252 | 9.27Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_253 | 9.54Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_254 |41.84Mb
+  name: DE_245 | 7.36Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_255 |12.35Mb
+  name: DE_246 | 6.58Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_247 | 3.03Mb
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 193.108.118.30
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_248 |12.35Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_249 | 3.05Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_250 | 9.27Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_251 | 9.54Mb
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 193.108.117.75
   type: ss
   udp: true
