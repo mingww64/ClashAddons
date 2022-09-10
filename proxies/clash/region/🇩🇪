@@ -1,71 +1,57 @@
 proxies:
-- name: DE_244 |45.31Mb
-  password: d8182760-49e8-4e76-abb2-f3ed213f1f7e
-  port: 2053
-  server: ae.755657.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_252
-  password: c-a403-846a0a458dbd
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_253
-  password: afefa
-  port: 36206
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_245 | 7.36Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 193.108.117.75
+- cipher: aes-256-cfb
+  name: DE_180 |13.33Mb
+  password: 7d99ae502227454ea998d71e4b62a388
+  port: 23335
+  server: 165.22.73.126
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_246 | 6.58Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_247 | 3.03Mb
+  name: DE_181 |37.29Mb
   password: KixLvKzwjekG00rm
   port: 5500
   server: 193.108.118.30
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_248 |12.35Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
+  name: DE_182 |16.46Mb
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_249 | 3.05Mb
+  name: DE_183 |16.74Mb
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_250 | 9.27Mb
+  name: DE_184 |20.67Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_185 |23.89Mb
   password: pKEW8JPByTVTLtM
   port: 443
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_251 | 9.54Mb
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: DE_186 |24.18Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_187 |17.63Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 193.108.117.75
   type: ss
   udp: true
