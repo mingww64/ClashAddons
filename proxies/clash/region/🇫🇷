@@ -1,113 +1,78 @@
 proxies:
-- name: FR_405
-  password: iyinglong
-  port: 443
-  server: 15.236.218.230
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_406
+- name: FR_240
   password: iyinglong
   port: 443
   server: 52.47.99.22
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_407
-  password: iyinglong
-  port: 443
-  server: 35.180.122.151
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_408
-  password: iyinglong
-  port: 443
-  server: 15.237.116.79
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_409
-  password: iyinglong
-  port: 443
-  server: 35.180.247.162
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_410
-  password: iyinglong
-  port: 443
-  server: 35.180.202.38
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: FR_411 |28.05Mb
-  password: Ultr@r00t_2017
-  port: 811
-  server: 51.38.118.42
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: FR_412
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 195.154.200.150
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_413 | 9.65Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_414 |33.47Mb
+  name: FR_241 |43.51Mb
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_415
+  name: FR_242
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_416
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 62.210.113.98
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_417
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 62.210.113.98
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_418 |11.85Mb
+  name: FR_243 |43.69Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_419
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
+  name: FR_244
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 62.210.113.98
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_420
+  name: FR_245 |43.59Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_246
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: FR_247 |40.50Mb
+  password: Ultr@r00t_2017
+  port: 811
+  server: 51.38.118.42
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_248
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 62.210.113.98
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_249
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_250
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
   type: ss
   udp: true
