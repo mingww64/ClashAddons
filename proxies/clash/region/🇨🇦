@@ -1,57 +1,64 @@
 proxies:
-- name: CA_07 | 1.10Mb
-  password: 53933382-fb70-48bd-adf5-363ae1972459
+- name: CA_04
+  password: YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
-  server: 99tw03.tfzhc.top
+  server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_08 | 0.84Mb
-  password: 53933382-fb70-48bd-adf5-363ae1972459
+- name: CA_05
+  password: gb8cLR
   port: 443
-  server: 99tw02.tfzhc.top
+  server: 165.154.226.108
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_10 |18.92Mb
-  password: 53933382-fb70-48bd-adf5-363ae1972459
+- name: CA_06
+  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
-  server: 96tw.tfzhc.top
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_07
+  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_11 |83.68Mb
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 196.247.59.154
+  name: CA_08 |18.70Mb
+  password: Ultr@r00t_2017
+  port: 811
+  server: 138.197.166.205
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: CA_12 |60.50Mb
+  name: CA_09 |59.88Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.111.114.246
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_13 |24.19Mb
+  name: CA_10 |126.75Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_14 |19.20Mb
+  name: CA_11 |55.75Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_15 |24.16Mb
-  password: Ultr@r00t_2017
-  port: 811
-  server: 138.197.166.205
+  name: CA_12 |93.19Mb
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 196.247.59.154
   type: ss
   udp: true

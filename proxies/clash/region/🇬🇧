@@ -1,41 +1,34 @@
 proxies:
-- name: GB_251 |65.89Mb
+- name: GB_314 | 7.22Mb
   password: iyinglong
   port: 443
-  server: 18.133.181.177
+  server: 3.10.180.114
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_252 |12.95Mb
+- name: GB_315
+  password: share.mjj-home.com
+  port: 443
+  server: api.mjj-home.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_316 |12.95Mb
   password: iyinglong
   port: 443
   server: 3.8.216.52
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_253 |42.97Mb
-  password: iyinglong
+- name: GB_317 |62.69Mb
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
-  server: 3.10.209.85
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_254 | 6.66Mb
-  password: iyinglong
-  port: 443
-  server: 18.130.157.11
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_255 |17.35Mb
-  password: iyinglong
-  port: 443
-  server: 35.176.6.24
+  server: jgwld1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_256 | 6.02Mb
+  name: GB_318 | 6.02Mb
   password: Ultr@r00t_2017
   port: 811
   server: 178.62.16.161

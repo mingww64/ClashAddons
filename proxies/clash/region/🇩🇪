@@ -1,5 +1,19 @@
 proxies:
-- name: DE_232
+- name: DE_290 | 9.95Mb
+  password: null
+  port: 443
+  server: trojan-ctb-sg01.globalssh.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_291 | 8.40Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_292
   password: 4fa0a1b7-5213-44fa0a1b7-5213-44d5-bd63-7588c72a257a
   port: 36606
   server: bauhinia01.allbluedns.xyz
@@ -7,51 +21,51 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_233 |14.41Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_234 |14.29Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_235 |16.52Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_236 |15.90Mb
+  name: DE_293 |15.90Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_237 |18.70Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
+  name: DE_294 |14.41Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_238 |17.89Mb
+  name: DE_295 |20.07Mb
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 193.108.118.30
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_296 |14.29Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_297 |17.89Mb
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_239 |20.07Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 193.108.118.30
+  name: DE_298 |16.52Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_299 |18.70Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 193.108.117.75
   type: ss
   udp: true
