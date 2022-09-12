@@ -1,19 +1,12 @@
 proxies:
-- name: FR_373
+- name: FR_382
   password: 7c9b7560-b0f7-11eb-a397-1239d0255272
   port: 443
   server: fr-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_374
-  password: iyinglong
-  port: 443
-  server: 15.237.116.79
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_375
+- name: FR_383
   password: e4307a50-9853-11ec-9b4b-1239d0255272
   port: 443
   server: fr-trojan.bonds.id
@@ -21,44 +14,44 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: FR_367
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 195.154.200.150
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_368 |43.34Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_369 |43.76Mb
+  name: FR_376 |43.76Mb
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_370
+  name: FR_377
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_371 |17.23Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
+  name: FR_378 |43.34Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_372
+  name: FR_379
   password: KixLvKzwjekG00rm
   port: 8080
   server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_380
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_381 |17.23Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 145.239.1.100
   type: ss
   udp: true
