@@ -1,7 +1,7 @@
 proxies:
 - alterId: 32
   cipher: auto
-  name: US_620 |24.71Mb
+  name: US_342 |47.51Mb
   port: 443
   server: 51.81.223.22
   skip-cert-verify: true
@@ -11,17 +11,42 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 0
   cipher: auto
-  name: US_621 |16.93Mb
-  port: 1069
-  server: 152.69.197.60
+  name: US_344 |47.37Mb
+  port: 16522
+  server: c10s801.jamjams3.net
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  uuid: eea5d212-ebc9-4d5e-850c-4d0d08786cdc
 - alterId: 0
   cipher: auto
-  name: US_623 |30.60Mb
+  name: US_345 |71.72Mb
+  port: 16522
+  server: c10s3.jamjams3.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eea5d212-ebc9-4d5e-850c-4d0d08786cdc
+- alterId: 2
+  cipher: auto
+  name: US_346 | 0.37Mb
+  network: ws
+  port: 443
+  server: 161.129.34.102
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  ws-opts:
+    headers:
+      Host: 161.129.34.102
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_347 |58.88Mb
   port: 1258
   server: 23.230.146.254
   skip-cert-verify: true
@@ -29,598 +54,1337 @@ proxies:
   type: vmess
   udp: true
   uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
-- name: US_624
-  password: null
+- alterId: 4
+  cipher: auto
+  name: US_348 |328.76Mb
+  network: ws
   port: 443
-  server: www.cjf0423.cf
+  server: usa-washington.lvuft.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: usa-washington.lvuft.com
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: US_349 | 4.29Mb
+  port: 1069
+  server: 152.69.197.60
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- name: US_350
+  password: b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_625 |21.11Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20768
-  server: 20.239.188.10
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_626 |11.01Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20716
-  server: azhj001.xibai6.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_627 | 2.53Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20788
-  server: azgy001.xibai6.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_628 | 4.95Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20787
-  server: azgy001.xibai6.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_629 | 1.96Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20786
-  server: azgy001.xibai6.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_630 | 4.22Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20783
-  server: azgy001.xibai6.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_631 |22.71Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20719
-  server: 20.239.188.10
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_632 |23.46Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20801
-  server: 20.205.63.249
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_633 | 3.11Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20784
-  server: azgy001.xibai6.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_635 | 9.70Mb
-  password: ukMzuFSmIXDvgW0h
-  port: 443
-  server: cd.rutracker-cn.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_636
-  password: opentunnel.net-zdrgvbhjnmhgfx
-  port: 443
-  server: ukt-1.opensvr.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_637
-  password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
-  port: 9053
-  server: www.anloao.cf
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_638 |15.87Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20770
-  server: 20.205.63.249
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_639
-  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
-  port: 8443
-  server: jpa.llbb.cf
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_640
-  password: 6fb475b9-1b10-4225-ba57-5b01eb392bdd
-  port: 50025
-  server: ld.mglsj.yuiuingkig.icu
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_641 |13.14Mb
-  password: iyinglong
-  port: 443
-  server: 54.165.2.244
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_642 |12.46Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20767
-  server: 20.239.188.10
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_643 |23.62Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20769
-  server: 20.205.63.249
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_644 |21.18Mb
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20769
-  server: 20.239.188.10
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_645 |11.87Mb
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  port: 443
-  server: jgwhdlb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_646 | 7.61Mb
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  port: 443
-  server: jgwhdlb1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_647 | 9.46Mb
-  password: 0Y9gOHSdRt
-  port: 443
-  server: 150.230.249.42
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_648 |11.66Mb
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  port: 443
-  server: jgwhdlb2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_649
-  password: 28d98f761aca9d636f44db62544628eb
-  port: 443
-  server: 72.167.45.6
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_650 |15.90Mb
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  port: 443
-  server: jgwdb2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_651 | 3.88Mb
+- name: US_351 | 3.65Mb
   password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   port: 443
   server: jgwcc3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_652 |14.76Mb
+- name: US_352 | 9.08Mb
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  port: 443
+  server: jgwdb2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_353 | 3.68Mb
   password: 9c822f05-cfdc-479a-9534-60f3d4127435
   port: 443
   server: jgwcc2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_653 | 6.97Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s3.hass.win
+- name: US_354 | 6.24Mb
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  port: 443
+  server: jgwhdlb1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_654 |29.36Mb
+- name: US_355 |18.66Mb
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  port: 443
+  server: jgwhdlb3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_356 | 7.53Mb
   password: da777aae-defb-41d0-a183-2c27da2b4677
   port: 443
   server: jgwdj3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_655 |28.76Mb
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  port: 443
-  server: jgwdj4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_656 |14.50Mb
+- name: US_357 | 1.03Mb
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   port: 3052
   server: kr05.wangxd.life
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_657 |25.39Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s1.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_658 |32.64Mb
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+- name: US_358 |29.57Mb
+  password: c09eb137-bf68-4658-84e0-102d94b74168
   port: 443
-  server: fhcamd2.gaox.ml
+  server: jgwdj4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_659
-  password: share.mjj-home.com
-  port: 443
-  server: share.softbank.mjj-home.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_660 |43.94Mb
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  port: 443
-  server: fhcamd1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_661 |94.79Mb
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  port: 443
-  server: fhcarm2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_662 |72.92Mb
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  port: 443
-  server: fhcarm1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_663 |21.71Mb
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  port: 3052
-  server: lsj02.wangxd.life
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_664
-  password: 770c9e92-f51b-3e52-b932-eba13fb56801
-  port: 23802
-  server: s162.s2022.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_665
-  password: 77065fa6-b38e-302c-beea-4b047967af01
-  port: 6523
-  server: jp.useanlo.cf
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_666
-  password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG
-  port: 443
-  server: 173.82.192.61
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_667 |98.77Mb
-  password: iyinglong
-  port: 443
-  server: 54.84.14.46
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_668 |46.14Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s1.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_669 |28.36Mb
-  password: iyinglong
-  port: 443
-  server: 34.219.183.33
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_670
-  password: 28d98f761aca9d636f44db62544628eb
-  port: 443
-  server: 184.168.127.50
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_671 |32.68Mb
+- name: US_359 | 7.84Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s3.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_672
-  password: b7e0e71f-070c-437a-9826-6e23caeb0307
+- name: US_360
+  password: b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_361 |12.52Mb
+  password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
-  server: jgw4.gaox.ml
+  server: jgwhdlb2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_673 | 3.51Mb
-  password: 349667a5-8d06-4a24-b4be-eb02f3ed7bed
-  port: 50182
-  server: 178.157.63.155
+- name: US_362
+  password: b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_674 |57.10Mb
+- name: US_363 |65.48Mb
+  password: iyinglong
+  port: 443
+  server: 18.170.39.237
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_364 |70.78Mb
   password: 9682edd6-89e6-4e6a-b31d-271089771d87
   port: 443
   server: do.cloudorg.uk
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_675
-  password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
-  port: 6523
-  server: jp.useanlo.cf
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_676
-  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
+- name: US_365 |72.22Mb
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
   port: 443
-  server: 209.141.47.137
+  server: fhcarm2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_677
-  password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
-  port: 23802
-  server: s162.s2022.xyz
+- name: US_366 |53.97Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s1.hass.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_678
-  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
-  port: 443
-  server: 209.141.47.137
+- name: US_367 |49.15Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s1.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_679
-  password: f9628fbd-ef2a-4d8a-baa7-9b8a56a91091
-  port: 10000
-  server: node-hk.pyhdxy.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_680
-  password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3
-  port: 443
-  server: 56789.gq
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_681
-  password: share.mjj-home.com
-  port: 443
-  server: tw.softbank.mjj-home.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_682
-  password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363
-  port: 443
-  server: xioix.gq
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_683
+- name: US_368
   password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw
   port: 443
   server: music.missionsec.us
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_684
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  port: 443
-  server: 72.167.45.6
+- name: US_369
+  password: 770c9e92-f51b-3e52-b932-eba13fb56801
+  port: 23802
+  server: s162.s2022.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_685
-  password: a3fa58b581353bb375d2ddad0f327938
-  port: 443
-  server: 72.167.45.6
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_686
+- name: US_370
   password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
   port: 8443
   server: jpo.llbb.cf
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_687
-  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
-  port: 8443
-  server: sp.llbb.cf
+- name: US_371
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  port: 443
+  server: 72.167.45.6
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_688
+- name: US_372 | 7.81Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s3.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_373
+  password: ccf1ee40-b4ab-11eb-b421-1239d0255272
+  port: 443
+  server: us-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_374
+  password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
+  port: 23802
+  server: s162.s2022.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_375
   password: a3fa58b581353bb375d2ddad0f327938
   port: 443
   server: 184.168.127.50
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_689 |17.98Mb
-  password: iyinglong
-  port: 443
-  server: 54.70.120.130
+- name: US_376
+  password: dc6fd2e6-4ccc-46c6-b152-0d2171809e74
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_690
+- name: US_377
+  password: dc6fd2e6-4ccc-46c6-b152-0d2171809e74
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_378
+  password: dc6fd2e6-4ccc-46c6-b152-0d2171809e74
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_379 | 5.68Mb
+  password: ukMzuFSmIXDvgW0h
+  port: 443
+  server: cd.rutracker-cn.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_380
+  password: 28d98f761aca9d636f44db62544628eb
+  port: 443
+  server: 72.167.45.6
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_381
+  password: 8e505458-e41b-4397-b508-013d266029a4
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_382
+  password: 12be1022-71db-419f-9c612be1022-71db-419f-9c6c-601fc91d640c
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_383
+  password: 2bc20fd1-d642-4cd1-bad9-b031d24d100d
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_384
+  password: 7c6e8222-26fb-43a9-9925-38529966d44f
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_385
+  password: 4ffc7031-e013-4275-a914ffc7031-e013-4275-a915-95eb4ba7b22b
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_386
+  password: 4af34af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_387
+  password: 4af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_388
+  password: 4af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_389
+  password: 7c6e8222-26fb-43a9-9925-38529966d44f
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_390
+  password: 22f6f9bcf-4333-4baf-a187-15feb42e99c9
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_391
+  password: 7c6e8222-26fb-43a9-9925-38529966d44f
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_392
+  password: c8e2387a-55c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_393
+  password: 2f6f9bcf-4333-4baf-a187-15feb42e99c9
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_394
+  password: b6f8d6bd-78a9b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_395
+  password: 1212be1022-71db-419f-9c6c-601fc91d640c
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_396
+  password: 3cd81c33cd81c3d-8589-4baf-8779-53201047a22e
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_397
+  password: e9e5bf97-fde9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_398
+  password: 7c67c6e8222-26fb-43a9-9925-38529966d44f
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_399
+  password: 8e505458-e41b-4397-b508-013d266029a4
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_400
+  password: 8e505458-e41b-4397-b508-013d266029a4
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_401
+  password: e9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_402
+  password: 4ffc7031-e013-4275-a915-95eb4ba7b22b
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_403
+  password: 4ffc7031-e013-4275-a915-95eb4ba7b22b
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_404
+  password: 4ffc7031-e013-4275-a915-95eb4ba7b22b
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_405
+  password: bad190a8-6f5dbad190a8-6f5d-4fbb-b1eb-0c557d1187b0
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_406
+  password: 33e33ea10db-0831-489c-a403-846a0a458dbd
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_407
+  password: 2f6f9bcf-4333-4baf-a187-15feb42e99c9
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_408
+  password: 576d0f7576d0f76-9fe1-4752-87e8-b54019a7ca7f
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_409
+  password: e9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_410
+  password: e9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_411
+  password: 0eaa2a58-9e6a-4914-8379-9df49fff27d3
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_412
+  password: 0eaa2a58-9e6a-4914-8379-9df49fff27d3
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_413
+  password: 0eaa2a58-9e6a-4914-8379-9df49fff27d3
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_414
+  password: 8bc8bce6db3-5158-48e9-8c9e-359f315afefa
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_415
+  password: 8bce6db3-5158-48e9-8c9e-359f315afefa
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_416
+  password: 8bce6db3-5158-48e9-8c9e-359f315afefa
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_417
+  password: 2bc20fd1-d642-4cd1-bad9-b031d24d100d
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_418
+  password: -0fa8-444f-8d5d-5153a41db743
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_419
+  password: -0fa8-444f-8d5d-5153a41db743
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_420
+  password: -0fa8-444f-8d5d-5153a41db743
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_421
+  password: 5d463e81-42a1-492e-83aa-d7a54b7f00a6
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_422
+  password: 8bce6db3-5158-48e9-8c9e-359f315afefa
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_423
+  password: 2bc20fd1-d642-4cd1-bad9-b031d24d100d
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_424
+  password: edb85a24-0fa8-444f-8d5d-5153a41db743
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_425
+  password: edb85a24-0fa8-444f-8d5d-5153a41db743
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_426
+  password: 5d463e81-42a1-492e-83aa-d7a54b7f00a6
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_427
+  password: 5d463e81-42a1-492e-83aa-d7a54b7f00a6
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_428
+  password: b649ba93-7795-486e-872c-bae835de3b35
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_429
+  password: b649ba93-7795-486e-872c-bae835de3b35
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_430
+  password: a-abe7-ea2aab235179
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_431
+  password: ''
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_432
+  password: ''
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_433
+  password: a-abe7-ea2aab235179
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_434
+  password: 031-e013-4275-a915-95eb4ba7b22b
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_435
+  password: afefa
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_436
+  password: 4af3139d-7896-4bdd-8d45-6bd55c72fcd4af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_437
+  password: -3394-42bf-b3eb-9f718016aec5
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_438
+  password: -3394-42bf-b3eb-9f718016aec5
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_439
+  password: c-a403-846a0a458dbd
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_440
+  password: 3a41db743
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_441
+  password: -b5c102ed3d84
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_442
+  password: -b5c102ed3d84
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_443
+  password: 0-b5c102ed3d84
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_444
+  password: -43a9-9925-38529966d44f
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_445
+  password: 0-b5c102ed3d84
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_446
+  password: 8d5d-5153a41db743
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_447
+  password: 8d5d-5153a41db743
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_448
+  password: -43a9-9925-38529966d44f
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_449
+  password: 4ffc7031-e013-4275-a915-95eb4ba7b224ffc7031-e013-4275-a915-95eb4ba7b22b
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_450
+  password: 43b0-820c-08aa4b228ea9
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_451
+  password: 88c72a257a
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_452
+  password: 4af3139d-7896-4bdd-8d45-6bd554af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_453
+  password: 88c72a257a
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_454
+  password: 81c3d-8589-4baf-8779-53201047a22e
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_455
+  password: 81c3d-8589-4baf-8779-53201047a22e
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_456 |84.98Mb
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  port: 443
+  server: fhcamd1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_457 |89.35Mb
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  port: 443
+  server: fhcamd2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_458 |73.25Mb
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  port: 3052
+  server: lsj02.wangxd.life
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_459 |83.99Mb
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  port: 443
+  server: fhcarm1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_460
+  password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
+  port: 9053
+  server: www.anloao.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_461
+  password: 28d98f761aca9d636f44db62544628eb
+  port: 443
+  server: 184.168.127.50
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_462
+  password: b7e0e71f-070c-437a-9826-6e23caeb0307
+  port: 443
+  server: jgw4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_463
+  password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3
+  port: 443
+  server: 56789.gq
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_464
   password: 36ebef7d1b1d6205fd0c55f28800e674
   port: 443
   server: 184.168.127.50
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_691
+- name: US_465
+  password: share.mjj-home.com
+  port: 443
+  server: share.softbank.mjj-home.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_466
   password: 6589ce99-9ff7-3c1b-a744-ca3f4abfe386
   port: 3306
   server: singapore.anthoncloud.com
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: US_467
+  password: 4fa0a1b7-5213-44fa0a1b7-5213-44d5-bd63-7588c72a257a
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_468
+  password: a-abe7-ea2aab235179
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_469
+  password: -0fa8-444f-8d5d-5153a41db743
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_470
+  password: 8e505458-e41b-4397-b508-013d266029a4
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_471
+  password: 3cd81c3d-8589-4baf-8779-53201047a22e
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_472
+  password: 2f6f9bcf-4333-4baf-a187-15feb42e99c9
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_473
+  password: b649ba93-7795-486e-872c-bae835de3b35
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_474
+  password: 5d463e81-42a1-492e-83aa-d7a54b7f00a6
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_475
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  port: 8443
+  server: sp.llbb.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_476
+  password: 2bc20fd1-d642-4cd1-bad9-b031d24d100d
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_477
+  password: ''
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_478
+  password: e9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_479
+  password: 0eaa2a58-9e6a-4914-8379-9df49fff27d3
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_480
+  password: 8bce6db3-5158-48e9-8c9e-359f315afefa
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_481
+  password: 7c6e8222-26fb-43a9-9925-38529966d44f
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_482
+  password: 4af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_483
+  password: 4ffc7031-e013-4275-a915-95eb4ba7b22b
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_484
+  password: 6fb475b9-1b10-4225-ba57-5b01eb392bdd
+  port: 50025
+  server: ld.mglsj.yuiuingkig.icu
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_485
+  password: 33ea10db-0831-489c-a403-846a0a4533ea10db-0831-489c-a403-846a0a458dbd
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_486
+  password: 3520f017-3394-43520f017-3394-42bf-b3eb-9f718016aec5
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_487
+  password: b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_488
+  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
+  port: 443
+  server: 209.141.47.137
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_489
+  password: null
+  port: 443
+  server: www.cjf0423.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_490
+  password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
+  port: 6523
+  server: jp.useanlo.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_491
+  password: 77065fa6-b38e-302c-beea-4b047967af01
+  port: 6523
+  server: jp.useanlo.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_492
+  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
+  port: 443
+  server: 209.141.47.137
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_493
+  password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG
+  port: 443
+  server: 173.82.192.61
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_494
+  password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363
+  port: 443
+  server: xioix.gq
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_495
+  password: opentunnel.net-zdrgvbhjnmhgfx
+  port: 443
+  server: ukt-1.opensvr.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_496
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  port: 8443
+  server: jpa.llbb.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_497
+  password: share.mjj-home.com
+  port: 443
+  server: tw.softbank.mjj-home.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_498
+  password: 5-a915-95eb4ba7b22b
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_499
+  password: 5-a915-95eb4ba7b22b
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_500 | 7.58Mb
+  password: iyinglong
+  port: 443
+  server: 13.213.69.245
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_501 |10.68Mb
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+  port: 20716
+  server: azhj001.xibai6.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_502
+  password: 82b2d677-89a0-494a-abe7-ea2aab235179
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_503
+  password: 33ea10db-0831-489c-a403-846a0a458dbd
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_504
+  password: 33ea10db-0831-489c-a403-846a0a458dbd
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_505
+  password: 33ea10db-0831-489c-a403-846a0a458dbd
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_506
+  password: 33ea10db-0831-489c-a403-846a0a458dbd
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_507
+  password: 5-a915-95eb4ba7b22b
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_508
+  password: 5-a915-95eb4ba7b22b
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_509
+  password: c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_510
+  password: c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_511
+  password: c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_512
+  password: c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_513
+  password: edb85a24-0fa8-444f-8d5d-5153a41db743
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_514
+  password: a3fa58b581353bb375d2ddad0f327938
+  port: 443
+  server: 72.167.45.6
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_515
+  password: dc6fd2e6-4ccc-46c6-b152-0d2171809e74
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: US_601 |42.07Mb
+  name: US_321 | 6.36Mb
   password: KixLvKzwjekG00rm
   port: 5500
-  server: 38.68.135.18
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: US_602 |165.60Mb
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_603 |17.83Mb
-  password: g5MeD6Ft3CWlJId
-  port: 5003
   server: 172.99.190.39
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_604 |14.37Mb
+  name: US_322 |51.13Mb
   password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.114.114.19
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_605 |31.52Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.114.114.67
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_606 |17.51Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 172.99.190.39
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_607 |28.79Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.71
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_609 |47.19Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.114.114.19
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_610 |17.62Mb
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.21
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_611 |24.49Mb
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.143.66.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_612 |27.60Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.143.66.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_613 |28.59Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 167.88.61.175
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_614 |21.05Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 38.68.134.85
+  port: 3306
+  server: 167.88.63.79
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_615 |50.25Mb
+  name: US_323 |73.26Mb
   password: 9682edd6-89e6-4e6a-b31d-271089771d87
   port: 10365
   server: 137.184.93.209
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_616 |26.25Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.121.43.71
+  name: US_324 |14.37Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.114.114.67
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_617 |17.50Mb
+  name: US_325 | 2.97Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.75.136.21
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_326 |32.53Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.114.114.19
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_327 | 6.33Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.75.136.21
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_328 | 7.14Mb
+  password: QB7rUb6qjPro24E8
+  port: 16522
+  server: c10s1.jamjams3.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_329 |16.06Mb
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.21
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: US_330 |156.50Mb
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_331 |39.23Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.143.66.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_332 |15.88Mb
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.68.135.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_333 |29.89Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.68.134.85
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_334 |13.78Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 38.64.138.145
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_618 | 3.37Mb
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 167.88.63.79
+  name: US_335 | 4.08Mb
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 172.99.190.39
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_619 |14.72Mb
+  name: US_336 |29.98Mb
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 38.68.134.85
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_337 | 4.54Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.121.43.71
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_338 | 4.67Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.61.175
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_339 |28.67Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.71
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_340 |34.55Mb
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.143.66.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_341 |30.27Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.114.114.19
   type: ss
   udp: true
