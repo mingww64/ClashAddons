@@ -1,78 +1,78 @@
 proxies:
-- name: FR_224
-  password: iyinglong
-  port: 443
-  server: 15.236.218.230
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_225
-  password: iyinglong
-  port: 443
-  server: 52.47.99.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_226
+- name: FR_350
   password: e4307a50-9853-11ec-9b4b-1239d0255272
   port: 443
   server: fr-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_227
+- name: FR_351
   password: iyinglong
   port: 443
   server: 35.180.122.151
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_228
+- name: FR_352
   password: 7c9b7560-b0f7-11eb-a397-1239d0255272
   port: 443
   server: fr-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: FR_353
+  password: iyinglong
+  port: 443
+  server: 15.237.116.79
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_354
+  password: iyinglong
+  port: 443
+  server: 15.236.218.230
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: FR_218
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 195.154.200.150
+  name: FR_344
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_219 |43.94Mb
+  name: FR_345 |38.19Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_220
+  name: FR_346
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_221 |43.40Mb
+  name: FR_347 |40.38Mb
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_222 |43.22Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
+  name: FR_348
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 195.154.200.150
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_223
+  name: FR_349 |40.52Mb
   password: KixLvKzwjekG00rm
   port: 8080
-  server: 149.202.82.172
+  server: 145.239.1.100
   type: ss
   udp: true

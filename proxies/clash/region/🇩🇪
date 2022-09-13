@@ -1,57 +1,64 @@
 proxies:
-- name: DE_210
-  password: c-08aa4b228ea9
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_211 |55.36Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_212 |55.82Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_213 | 4.31Mb
+- name: DE_335 | 8.92Mb
   password: null
   port: 443
   server: trojan-ctb-sg01.globalssh.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_214 |55.36Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hass.win
+- name: DE_336
+  password: c-08aa4b228ea9
+  port: 36306
+  server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_215 |53.45Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
+- name: DE_337
+  password: c-08aa4b228ea9
+  port: 36106
+  server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_216
+- name: DE_338
   password: c-08aa4b228ea9
   port: 36606
   server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_217
+- name: DE_339 |56.45Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_340 |55.32Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_341
   password: c-08aa4b228ea9
-  port: 36106
+  port: 36206
   server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_342 |56.74Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_343 |57.27Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
