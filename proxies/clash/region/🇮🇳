@@ -1,8 +1,16 @@
 proxies:
-- name: IN_459 |10.72Mb
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  port: 40001
-  server: in-02.licom.ml
+- alterId: 0
+  cipher: auto
+  name: IN_417 |26.15Mb
+  network: ws
+  port: 443
+  server: inlsjlw.com
   skip-cert-verify: true
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: be182928-d57c-43bc-bb8f-cd0038924943
+  ws-opts:
+    headers:
+      Host: inlsjlw.com
+    path: /0ea70e497192b88/

@@ -1,64 +1,84 @@
 proxies:
-- name: DE_335 | 8.92Mb
+- alterId: 4
+  cipher: auto
+  name: DE_383 |42.09Mb
+  network: ws
+  port: 443
+  server: 146.0.42.87
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    path: /ws
+- name: DE_384
+  password: 257a
+  port: 36206
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_385 | 2.90Mb
   password: null
   port: 443
   server: trojan-ctb-sg01.globalssh.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_336
-  password: c-08aa4b228ea9
+- name: DE_386
+  password: 257a
   port: 36306
   server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_337
-  password: c-08aa4b228ea9
+- name: DE_387 |53.09Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_388
+  password: 257a
   port: 36106
   server: bauhinia01.allbluedns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_338
-  password: c-08aa4b228ea9
-  port: 36606
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_339 |56.45Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_340 |55.32Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_341
-  password: c-08aa4b228ea9
-  port: 36206
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_342 |56.74Mb
+- name: DE_389 |55.92Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_343 |57.27Mb
+- name: DE_390
+  password: 257a
+  port: 36606
+  server: bauhinia01.allbluedns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_391
+  password: 41742_920c8caa
+  port: 443
+  server: hk31.ssgnode.ga
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_392 |53.07Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
-  server: s2.hazz.win
+  server: s4.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_393 |55.65Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hass.win
   skip-cert-verify: true
   type: trojan
   udp: true

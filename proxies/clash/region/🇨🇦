@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: CA_06 |13.86Mb
+  name: CA_07 | 2.51Mb
   network: ws
   port: 443
   server: 527hk1.fans8.xyz
@@ -14,36 +14,36 @@ proxies:
     headers:
       Host: 527hk1.fans8.xyz
     path: /ray
-- name: CA_07
+- name: CA_09
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_08
-  password: YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_09
-  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_10
+- name: CA_12
   password: gb8cLR
   port: 443
   server: 165.154.226.108
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: CA_13
+  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_14
+  password: YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_05 |13.57Mb
+  name: CA_06 |16.41Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
