@@ -1,78 +1,53 @@
 proxies:
-- name: SG_294 | 7.69Mb
-  password: iyinglong
-  port: 443
-  server: 18.140.67.76
+- alterId: 0
+  cipher: auto
+  name: SG_129 |18.90Mb
+  port: 38941
+  server: 139.59.244.143
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: SG_295 |10.72Mb
-  password: iyinglong
-  port: 443
-  server: 54.255.235.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_297 |10.75Mb
-  password: a79da040-2e7c-11ed-91c2-1239d0255272
-  port: 443
-  server: trojan2.udpgw.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_298 |11.44Mb
-  password: iyinglong
-  port: 443
-  server: 3.1.6.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_299
-  password: 41742_920c8caa
-  port: 443
-  server: hk31.ssgnode.ga
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_300
-  password: 8db1b560-019d-11ed-8bdf-1239d0255272
-  port: 443
-  server: trojan3.udpgw.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_301
-  password: 973ef350-f6a5-11ec-9274-1239d0255272
-  port: 443
-  server: trojan2.udpgw.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_302
-  password: iyinglong
-  port: 443
-  server: 18.141.8.87
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_303
-  password: 97fdf760-7bbf-11eb-8e14-1239d0255272
-  port: 443
-  server: sg3-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_304
+  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
+- name: SG_130
   password: 5c5ceb40-902b-11eb-945a-1239d0255272
   port: 443
   server: sg1-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_305
+- name: SG_131
+  password: 97fdf760-7bbf-11eb-8e14-1239d0255272
+  port: 443
+  server: sg3-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_132
   password: 08964210-e7b8-11ec-95aa-1239d0255272
   port: 443
   server: w12.udpgw.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_133 |20.62Mb
+  password: a79da040-2e7c-11ed-91c2-1239d0255272
+  port: 443
+  server: trojan2.udpgw.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_134
+  password: 8db1b560-019d-11ed-8bdf-1239d0255272
+  port: 443
+  server: trojan3.udpgw.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_135
+  password: 973ef350-f6a5-11ec-9274-1239d0255272
+  port: 443
+  server: trojan2.udpgw.com
   skip-cert-verify: true
   type: trojan
   udp: true
