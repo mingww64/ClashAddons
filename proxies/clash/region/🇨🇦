@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: CA_07 | 2.51Mb
+  name: CA_06 |13.78Mb
   network: ws
   port: 443
   server: 527hk1.fans8.xyz
@@ -14,6 +14,13 @@ proxies:
     headers:
       Host: 527hk1.fans8.xyz
     path: /ray
+- name: CA_07
+  password: gb8cLR
+  port: 443
+  server: 165.154.226.108
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: CA_08
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
@@ -22,16 +29,16 @@ proxies:
   type: trojan
   udp: true
 - name: CA_09
-  password: gb8cLR
-  port: 443
-  server: 165.154.226.108
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_10
   password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_10 | 1.15Mb
+  password: 462a6dca-d63e-48e5-bcb8-10b4fe2123d4
+  port: 44318
+  server: 913tw.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -43,7 +50,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_06 |13.32Mb
+  name: CA_05 | 9.44Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154

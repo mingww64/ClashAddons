@@ -1,36 +1,29 @@
 proxies:
-- name: AU_02 |23.11Mb
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_03 | 2.31Mb
-  password: 3oquVrpxPg
-  port: 41477
-  server: wangqifei.ga
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_04 |25.38Mb
-  password: xxoo
-  port: 443
-  server: 13.210.76.227
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_05 |23.24Mb
+- name: AU_01 |17.99Mb
   password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
   port: 443
   server: jgwxn3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: AU_01 | 1.79Mb
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 185.167.116.24
-  type: ss
+- name: AU_02 |21.90Mb
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_03 |24.68Mb
+  password: xxoo
+  port: 443
+  server: 13.210.76.227
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_04 | 9.18Mb
+  password: 462a6dca-d63e-48e5-bcb8-10b4fe2123d4
+  port: 44333
+  server: 911hk01.tfzhc.top
+  skip-cert-verify: true
+  type: trojan
   udp: true
