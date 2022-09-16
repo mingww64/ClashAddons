@@ -1,29 +1,36 @@
 proxies:
-- name: DE_33 |55.91Mb
+- name: DE_83 |54.11Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
-  server: s4.hass.win
+  server: s2.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_35 |49.94Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_36 |50.33Mb
+- name: DE_85 |54.42Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s2.hass.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_37 |53.63Mb
+- name: DE_86 |55.29Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
-  server: s2.hazz.win
+  server: s4.hass.win
   skip-cert-verify: true
   type: trojan
+  udp: true
+- name: DE_87 |55.59Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: DE_82 | 0.18Mb
+  password: 3fb8bfdd
+  port: 8388
+  server: de1.ss.tunnel.cx
+  type: ss
   udp: true
