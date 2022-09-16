@@ -1,49 +1,49 @@
 proxies:
 - name: CN_13
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21002
-  server: 117.164.185.222
+  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
+  port: 40003
+  server: cscu.wecanfly.top
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_14
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21001
-  server: 183.245.146.20
+  port: 21004
+  server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_15
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21001
-  server: 117.164.185.222
+  port: 21002
+  server: 183.245.146.20
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_16
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21005
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_17
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
   port: 21003
   server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_18
+- name: CN_17
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 61002
-  server: 117.164.185.222
+  port: 21001
+  server: 183.245.146.20
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_18
+  password: 58975106-dc46-4942-b79e-336da67f1bbd
+  port: 50102
+  server: hygz.doggogogo.top
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_19
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 61001
+  port: 21002
   server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
@@ -56,100 +56,79 @@ proxies:
   type: trojan
   udp: true
 - name: CN_21
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21005
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_22
   password: a992be42-bed4-3037-8788-9e860cd635d3
   port: 19203
   server: 36.139.166.76
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_22
-  password: 43da19c9-3387-4b6f-93bb-daac3608fb93
-  port: 36301
-  server: bauhinia01.abzoones.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: CN_23
-  password: 58975106-dc46-4942-b79e-336da67f1bbd
-  port: 50102
-  server: hygz.doggogogo.top
+  password: a992be42-bed4-3037-8788-9e860cd635d3
+  port: 19243
+  server: 36.139.166.76
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_24
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 61001
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_25
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21001
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_26
+  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
+  port: 36306
+  server: sunmoon02.abzoones.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_27
+  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
+  port: 36106
+  server: fujimount02.abzoones.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_28
   password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
   port: 50102
   server: hygz.doggogogo.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_25
-  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
-  port: 40003
-  server: cscu.wecanfly.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_26
-  password: 43da19c9-3387-4b6f-93bb-daac3608fb93
-  port: 36306
-  server: bauhinia01.abzoones.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_27
-  password: 43da19c9-3387-4b6f-93bb-daac3608fb93
-  port: 36206
-  server: bauhinia01.abzoones.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_28
+- name: CN_29
   password: 58975106-dc46-4942-b79e-336da67f1bbd
   port: 40003
   server: cscu.wecanfly.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_29
-  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
-  port: 36116
-  server: fujimount01.abzoones.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: CN_30
-  password: 3c12fbaf-341b-4715-b2ed-6294f6f3c12fbaf-341b-4715-b2ed-6294f6f735d2
-  port: 36206
-  server: bauhinia01.abzoones.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_31
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21002
-  server: 183.245.146.20
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_32
   password: a992be42-bed4-3037-8788-9e860cd635d3
   port: 19242
   server: 36.139.166.76
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_33
+- name: CN_31
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21004
+  port: 61002
   server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_11
-  password: QazEdcTgb159@$*
-  port: 11015
-  server: 14.29.124.174
-  type: ss
   udp: true

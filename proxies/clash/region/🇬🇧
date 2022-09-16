@@ -1,43 +1,57 @@
 proxies:
-- name: GB_51 |65.04Mb
+- name: GB_50 |11.71Mb
+  password: iyinglong
+  port: 443
+  server: 35.176.6.24
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_51 |50.35Mb
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: jgwld1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_52 | 5.11Mb
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  port: 443
-  server: jgwcc1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_53
-  password: share.mjj-home.com
-  port: 443
-  server: api.mjj-home.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_54 | 6.74Mb
+- name: GB_52 |16.91Mb
   password: iyinglong
   port: 443
-  server: 18.133.181.177
+  server: 18.130.157.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_55 |13.08Mb
+- name: GB_53 |38.28Mb
+  password: iyinglong
+  port: 443
+  server: 3.10.209.85
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_54 |19.26Mb
+  password: iyinglong
+  port: 443
+  server: 3.9.175.102
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_55 |27.14Mb
   password: iyinglong
   port: 443
   server: 3.8.216.52
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_56 |46.64Mb
-  password: xxoo
+- name: GB_56
+  password: share.mjj-home.com
   port: 443
-  server: 5.252.24.137
+  server: api.mjj-home.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_57 |19.45Mb
+  password: iyinglong
+  port: 443
+  server: 18.133.181.177
   skip-cert-verify: true
   type: trojan
   udp: true

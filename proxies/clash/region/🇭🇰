@@ -1,23 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: HK_57 | 2.42Mb
-  network: ws
-  port: 888
-  server: asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
-  ws-opts:
-    headers:
-      Host: edge.cjhh.mom
-    path: /je5x3pBN1vez3NQudNkB
 - name: HK_58
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_59 |18.73Mb
+  password: 8d49f74a-02c0-4fc2-95bb-a7e36c188acf
+  port: 50202
+  server: 43.229.153.169
   skip-cert-verify: true
   type: trojan
   udp: true
