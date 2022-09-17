@@ -1,71 +1,64 @@
 proxies:
-- name: GB_55 |65.78Mb
-  password: iyinglong
-  port: 443
-  server: 18.133.181.177
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_56
-  password: iyinglong
-  port: 443
-  server: 3.10.209.85
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_57 |62.12Mb
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  port: 443
-  server: jgwld1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_59 |29.89Mb
-  password: iyinglong
-  port: 443
-  server: 35.176.6.24
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_60 |52.26Mb
-  password: iyinglong
-  port: 443
-  server: 3.9.175.102
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_61 |65.38Mb
+- name: GB_67 |65.38Mb
   password: iyinglong
   port: 443
   server: 18.130.157.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_62
+- name: GB_68
   password: share.mjj-home.com
   port: 443
   server: api.mjj-home.com
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: GB_70 |29.89Mb
+  password: iyinglong
+  port: 443
+  server: 35.176.6.24
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_71 |65.63Mb
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  port: 443
+  server: jgwld1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_72 |11.22Mb
+  password: iyinglong
+  port: 443
+  server: 3.8.216.52
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_74 |52.26Mb
+  password: iyinglong
+  port: 443
+  server: 3.9.175.102
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
-  name: GB_52 |12.24Mb
+  name: GB_64 | 8.80Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.78
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB_65 | 2.91Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.197
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_53 |10.12Mb
+  name: GB_66 | 3.07Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.194
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: GB_54 |21.52Mb
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.78
   type: ss
   udp: true

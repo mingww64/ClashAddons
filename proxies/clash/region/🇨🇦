@@ -1,55 +1,48 @@
 proxies:
-- name: CA_05 | 0.16Mb
-  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
-  port: 44313
-  server: 915tw17.tfzhc.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_07
-  password: gb8cLR
-  port: 443
-  server: 165.154.226.108
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_08 |36.43Mb
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  port: 24567
-  server: scus1.ddns-pop.cyou
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_09
-  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_10 | 0.64Mb
-  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
-  port: 443
-  server: 99tw03.tfzhc.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_11
+- name: CA_05
   password: YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_12
+- name: CA_06
+  password: gb8cLR
+  port: 443
+  server: 165.154.226.108
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_07
+  password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_08 |162.93Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_09
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: CA_10 | 1.16Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 24567
+  server: sctw1.ddns-pop.cyou
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_04 |34.08Mb
+  name: CA_04 |19.12Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154

@@ -1,8 +1,15 @@
 proxies:
-- name: RU_128
+- name: RU_144
   password: 3df66137-a428-429c-a858-8b150721b354
   port: 443
   server: usa23.884899.cf
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: RU_143 | 3.34Mb
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  server: mf02.xmss.vip
+  type: ss
   udp: true
