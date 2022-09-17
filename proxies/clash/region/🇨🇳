@@ -1,499 +1,141 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: CN_17 | 2.03Mb
-  network: ws
-  port: 38106
-  server: ingress-i2.iivvppnn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: '%7B%22Host%22:%22www.ivpnpro.net%22%7D'
-    path: /hls/cctv5phd.m3u8
-- name: CN_18
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 61001
-  server: 117.164.185.222
+- name: CN_14
+  password: 58975106-dc46-4942-b79e-336da67f1bbd
+  port: 50102
+  server: hygz.doggogogo.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_19
-  password: 576d0f76-9fe1-4752-87e8-b54019a7ca7f
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_20
-  password: 4fa0a1b7-5213-44d5-bd63-7588c72a257a
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_21
-  password: 576d0f76-9fe1-4752-87e8-b54019a7ca7f
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_22
-  password: ee2432e7-c61e-4b61-accc-edef6f894a56
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_23
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21001
-  server: 183.245.146.20
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_24
-  password: 3cd81c3d-8589-4baf-8779-53201047a22e
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_25
-  password: dc6fd2e6-4ccc-46c6-b152-0d2171809e74
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_26
-  password: dc6fd2e6-4ccc-46c6-b152-0d2171809e74
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_27
+- name: CN_15
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
   port: 21004
   server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_28
-  password: 3520f017-3394-42bf-b3eb-9f718016aec5
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_29
-  password: 12be1022-71db-419f-9c6c-601fc91d640c
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_30
-  password: 5fe8d4a8-563f-43b0-820c-08aa4b228ea9
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_31
-  password: ed18b935-f98d-45cf-a8c5-70b21ed0000a
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_32
-  password: b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_33
-  password: b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_34
-  password: bad190a8-6f5d-4fbb-b1eb-0c557d1187b0
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_35
-  password: 58975106-dc46-4942-b79e-336da67f1bbd
-  port: 50102
-  server: hygz.doggogogo.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_36
-  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
-  port: 50102
-  server: hygz.doggogogo.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_37
-  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
-  port: 40003
-  server: cscu.wecanfly.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_38
-  password: 58975106-dc46-4942-b79e-336da67f1bbd
-  port: 40003
-  server: cscu.wecanfly.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_39
-  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
-  port: 36106
-  server: fujimount02.abzoones.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_40
-  password: b649ba93-7795-486e-872c-bae835de3b35
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_41
-  password: edb85a24-0fa8-444f-8d5d-5153a41db743
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_42
+- name: CN_16
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21003
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_43
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21002
+  port: 21001
   server: 183.245.146.20
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_44
-  password: 8bce6db3-5158-48e9-8c9e-359f315afefa
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
+- name: CN_17
+  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
+  port: 50102
+  server: hygz.doggogogo.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_45
-  password: ee2432e7-c61e-4b61-accc-edef6f894a56
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
+- name: CN_18
+  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
+  port: 40003
+  server: cscu.wecanfly.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_46
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21001
-  server: 117.164.185.222
+- name: CN_19
+  password: 58975106-dc46-4942-b79e-336da67f1bbd
+  port: 40003
+  server: cscu.wecanfly.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_47
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 61002
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_48
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21002
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_49
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21005
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_50
-  password: a992be42-bed4-3037-8788-9e860cd635d3
-  port: 19203
-  server: 36.139.166.76
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_51
-  password: a992be42-bed4-3037-8788-9e860cd635d3
-  port: 19243
-  server: 36.139.166.76
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_52
+- name: CN_20
   password: a992be42-bed4-3037-8788-9e860cd635d3
   port: 19242
   server: 36.139.166.76
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_53
-  password: a992be42-bed4-3037-8788-9e860cd635d3
-  port: 19215
-  server: 36.139.166.76
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_54
-  password: 81c3d-8589-4baf-8779-53201047a22e
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_55
-  password: 0eaa2a58-9e6a-4914-8379-9df49fff27d3
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_56
-  password: 88c72a257a
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_57
-  password: 43b0-820c-08aa4b228ea9
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_58
-  password: 4ffc7031-e013-4275-a915-95eb4ba7b224ffc7031-e013-4275-a915-95eb4ba7b22b
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_59
-  password: -43a9-9925-38529966d44f
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_60
-  password: 3a41db743
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_61
-  password: -43a9-9925-38529966d44f
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_62
+- name: CN_21
   password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
   port: 36306
   server: sunmoon02.abzoones.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_63
-  password: e9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+- name: CN_22
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21001
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_23
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 61002
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_24
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21002
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_25
+  password: a992be42-bed4-3037-8788-9e860cd635d3
+  port: 19243
+  server: 36.139.166.76
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_26
+  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
   port: 36106
-  server: bauhinia01.allbluedns.xyz
+  server: fujimount02.abzoones.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_64
-  password: 0-b5c102ed3d84
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
+- name: CN_27
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21002
+  server: 183.245.146.20
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_65
-  password: 2f6f9bcf-4333-4baf-a187-15feb42e99c9
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
+- name: CN_28
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21005
+  server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_66
-  password: 4ffc7031-e013-4275-a915-95eb4ba7b22b
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
+- name: CN_29
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21003
+  server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_67
-  password: 8e505458-e41b-4397-b508-013d266029a4
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
+- name: CN_30
+  password: a992be42-bed4-3037-8788-9e860cd635d3
+  port: 19215
+  server: 36.139.166.76
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_68
-  password: 82b2d677-89a0-494a-abe7-ea2aab235179
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
+- name: CN_31
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 61001
+  server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_69
-  password: 7c6e8222-26fb-43a9-9925-38529966d44f
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
+- name: CN_32
+  password: a992be42-bed4-3037-8788-9e860cd635d3
+  port: 19203
+  server: 36.139.166.76
   skip-cert-verify: true
   type: trojan
-  udp: true
-- name: CN_70
-  password: -3394-42bf-b3eb-9f718016aec5
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_71
-  password: 4af3139d-7896-4bdd-8d45-6bd55c72fcd1
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_72
-  password: 4af3139d-7896-4bdd-8d45-6bd55c72fcd4af3139d-7896-4bdd-8d45-6bd55c72fcd1
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_73
-  password: 031-e013-4275-a915-95eb4ba7b22b
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_74
-  password: a-abe7-ea2aab235179
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_75
-  password: bad190a8-6f5d-4fbb-b1eb-0c557d1187b0
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_76
-  password: ''
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_77
-  password: 7c6e8222-26fb-43a9-9925-38529966d44f
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_78
-  password: 0-b5c102ed3d84
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_79
-  password: ff270e45-9ab4-4c7a-bddf-0d72aef056eb
-  port: 36106
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_80
-  password: 8e505458-e41b-4397-b508-013d266029a4
-  port: 36306
-  server: bauhinia01.allbluedns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_11
-  password: QazEdcTgb159@$*
-  port: 11009
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_12
-  password: QazEdcTgb159@$*
-  port: 11020
-  server: 14.29.124.174
-  type: ss
   udp: true
 - cipher: aes-128-cfb
   name: CN_13
   password: QazEdcTgb159@$*
-  port: 11050
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_14 | 2.51Mb
-  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
-  port: 12233
-  server: 43.248.96.249
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_15
-  password: QazEdcTgb159@$*
-  port: 11035
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_16
-  password: QazEdcTgb159@$*
-  port: 11008
+  port: 11011
   server: 14.29.124.174
   type: ss
   udp: true
