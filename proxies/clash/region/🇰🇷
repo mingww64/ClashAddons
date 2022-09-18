@@ -1,8 +1,15 @@
 proxies:
-- name: KR_158
+- name: KR_416
   password: a1718180-d616-4b71-9bb6-3e96ba20f921
   port: 443
   server: jgw3.gaox.ml
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: KR_415 | 8.69Mb
+  password: amazonskr05
+  port: 443
+  server: 13.125.228.165
+  type: ss
   udp: true

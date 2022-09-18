@@ -1,71 +1,71 @@
 proxies:
-- name: GB_80 |65.03Mb
+- name: GB_308 | 7.65Mb
   password: iyinglong
   port: 443
-  server: 3.9.175.102
+  server: 3.8.216.52
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_81 |43.89Mb
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  port: 443
-  server: jgwld1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_82
+- name: GB_309 |63.80Mb
   password: iyinglong
   port: 443
-  server: 18.133.181.177
+  server: 18.130.157.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_83 |63.61Mb
+- name: GB_310 | 1.99Mb
   password: iyinglong
   port: 443
-  server: 35.176.6.24
+  server: 3.10.209.85
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_84
-  password: share.mjj-home.com
-  port: 443
-  server: api.mjj-home.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_85 | 3.13Mb
+- name: GB_311 | 4.00Mb
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   port: 443
   server: jgwcc1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: GB_76 |20.65Mb
-  password: shadowsocks
+- name: GB_312 |61.12Mb
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
-  server: 212.102.53.194
-  type: ss
+  server: jgwld1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_313
+  password: share.mjj-home.com
+  port: 443
+  server: api.mjj-home.com
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: GB_77 |23.10Mb
+  name: GB_304 |13.36Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.78
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_78 |20.71Mb
+  name: GB_305 |13.72Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.81
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB_306 |11.02Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.197
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_79 |21.01Mb
+  name: GB_307 |13.66Mb
   password: shadowsocks
   port: 443
-  server: 212.102.53.81
+  server: 212.102.53.194
   type: ss
   udp: true
