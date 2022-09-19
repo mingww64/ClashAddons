@@ -1,64 +1,85 @@
 proxies:
-- name: FR_100
-  password: 7c9b7560-b0f7-11eb-a397-1239d0255272
-  port: 443
-  server: fr-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_98
+- name: FR_191
   password: e4307a50-9853-11ec-9b4b-1239d0255272
   port: 443
   server: fr-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_99
+- name: FR_192
+  password: iyinglong
+  port: 443
+  server: 35.180.247.162
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_193
+  password: 7c9b7560-b0f7-11eb-a397-1239d0255272
+  port: 443
+  server: fr-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_194
+  password: iyinglong
+  port: 443
+  server: 35.180.122.151
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_195
   password: iyinglong
   port: 443
   server: 52.47.99.22
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: FR_196
+  password: iyinglong
+  port: 443
+  server: 15.237.116.79
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: FR_92
+  name: FR_185
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_93 |43.10Mb
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_94
+  name: FR_186
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_95 |42.34Mb
+  name: FR_187 |27.99Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_96
+  name: FR_188
   password: KixLvKzwjekG00rm
   port: 8080
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_97 |43.37Mb
+  name: FR_189 |28.08Mb
   password: KixLvKzwjekG00rm
   port: 8080
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_190 |34.32Mb
+  password: Y6R9pAtvxxzmGC
+  port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
