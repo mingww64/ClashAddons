@@ -1,36 +1,56 @@
 proxies:
-- name: DE_180 | 2.48Mb
-  password: null
-  port: 443
-  server: trojan-ctb-sg01.globalssh.xyz
+- alterId: 0
+  cipher: auto
+  name: DE_49 |45.43Mb
+  port: 21008
+  server: 5.181.77.193
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: DE_181 |36.41Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+- alterId: 0
+  cipher: auto
+  name: DE_50 |33.51Mb
+  port: 21008
+  server: 80.240.22.250
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: DE_182 |47.96Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_183 |36.13Mb
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+- name: DE_51 |25.89Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hass.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_184 |56.15Mb
+- name: DE_52 |54.12Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_53 | 8.19Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_54 |13.08Mb
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s2.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_55 | 2.92Mb
+  password: null
+  port: 443
+  server: trojan-ctb-sg01.globalssh.xyz
   skip-cert-verify: true
   type: trojan
   udp: true

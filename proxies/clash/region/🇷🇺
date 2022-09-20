@@ -1,20 +1,30 @@
 proxies:
-- name: RU_301
+- alterId: 0
+  cipher: auto
+  name: RU_143 |24.33Mb
+  port: 21008
+  server: 95.85.72.76
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+- name: RU_144
   password: 3df66137-a428-429c-a858-8b150721b354
   port: 443
   server: usa23.884899.cf
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: RU_302
-  password: 6fceea79-f0af-4480-9247-d198d166b522
-  port: 35476
-  server: aeadruaes01.xn--z4q48lcvp.com
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: RU_141 | 8.77Mb
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  server: mf02.xmss.vip
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: RU_300 | 4.03Mb
+  name: RU_142 |17.64Mb
   password: )1N1E6v0SU_rGTpg
   port: 1036
   server: 79.133.109.56
