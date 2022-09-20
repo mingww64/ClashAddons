@@ -1,90 +1,83 @@
 proxies:
-- name: CN_38
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21003
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_39
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21002
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_40
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 61002
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_41
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21005
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_42
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21001
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_43
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  port: 21004
-  server: 117.164.185.222
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_44
-  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
-  port: 36106
-  server: fujimount02.abzoones.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_45
+- name: CN_35
   password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
   port: 36306
   server: sunmoon02.abzoones.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_46
-  password: e1b932a7-b178-3e77-b1b8-0bb0ae03a6c1
-  port: 55003
-  server: xmsj-vip1.omo-m0m.com
+- name: CN_36
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21004
+  server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_47
+- name: CN_37
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21005
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_38
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21001
+  server: 183.245.146.20
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_39
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21002
+  server: 183.245.146.20
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_40
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
   port: 61001
   server: 117.164.185.222
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-128-cfb
-  name: CN_35
-  password: QazEdcTgb159@$*
-  port: 24000
-  server: 14.29.124.168
-  type: ss
+- name: CN_41
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21001
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
   udp: true
-- cipher: aes-128-cfb
-  name: CN_36
-  password: QazEdcTgb159@$*
-  port: 25268
-  server: 14.29.124.168
-  type: ss
+- name: CN_42
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 61002
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_43
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21002
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_44
+  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
+  port: 21003
+  server: 117.164.185.222
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_45
+  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
+  port: 36106
+  server: fujimount02.abzoones.xyz
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_37 |23.93Mb
+  name: CN_34 |21.09Mb
   password: ggp1006
   port: 23456
   server: 103.92.86.76
