@@ -1,56 +1,36 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: NL_135 | 4.17Mb
-  port: 21008
-  server: 5.181.25.81
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-- alterId: 0
-  cipher: auto
-  name: NL_136 |59.03Mb
-  port: 21008
-  server: 51.15.115.83
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-- name: NL_137
-  password: 96884680-77e6-11eb-8d67-1239d0255272
-  port: 443
-  server: nl-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_138
-  password: 4f7dc540-d244-4e64-af21-4b5bb300add3
-  port: 443
-  server: www.tokyo2023.ga
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_139 | 6.00Mb
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  port: 443
-  server: 41.216.177.41
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_140
+- name: NL_116
   password: 94af0550-902b-11eb-b135-1239d0255272
   port: 443
   server: nl-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: NL_141
+- name: NL_117
+  password: 96884680-77e6-11eb-8d67-1239d0255272
+  port: 443
+  server: nl-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: NL_118
+  password: 4f7dc540-d244-4e64-af21-4b5bb300add3
+  port: 443
+  server: www.tokyo2023.ga
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: NL_119
   password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272
   port: 443
   server: nl-trojan.bonds.id
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NL_114 |28.20Mb
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  server: mf02.xmss.vip
+  type: ss
   udp: true

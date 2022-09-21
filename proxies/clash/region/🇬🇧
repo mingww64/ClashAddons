@@ -1,64 +1,71 @@
 proxies:
-- name: GB_70
-  password: share.mjj-home.com
+- name: GB_75 |16.91Mb
+  password: iyinglong
   port: 443
-  server: api.mjj-home.com
+  server: 3.9.175.102
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_71 |65.85Mb
+- name: GB_76 |64.80Mb
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  port: 443
+  server: jgwld1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_77 |20.86Mb
   password: iyinglong
   port: 443
   server: 18.130.157.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_72 |49.77Mb
+- name: GB_78
+  password: share.mjj-home.com
+  port: 443
+  server: api.mjj-home.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_79 |47.67Mb
   password: iyinglong
   port: 443
   server: 3.8.216.52
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_73 | 1.56Mb
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  port: 443
-  server: jgwcc1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
-  name: GB_65 | 3.25Mb
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.81
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: GB_66 | 2.82Mb
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.194
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: GB_67 |16.86Mb
+  name: GB_69 | 8.82Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.78
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_68 | 7.27Mb
+  name: GB_70 |17.82Mb
   password: shadowsocks
   port: 443
-  server: 212.102.53.197
+  server: 212.102.53.81
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB_71 | 6.91Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.194
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_69 |69.48Mb
+  name: GB_72 |59.28Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 78.129.253.9
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB_73 |12.35Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
   type: ss
   udp: true
