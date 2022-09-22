@@ -1,8 +1,15 @@
 proxies:
-- name: HK_254
-  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
-  port: 889
-  server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
+- name: HK_27 | 5.41Mb
+  password: 11b8206c-8ae2-4ab3-a92c-208cdb8cc73d
+  port: 2083
+  server: nf.755657.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_28 | 2.97Mb
+  password: db61d0d6-d8e9-4d3e-b86b-81be6243bcee
+  port: 443
+  server: 921hk01.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
