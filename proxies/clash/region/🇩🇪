@@ -1,36 +1,8 @@
 proxies:
-- name: DE_225 |67.53Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_226 |71.30Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_227 |68.74Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_228 |59.15Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_229 | 4.33Mb
-  password: null
-  port: 443
-  server: trojan-ctb-sg01.globalssh.xyz
+- name: DE_09 |27.83Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 24567
+  server: scus1.ddns-pop.cyou
   skip-cert-verify: true
   type: trojan
   udp: true

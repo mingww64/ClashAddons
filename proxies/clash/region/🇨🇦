@@ -1,27 +1,20 @@
 proxies:
-- name: CA_07 | 4.01Mb
-  password: db61d0d6-d8e9-4d3e-b86b-81be6243bcee
+- name: CA_05 |70.22Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
-  server: 921tw.tfzhc.top
+  server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_08 | 1.69Mb
-  password: db61d0d6-d8e9-4d3e-b86b-81be6243bcee
+- name: CA_06 |75.89Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
-  server: 99tw02.tfzhc.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_09 | 1.88Mb
-  password: db61d0d6-d8e9-4d3e-b86b-81be6243bcee
-  port: 44318
-  server: 913tw.tfzhc.top
+  server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_05 |25.26Mb
+  name: CA_04 |62.31Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
