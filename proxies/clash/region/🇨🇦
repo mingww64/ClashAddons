@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: CA_06 |12.30Mb
+  name: CA_05 | 6.86Mb
   network: ws
   port: 443
   server: 527hk1.fans8.xyz
@@ -14,45 +14,73 @@ proxies:
     headers:
       Host: 527hk1.fans8.xyz
     path: /ray
-- name: CA_09 |18.73Mb
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: 149.56.141.11
+- name: CA_06 | 5.01Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 24568
+  server: 165.154.243.224
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_10 |70.12Mb
+- name: CA_07 |24.75Mb
   password: 26e219f2-5c2a-356c-9767-9fd681cc0134
   port: 24567
-  server: scus2.ddns-pop.cyou
+  server: 165.154.227.242
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_11 | 0.90Mb
-  password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9
-  port: 443
-  server: 921tw.tfzhc.top
+- name: CA_08 | 8.99Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 24567
+  server: 165.154.243.23
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_12 |23.06Mb
+- name: CA_09 |25.32Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 24568
+  server: 165.154.243.187
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_10 |83.61Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 24567
+  server: 165.154.235.186
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_11 |84.28Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 24567
+  server: 165.154.235.171
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_12 |101.74Mb
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_13 | 8.94Mb
-  password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9
-  port: 44318
-  server: 913tw.tfzhc.top
+- name: CA_13 |94.42Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_05 | 8.22Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 196.247.59.154
-  type: ss
+- name: CA_14 |25.62Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 24567
+  server: 165.154.243.248
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_15 |19.23Mb
+  password: f089ab9d-dd52-42a0-b10c-980e70a00e1a
+  port: 443
+  server: 99tw03.tfzhc.top
+  skip-cert-verify: true
+  type: trojan
   udp: true

@@ -1,8 +1,11 @@
 proxies:
-- name: DE_09 |27.83Mb
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  port: 24567
-  server: scus1.ddns-pop.cyou
+- alterId: 0
+  cipher: auto
+  name: DE_23 | 3.23Mb
+  port: 21008
+  server: 80.240.22.250
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
