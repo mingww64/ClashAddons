@@ -1,36 +1,50 @@
 proxies:
-- name: GB_34 | 3.10Mb
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+- name: GB_37 |61.99Mb
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
-  server: jgwcc1.gaox.ml
+  server: jgwld1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_38
+  password: iyinglong
+  port: 443
+  server: 18.130.157.11
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: GB_30 |11.22Mb
+  name: GB_32 | 9.18Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.81
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_33 |75.87Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: GB_31 |11.05Mb
+  name: GB_34 | 2.54Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.197
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_32 | 9.87Mb
+  name: GB_35 |14.33Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.194
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_33 |75.05Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 78.129.253.9
+- cipher: aes-128-gcm
+  name: GB_36 | 7.87Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.78
   type: ss
   udp: true
