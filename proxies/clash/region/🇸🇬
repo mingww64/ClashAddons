@@ -1,29 +1,8 @@
 proxies:
-- name: SG_53 | 7.93Mb
-  password: cf69f080-aa09-4ea4-ba77-4fb9b4bc5f66
-  port: 50001
-  server: sg1.turingnet.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_54 |13.96Mb
+- name: SG_59 |11.85Mb
   password: a79da040-2e7c-11ed-91c2-1239d0255272
   port: 443
   server: trojan2.udpgw.com
   skip-cert-verify: true
   type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: SG_51 |12.28Mb
-  password: null
-  port: 20020
-  server: sg.securevpn.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: SG_52 |12.33Mb
-  password: null
-  port: 20020
-  server: 139.162.23.118
-  type: ss
   udp: true

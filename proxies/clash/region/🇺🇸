@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: US_77 |24.92Mb
+  name: US_80 |33.05Mb
   port: 1069
   server: 152.69.197.60
   skip-cert-verify: true
@@ -9,9 +9,19 @@ proxies:
   type: vmess
   udp: true
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: US_81 |65.18Mb
+  port: 443
+  server: 51.81.223.26
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 32
   cipher: auto
-  name: US_78 |39.44Mb
+  name: US_82 |34.92Mb
   port: 443
   server: 51.81.223.22
   skip-cert-verify: true
@@ -21,17 +31,7 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 0
   cipher: auto
-  name: US_80 |15.82Mb
-  port: 443
-  server: 51.81.223.20
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-- alterId: 0
-  cipher: auto
-  name: US_81 |19.31Mb
+  name: US_84 |19.45Mb
   port: 443
   server: 51.81.223.10
   skip-cert-verify: true
@@ -41,270 +41,312 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 0
   cipher: auto
-  name: US_82 |61.65Mb
+  name: US_85 |24.22Mb
   port: 443
-  server: 51.81.223.26
+  server: 51.81.223.20
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-- name: US_100 |89.82Mb
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  port: 443
-  server: fhcamd1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_101 |40.41Mb
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  port: 443
-  server: fhcamd2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_102 | 6.12Mb
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  port: 443
-  server: jgwcc2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_103 |29.15Mb
-  password: zFyLKH62WN
-  port: 44150
-  server: www.sxsy88.tk
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_104 |73.35Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_105 |68.24Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s3.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_83
-  password: iyinglong
-  port: 443
-  server: 54.188.171.13
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_85
-  password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
-  port: 23802
-  server: s162.s2022.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_86 |84.34Mb
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  port: 443
-  server: fhcarm2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_87 |71.86Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_88 |73.31Mb
-  password: yBq0efi1j7
-  port: 17449
-  server: youtube-bai-piao-wang-zhe-usa.98848.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_89 |72.40Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s3.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_90 |30.31Mb
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  port: 443
-  server: jgwdj3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_91 | 8.52Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s1.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_92 |28.29Mb
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  port: 443
-  server: jgwdb2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_93 | 5.22Mb
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  port: 443
-  server: jgwhdlb1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_94 |73.43Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_95 | 9.20Mb
-  password: ukMzuFSmIXDvgW0h
-  port: 443
-  server: cd.rutracker-cn.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_96 |72.26Mb
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hass.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_97
+- name: US_100 |77.91Mb
   password: iyinglong
   port: 443
   server: 34.219.183.33
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_98 |10.95Mb
+- name: US_101 |15.62Mb
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  port: 443
+  server: fhcamd2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_102 |56.96Mb
+  password: iyinglong
+  port: 443
+  server: 54.70.120.130
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_103 |15.82Mb
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  port: 443
+  server: jgwdj4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_104 |69.58Mb
+  password: iyinglong
+  port: 443
+  server: 54.245.213.176
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_105 | 2.20Mb
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  port: 443
+  server: jgwcc3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_106 |21.93Mb
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  port: 443
+  server: jgwcc2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_107 |29.47Mb
+  password: zFyLKH62WN
+  port: 44150
+  server: www.sxsy88.tk
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_108 | 3.61Mb
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  port: 3052
+  server: kr05.wangxd.life
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_109
+  password: iyinglong
+  port: 443
+  server: 54.188.171.13
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_110 |66.10Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s3.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_111 |58.21Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_112
+  password: iyinglong
+  port: 443
+  server: 13.38.55.14
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_113 |30.99Mb
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  port: 443
+  server: jgwdb2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_114 |17.96Mb
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  port: 443
+  server: jgwhdlb3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_86 |87.46Mb
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  port: 443
+  server: fhcarm1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_87 |71.04Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_88 |62.88Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s1.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_89 |75.39Mb
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  port: 3052
+  server: lsj02.wangxd.life
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_90 |10.84Mb
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
   server: jgwhdlb2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_99 |78.48Mb
+- name: US_91 |124.87Mb
   password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57
   port: 443
   server: 23.94.103.146
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: US_59 |16.24Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 172.99.190.39
-  type: ss
+- name: US_92 |28.45Mb
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  port: 443
+  server: jgwdj3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_93 | 6.09Mb
+  password: ukMzuFSmIXDvgW0h
+  port: 443
+  server: cd.rutracker-cn.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_94 |56.86Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s3.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_95 |62.77Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_96 |61.05Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s1.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_97 |82.60Mb
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  port: 443
+  server: fhcamd1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_98 |57.47Mb
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hass.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_99
+  password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
+  port: 23802
+  server: s162.s2022.xyz
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: US_60 | 2.90Mb
+  name: US_63 | 1.98Mb
   password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
+  port: 5601
+  server: 38.114.114.19
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_61 | 2.19Mb
+  name: US_64 | 0.59Mb
   password: pKEW8JPByTVTLtM
   port: 443
   server: 38.114.114.19
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_62 | 4.94Mb
+  name: US_65 | 5.61Mb
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 38.75.136.21
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_63 |12.90Mb
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.143.66.99
+  name: US_66 | 8.70Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.75.136.21
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_64 | 6.42Mb
+  name: US_67 |30.49Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 38.143.66.99
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_65 |53.91Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 38.68.134.85
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_66 |14.88Mb
+  name: US_68 |13.74Mb
   password: g5MeD6Ft3CWlJId
   port: 5003
-  server: 172.99.190.39
+  server: 38.91.102.74
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_67 |53.60Mb
+  name: US_69 | 7.55Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.61.175
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_70 |17.16Mb
   password: Y6R9pAtvxxzmGC
   port: 5600
   server: 38.68.134.85
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_69 | 9.12Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.64.138.145
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_70 | 2.94Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.75.136.21
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_72 |42.14Mb
+  name: US_71 |20.77Mb
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 38.114.114.67
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_74 |12.59Mb
+  name: US_72 |24.98Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.68.134.85
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_75 |17.86Mb
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 172.99.190.39
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_76 | 0.02Mb
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.121.43.71
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_75 |14.36Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.71
+  name: US_77 |24.06Mb
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.143.66.99
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_76 | 3.25Mb
+  name: US_79 |17.07Mb
   password: KixLvKzwjekG00rm
   port: 5500
-  server: 38.68.135.18
+  server: 172.99.190.39
   type: ss
   udp: true

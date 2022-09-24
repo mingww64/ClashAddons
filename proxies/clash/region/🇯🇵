@@ -1,8 +1,15 @@
 proxies:
-- name: JP_41 |27.20Mb
+- name: JP_49 |28.77Mb
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   port: 443
   server: jgwdb4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_50
+  password: ed9a202f-7871-4a15-a4c1-f3a47c1f5493
+  port: 443
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
