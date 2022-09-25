@@ -4,6 +4,8 @@ import os
 import requests
 import re
 
+# Rewrite using yaml.parser as soon as possible.
+
 
 class Proxy:
     '''self represents the instance of the class.'''
@@ -33,8 +35,11 @@ class Proxy:
                 print(f"template: {x} not exist.", exit())
 
             names[x] = Template(y)
-        if os.path.isfile(template_path + '/'+ 'rules.yml'): self.rules += '\n' + open(template_path + '/'+ 'rules.yml').read()
-        if os.path.isfile(template_path + '/'+ 'script.yml'): self.script += '\n' + open(template_path + '/'+ 'script.yml').read()
+        if os.path.isfile(template_path + '/' + 'rules.yml'):
+            self.rules += '\n' + open(template_path + '/' + 'rules.yml').read()
+        if os.path.isfile(template_path + '/' + 'script.yml'):
+            self.script += '\n' + \
+                open(template_path + '/' + 'script.yml').read()
         self.urltest = self.urltest.substitute(
             url='http://www.gstatic.com/generate_204', interval=300, tolerance=180)
         self.name_path, self.icon_path = self.get_filename(exec_dir)
@@ -80,6 +85,7 @@ class Proxy:
             return ret
 
         def gen_rules():
+            # Fix needed for SCRIPT, using yaml.parser is preferred.
             sets = re.findall('.*RULE-SET.*', self.rules)
             rules_proxies = ['Others']
             for x in sets:
