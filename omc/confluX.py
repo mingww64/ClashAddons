@@ -12,6 +12,7 @@ class Proxy:
         self.storage = storage
         self.output_path = output_path
         self._All_exclude = re_exclude
+        self.script = ""
         if 'http' in rules:
             self.rules = requests.get(rules).content.decode('utf-8')
         else:
@@ -32,6 +33,8 @@ class Proxy:
                 print(f"template: {x} not exist.", exit())
 
             names[x] = Template(y)
+        if os.path.isfile(template_path + '/'+ 'rules.yml'): self.rules += '\n' + open(template_path + '/'+ 'rules.yml').read()
+        if os.path.isfile(template_path + '/'+ 'script.yml'): self.script += '\n' + open(template_path + '/'+ 'script.yml').read()
         self.urltest = self.urltest.substitute(
             url='http://www.gstatic.com/generate_204', interval=300, tolerance=180)
         self.name_path, self.icon_path = self.get_filename(exec_dir)
@@ -122,8 +125,9 @@ proxy-providers:
 proxy-groups:
 {self.gen_all_proxies()}
 {self.gen_each_proxies()}
+{self.script}
 {self.rules}
-    """
+"""
         file = file.replace('\t', '  ')  # YAML dont support Tabulator key.
         with open(self.output_path, 'w') as f:
             f.write(file.strip())
