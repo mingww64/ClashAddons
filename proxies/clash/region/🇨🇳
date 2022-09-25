@@ -1,78 +1,8 @@
 proxies:
-- name: CN_26 | 9.73Mb
-  password: ffcc8693-69bf-4dcf-9ae0-523e1518dece
-  port: 58806
-  server: xi.kanao.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_27 | 9.40Mb
-  password: ffcc8693-69bf-4dcf-9ae0-523e1518dece
-  port: 58820
-  server: xi.kanao.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_28 |17.98Mb
-  password: ffcc8693-69bf-4dcf-9ae0-523e1518dece
-  port: 58805
-  server: da.kanao.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_29 | 9.38Mb
-  password: ffcc8693-69bf-4dcf-9ae0-523e1518dece
-  port: 58827
-  server: xi.kanao.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_15 | 2.01Mb
-  password: QazEdcTgb159@$*
-  port: 11036
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_17 | 7.95Mb
-  password: QazEdcTgb159@$*
-  port: 11032
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_18
-  password: QazEdcTgb159@$*
-  port: 11015
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_19 | 9.01Mb
-  password: QazEdcTgb159@$*
-  port: 11008
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_20 | 9.07Mb
-  password: QazEdcTgb159@$*
-  port: 11039
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_22 |10.25Mb
-  password: QazEdcTgb159@$*
-  port: 11050
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_23 | 2.38Mb
-  password: QazEdcTgb159@$*
-  port: 11035
-  server: 14.29.124.174
+- cipher: chacha20-ietf-poly1305
+  name: CN_10
+  password: ggp1006
+  port: 23456
+  server: 103.92.86.76
   type: ss
   udp: true
