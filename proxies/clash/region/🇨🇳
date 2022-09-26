@@ -1,8 +1,50 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: CN_10
-  password: ggp1006
-  port: 23456
-  server: 103.92.86.76
+- cipher: rc4-md5
+  name: CN_06 | 5.66Mb
+  password: Paofu
+  port: 1187
+  server: yd-03.paofunlink.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: CN_07 | 9.82Mb
+  password: Paofu
+  port: 1155
+  server: yd-03.paofunlink.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: CN_08 | 7.42Mb
+  password: Paofu
+  port: 1157
+  server: yd-03.paofunlink.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: CN_09 | 7.80Mb
+  password: Paofu
+  port: 1156
+  server: yd-03.paofunlink.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: CN_10 | 7.70Mb
+  password: Paofu
+  port: 1158
+  server: yd-03.paofunlink.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: CN_11 | 6.96Mb
+  password: Paofu
+  port: 1186
+  server: yd-03.paofunlink.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: CN_12 |10.33Mb
+  password: Paofu
+  port: 1197
+  server: yd-03.paofunlink.com
   type: ss
   udp: true

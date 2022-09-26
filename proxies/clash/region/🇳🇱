@@ -1,11 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: NL_43 | 0.13Mb
-  port: 21008
-  server: 5.181.25.81
+- name: NL_23 | 3.39Mb
+  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
+  port: 443
+  server: 41.216.177.41
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+- cipher: chacha20-ietf-poly1305
+  name: NL_22 |317.74Mb
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  server: mf02.xmss.vip
+  type: ss
+  udp: true
