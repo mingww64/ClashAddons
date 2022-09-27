@@ -1,43 +1,8 @@
 proxies:
-- cipher: rc4-md5
-  name: CN_11 | 9.77Mb
-  password: Paofu
-  port: 1187
-  server: yd-03.paofunlink.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: CN_12 | 9.14Mb
-  password: Paofu
-  port: 1155
-  server: yd-03.paofunlink.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: CN_13 | 7.95Mb
-  password: Paofu
-  port: 1156
-  server: yd-03.paofunlink.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: CN_15 |10.12Mb
-  password: Paofu
-  port: 1197
-  server: yd-03.paofunlink.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: CN_16 | 3.89Mb
-  password: Paofu
-  port: 1186
-  server: yd-03.paofunlink.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: CN_17 | 8.71Mb
-  password: Paofu
-  port: 1157
-  server: yd-03.paofunlink.com
-  type: ss
+- name: CN_11 |10.32Mb
+  password: a992be42-bed4-3037-8788-9e860cd635d3
+  port: 19215
+  server: 183.232.141.154
+  skip-cert-verify: true
+  type: trojan
   udp: true

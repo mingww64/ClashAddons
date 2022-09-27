@@ -1,8 +1,15 @@
 proxies:
-- name: 🇺🇦 UA_20
+- name: 🇺🇦 UA_29 | 0.06Mb
   password: kGrwqmB1nEKUsDwE
   port: 443
   server: v2cross.com.05.v2ce.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇺🇦 UA_30 |17.51Mb
+  password: 5y8y3CwxRVYhyfSY
+  port: 443
+  server: ce.rutracker-cn.com
   skip-cert-verify: true
   type: trojan
   udp: true
