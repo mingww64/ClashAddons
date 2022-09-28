@@ -1,22 +1,22 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: GB_19 |73.90Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 78.129.253.9
+- cipher: aes-128-gcm
+  name: GB_18 |53.55Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_20 |71.08Mb
+  name: GB_19 |71.99Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.78
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: GB_21 |69.58Mb
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.197
+- cipher: chacha20-ietf-poly1305
+  name: GB_20 |67.44Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
   type: ss
   udp: true

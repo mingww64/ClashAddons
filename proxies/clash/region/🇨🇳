@@ -1,8 +1,15 @@
 proxies:
-- name: CN_11 |10.32Mb
-  password: a992be42-bed4-3037-8788-9e860cd635d3
-  port: 19215
-  server: 183.232.141.154
+- name: CN_09
+  password: Mb6124ef
+  port: 28124
+  server: 14.215.107.23
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_10 | 8.94Mb
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  port: 12344
+  server: lv2sndwioabiaasw.hjspyto.cn
   skip-cert-verify: true
   type: trojan
   udp: true
