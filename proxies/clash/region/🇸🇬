@@ -1,5 +1,15 @@
 proxies:
-- name: SG_27 |12.34Mb
+- alterId: 0
+  cipher: auto
+  name: SG_30 | 6.03Mb
+  port: 18231
+  server: 139.162.29.179
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb185001-85ed-4186-e391-fdeb7b624403
+- name: SG_31 | 4.35Mb
   password: a79da040-2e7c-11ed-91c2-1239d0255272
   port: 443
   server: trojan2.udpgw.com

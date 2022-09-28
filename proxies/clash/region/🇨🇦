@@ -1,34 +1,27 @@
 proxies:
-- name: CA_02 |14.60Mb
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  port: 24567
-  server: 165.154.243.23
+- name: CA_04 | 4.71Mb
+  password: 3ad5547b-609b-4f59-916b-afebd85aba7d
+  port: 443
+  server: 921tw.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_03 | 8.07Mb
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  port: 24567
-  server: 165.154.243.210
+- name: CA_06 |22.98Mb
+  password: 3ad5547b-609b-4f59-916b-afebd85aba7d
+  port: 44318
+  server: 913tw.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_04 |60.14Mb
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  port: 24567
-  server: scus1.ddns-pop.cyou
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_07 |70.99Mb
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  port: 24567
-  server: 165.154.235.194
+- name: CA_07 |23.02Mb
+  password: 3ad5547b-609b-4f59-916b-afebd85aba7d
+  port: 44319
+  server: 927tw01.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_01 |58.02Mb
+  name: CA_03 |61.46Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
