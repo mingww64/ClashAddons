@@ -1,27 +1,63 @@
 proxies:
-- name: CA_04 | 4.71Mb
+- alterId: 0
+  cipher: auto
+  name: CA_05 | 1.92Mb
+  network: ws
+  port: 443
+  server: 527hk1.fans8.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22527hk1.fans8.xyz%22%7D'
+    path: /ray
+- name: CA_07
+  password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8
+  port: 443
+  server: 51.161.118.38
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_08 |12.48Mb
   password: 3ad5547b-609b-4f59-916b-afebd85aba7d
   port: 443
   server: 921tw.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_06 |22.98Mb
-  password: 3ad5547b-609b-4f59-916b-afebd85aba7d
-  port: 44318
-  server: 913tw.tfzhc.top
+- name: CA_11
+  password: gb8cLR
+  port: 443
+  server: 165.154.226.108
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_07 |23.02Mb
+- name: CA_12
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_13
   password: 3ad5547b-609b-4f59-916b-afebd85aba7d
   port: 44319
   server: 927tw01.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: CA_14
+  password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_03 |61.46Mb
+  name: CA_04 |100.57Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154

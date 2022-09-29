@@ -1,8 +1,15 @@
 proxies:
-- name: HK_22 | 2.70Mb
-  password: b3f3d494-d74d-4c03-9931-5c7efb75d980
-  port: 443
-  server: solink.ga
+- name: HK_118
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  port: 18443
+  server: api.tcpbbr.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_119
+  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
+  port: 889
+  server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true

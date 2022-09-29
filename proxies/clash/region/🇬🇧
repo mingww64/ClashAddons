@@ -1,29 +1,36 @@
 proxies:
-- name: GB_19 |66.19Mb
+- name: GB_114
+  password: 107b0481-8181-47cc-9324-a178047cd8e4
+  port: 443
+  server: qt19.shenseven.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_116 |63.55Mb
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: jgwld1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_16 |33.78Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 78.129.253.9
+- cipher: aes-128-gcm
+  name: GB_111 |67.88Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.78
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_17 |72.13Mb
+  name: GB_112 |70.63Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.197
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: GB_18 |73.59Mb
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.78
+- cipher: chacha20-ietf-poly1305
+  name: GB_113 |69.43Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
   type: ss
   udp: true

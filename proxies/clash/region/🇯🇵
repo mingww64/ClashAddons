@@ -1,29 +1,50 @@
 proxies:
-- name: JP_22 |32.40Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+- name: JP_124
+  password: C3YS0KAq8x5jgpNnCeC3aa3DFXw9Aczu8DaeBpy6Fy34xSZEYORDTIZRlSl72O
   port: 443
-  server: jgwdb3.gaox.ml
+  server: yokohama.freetrade.link
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_23 |23.25Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+- name: JP_125
+  password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
-  server: jgwdb4.gaox.ml
+  server: tky3.ssgnode.ga
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_24 | 3.74Mb
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: jgw2.gaox.ml
+- name: JP_126
+  password: 7x42LetRa0
+  port: 1443
+  server: 106.180.225.69
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_25 |13.16Mb
-  password: aa7d24e0-b60c-44bb-bcd1-8b74a297cdbc
+- name: JP_127
+  password: 28d98f761aca9d636f44db62544628eb
   port: 443
-  server: kr1.api-aws.com
+  server: 45.66.134.219
   skip-cert-verify: true
   type: trojan
+  udp: true
+- name: JP_128
+  password: 3ad5547b-609b-4f59-916b-afebd85aba7d
+  port: 44311
+  server: 99jp.tfzhc.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_129
+  password: 107b0481-8181-47cc-9324-a178047cd8e4
+  port: 443
+  server: qt26.shenseven.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: JP_121 |33.48Mb
+  password: null
+  port: 20020
+  server: jp.securevpn.cc
+  type: ss
   udp: true
