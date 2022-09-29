@@ -1,5 +1,5 @@
 proxies:
-- name: FR_110
+- name: FR_132
   password: 7c9b7560-b0f7-11eb-a397-1239d0255272
   port: 443
   server: fr-trojan.bonds.id
@@ -7,44 +7,44 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: FR_104
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_105 |19.25Mb
+  name: FR_126 |20.51Mb
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_106 | 2.43Mb
+  name: FR_127 |11.75Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_107
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: FR_128
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_108
+  name: FR_129
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_109 | 8.52Mb
+  name: FR_130 | 9.95Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_131
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
   type: ss
   udp: true
