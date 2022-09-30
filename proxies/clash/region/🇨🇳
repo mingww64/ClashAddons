@@ -1,8 +1,22 @@
 proxies:
-- name: CN_07
-  password: 79745894-044c-3298-a893-bbfcb6b24a2c
-  port: 19701
-  server: pull-cache-lu01.xyx-xylo.com
+- name: CN_19
+  password: 017ed328-d2c4-3284-bbae-27dff14cdd16
+  port: 19222
+  server: 161.189.218.227
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_12 | 2.10Mb
+  password: QazEdcTgb159@$*
+  port: 11015
+  server: 14.29.124.174
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_13 | 7.02Mb
+  password: QazEdcTgb159@$*
+  port: 11020
+  server: 14.29.124.174
+  type: ss
   udp: true

@@ -1,5 +1,15 @@
 proxies:
-- name: SG_18 |11.07Mb
+- alterId: 0
+  cipher: auto
+  name: SG_51
+  port: 18231
+  server: 139.162.29.179
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb185001-85ed-4186-e391-fdeb7b624403
+- name: SG_52 | 9.42Mb
   password: a34a5712-c40f-41fe-babb-90cd626965b0
   port: 10025
   server: xjp.xhei.ml
