@@ -1,78 +1,15 @@
 proxies:
-- name: JP_144
-  password: 107b0481-8181-47cc-9324-a178047cd8e4
+- name: JP_16 |36.58Mb
+  password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428
   port: 443
-  server: qt26.shenseven.xyz
+  server: musashino.freetrade.link
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_145 |50.72Mb
-  password: 1a74fd5e-50dc-43d2-8119-4bce566d784e
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_146 |11.31Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: jgwdb4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_147
-  password: 7x42LetRa0
-  port: 1443
-  server: 106.180.225.69
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_148
-  password: 28d98f761aca9d636f44db62544628eb
-  port: 443
-  server: 45.66.134.219
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_149
-  password: C3YS0KAq8x5jgpNnCeC3aa3DFXw9Aczu8DaeBpy6Fy34xSZEYORDTIZRlSl72O
-  port: 443
-  server: yokohama.freetrade.link
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_150
-  password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: tky3.ssgnode.ga
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_151 |14.42Mb
+- name: JP_17
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   port: 443
   server: jgwdb3.gaox.ml
   skip-cert-verify: true
   type: trojan
-  udp: true
-- name: JP_152
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  port: 443
-  server: 45.66.134.219
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_153 |22.24Mb
-  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
-  port: 28443
-  server: 5.180.76.172
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: JP_143 |33.89Mb
-  password: null
-  port: 20020
-  server: jp.securevpn.cc
-  type: ss
   udp: true
