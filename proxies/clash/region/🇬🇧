@@ -1,43 +1,43 @@
 proxies:
-- name: GB_35 |11.26Mb
-  password: RFcWGOaSXo
-  port: 25874
-  server: nice-uk01.tiktokcdn.buzz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_36 | 1.27Mb
+- name: GB_34 | 0.33Mb
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   port: 443
   server: jgwcc1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_37 | 3.47Mb
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+- name: GB_35 |61.58Mb
+  password: 107b0481-8181-47cc-9324-a178047cd8e4
   port: 443
-  server: 144.24.72.126
+  server: qt19.shenseven.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_36 |66.32Mb
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  port: 443
+  server: 132.145.51.172
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: GB_32 |72.07Mb
+  name: GB_30 |78.09Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.197
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_33 |73.43Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 78.129.253.9
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
-  name: GB_34 |75.63Mb
+  name: GB_31 |73.48Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.78
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_32 |76.19Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
   type: ss
   udp: true

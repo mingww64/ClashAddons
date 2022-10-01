@@ -1,53 +1,57 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: CN_21 |10.76Mb
-  port: 31372
-  server: 106.55.234.95
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411
-- name: CN_23
-  password: Mb6124ef
-  port: 28124
-  server: 14.215.107.23
+- name: CN_22
+  password: 79745894-044c-3298-a893-bbfcb6b24a2c
+  port: 19701
+  server: pull-cache-lu01.xyx-xylo.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-128-cfb
-  name: CN_13 | 2.55Mb
+  name: CN_10 | 9.74Mb
+  password: QazEdcTgb159@$*
+  port: 11048
+  server: 14.29.124.174
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_12 | 5.87Mb
+  password: QazEdcTgb159@$*
+  port: 11038
+  server: 14.29.124.174
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_14 |15.26Mb
+  password: ggp1006
+  port: 23456
+  server: 103.92.86.76
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_15 | 5.56Mb
+  password: QazEdcTgb159@$*
+  port: 11019
+  server: 14.29.124.174
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_16 |15.04Mb
   password: QazEdcTgb159@$*
   port: 11050
   server: 14.29.124.174
   type: ss
   udp: true
 - cipher: aes-128-cfb
-  name: CN_15 | 2.24Mb
-  password: QazEdcTgb159@$*
-  port: 11003
-  server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: CN_16 | 7.81Mb
+  name: CN_17
   password: QazEdcTgb159@$*
   port: 11020
   server: 14.29.124.174
   type: ss
   udp: true
 - cipher: aes-128-cfb
-  name: CN_18 | 3.56Mb
+  name: CN_18 | 0.26Mb
   password: QazEdcTgb159@$*
-  port: 11019
+  port: 11008
   server: 14.29.124.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_19 |21.94Mb
-  password: ggp1006
-  port: 23456
-  server: 103.92.86.76
   type: ss
   udp: true
