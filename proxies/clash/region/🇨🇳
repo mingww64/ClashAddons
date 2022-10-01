@@ -1,22 +1,53 @@
 proxies:
-- name: CN_19
-  password: 017ed328-d2c4-3284-bbae-27dff14cdd16
-  port: 19222
-  server: 161.189.218.227
+- alterId: 0
+  cipher: auto
+  name: CN_21 |10.76Mb
+  port: 31372
+  server: 106.55.234.95
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411
+- name: CN_23
+  password: Mb6124ef
+  port: 28124
+  server: 14.215.107.23
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-128-cfb
-  name: CN_12 | 2.10Mb
+  name: CN_13 | 2.55Mb
   password: QazEdcTgb159@$*
-  port: 11015
+  port: 11050
   server: 14.29.124.174
   type: ss
   udp: true
 - cipher: aes-128-cfb
-  name: CN_13 | 7.02Mb
+  name: CN_15 | 2.24Mb
+  password: QazEdcTgb159@$*
+  port: 11003
+  server: 14.29.124.174
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_16 | 7.81Mb
   password: QazEdcTgb159@$*
   port: 11020
   server: 14.29.124.174
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: CN_18 | 3.56Mb
+  password: QazEdcTgb159@$*
+  port: 11019
+  server: 14.29.124.174
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_19 |21.94Mb
+  password: ggp1006
+  port: 23456
+  server: 103.92.86.76
   type: ss
   udp: true

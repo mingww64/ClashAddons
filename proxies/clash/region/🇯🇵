@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: JP_39 |28.32Mb
+  name: JP_47 |28.48Mb
   network: ws
   port: 443
   server: jp2.tzccwz.fit
@@ -14,38 +14,59 @@ proxies:
     headers:
       Host: '%257B%2522Host%2522:%2522jp2.tzccwz.fit%2522%257D'
     path: /fkkf
-- name: JP_40 |26.43Mb
+- name: JP_48 |29.58Mb
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   port: 443
   server: jgwdb3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_41 |28.69Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: 168.138.43.89
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_42 |31.50Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: jgwdb4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_44 |34.05Mb
+- name: JP_49 |32.36Mb
   password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428
   port: 443
   server: musashino.freetrade.link
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_45 |23.58Mb
+- name: JP_50 |24.72Mb
+  password: JmcedGAn
+  port: 443
+  server: nice-jp02.tiktokcdn.buzz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_51 |11.61Mb
+  password: b62a64c0-4b87-436e-aef1-28eb22da69b7
+  port: 44311
+  server: 99jp.tfzhc.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_52 |12.47Mb
   password: 1a74fd5e-50dc-43d2-8119-4bce566d784e
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
+  udp: true
+- name: JP_53 | 9.45Mb
+  password: BXE9notY
+  port: 443
+  server: nice-jp01.tiktokcdn.buzz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: JP_45 | 2.56Mb
+  password: amazonskr05
+  port: 443
+  server: 52.197.66.243
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_46 |15.85Mb
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 193.38.139.204
+  type: ss
   udp: true

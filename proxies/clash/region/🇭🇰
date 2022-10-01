@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_35
-  port: 6666
-  server: 128.1.134.126
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa
-- alterId: 0
-  cipher: auto
-  name: HK_36
+  name: HK_38
   port: 30862
   server: 23.91.100.243
   skip-cert-verify: true
@@ -19,14 +9,35 @@ proxies:
   type: vmess
   udp: true
   uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9
-- name: HK_37
+- name: HK_40 |16.46Mb
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  port: 12163
+  server: ssl.tcpbbr.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_41 | 7.90Mb
+  password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1
+  port: 50418
+  server: 43.229.153.148
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_42
   password: uDTmEAGwuCUZXZvwhWJk
   port: 889
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_38 |17.45Mb
+- name: HK_43 |14.06Mb
+  password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
+  port: 52000
+  server: hk.vc3.hyperlinkvpn.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_44 | 6.19Mb
   password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
   port: 18443
   server: api.tcpbbr.net

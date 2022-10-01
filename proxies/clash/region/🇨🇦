@@ -1,22 +1,62 @@
 proxies:
-- name: CA_08 | 3.29Mb
-  password: b62a64c0-4b87-436e-aef1-28eb22da69b7
-  port: 44319
-  server: 927tw01.tfzhc.top
+- alterId: 32
+  cipher: auto
+  name: CA_07 | 5.72Mb
+  port: 443
+  server: 139.99.90.122
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+- alterId: 32
+  cipher: auto
+  name: CA_08 | 7.48Mb
+  port: 443
+  server: 139.99.91.95
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+- alterId: 0
+  cipher: auto
+  name: CA_09 |10.00Mb
+  network: ws
+  port: 443
+  server: 165.154.244.100
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  ws-opts:
+    path: /ray
+- name: CA_10 |21.49Mb
+  password: 9b039851-270c-4837-b500-f1ab5e2350f7
+  port: 49008
+  server: 165.154.246.195
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_10 |257.56Mb
+- name: CA_11 |175.33Mb
   password: a9b56b59-ee82-4331-91f8-955d1fdc4e10
   port: 8443
   server: nice-ca02.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_11
-  password: c56e5075-d71e-4059-bbc9-ef5032ea3fc5
+- name: CA_12 |10.76Mb
+  password: 9b039851-270c-4837-b500-f1ab5e2350f7
   port: 49007
   server: 165.154.246.195
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_06 |58.59Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
   udp: true

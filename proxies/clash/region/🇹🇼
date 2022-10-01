@@ -1,8 +1,15 @@
 proxies:
-- name: TW_53 |14.00Mb
-  password: 8f0031e6-878b-4b45-b899-a24053d4f0a5
-  port: 30000
-  server: tw02.henet.cyou
+- name: TW_58 | 6.97Mb
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  port: 443
+  server: tw.tcpbbr.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_59
+  password: 9c48615a-d5e7-366c-907f-19a105b17451
+  port: 443
+  server: 211.21.92.113
   skip-cert-verify: true
   type: trojan
   udp: true
