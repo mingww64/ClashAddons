@@ -1,85 +1,29 @@
 proxies:
-- name: JP_54 |27.25Mb
-  password: 107b0481-8181-47cc-9324-a178047cd8e4
+- name: JP_41
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   port: 443
-  server: qt26.shenseven.xyz
+  server: 146.56.189.146
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_55 | 6.38Mb
-  password: BXE9notY
+- name: JP_42 | 2.36Mb
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   port: 443
-  server: nice-jp01.tiktokcdn.buzz
+  server: jgw2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_42 |17.32Mb
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 193.38.139.202
-  type: ss
+- name: JP_43 |17.94Mb
+  password: da647e58-8f85-450f-b123-568c492c297c
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_43 |17.92Mb
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 193.38.139.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_44 |17.28Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 193.38.139.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_45 |19.40Mb
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 193.38.139.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_46 |16.81Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 193.38.139.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_47 |19.26Mb
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 193.38.139.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_48 |20.22Mb
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 193.38.139.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_49 |17.34Mb
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 193.38.139.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_50 |20.06Mb
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 193.38.139.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_51 |17.50Mb
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 193.38.139.202
-  type: ss
+- name: JP_45 | 2.19Mb
+  password: 61f6271b-5e65-46b8-bc80-c6468a1f185e
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
   udp: true

@@ -1,8 +1,22 @@
 proxies:
-- name: 🇺🇦 UA_62 | 0.37Mb
-  password: vGWCNNfBHwSY6m6M
+- name: 🇺🇦 UA_53
+  password: ZD4dLSBXiMrmzdLd
   port: 443
-  server: v2cross.com.04.v2ce.com
+  server: 185.253.47.79
   skip-cert-verify: true
   type: trojan
+  udp: true
+- name: 🇺🇦 UA_54 | 2.11Mb
+  password: kGrwqmB1nEKUsDwE
+  port: 443
+  server: v2cross.com.05.v2ce.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇦 UA_51 | 3.71Mb
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  server: mf01.xmss.vip
+  type: ss
   udp: true

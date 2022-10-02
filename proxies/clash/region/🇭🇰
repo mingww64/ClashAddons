@@ -1,26 +1,40 @@
 proxies:
-- name: HK_38 |23.71Mb
+- name: HK_35 |21.20Mb
   password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1
   port: 50418
   server: 43.229.153.148
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_39 |12.58Mb
-  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
-  port: 12163
-  server: ssl.tcpbbr.net
+- name: HK_36 | 6.56Mb
+  password: 789d73af-b985-4778-9872-211047c28015
+  port: 50206
+  server: 103.103.245.125
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_40 | 4.29Mb
+- name: HK_37 |21.36Mb
+  password: a70b39d1-62ea-4d9e-b681-9c5408352234
+  port: 50418
+  server: 103.103.245.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_38 |15.50Mb
   password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
   port: 18443
   server: api.tcpbbr.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_41 |22.32Mb
+- name: HK_39 | 4.20Mb
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  port: 12163
+  server: ssl.tcpbbr.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_40 |21.76Mb
   password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
   port: 52000
   server: hk.vc3.hyperlinkvpn.xyz
