@@ -1,72 +1,85 @@
 proxies:
-- alterId: 1
-  cipher: auto
-  name: JP_44 | 5.61Mb
-  network: ws
-  port: 16458
-  server: au01-vm5.entry.hsrtd.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 550d4d01-09cb-3f1e-82e8-f6a64fb6047b
-  ws-opts:
-    headers:
-      Host: au01-vm5.entry.hsrtd.club
-    path: /tutorial/iphone13.m3u8
-- name: JP_45 | 6.58Mb
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: 146.56.189.146
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_46 | 1.01Mb
-  password: 1a74fd5e-50dc-43d2-8119-4bce566d784e
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_47 |36.83Mb
-  password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428
-  port: 443
-  server: musashino.freetrade.link
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_48 |12.36Mb
-  password: BXE9notY
-  port: 443
-  server: nice-jp01.tiktokcdn.buzz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_49 | 3.15Mb
-  password: JmcedGAn
-  port: 443
-  server: nice-jp02.tiktokcdn.buzz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_50 |27.25Mb
+- name: JP_54 |27.25Mb
   password: 107b0481-8181-47cc-9324-a178047cd8e4
   port: 443
   server: qt26.shenseven.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_51 | 3.44Mb
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+- name: JP_55 | 6.38Mb
+  password: BXE9notY
   port: 443
-  server: jgw2.gaox.ml
+  server: nice-jp01.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_52 |31.91Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: jgwdb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: JP_42 |17.32Mb
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_43 |17.92Mb
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_44 |17.28Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_45 |19.40Mb
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_46 |16.81Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_47 |19.26Mb
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_48 |20.22Mb
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_49 |17.34Mb
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_50 |20.06Mb
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 193.38.139.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_51 |17.50Mb
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 193.38.139.202
+  type: ss
   udp: true

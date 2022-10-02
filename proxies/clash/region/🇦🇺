@@ -1,15 +1,22 @@
 proxies:
-- name: AU_01 | 9.51Mb
-  password: 3oquVrpxPg
-  port: 41477
-  server: wangqifei.ga
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_02 |11.06Mb
+- name: AU_01 |23.00Mb
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: 152.67.98.30
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_02 |22.98Mb
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_03 | 9.46Mb
+  password: 3oquVrpxPg
+  port: 41477
+  server: wangqifei.ga
   skip-cert-verify: true
   type: trojan
   udp: true
