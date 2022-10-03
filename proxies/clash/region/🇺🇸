@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: US_70 |10.58Mb
-  port: 1069
-  server: 152.69.197.60
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: US_71 |25.18Mb
+  name: US_45 |24.02Mb
   port: 33226
   server: 152.69.204.193
   skip-cert-verify: true
@@ -21,226 +11,151 @@ proxies:
   uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
 - alterId: 0
   cipher: auto
-  name: US_72 | 8.19Mb
-  network: ws
-  port: 443
-  server: rben.miaoge.gay
+  name: US_46 |29.81Mb
+  port: 1069
+  server: 152.69.197.60
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-opts:
-    headers:
-      Host: rben.miaoge.gay
-    path: /
-- name: US_73 |31.49Mb
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  port: 443
-  server: 150.230.96.103
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_74 | 5.09Mb
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  port: 443
-  server: fhcarm1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_75 | 9.37Mb
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  port: 443
-  server: 152.67.162.166
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_77 |27.17Mb
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- name: US_47 |21.11Mb
   password: c19d1432-8b3e-4818-8837-3d160cf65908
   port: 443
   server: 138.2.45.243
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_78 | 5.64Mb
-  password: 'null'
+- name: US_48 | 8.94Mb
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
   port: 443
-  server: nice-us01.tiktokcdn.buzz
+  server: 152.67.190.183
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_79 |28.56Mb
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
+- name: US_50 |89.63Mb
+  password: e23f408a-012e-4030-8b31-02022031cb50
   port: 443
-  server: jgwdb2.gaox.ml
+  server: fhcamd1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_80 |10.62Mb
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+- name: US_51 | 5.10Mb
+  password: c09eb137-bf68-4658-84e0-102d94b74168
   port: 443
-  server: jgwhdlb1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_81 |37.45Mb
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  port: 3052
-  server: lsj02.wangxd.life
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_85 |90.27Mb
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  port: 443
-  server: 129.146.242.130
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_86
-  password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
-  port: 23802
-  server: s162.s2022.xyz
+  server: jgwdj4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: US_46 | 3.98Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.121.43.71
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_47 | 4.82Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 167.88.61.175
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_48 |44.81Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.143.66.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_49 |44.64Mb
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.143.66.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_50 |17.66Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 172.99.190.39
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_51 | 7.01Mb
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.68.135.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_52 |18.33Mb
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 172.99.190.39
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_53 |28.79Mb
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.21
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_54 |44.65Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.114.114.19
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_55 | 2.78Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_57 | 3.70Mb
+  name: US_28 | 3.49Mb
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 38.114.114.19
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_58 | 2.11Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: US_29 |17.03Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 38.75.136.21
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_59 |15.38Mb
+  name: US_30 | 0.79Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.114.114.19
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_31 | 8.99Mb
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.21
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_32 |15.44Mb
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.143.66.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_33 | 0.32Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.121.43.71
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_63 |10.04Mb
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 167.88.63.79
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_64 |36.36Mb
+  name: US_34 |42.80Mb
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 38.114.114.67
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_65 |22.81Mb
-  password: 233blog.com
-  port: 443
-  server: 20.210.122.21
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_66 |50.44Mb
+  name: US_35 |25.25Mb
   password: Y6R9pAtvxxzmGC
   port: 5600
-  server: 167.88.63.82
+  server: 38.68.134.85
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_67 |28.26Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.68.135.239
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_68 |41.86Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 167.88.63.82
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_69 |10.99Mb
+  name: US_36 | 4.04Mb
   password: KixLvKzwjekG00rm
   port: 8080
-  server: 38.64.138.145
+  server: 38.75.136.21
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_38 |29.85Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.68.134.85
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_39 | 6.84Mb
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 167.88.63.79
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_40 |15.60Mb
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 172.99.190.39
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_41 |17.74Mb
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 172.99.190.39
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_42 | 0.01Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.121.43.71
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_43 | 4.28Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.143.66.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_44 |10.13Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.61.175
   type: ss
   udp: true

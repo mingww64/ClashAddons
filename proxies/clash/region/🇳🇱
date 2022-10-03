@@ -1,29 +1,8 @@
 proxies:
-- name: NL_156
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  port: 443
-  server: 41.216.177.41
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_157
-  password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272
-  port: 443
-  server: nl-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_158
-  password: 4f7dc540-d244-4e64-af21-4b5bb300add3
-  port: 443
-  server: www.tokyo2023.ga
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_159
-  password: 94af0550-902b-11eb-b135-1239d0255272
-  port: 443
-  server: nl-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: NL_24 | 1.22Mb
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  server: mf02.xmss.vip
+  type: ss
   udp: true
