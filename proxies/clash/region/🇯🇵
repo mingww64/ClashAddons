@@ -1,8 +1,29 @@
 proxies:
-- name: JP_23 |27.03Mb
+- name: JP_14
+  password: b70b2ed8-6d35-4fe0-8ae7-4e8fa45ff326
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_15 |32.90Mb
   password: f41e6f27-5a33-4eb0-b6be-eb3755c93b78
   port: 443
   server: jp-04.tiktokcdn.sbs
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_16 | 1.83Mb
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: 443
+  server: 146.56.189.146
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_17 |28.29Mb
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  port: 443
+  server: jgwdb3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
