@@ -1,8 +1,15 @@
 proxies:
-- name: DE_125
-  password: a2940130-1c92-11ed-aebe-1239d0255272
+- name: DE_15 |52.08Mb
+  password: 9ccc0c60-9df8-45a3-9886-c2765a52ba2e
   port: 443
-  server: sg8-trojan.bonds.id
+  server: ge-03.tiktokcdn.sbs
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_16 |53.24Mb
+  password: 137032ae-1bdb-445d-85e0-6edd7d343afb
+  port: 443
+  server: nice-de02.nicevpn.top
   skip-cert-verify: true
   type: trojan
   udp: true
