@@ -1,22 +1,43 @@
 proxies:
-- name: JP_18
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: 146.56.189.146
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_19 | 6.74Mb
+- name: JP_28 |34.04Mb
   password: f41e6f27-5a33-4eb0-b6be-eb3755c93b78
   port: 443
   server: jp-04.tiktokcdn.sbs
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_20 |36.25Mb
+- name: JP_29 |34.70Mb
   password: BXE9notY
   port: 443
   server: nice-jp01.tiktokcdn.buzz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_30 |11.31Mb
+  password: P9qGW38zz7
+  port: 43857
+  server: nice-jp03.tiktokcdn.buzz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_31 |27.46Mb
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  port: 443
+  server: jgwdb4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_32 | 2.11Mb
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: 443
+  server: jgw2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_33 | 5.89Mb
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  port: 443
+  server: 168.138.43.89
   skip-cert-verify: true
   type: trojan
   udp: true
