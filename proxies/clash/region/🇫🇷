@@ -1,5 +1,5 @@
 proxies:
-- name: FR_23 |56.49Mb
+- name: FR_16 |53.34Mb
   password: xxoo
   port: 443
   server: 146.19.230.241
@@ -7,58 +7,58 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: FR_15
+  name: FR_08 |43.21Mb
   password: KixLvKzwjekG00rm
   port: 8080
-  server: 149.202.82.172
+  server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: FR_16 |25.06Mb
+  name: FR_09
+  password: null
+  port: 50000
+  server: 5.188.93.41
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: FR_10 |36.82Mb
   password: null
   port: 50000
   server: 54.38.144.255
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_17 |43.05Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: FR_18
-  password: null
-  port: 50000
-  server: 5.188.93.41
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_19 |43.88Mb
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_20
+  name: FR_11
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_21 |43.51Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: FR_12 |44.46Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_22
+  name: FR_13
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_14
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_15 |44.16Mb
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 145.239.1.100
   type: ss
   udp: true

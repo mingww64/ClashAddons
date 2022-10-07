@@ -1,8 +1,22 @@
 proxies:
-- name: AU_03 | 0.74Mb
-  password: 7c877b3a-5fa0-47e7-ae3e-8e045788569b
+- name: AU_01
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
   port: 443
-  server: 102hk.tfzhc.top
+  server: 140.238.205.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_02
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_03
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: 152.67.98.30
   skip-cert-verify: true
   type: trojan
   udp: true

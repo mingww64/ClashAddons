@@ -1,19 +1,5 @@
 proxies:
-- name: CA_05 | 5.52Mb
-  password: 6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca
-  port: 49011
-  server: 165.154.253.15
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_06 | 3.36Mb
-  password: 6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca
-  port: 49006
-  server: 165.154.253.15
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_07 | 4.28Mb
+- name: CA_05
   password: ff37081f-9043-476a-a6ea-854297b06839
   port: 443
   server: nice-ca01.tiktokcdn.buzz
@@ -21,7 +7,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_04 |120.84Mb
+  name: CA_04 |54.77Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
