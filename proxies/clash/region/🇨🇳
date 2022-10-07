@@ -1,8 +1,22 @@
 proxies:
-- name: CN_13
-  password: d4e41ff772c7fd45
+- name: CN_10 | 7.16Mb
+  password: 7243c2bd-5576-3c2d-aea0-594ff03522a0
+  port: 65523
+  server: shcuac.aag436.ccddn4.icu
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_11
+  password: a992be42-bed4-3037-8788-9e860cd635d3
+  port: 19215
+  server: 183.232.141.154
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_12 | 2.74Mb
+  password: d02058f4f819dced
   port: 3381
-  server: 116.129.254.29
+  server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true
