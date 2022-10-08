@@ -1,6 +1,13 @@
 proxies:
+- name: SG_82 |12.79Mb
+  password: 3715ea7f-2915-48df-af11-4063fff72cdd
+  port: 22031
+  server: sg3-xhsa-45as-92js-ht8s.paolu.pics
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: SG_89 |15.27Mb
+  name: SG_83 |19.96Mb
   password: null
   port: 50000
   server: 81.90.188.58
