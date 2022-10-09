@@ -1,6 +1,13 @@
 proxies:
+- name: SG_98 |24.74Mb
+  password: 3715ea7f-2915-48df-af11-4063fff72cdd
+  port: 22031
+  server: hk2.plxs-u95s-h62a-xs1f.paolu.pics
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: SG_102 |10.62Mb
+  name: SG_99 |21.08Mb
   password: null
   port: 50000
   server: 81.90.188.58
