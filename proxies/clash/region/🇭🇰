@@ -1,8 +1,23 @@
 proxies:
-- name: HK_63 |10.52Mb
-  password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1
-  port: 50418
-  server: 43.229.153.148
+- alterId: 0
+  cipher: auto
+  name: HK_72
+  network: ws
+  port: 10035
+  server: az.hk01.paopaocloud.cyou
   skip-cert-verify: true
-  type: trojan
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  ws-opts:
+    headers:
+      Host: paopao.v2.tw04.paopaocloud.cyou
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: HK_70 |26.88Mb
+  password: 10657658-502a-42fd-97fd-1e08f538e13d
+  port: 17777
+  server: xmssmf02.xmss.vip
+  type: ss
   udp: true

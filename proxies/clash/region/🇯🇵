@@ -1,29 +1,61 @@
 proxies:
-- name: JP_66 |25.50Mb
+- alterId: 0
+  cipher: auto
+  name: JP_77 |31.11Mb
+  port: 12363
+  server: www.letter4u.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8ee75e76-9d9d-4f37-bd62-7f7733f49458
+- alterId: 0
+  cipher: auto
+  name: JP_79 |19.09Mb
+  network: ws
+  port: 443
+  server: 172.105.239.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  ws-opts:
+    headers:
+      Host: js.adbse.xyz
+    path: /down
+- name: JP_75
+  password: 3715ea7f-2915-48df-af11-4063fff72cdd
+  port: 22031
+  server: jp2-5s4d-sjf9-xaf1-sl99.paolu.pics
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_76 | 2.25Mb
+  password: 7a566d21dfcd0f12490275fd3dd3cfc4
+  port: 443
+  server: trs02.bolab.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_81 |36.29Mb
   password: BXE9notY
   port: 443
   server: nice-jp01.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_67 |36.83Mb
-  password: 3715ea7f-2915-48df-af11-4063fff72cdd
-  port: 22031
-  server: jp1-snxa-s56f-x84a-s41f.paolu.pics
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_68 |31.81Mb
-  password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428
-  port: 443
-  server: musashino.freetrade.link
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_69 | 3.90Mb
+- name: JP_82 |36.62Mb
   password: P9qGW38zz7
   port: 43857
   server: nice-jp03.tiktokcdn.buzz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_83
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: 443
+  server: 146.56.189.146
   skip-cert-verify: true
   type: trojan
   udp: true

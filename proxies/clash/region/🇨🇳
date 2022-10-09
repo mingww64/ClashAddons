@@ -1,8 +1,15 @@
 proxies:
-- name: CN_06 | 9.90Mb
-  password: 7243c2bd-5576-3c2d-aea0-594ff03522a0
-  port: 65523
-  server: shcuac.aag436.ccddn4.icu
+- name: CN_38
+  password: 6222266fcd4ed224
+  port: 3381
+  server: 116.129.253.134
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_39 | 2.48Mb
+  password: d02058f4f819dced
+  port: 3381
+  server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true
