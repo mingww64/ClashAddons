@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: CA_35 |52.98Mb
+  port: 16522
+  server: c10s5.jamjams3.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eea5d212-ebc9-4d5e-850c-4d0d08786cdc
 - name: CA_36
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
@@ -6,7 +16,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_37 |21.84Mb
+- name: CA_37 | 5.85Mb
   password: 1a17faee-e35d-48e8-9708-e0a7b7ef04a1
   port: 443
   server: 1002hk1326.tfzhc.top
@@ -14,28 +24,28 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_30 |85.83Mb
+  name: CA_29 |97.95Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_31 |68.89Mb
+  name: CA_30 |71.48Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_32 |93.47Mb
+  name: CA_31 |111.07Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_34 |80.34Mb
+  name: CA_33 |111.29Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
