@@ -1,13 +1,41 @@
 proxies:
-- name: SG_98 |24.74Mb
+- name: SG_100
+  password: f713776c-ef7c-46af-8994-4ca5404301a1
+  port: 22031
+  server: hk3.xjsn-595s-kkf9-knaf.paolu.pics
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_101 |24.61Mb
   password: 3715ea7f-2915-48df-af11-4063fff72cdd
   port: 22031
   server: hk2.plxs-u95s-h62a-xs1f.paolu.pics
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: SG_102 |24.77Mb
+  password: 3715ea7f-2915-48df-af11-4063fff72cdd
+  port: 22031
+  server: sg3-xhsa-45as-92js-ht8s.paolu.pics
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_97 |25.00Mb
+  password: f713776c-ef7c-46af-8994-4ca5404301a1
+  port: 22031
+  server: sg3-xhsa-45as-92js-ht8s.paolu.pics
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_99 | 1.80Mb
+  password: bc65adbe-946a-4b68-b3dc-9a777af92412
+  port: 53316
+  server: 112.fastea.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: SG_99 |21.08Mb
+  name: SG_98 |20.86Mb
   password: null
   port: 50000
   server: 81.90.188.58
