@@ -1,22 +1,11 @@
 proxies:
-- name: CN_38 | 3.79Mb
-  password: d4e41ff772c7fd45
-  port: 3381
-  server: 116.129.254.29
+- alterId: 64
+  cipher: auto
+  name: CN_37
+  port: 50173
+  server: 111.45.22.187
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: CN_40 | 6.39Mb
-  password: 6222266fcd4ed224
-  port: 3381
-  server: 116.129.253.134
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_41 | 9.04Mb
-  password: d02058f4f819dced
-  port: 3381
-  server: 116.129.253.134
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

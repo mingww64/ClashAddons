@@ -143,19 +143,10 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    🇭🇰:
+    🇹🇼:
       type: http
-      path: "./proxy_provider/🇭🇰.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/region/🇭🇰
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇰🇷:
-      type: http
-      path: "./proxy_provider/🇰🇷.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/region/🇰🇷
+      path: "./proxy_provider/🇹🇼.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/region/🇹🇼
       interval: 3600
       health-check:
         enable: true
@@ -165,6 +156,15 @@ proxy-providers:
       type: http
       path: "./proxy_provider/🇬🇧.yaml"
       url: https://clashaddons.pages.dev/proxies/clash/region/🇬🇧
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇦🇺:
+      type: http
+      path: "./proxy_provider/🇦🇺.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/region/🇦🇺
       interval: 3600
       health-check:
         enable: true
@@ -265,9 +265,9 @@ proxy-groups:
 - name: All
   type: url-test
   proxies:
-  - 🇭🇰
-  - 🇰🇷
+  - 🇹🇼
   - 🇬🇧
+  - 🇦🇺
   - 🇩🇪
   - 🇸🇬
   - 🇳🇱
@@ -300,9 +300,9 @@ proxy-groups:
   - vmess
   - trojan
   - ss-sip002
-  - 🇭🇰
-  - 🇰🇷
+  - 🇹🇼
   - 🇬🇧
+  - 🇦🇺
   - 🇩🇪
   - 🇨🇳
   - 🇸🇬
@@ -331,9 +331,9 @@ proxy-groups:
   - vmess
   - trojan
   - ss-sip002
-  - 🇭🇰
-  - 🇰🇷
+  - 🇹🇼
   - 🇬🇧
+  - 🇦🇺
   - 🇩🇪
   - 🇨🇳
   - 🇸🇬
@@ -363,9 +363,9 @@ proxy-groups:
   - vmess
   - trojan
   - ss-sip002
-  - 🇭🇰
-  - 🇰🇷
+  - 🇹🇼
   - 🇬🇧
+  - 🇦🇺
   - 🇩🇪
   - 🇨🇳
   - 🇸🇬
@@ -387,9 +387,9 @@ proxy-groups:
   - vmess
   - trojan
   - ss-sip002
-  - 🇭🇰
-  - 🇰🇷
+  - 🇹🇼
   - 🇬🇧
+  - 🇦🇺
   - 🇩🇪
   - 🇨🇳
   - 🇸🇬
@@ -412,9 +412,9 @@ proxy-groups:
   - vmess
   - trojan
   - ss-sip002
-  - 🇭🇰
-  - 🇰🇷
+  - 🇹🇼
   - 🇬🇧
+  - 🇦🇺
   - 🇩🇪
   - 🇨🇳
   - 🇸🇬
@@ -459,21 +459,11 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
-- name: 🇭🇰
+- name: 🇹🇼
   type: url-test
   
   use:
-  - 🇭🇰
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: 🇰🇷
-  type: url-test
-  
-  use:
-  - 🇰🇷
+  - 🇹🇼
   
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -484,6 +474,16 @@ proxy-groups:
   
   use:
   - 🇬🇧
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
+- name: 🇦🇺
+  type: url-test
+  
+  use:
+  - 🇦🇺
   
   url: http://www.gstatic.com/generate_204
   interval: 300
