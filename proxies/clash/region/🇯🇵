@@ -1,86 +1,94 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: JP_176 |16.81Mb
+  name: JP_141 | 6.07Mb
   network: ws
-  port: 443
-  server: 172.105.239.241
+  port: 63632
+  server: jp03.xiaoqi99.cf
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  uuid: 92c0cfd0-bb9f-4258-bd0c-8000aa1a1d62
   ws-opts:
     headers:
-      Host: js.adbse.xyz
-    path: /down
-- name: JP_174 |32.14Mb
+      Host: jp03.xiaoqi99.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: JP_142 | 5.87Mb
+  network: ws
+  port: 63632
+  server: jp04.xiaoqi99.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 92c0cfd0-bb9f-4258-bd0c-8000aa1a1d62
+  ws-opts:
+    headers:
+      Host: jp04.xiaoqi99.cf
+    path: /
+- name: JP_137 | 3.30Mb
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   port: 443
-  server: trs11.bolab.net
+  server: trs06.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_175 |28.12Mb
-  password: e27cce7a-617d-48cb-b628-e9717be9c175
-  port: 53313
-  server: 113.fastea.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_177 |29.85Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: 168.138.44.176
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_180 | 9.45Mb
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  port: 443
-  server: trs02.bolab.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_182 |35.40Mb
-  password: P9qGW38zz7
-  port: 43857
-  server: 54.178.46.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_183
-  password: 0d8285f8-33da-4076-bb24-d498bd83f2f9
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_184 |34.53Mb
+- name: JP_138 |14.10Mb
   password: BXE9notY
   port: 443
   server: nice-jp01.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_185 |35.70Mb
-  password: P9qGW38zz7
-  port: 43857
-  server: nice-jp03.tiktokcdn.buzz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_186 |29.61Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+- name: JP_139 | 4.99Mb
+  password: 21f204d3-b42e-466a-9cb2-b83d868dcd5f
   port: 443
-  server: jgwdb3.gaox.ml
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_187 | 7.70Mb
+- name: JP_143 |17.41Mb
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   port: 443
   server: trs01.bolab.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_144 |32.07Mb
+  password: 7a566d21dfcd0f12490275fd3dd3cfc4
+  port: 443
+  server: trs11.bolab.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_145 | 9.87Mb
+  password: e27cce7a-617d-48cb-b628-e9717be9c175
+  port: 53313
+  server: 113.fastea.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_146 |12.79Mb
+  password: 7a566d21dfcd0f12490275fd3dd3cfc4
+  port: 443
+  server: trs02.bolab.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_147 |33.61Mb
+  password: P9qGW38zz7
+  port: 43857
+  server: 54.178.46.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_148 |35.43Mb
+  password: P9qGW38zz7
+  port: 43857
+  server: nice-jp03.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
   udp: true
