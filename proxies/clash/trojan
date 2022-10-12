@@ -1,104 +1,87 @@
 proxies:
-  - {name: AU_29 | 3.89Mb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: AU_30 |15.58Mb, server: 152.67.98.30, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: AU_31 |22.58Mb, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
-  - {name: CA_32 | 1.94Mb, server: 15.223.72.22, port: 443, type: trojan, password: ff37081f-9043-476a-a6ea-854297b06839, skip-cert-verify: true, udp: true}
-  - {name: CA_39, server: cat1.sshocean.net, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, skip-cert-verify: true, udp: true}
-  - {name: CA_40 | 2.97Mb, server: nice-ca01.tiktokcdn.buzz, port: 443, type: trojan, password: ff37081f-9043-476a-a6ea-854297b06839, skip-cert-verify: true, udp: true}
-  - {name: CA_41 | 6.74Mb, server: 1002hk1326.tfzhc.top, port: 443, type: trojan, password: 2db5ed09-c32a-4e95-9063-f9b288757efb, skip-cert-verify: true, udp: true}
-  - {name: CN_42 | 6.86Mb, server: 14.215.107.16, port: 28114, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_43 | 7.35Mb, server: 14.215.107.23, port: 28136, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_44, server: 14.29.230.228, port: 10444, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_45, server: 14.29.230.228, port: 13325, type: trojan, password: Mdedd19f, skip-cert-verify: true, udp: true}
-  - {name: CN_46 | 8.91Mb, server: 14.215.107.23, port: 28179, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_47 | 3.31Mb, server: 14.215.107.23, port: 28120, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_48 | 2.97Mb, server: 14.215.107.16, port: 28118, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_49, server: 14.29.230.228, port: 12850, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_50 | 2.92Mb, server: 14.215.107.23, port: 28123, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_51 | 7.07Mb, server: 14.215.107.16, port: 17003, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_52, server: 14.29.230.228, port: 12850, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_55 | 4.85Mb, server: 14.215.107.16, port: 17002, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_56 |23.70Mb, server: 211.99.96.117, port: 65022, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_57 | 6.46Mb, server: cn-sh.sasg4e.ccddn4.icu, port: 65523, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_58 | 7.39Mb, server: 120.241.126.83, port: 65203, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_59 |13.10Mb, server: 211.99.96.117, port: 65303, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_60 | 2.40Mb, server: 14.215.107.16, port: 28123, type: trojan, password: ZdvXEG, skip-cert-verify: true, udp: true}
-  - {name: CN_61 | 9.58Mb, server: 120.241.126.83, port: 65216, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_62 | 5.45Mb, server: 14.215.107.23, port: 28179, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_63 |10.95Mb, server: shcuac.aag436.ccddn4.icu, port: 65521, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_64 |15.36Mb, server: 211.99.96.117, port: 65522, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_65 | 3.43Mb, server: 14.215.107.23, port: 28130, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_66 | 5.80Mb, server: 14.215.107.16, port: 17002, type: trojan, password: eJ8cHw, skip-cert-verify: true, udp: true}
-  - {name: CN_67 |14.02Mb, server: 120.241.126.83, port: 65215, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_68 |11.54Mb, server: 120.241.126.83, port: 65201, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_69, server: 14.215.107.22, port: 10443, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_70 | 6.98Mb, server: 14.215.107.16, port: 17003, type: trojan, password: LcsTs0, skip-cert-verify: true, udp: true}
-  - {name: CN_71 | 2.15Mb, server: 14.29.147.58, port: 10246, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_72, server: 14.29.230.228, port: 13325, type: trojan, password: M87e36b2, skip-cert-verify: true, udp: true}
-  - {name: CN_73, server: 14.29.230.228, port: 10444, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_74 |14.79Mb, server: shcuac.aag436.ccddn4.icu, port: 65523, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_75 | 2.83Mb, server: 14.215.107.16, port: 28119, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_76 | 1.44Mb, server: 14.215.107.22, port: 10443, type: trojan, password: eJ8cHw, skip-cert-verify: true, udp: true}
-  - {name: CN_77 |20.06Mb, server: 120.241.126.83, port: 65214, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_78 |11.16Mb, server: 120.241.126.83, port: 65210, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_79 | 2.51Mb, server: 14.215.107.16, port: 28118, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_80 | 3.33Mb, server: 14.215.107.23, port: 28120, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_82 | 6.33Mb, server: 14.215.107.16, port: 28114, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_83 | 3.81Mb, server: 14.215.107.23, port: 17003, type: trojan, password: i7AerC, skip-cert-verify: true, udp: true}
-  - {name: CN_84, server: 14.215.107.16, port: 28121, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_85 |11.33Mb, server: shcuac.aag436.ccddn4.icu, port: 65524, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_86 |14.02Mb, server: 120.241.126.83, port: 65204, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_87 |10.07Mb, server: 120.241.126.83, port: 65205, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_88 |10.93Mb, server: 14.29.147.58, port: 10246, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
-  - {name: CN_89 |11.31Mb, server: 120.241.126.83, port: 65212, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_90 |11.53Mb, server: 120.241.126.83, port: 65208, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_91 |11.17Mb, server: cn-sh.sasg4e.ccddn4.icu, port: 65521, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_92 | 3.03Mb, server: 14.215.107.16, port: 28136, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
-  - {name: CN_93 |15.05Mb, server: 211.99.96.117, port: 65300, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_94 |15.01Mb, server: 211.99.96.117, port: 65109, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: CN_95 |21.96Mb, server: 211.99.96.117, port: 65301, type: trojan, password: f818af82-bd17-35ea-8272-5088e3a5cd76, skip-cert-verify: true, udp: true}
-  - {name: DE_105 | 4.08Mb, server: nice-de02.nicevpn.top, port: 443, type: trojan, password: 137032ae-1bdb-445d-85e0-6edd7d343afb, skip-cert-verify: true, udp: true}
-  - {name: FR_108 | 5.18Mb, server: ukt1.sshocean.net, port: 443, type: trojan, password: 0f5e6d9a-49af-4bc0-b04b-503102382144, skip-cert-verify: true, udp: true}
-  - {name: FR_120 |48.10Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: GB_121 | 3.83Mb, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: GB_129 | 3.83Mb, server: 144.24.72.126, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: HK_130 |13.82Mb, server: jp01.awcloud.top, port: 443, type: trojan, password: ed6546d9-4aea-4aa9-a335-24e3e7427c01, skip-cert-verify: true, udp: true}
-  - {name: JP_137 | 3.30Mb, server: trs06.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
-  - {name: JP_138 |14.10Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
-  - {name: JP_139 | 4.99Mb, server: kr1.api-aws.com, port: 443, type: trojan, password: 21f204d3-b42e-466a-9cb2-b83d868dcd5f, skip-cert-verify: true, udp: true}
-  - {name: JP_143 |17.41Mb, server: trs01.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
-  - {name: JP_144 |32.07Mb, server: trs11.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
-  - {name: JP_145 | 9.87Mb, server: 113.fastea.top, port: 53313, type: trojan, password: e27cce7a-617d-48cb-b628-e9717be9c175, skip-cert-verify: true, udp: true}
-  - {name: JP_146 |12.79Mb, server: trs02.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
-  - {name: JP_147 |33.61Mb, server: 54.178.46.155, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
-  - {name: JP_148 |35.43Mb, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
-  - {name: NL_155, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true, udp: true}
-  - {name: NO_156 |23.49Mb, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: SG_159 | 9.33Mb, server: 112.fastea.top, port: 53316, type: trojan, password: e27cce7a-617d-48cb-b628-e9717be9c175, skip-cert-verify: true, udp: true}
-  - {name: US_165 |11.59Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: US_167 |17.02Mb, server: 150.230.217.213, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: US_168 |29.41Mb, server: us.dogintnode.com, port: 443, type: trojan, password: 91a3db80-baf5-3f35-8c0e-b6483aefa1fd, skip-cert-verify: true, udp: true}
-  - {name: US_169 |70.22Mb, server: 98.126.214.30, port: 19234, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
-  - {name: US_170 |18.66Mb, server: jp.iamnotagoodman.com, port: 443, type: trojan, password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292, skip-cert-verify: true, udp: true}
-  - {name: US_171 |11.02Mb, server: lux.iamnotagoodman.com, port: 443, type: trojan, password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292, skip-cert-verify: true, udp: true}
-  - {name: US_172 |19.50Mb, server: hgc.iamnotagoodman.com, port: 443, type: trojan, password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292, skip-cert-verify: true, udp: true}
-  - {name: US_232 | 9.65Mb, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true, udp: true}
-  - {name: US_233 |28.48Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: US_234 |15.88Mb, server: sg-01.tiktokcdn.top, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
-  - {name: US_235 |69.73Mb, server: spotted.bigkangaroo.net, port: 443, type: trojan, password: ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax, skip-cert-verify: true, udp: true}
-  - {name: US_236 |54.51Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: US_237 |99.41Mb, server: 23.94.103.146, port: 443, type: trojan, password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57, skip-cert-verify: true, udp: true}
-  - {name: US_238 |26.07Mb, server: jjkk.usdeth.top, port: 443, type: trojan, password: 6be70201-f063-4284-b751-12dc8c7f2901, skip-cert-verify: true, udp: true}
-  - {name: US_239 |67.53Mb, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: US_240 |22.59Mb, server: jk.jkk.mkitty.top, port: 443, type: trojan, password: 6be70201-f063-4284-b751-12dc8c7f2901, skip-cert-verify: true, udp: true}
-  - {name: US_241 | 6.03Mb, server: hk-01.nodemao.com, port: 10056, type: trojan, password: 3dc79926-8d8e-4ad1-b79c-d1853b145027, skip-cert-verify: true, udp: true}
-  - {name: US_242, server: 51.81.82.15, port: 443, type: trojan, password: c2b0a060-44b0-11ed-ad2e-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: US_243 |17.64Mb, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, skip-cert-verify: true, udp: true}
-  - {name: US_244 |29.95Mb, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: US_245 | 8.87Mb, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: US_246 |11.64Mb, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: US_248 |289.87Mb, server: 116.fastea.top, port: 53316, type: trojan, password: 3f29ee90-8567-4671-8d99-9875874e472f, skip-cert-verify: true, udp: true}
-  - {name: US_249 |87.34Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: ZZ_256, server: 45.11.104.94, port: 3389, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇦 UA_162 | 3.08Mb, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇦 UA_164 | 3.16Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
+  - {name: AU_29 |21.27Mb, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
+  - {name: CA_30 | 1.94Mb, server: 15.223.72.22, port: 443, type: trojan, password: ff37081f-9043-476a-a6ea-854297b06839, skip-cert-verify: true, udp: true}
+  - {name: CA_37, server: cat1.sshocean.net, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, skip-cert-verify: true, udp: true}
+  - {name: CA_38 | 2.97Mb, server: nice-ca01.tiktokcdn.buzz, port: 443, type: trojan, password: ff37081f-9043-476a-a6ea-854297b06839, skip-cert-verify: true, udp: true}
+  - {name: CN_39 | 6.86Mb, server: 14.215.107.16, port: 28114, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
+  - {name: CN_42 | 2.92Mb, server: 14.215.107.23, port: 28123, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_43 | 2.97Mb, server: 14.215.107.16, port: 28118, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
+  - {name: CN_44 | 3.31Mb, server: 14.215.107.23, port: 28120, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
+  - {name: CN_45 | 8.91Mb, server: 14.215.107.23, port: 28179, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
+  - {name: CN_46 | 7.07Mb, server: 14.215.107.16, port: 17003, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_47 | 7.35Mb, server: 14.215.107.23, port: 28136, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
+  - {name: CN_49 | 6.98Mb, server: 14.215.107.16, port: 17003, type: trojan, password: LcsTs0, skip-cert-verify: true, udp: true}
+  - {name: CN_50 | 5.80Mb, server: 14.215.107.16, port: 17002, type: trojan, password: eJ8cHw, skip-cert-verify: true, udp: true}
+  - {name: CN_51 | 3.43Mb, server: 14.215.107.23, port: 28130, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_52 | 5.45Mb, server: 14.215.107.23, port: 28179, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_53 | 2.40Mb, server: 14.215.107.16, port: 28123, type: trojan, password: ZdvXEG, skip-cert-verify: true, udp: true}
+  - {name: CN_54 | 3.03Mb, server: 14.215.107.16, port: 28136, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_55 | 3.81Mb, server: 14.215.107.23, port: 17003, type: trojan, password: i7AerC, skip-cert-verify: true, udp: true}
+  - {name: CN_56, server: 14.215.107.16, port: 28121, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_57 | 2.51Mb, server: 14.215.107.16, port: 28118, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_58 | 4.85Mb, server: 14.215.107.16, port: 17002, type: trojan, password: PGp7fn, skip-cert-verify: true, udp: true}
+  - {name: CN_59 | 1.44Mb, server: 14.215.107.22, port: 10443, type: trojan, password: eJ8cHw, skip-cert-verify: true, udp: true}
+  - {name: CN_60 | 2.83Mb, server: 14.215.107.16, port: 28119, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_61, server: 14.215.107.22, port: 10443, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_63, server: 116.129.253.134, port: 3384, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: true, udp: true}
+  - {name: CN_64 | 6.33Mb, server: 14.215.107.16, port: 28114, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CN_65 | 3.33Mb, server: 14.215.107.23, port: 28120, type: trojan, password: 289xWT, skip-cert-verify: true, udp: true}
+  - {name: CZ_66 | 5.95Mb, server: 92.118.149.85, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
+  - {name: DE_76 | 4.08Mb, server: nice-de02.nicevpn.top, port: 443, type: trojan, password: 137032ae-1bdb-445d-85e0-6edd7d343afb, skip-cert-verify: true, udp: true}
+  - {name: EE_77 | 3.59Mb, server: hk-tj.superyuluo.asia, port: 30002, type: trojan, password: 7b30dbe2-5fd9-4f87-a733-facef379632b, skip-cert-verify: true, udp: true}
+  - {name: FR_78 | 5.18Mb, server: ukt1.sshocean.net, port: 443, type: trojan, password: 0f5e6d9a-49af-4bc0-b04b-503102382144, skip-cert-verify: true, udp: true}
+  - {name: GB_97 |66.85Mb, server: 132.145.51.172, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: HK_98 | 0.06Mb, server: 118.140.206.169, port: 443, type: trojan, password: !<str> 666888, skip-cert-verify: true, udp: true}
+  - {name: JP_104 |26.33Mb, server: 168.138.43.89, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: JP_105 | 4.99Mb, server: kr1.api-aws.com, port: 443, type: trojan, password: 21f204d3-b42e-466a-9cb2-b83d868dcd5f, skip-cert-verify: true, udp: true}
+  - {name: JP_106 |12.22Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
+  - {name: JP_107 | 3.30Mb, server: trs06.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
+  - {name: JP_113 | 5.80Mb, server: kr1.api-aws.com, port: 443, type: trojan, password: 65f7378f-edb8-4f5d-913a-641ecd853cea, skip-cert-verify: true, udp: true}
+  - {name: JP_114 |11.36Mb, server: kr1.api-aws.com, port: 443, type: trojan, password: db9b6698-f01c-4fe1-93ca-d752c956c2d3, skip-cert-verify: true, udp: true}
+  - {name: JP_115, server: trs04.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
+  - {name: JP_116 |29.55Mb, server: 54.178.46.155, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
+  - {name: JP_117 |12.29Mb, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
+  - {name: JP_118 |29.69Mb, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: JP_119 |22.51Mb, server: trs02.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
+  - {name: JP_120 |18.04Mb, server: kr1.api-aws.com, port: 443, type: trojan, password: a153fb4e-6d1b-4db0-b03d-acb4012b7198, skip-cert-verify: true, udp: true}
+  - {name: JP_122 |30.21Mb, server: trs11.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
+  - {name: JP_123 |11.18Mb, server: trs01.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
+  - {name: JP_124, server: kr1.api-aws.com, port: 443, type: trojan, password: 10f81a15-c7c8-473b-a12a-a09f098b6236, skip-cert-verify: true, udp: true}
+  - {name: NL_131, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true, udp: true}
+  - {name: NO_132 |47.00Mb, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_133 |51.70Mb, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_134 |43.15Mb, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: RU_137 |19.71Mb, server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: US_149 |19.50Mb, server: hgc.iamnotagoodman.com, port: 443, type: trojan, password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292, skip-cert-verify: true, udp: true}
+  - {name: US_150 | 1.83Mb, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: US_151 |65.49Mb, server: 98.126.214.30, port: 19234, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
+  - {name: US_152 |67.53Mb, server: 98.126.214.30, port: 19235, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
+  - {name: US_153 |29.72Mb, server: 150.230.217.213, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: US_154 |11.59Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: US_155 | 9.73Mb, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: US_156 |18.66Mb, server: jp.iamnotagoodman.com, port: 443, type: trojan, password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292, skip-cert-verify: true, udp: true}
+  - {name: US_157 |11.02Mb, server: lux.iamnotagoodman.com, port: 443, type: trojan, password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292, skip-cert-verify: true, udp: true}
+  - {name: US_158, server: dg-tj.superyuluo.space, port: 1023, type: trojan, password: 7b30dbe2-5fd9-4f87-a733-facef379632b, skip-cert-verify: true, udp: true}
+  - {name: US_225 |84.59Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_228 |20.07Mb, server: sg-01.tiktokcdn.top, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
+  - {name: US_229 | 9.70Mb, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: US_230 |150.48Mb, server: 23.94.103.146, port: 443, type: trojan, password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57, skip-cert-verify: true, udp: true}
+  - {name: US_231 |11.24Mb, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: US_232 |87.65Mb, server: 116.fastea.top, port: 53316, type: trojan, password: 3f29ee90-8567-4671-8d99-9875874e472f, skip-cert-verify: true, udp: true}
+  - {name: US_233 |37.18Mb, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: US_234 | 9.88Mb, server: 152.67.160.174, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: US_235 |75.84Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: US_236 |20.82Mb, server: 159.223.89.239, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
+  - {name: US_237 |11.64Mb, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: US_238, server: 51.81.82.15, port: 443, type: trojan, password: c2b0a060-44b0-11ed-ad2e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: US_239 |20.25Mb, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, skip-cert-verify: true, udp: true}
+  - {name: US_240 | 8.87Mb, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: US_241 |28.25Mb, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: US_242 | 9.65Mb, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true, udp: true}
+  - {name: US_243 |29.62Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: US_244 |26.73Mb, server: 138.2.45.243, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: US_245 |64.81Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: ZZ_252, server: 45.11.104.94, port: 3389, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇦 UA_142 | 3.16Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇦 UA_143 | 3.08Mb, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇦 UA_145 | 2.64Mb, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
