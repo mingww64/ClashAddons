@@ -1,164 +1,48 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: JP_108
-  network: ws
-  port: 443
-  server: 172.105.238.164
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-opts:
-    headers:
-      Host: js.adbse.xyz
-    path: /down
-- alterId: 0
-  cipher: auto
-  name: JP_109 | 1.06Mb
-  network: ws
-  port: 63632
-  server: jp04.xiaoqi99.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92c0cfd0-bb9f-4258-bd0c-8000aa1a1d62
-  ws-opts:
-    headers:
-      Host: jp04.xiaoqi99.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: JP_111 | 1.12Mb
-  network: ws
-  port: 63632
-  server: jp03.xiaoqi99.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92c0cfd0-bb9f-4258-bd0c-8000aa1a1d62
-  ws-opts:
-    headers:
-      Host: jp03.xiaoqi99.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: JP_112 | 2.13Mb
-  network: ws
-  port: 443
-  server: 172.105.239.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-opts:
-    headers:
-      Host: js.adbse.xyz
-    path: /down
-- name: JP_104 |26.33Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: 168.138.43.89
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_105 | 4.99Mb
-  password: 21f204d3-b42e-466a-9cb2-b83d868dcd5f
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_106 |12.22Mb
-  password: BXE9notY
-  port: 443
-  server: nice-jp01.tiktokcdn.buzz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_107 | 3.30Mb
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  port: 443
-  server: trs06.bolab.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_113 | 5.80Mb
-  password: 65f7378f-edb8-4f5d-913a-641ecd853cea
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_114 |11.36Mb
-  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_115
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  port: 443
-  server: trs04.bolab.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_116 |29.55Mb
-  password: P9qGW38zz7
-  port: 43857
-  server: 54.178.46.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_117 |12.29Mb
+- name: JP_100 |33.07Mb
   password: P9qGW38zz7
   port: 43857
   server: nice-jp03.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_118 |29.69Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: jgwdb4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_119 |22.51Mb
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  port: 443
-  server: trs02.bolab.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_120 |18.04Mb
-  password: a153fb4e-6d1b-4db0-b03d-acb4012b7198
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_122 |30.21Mb
+- name: JP_101 |11.91Mb
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   port: 443
   server: trs11.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_123 |11.18Mb
+- name: JP_102 | 9.51Mb
+  password: 7a566d21dfcd0f12490275fd3dd3cfc4
+  port: 443
+  server: trs02.bolab.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_103 |35.37Mb
+  password: P9qGW38zz7
+  port: 43857
+  server: 54.178.46.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_104 | 8.99Mb
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   port: 443
   server: trs01.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_124
-  password: 10f81a15-c7c8-473b-a12a-a09f098b6236
+- name: JP_105 |34.91Mb
+  password: BXE9notY
+  port: 443
+  server: nice-jp01.tiktokcdn.buzz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_99
+  password: 1bacde9b-3a1a-43eb-b091-287824dc91d3
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true

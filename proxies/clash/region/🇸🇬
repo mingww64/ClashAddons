@@ -1,6 +1,20 @@
 proxies:
+- name: SG_119 |23.87Mb
+  password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
+  port: 443
+  server: sg-relay.iqyun.zone
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_120 |20.29Mb
+  password: 469eb2d7-c86c-3484-ba85-4f26f0645b9b
+  port: 1234
+  server: do-sg-01.vvsoga.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: SG_139 |19.18Mb
+  name: SG_118 |10.97Mb
   password: null
   port: 50000
   server: 81.90.188.58

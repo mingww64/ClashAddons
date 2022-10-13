@@ -1,162 +1,142 @@
 proxies:
-- name: CN_39 | 6.86Mb
-  password: PGp7fn
-  port: 28114
+- alterId: 0
+  cipher: auto
+  name: CN_42 | 3.38Mb
+  network: ws
+  port: 29938
+  server: ecdyd-1049-v2-7.hkg-r-kcd-c.ap.cjhh.beauty
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
+  ws-opts:
+    headers:
+      Host: s3.cjhh.beauty
+    path: /je5x3pBN1vez3NQudNkB
+- name: CN_43
+  password: eJ8cHw
+  port: 17002
   server: 14.215.107.16
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_42 | 2.92Mb
+- name: CN_44
+  password: eJ8cHw
+  port: 10443
+  server: 14.215.107.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_45
+  password: PGp7fn
+  port: 17002
+  server: 14.215.107.16
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_46
   password: 289xWT
-  port: 28123
-  server: 14.215.107.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_43 | 2.97Mb
-  password: PGp7fn
-  port: 28118
+  port: 28136
   server: 14.215.107.16
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_44 | 3.31Mb
-  password: PGp7fn
-  port: 28120
-  server: 14.215.107.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_45 | 8.91Mb
-  password: PGp7fn
+- name: CN_47
+  password: 289xWT
   port: 28179
   server: 14.215.107.23
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_46 | 7.07Mb
+- name: CN_48
   password: 289xWT
   port: 17003
   server: 14.215.107.16
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_47 | 7.35Mb
+- name: CN_49
+  password: 289xWT
+  port: 10443
+  server: 14.215.107.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_50
   password: PGp7fn
-  port: 28136
+  port: 28179
   server: 14.215.107.23
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_49 | 6.98Mb
+- name: CN_51
+  password: PGp7fn
+  port: 28118
+  server: 14.215.107.16
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_52
+  password: 289xWT
+  port: 28162
+  server: 14.215.107.16
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_53
+  password: 289xWT
+  port: 28118
+  server: 14.215.107.16
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_54
   password: LcsTs0
   port: 17003
   server: 14.215.107.16
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_50 | 5.80Mb
-  password: eJ8cHw
-  port: 17002
-  server: 14.215.107.16
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_51 | 3.43Mb
-  password: 289xWT
-  port: 28130
-  server: 14.215.107.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_52 | 5.45Mb
-  password: 289xWT
-  port: 28179
-  server: 14.215.107.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_53 | 2.40Mb
-  password: ZdvXEG
-  port: 28123
-  server: 14.215.107.16
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_54 | 3.03Mb
-  password: 289xWT
-  port: 28136
-  server: 14.215.107.16
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_55 | 3.81Mb
-  password: i7AerC
-  port: 17003
-  server: 14.215.107.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_56
-  password: 289xWT
-  port: 28121
-  server: 14.215.107.16
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_57 | 2.51Mb
-  password: 289xWT
-  port: 28118
-  server: 14.215.107.16
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_58 | 4.85Mb
-  password: PGp7fn
-  port: 17002
-  server: 14.215.107.16
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_59 | 1.44Mb
-  password: eJ8cHw
-  port: 10443
-  server: 14.215.107.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_60 | 2.83Mb
+- name: CN_55
   password: 289xWT
   port: 28119
   server: 14.215.107.16
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_61
-  password: 289xWT
-  port: 10443
-  server: 14.215.107.22
+- name: CN_56
+  password: i7AerC
+  port: 17003
+  server: 14.215.107.23
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_63
-  password: d4e41ff772c7fd45
-  port: 3384
-  server: 116.129.253.134
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_64 | 6.33Mb
-  password: 289xWT
-  port: 28114
+- name: CN_57
+  password: ZdvXEG
+  port: 28123
   server: 14.215.107.16
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_65 | 3.33Mb
-  password: 289xWT
-  port: 28120
+- name: CN_58
+  password: PGp7fn
+  port: 28136
   server: 14.215.107.23
   skip-cert-verify: true
   type: trojan
+  udp: true
+- name: CN_59
+  password: 289xWT
+  port: 28130
+  server: 14.215.107.23
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  name: CN_41
+  password: weqPfW
+  port: 18428
+  server: hkhe02.nachoneko.shop
+  type: ss
   udp: true
