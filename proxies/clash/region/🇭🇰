@@ -1,16 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: HK_99 | 1.92Mb
-  network: ws
-  port: 888
-  server: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom
+- name: HK_97 | 6.00Mb
+  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
+  port: 44001
+  server: basics.efcloud.cc
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
-  ws-opts:
-    headers:
-      Host: node.inforun.work
-    path: /je5x3pBN1vez3NQudNkB
+- name: HK_98
+  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
+  port: 42001
+  server: basics.efcloud.cc
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_99 |11.07Mb
+  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
+  port: 50000
+  server: basics.efcloud.cc
+  skip-cert-verify: true
+  type: trojan
+  udp: true

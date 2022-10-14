@@ -1,26 +1,26 @@
 proxies:
-- name: SG_131 | 8.98Mb
+- name: SG_129 | 0.77Mb
   password: 2fecc75c-3acc-3bb8-b30e-cd1159b4ed15
   port: 1234
   server: do-sg-01.vvsoga.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_133 |23.87Mb
+- name: SG_130
   password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
   port: 443
   server: sg-relay.iqyun.zone
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_134
+- name: SG_131
   password: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac
   port: 50001
   server: agroup.node3.t.nodelist-gfwairport.download
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_135 | 9.48Mb
+- name: SG_132 | 3.46Mb
   password: 469eb2d7-c86c-3484-ba85-4f26f0645b9b
   port: 1234
   server: do-sg-01.vvsoga.net
@@ -28,7 +28,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: SG_132 |22.30Mb
+  name: SG_128 |21.95Mb
   password: null
   port: 50000
   server: 81.90.188.58
