@@ -1,43 +1,57 @@
 proxies:
-- name: NL_124
+- name: NL_121
   password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
   port: 443
   server: 41.216.177.41
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: NL_119 |31.11Mb
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 85.208.108.18
-  type: ss
+- name: NL_122 |21.43Mb
+  password: Sp3eDVp
+  port: 443
+  server: content-provider23.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: NL_123 |22.65Mb
+  password: Sp3eDVp
+  port: 443
+  server: content-provider13.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: NL_120 |16.31Mb
+  name: NL_116 | 5.34Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_121 |32.22Mb
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_122 |17.62Mb
+  name: NL_117 |28.68Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_123 |31.81Mb
+  name: NL_118 | 7.44Mb
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.93
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_119 | 4.23Mb
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 85.208.108.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_120 |22.58Mb
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.20
   type: ss
   udp: true
