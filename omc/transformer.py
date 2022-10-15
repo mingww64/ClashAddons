@@ -48,7 +48,7 @@ which cause undefined / no such file errors'''  # i can use function though...
         self.available_count += 1
         return True
 
-    def get_providers(self, dir, rulesets):
+    def get_providers(self, dir):
         def load_args(target, provider):
             if self.parse_conf.__contains__('Exclude Args'):
                 ret = "exclude=false&"  # Disable exclude func
