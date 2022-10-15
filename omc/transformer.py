@@ -86,7 +86,7 @@ which cause undefined / no such file errors'''  # i can use function though...
             rules = yaml.safe_load(open(rulesets).read())
             path_url = [(x['path'], x['url']) for x in rules['rule-providers'].values()]
             for path, url in path_url:
-                os.makedirs(os.path.join(dir, path), exist_ok=True)
+                os.makedirs(os.path.join(dir, os.path.normpath(os.path.dirname(path))), exist_ok=True)
                 with open(os.path.join(dir, path), 'w') as rule:
                     rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
         download_rules(self.rules)
