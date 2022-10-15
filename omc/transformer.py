@@ -84,7 +84,7 @@ which cause undefined / no such file errors'''  # i can use function though...
             print("Node Available: ", self.available_count)
         def download_rules(rulesets):
             rules = yaml.safe_load(open(rulesets).read())
-            path_url = [(x['path'], x['url']) for x in rules.values()]
+            path_url = [(x['path'], x['url']) for x in rules['rule-providers']]
             for path, url in path_url:
                 os.makedirs(os.path.join(dir, path), exist_ok=True)
                 with open(os.path.join(dir, path), 'w') as rule:
