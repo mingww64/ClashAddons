@@ -94,9 +94,9 @@ which cause undefined / no such file errors'''  # i can use function though...
                     print(f'Downloading: {url} --> {dest}')
                     rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
             # Substitute url
-                with open(self.rules, 'r+') as rule:
+                with open(self.rules, 'w+') as rule:
                     rule_content = rule.read()
-                    rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'clash', os.path.normpath(path)))
+                    re.sub(url, os.path.join(self.parse_conf['Storage'], dir, 'clash', os.path.normpath(path)), rule_content)
                     rule.write(rule_content)
         download_rules(self.rules)
 
