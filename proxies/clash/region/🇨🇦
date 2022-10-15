@@ -1,64 +1,57 @@
 proxies:
-- name: CA_32 | 2.02Mb
-  password: ff37081f-9043-476a-a6ea-854297b06839
-  port: 443
-  server: 15.223.72.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_39
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: cat1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_40 | 0.42Mb
+- name: CA_39 | 0.42Mb
   password: ff37081f-9043-476a-a6ea-854297b06839
   port: 443
   server: nice-ca01.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_33 |50.08Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.154
-  type: ss
+- name: CA_40
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_34 |11.20Mb
-  password: Ultr@r00t_2017
-  port: 811
-  server: 138.197.166.205
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_35 |44.15Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_36 |47.57Mb
+  name: CA_33 |48.93Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_37 |48.53Mb
+  name: CA_34 |42.75Mb
   password: G!yBwPWH3Vao
-  port: 803
+  port: 801
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_38 |48.98Mb
+  name: CA_35 |11.20Mb
+  password: Ultr@r00t_2017
+  port: 811
+  server: 138.197.166.205
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_36 |56.09Mb
   password: G!yBwPWH3Vao
-  port: 801
+  port: 806
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_37 |49.47Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_38 |48.13Mb
+  password: G!yBwPWH3Vao
+  port: 803
   server: 196.247.59.154
   type: ss
   udp: true

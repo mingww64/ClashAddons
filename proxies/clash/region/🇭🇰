@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_79 | 2.58Mb
+  name: HK_85 | 0.07Mb
   network: ws
   port: 888
   server: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom
@@ -14,24 +14,10 @@ proxies:
     headers:
       Host: node.inforun.work
     path: /je5x3pBN1vez3NQudNkB
-- name: HK_83 | 6.62Mb
-  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
-  port: 42001
-  server: basics.efcloud.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_84 |23.82Mb
-  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
-  port: 50000
-  server: basics.efcloud.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_85 | 8.26Mb
-  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
-  port: 44001
-  server: basics.efcloud.cc
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: HK_83 |34.12Mb
+  password: 10657658-502a-42fd-97fd-1e08f538e13d
+  port: 17777
+  server: xmssmf02.xmss.vip
+  type: ss
   udp: true
