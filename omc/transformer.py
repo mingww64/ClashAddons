@@ -48,7 +48,7 @@ which cause undefined / no such file errors'''  # i can use function though...
         self.available_count += 1
         return True
 
-    def get_providers(self, dir):
+    def get_providers(self, dir, rulesets):
         def load_args(target, provider):
             if self.parse_conf.__contains__('Exclude Args'):
                 ret = "exclude=false&"  # Disable exclude func
@@ -82,6 +82,16 @@ which cause undefined / no such file errors'''  # i can use function though...
             exit("No available node.")
         else:
             print("Node Available: ", self.available_count)
+        def download_rules(rulesets):
+            rules = yaml.safe_load(open(rulesets).read())
+            path_url = [(x['path'], x['url']) for x in rules.values()]
+            for path, url in path_url:
+                os.makedirs(os.path.join(dir, path), exist_ok=True)
+                with open(os.path.join(dir, path), 'w') as rule:
+                    rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
+        download_rules(self.rules)
+
+
 
     def subconverter(self, read_dir, out_dir):
         if 'Subconverter' in self.parse_conf and type(self.parse_conf['Subconverter']) == list:
