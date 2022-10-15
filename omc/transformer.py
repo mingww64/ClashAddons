@@ -96,7 +96,7 @@ which cause undefined / no such file errors'''  # i can use function though...
             # Substitute url
                 with open(self.rules, 'w+') as rule:
                     rule_content = rule.read()
-                    re.sub(url, os.path.join(self.parse_conf['Storage'], dir, 'clash', os.path.normpath(path)), rule_content)
+                    rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'clash', os.path.normpath(path)))
                     rule.write(rule_content)
         download_rules(self.rules)
 
