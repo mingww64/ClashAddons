@@ -84,13 +84,19 @@ which cause undefined / no such file errors'''  # i can use function though...
             print("Node Available: ", self.available_count)
         def download_rules(rulesets):
             rules = yaml.safe_load(open(rulesets).read())
-            path_url = [(x['path'], x['url']) for x in rules['rule-providers'].values()]
+            # Possible feature: download local rules.
+            path_url = [(x['path'], x['url']) for x in rules['rule-providers'].values() if x['type'] == 'http']
             for path, url in path_url:
                 os.makedirs(os.path.join(dir, os.path.normpath(os.path.dirname(path))), exist_ok=True)
                 with open(os.path.join(dir, path), 'w') as rule:
+                    print(f'Downloading: {url} --> {path}')
                     rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
+            # Substitute url
+                with open(self.rules, 'w') as rule:
+                    rule_content = rule.read()
+                    rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'clash', os.path.normpath(path)))
+                    rule.write(rule_content)
         download_rules(self.rules)
-
 
 
     def subconverter(self, read_dir, out_dir):
