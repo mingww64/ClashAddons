@@ -86,8 +86,8 @@ which cause undefined / no such file errors'''  # i can use function though...
             rules = yaml.safe_load(open(rulesets).read())
             # Possible feature: download local rules.
             path_url = [(x['path'], x['url']) for x in rules['rule-providers'].values() if x['type'] == 'http']
-            with open(self.rules, 'r') as rules_dot_yaml:
-                rule_content = rules_dot_yaml.read()
+            rules_dot_yaml= open(self.rules, 'w+')
+            rule_content = rules_dot_yaml.read()
             for path, url in path_url:
                 destdir = os.path.join(dir, 'rules/clash', os.path.normpath(os.path.dirname(path)))
                 dest = os.path.join(dir, 'rules/clash', os.path.normpath(path))
@@ -97,8 +97,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                     rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
             # Substitute url
                 rule_content = rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
-            rules_dot_yaml= open(self.rules, 'w')
-            rule.write(rule_content)
+            rules_dot_yaml.write(rule_content)
             rules_dot_yaml.close()
         download_rules(self.rules)
 
