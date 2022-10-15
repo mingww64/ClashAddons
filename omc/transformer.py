@@ -86,18 +86,19 @@ which cause undefined / no such file errors'''  # i can use function though...
             rules = yaml.safe_load(open(rulesets).read())
             # Possible feature: download local rules.
             path_url = [(x['path'], x['url']) for x in rules['rule-providers'].values() if x['type'] == 'http']
+            rules_dot_yaml= open(self.rules, 'w+')
+            rule_content = rules_dot_yaml.read()
             for path, url in path_url:
-                destdir = os.path.join(dir, 'clash', os.path.normpath(os.path.dirname(path)))
-                dest = os.path.join(dir, 'clash', os.path.normpath(path))
+                destdir = os.path.join(dir, 'rules/clash', os.path.normpath(os.path.dirname(path)))
+                dest = os.path.join(dir, 'rules/clash', os.path.normpath(path))
                 os.makedirs(destdir, exist_ok=True)
                 with open(dest, 'w') as rule:
                     print(f'Downloading: {url} --> {dest}')
                     rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
             # Substitute url
-                with open(self.rules, 'w+') as rule:
-                    rule_content = rule.read()
-                    rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'clash', os.path.normpath(path)))
-                    rule.write(rule_content)
+                rule_content = rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
+            rule.write(rule_content)
+            rules_dot_yaml.close()
         download_rules(self.rules)
 
 
