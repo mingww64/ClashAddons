@@ -87,12 +87,14 @@ which cause undefined / no such file errors'''  # i can use function though...
             # Possible feature: download local rules.
             path_url = [(x['path'], x['url']) for x in rules['rule-providers'].values() if x['type'] == 'http']
             for path, url in path_url:
-                os.makedirs(os.path.join(dir, os.path.normpath(os.path.dirname(path))), exist_ok=True)
-                with open(os.path.join(dir, path), 'w') as rule:
-                    print(f'Downloading: {url} --> {path}')
+                destdir = os.path.join(dir, 'clash', os.path.normpath(os.path.dirname(path)))
+                dest = os.path.join(dir, 'clash', os.path.normpath(path))
+                os.makedirs(destdir, exist_ok=True)
+                with open(dest, 'w') as rule:
+                    print(f'Downloading: {url} --> {dest}')
                     rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
             # Substitute url
-                with open(self.rules, 'w') as rule:
+                with open(self.rules, 'r+') as rule:
                     rule_content = rule.read()
                     rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'clash', os.path.normpath(path)))
                     rule.write(rule_content)
