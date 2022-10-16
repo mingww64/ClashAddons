@@ -1,15 +1,22 @@
 proxies:
-- name: 🇺🇦 UA_112 | 2.73Mb
+- name: 🇺🇦 UA_103 | 1.27Mb
   password: kGrwqmB1nEKUsDwE
   port: 443
   server: v2cross.com.05.v2ce.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇺🇦 UA_113 | 3.28Mb
-  password: vGWCNNfBHwSY6m6M
+- name: 🇺🇦 UA_104 | 5.58Mb
+  password: ZD4dLSBXiMrmzdLd
   port: 443
-  server: v2cross.com.04.v2ce.com
+  server: v2cross.com.03.v2ce.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇺🇦 UA_105 | 2.24Mb
+  password: ZD4dLSBXiMrmzdLd
+  port: 443
+  server: 185.253.47.79
   skip-cert-verify: true
   type: trojan
   udp: true

@@ -1,12 +1,12 @@
 proxies:
-- name: CA_39 | 0.42Mb
-  password: ff37081f-9043-476a-a6ea-854297b06839
+- name: CA_27 | 3.96Mb
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
-  server: nice-ca01.tiktokcdn.buzz
+  server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_40
+- name: CA_34
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
@@ -14,44 +14,9 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_33 |48.93Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_34 |42.75Mb
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_35 |11.20Mb
+  name: CA_28 |32.95Mb
   password: Ultr@r00t_2017
   port: 811
   server: 138.197.166.205
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_36 |56.09Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_37 |49.47Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_38 |48.13Mb
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 196.247.59.154
   type: ss
   udp: true

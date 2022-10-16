@@ -1,12 +1,15 @@
 proxies:
-- name: SG_109 |24.78Mb
-  password: 882fa816-9fd4-4882-9920-e133a80af626
-  port: 50001
-  server: bgroup.node3.t.nodelist-gfwairport.download
+- alterId: 0
+  cipher: auto
+  name: SG_99
+  port: 80
+  server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: SG_110
+  uuid: 0f1df3fb-4dc5-4558-9bde-4f703c864a78
+- name: SG_100
   password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
   port: 443
   server: sg-relay.iqyun.zone
@@ -14,7 +17,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: SG_108 |21.20Mb
+  name: SG_98 |10.07Mb
   password: null
   port: 50000
   server: 81.90.188.58
