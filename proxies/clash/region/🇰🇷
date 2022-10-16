@@ -1,14 +1,8 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: KR_88 | 2.87Mb
-  network: ws
-  port: 443
-  server: 61.97.244.80
+- name: KR_86
+  password: 882fa816-9fd4-4882-9920-e133a80af626
+  port: 50001
+  server: bgroup.node2.t.nodelist-gfwairport.download
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: e8b77ebd-d651-4847-b7b2-e3f7c762832a
-  ws-opts:
-    path: /path/051111230910

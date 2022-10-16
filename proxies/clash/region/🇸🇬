@@ -1,15 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: SG_99
-  port: 80
-  server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f1df3fb-4dc5-4558-9bde-4f703c864a78
-- name: SG_100
+- name: SG_99
   password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
   port: 443
   server: sg-relay.iqyun.zone
@@ -17,7 +7,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: SG_98 |10.07Mb
+  name: SG_98 | 7.94Mb
   password: null
   port: 50000
   server: 81.90.188.58
