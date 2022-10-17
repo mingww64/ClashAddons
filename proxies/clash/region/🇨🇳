@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_37 | 6.09Mb
+  name: CN_42 | 8.24Mb
   network: ws
   port: 443
   server: 119.36.161.40
@@ -14,24 +14,31 @@ proxies:
     headers:
       Host: www.99136853.xyz
     path: /path/120306182525
-- name: CN_38
+- name: CN_43
   password: d4e41ff772c7fd45
   port: 3384
   server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_39
-  password: 289xWT
-  port: 10443
-  server: 14.215.107.22
+- name: CN_44
+  password: 6222266fcd4ed224
+  port: 3381
+  server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_40
-  password: eJ8cHw
-  port: 10443
-  server: 14.215.107.22
+- name: CN_45
+  password: d4e41ff772c7fd45
+  port: 3381
+  server: 116.129.254.29
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_46
+  password: d02058f4f819dced
+  port: 3381
+  server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true

@@ -1,15 +1,50 @@
 proxies:
-- name: SG_99
+- name: SG_113
   password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
   port: 443
   server: sg-relay.iqyun.zone
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_107 |10.66Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 81.90.189.41
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: SG_98 | 7.94Mb
+  name: SG_108 |10.57Mb
   password: null
   port: 50000
   server: 81.90.188.58
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_109 | 8.12Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_110 | 9.55Mb
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_111 | 9.58Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_112 |10.27Mb
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 81.90.189.41
   type: ss
   udp: true

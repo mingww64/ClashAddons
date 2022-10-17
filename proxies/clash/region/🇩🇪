@@ -1,5 +1,5 @@
 proxies:
-- name: DE_50
+- name: DE_55
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
   server: 141.94.76.177
@@ -7,51 +7,58 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_43 | 4.44Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: DE_47 |41.76Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 193.108.117.75
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: DE_48 |18.34Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 93.186.201.158
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: DE_44 | 4.03Mb
+  name: DE_49 |35.95Mb
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_45 | 6.87Mb
+  name: DE_50 |10.89Mb
   password: e4FCWrgpkji3QY
   port: 9102
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_46 | 4.09Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_47 | 6.32Mb
+  name: DE_51 |26.08Mb
   password: faBAoD54k87UJG7
   port: 2376
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_48 | 6.73Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
+  name: DE_52 |40.06Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: DE_49 |16.62Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 93.186.201.158
+- cipher: aes-256-gcm
+  name: DE_53 |18.61Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_54 |40.84Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 193.108.117.75
   type: ss
   udp: true
