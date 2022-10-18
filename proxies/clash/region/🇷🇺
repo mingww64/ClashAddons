@@ -1,6 +1,13 @@
 proxies:
+- name: RU_100 | 9.11Mb
+  password: xxoo
+  port: 443
+  server: 194.156.99.39
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: RU_106 |38.05Mb
+  name: RU_99 |11.65Mb
   password: vDS9G2p
   port: 21247
   server: 185.4.65.6

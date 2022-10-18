@@ -1,64 +1,64 @@
 proxies:
-- name: CA_36 | 3.93Mb
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-  port: 443
-  server: cat1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_37 |61.39Mb
-  password: 862e68d2-05f3-4253-9116-819623bb7335
-  port: 10001
-  server: aewfhe5z1pokrkw8bi9g23.xingbayun.buzz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_38 | 3.03Mb
+- name: CA_36 | 2.10Mb
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: CA_37 | 1.30Mb
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_38 | 1.82Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_29 |31.84Mb
+  name: CA_30 |55.11Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_30 |34.60Mb
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_31 |28.93Mb
+  name: CA_31 | 4.03Mb
   password: Ultr@r00t_2017
   port: 811
   server: 138.197.166.205
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_32 |30.95Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_33 |38.02Mb
+  name: CA_32 |50.80Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_34 |32.35Mb
+  name: CA_33 |45.96Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_34 |34.52Mb
   password: G!yBwPWH3Vao
   port: 801
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_35 |34.70Mb
+  password: G!yBwPWH3Vao
+  port: 803
   server: 196.247.59.154
   type: ss
   udp: true
