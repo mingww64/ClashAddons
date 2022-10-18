@@ -1,43 +1,57 @@
 proxies:
+- name: GB_71 |13.55Mb
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  port: 443
+  server: 132.145.51.172
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_78 |47.99Mb
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  port: 443
+  server: jgwld1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: GB_71 | 8.82Mb
+  name: GB_72 |22.68Mb
   password: null
   port: 50003
   server: 5.183.100.87
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: GB_72 |73.18Mb
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.78
+- cipher: chacha20-ietf-poly1305
+  name: GB_73 |43.11Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_73 |69.73Mb
+  name: GB_74 |74.38Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.194
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_74 |43.98Mb
+  name: GB_75 |43.13Mb
   password: G!yBwPWH3Vao
   port: 808
   server: 78.129.253.9
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_75 | 7.95Mb
-  password: Ultr@r00t_2017
-  port: 811
-  server: 178.62.16.161
+- cipher: aes-128-gcm
+  name: GB_76 |69.73Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.78
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_76 |43.52Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 78.129.253.9
+  name: GB_77 | 7.95Mb
+  password: Ultr@r00t_2017
+  port: 811
+  server: 178.62.16.161
   type: ss
   udp: true
