@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_76 | 6.18Mb
+  name: HK_70 |10.93Mb
   network: ws
   port: 888
-  server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
+  server: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -12,11 +12,11 @@ proxies:
   uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
   ws-opts:
     headers:
-      Host: edge.cjhh.mom
+      Host: node.inforun.work
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: HK_78 | 2.12Mb
+  name: HK_71 | 2.12Mb
   network: ws
   port: 10035
   server: az.hk01.paopaocloud.cyou
@@ -31,10 +31,10 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: HK_79 |10.34Mb
+  name: HK_72 | 6.18Mb
   network: ws
   port: 888
-  server: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom
+  server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -42,12 +42,5 @@ proxies:
   uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
   ws-opts:
     headers:
-      Host: node.inforun.work
+      Host: edge.cjhh.mom
     path: /je5x3pBN1vez3NQudNkB
-- name: HK_82 | 2.71Mb
-  password: 88939272-790a-441f-b12b-8ce531aca810
-  port: 443
-  server: polo01.kctr2038.icu
-  skip-cert-verify: true
-  type: trojan
-  udp: true

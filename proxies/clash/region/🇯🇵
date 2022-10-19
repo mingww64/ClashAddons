@@ -1,22 +1,29 @@
 proxies:
-- name: JP_83
-  password: f2239c58-4684-4747-8985-fbca693f352b
+- name: JP_75
+  password: 036ba5aa-fcb7-4e6f-95b5-a857cb354aa8
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_84 | 4.13Mb
+- name: JP_76 | 8.32Mb
+  password: P9qGW38zz7
+  port: 43857
+  server: nice-jp03.tiktokcdn.buzz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_78 | 4.13Mb
   password: P9qGW38zz7
   port: 43857
   server: 54.178.46.155
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_85 | 8.32Mb
-  password: P9qGW38zz7
-  port: 43857
-  server: nice-jp03.tiktokcdn.buzz
+- name: JP_79 | 2.73Mb
+  password: 83985788-df3e-4b91-8f5e-a9de66a79cca
+  port: 443
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
