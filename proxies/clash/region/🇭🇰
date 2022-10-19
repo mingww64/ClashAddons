@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_81 |14.07Mb
+  name: HK_76 | 6.18Mb
   network: ws
   port: 888
   server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
@@ -16,7 +16,22 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: HK_82 |10.29Mb
+  name: HK_78 | 2.12Mb
+  network: ws
+  port: 10035
+  server: az.hk01.paopaocloud.cyou
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  ws-opts:
+    headers:
+      Host: paopao.v2.tw04.paopaocloud.cyou
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: HK_79 |10.34Mb
   network: ws
   port: 888
   server: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom
@@ -29,7 +44,7 @@ proxies:
     headers:
       Host: node.inforun.work
     path: /je5x3pBN1vez3NQudNkB
-- name: HK_86 | 1.69Mb
+- name: HK_82 | 2.71Mb
   password: 88939272-790a-441f-b12b-8ce531aca810
   port: 443
   server: polo01.kctr2038.icu

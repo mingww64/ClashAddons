@@ -1,78 +1,22 @@
 proxies:
-- name: JP_100 |13.13Mb
-  password: P9qGW38zz7
-  port: 43857
-  server: nice-jp03.tiktokcdn.buzz
+- name: JP_83
+  password: f2239c58-4684-4747-8985-fbca693f352b
+  port: 443
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_101 | 8.77Mb
+- name: JP_84 | 4.13Mb
   password: P9qGW38zz7
   port: 43857
   server: 54.178.46.155
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_89
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: 168.138.44.176
+- name: JP_85 | 8.32Mb
+  password: P9qGW38zz7
+  port: 43857
+  server: nice-jp03.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
-  udp: true
-- name: JP_90
-  password: 84773125-8f79-481c-a80b-e1f4aad86850
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_91
-  password: cbd08acf-2d47-4065-aafa-4201e5307f67
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_94
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: jgwdb4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_95 |12.19Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: jgwdb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_96
-  password: a153fb4e-6d1b-4db0-b03d-acb4012b7198
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_97 | 3.33Mb
-  password: 83985788-df3e-4b91-8f5e-a9de66a79cca
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_98
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: 168.138.43.89
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_92 |13.27Mb
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 193.38.139.203
-  type: ss
   udp: true
