@@ -1,98 +1,91 @@
 proxies:
-- name: FR_60 |29.20Mb
+- name: FR_68 |27.15Mb
   password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
   server: de.tjvpn.org
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_61
+- name: FR_69
   password: 0f5e6d9a-49af-4bc0-b04b-503102382144
   port: 443
   server: ukt1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_62 |17.71Mb
-  password: xxoo
-  port: 443
-  server: 146.19.230.241
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: FR_49
+  name: FR_57
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_50 |43.77Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: FR_58 |43.77Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_51
+  name: FR_59
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_60
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: FR_52 |41.97Mb
+  name: FR_61 |38.56Mb
   password: Ultr@r00t_2017
   port: 811
   server: 51.38.118.42
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_53 |37.96Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_54 |43.25Mb
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_55
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_56
+  name: FR_62
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_57
+  name: FR_63
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 62.210.113.98
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_58 |15.49Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
+  name: FR_64 |40.10Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_65 |42.83Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_66 |44.29Mb
+  password: Y6R9pAtvxxzmGC
+  port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - alterId: 64
   cipher: auto
-  name: FR_59 |44.48Mb
+  name: FR_67 |53.43Mb
   network: ws
   port: 443
   server: 51.89.42.154

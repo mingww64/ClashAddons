@@ -1,18 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: AU_29 |17.51Mb
-  port: 46945
-  server: 43.155.96.151
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 370a5df4-0ac0-4e3d-ab1c-218891c9e638
-- name: AU_28 |18.85Mb
-  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
-  port: 6666
-  server: hg15.leifengkeji.live
-  skip-cert-verify: true
-  type: trojan
+- cipher: aes-256-cfb
+  name: AU_28 | 1.86Mb
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  server: 185.167.116.24
+  type: ss
   udp: true
