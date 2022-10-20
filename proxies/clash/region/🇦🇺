@@ -1,8 +1,22 @@
 proxies:
-- cipher: aes-256-cfb
-  name: AU_28 | 1.86Mb
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 185.167.116.24
-  type: ss
+- name: AU_28 |27.97Mb
+  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
+  port: 48906
+  server: hg8.leifengkeji.live
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_29 |30.66Mb
+  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
+  port: 48913
+  server: hg15.leifengkeji.live
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_30 |17.98Mb
+  password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7
+  port: 10102
+  server: azhk099.xiaohouzi.club
+  skip-cert-verify: true
+  type: trojan
   udp: true
