@@ -1,36 +1,15 @@
 proxies:
-- name: SG_112 |22.93Mb
-  password: 862e68d2-05f3-4253-9116-819623bb7335
-  port: 10002
-  server: 172.104.184.253
+- name: SG_18
+  password: 94673e19-11fa-4370-8583-989e9eb1a710
+  port: 33001
+  server: hk-sjfx-95s-xjfa-xmasf.jumaonet.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_113 | 8.66Mb
-  password: 862e68d2-05f3-4253-9116-819623bb7335
-  port: 10004
-  server: 139.162.2.187
+- name: SG_19 |11.64Mb
+  password: 94673e19-11fa-4370-8583-989e9eb1a710
+  port: 17701
+  server: sg-aaa-sjf-4555-ass-78xa.jumaonet.com
   skip-cert-verify: true
   type: trojan
-  udp: true
-- name: SG_114 | 8.38Mb
-  password: 862e68d2-05f3-4253-9116-819623bb7335
-  port: 10002
-  server: 172.104.184.239
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_116
-  password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
-  port: 443
-  server: sg-relay.iqyun.zone
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: SG_115 | 5.28Mb
-  password: null
-  port: 50000
-  server: 81.90.188.58
-  type: ss
   udp: true

@@ -1,8 +1,15 @@
 proxies:
-- name: JP_12 | 5.09Mb
-  password: 96e08c45-762a-48d2-8b65-0088c3c5e3d4
+- name: JP_14 |13.67Mb
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   port: 443
-  server: kr1.api-aws.com
+  server: 168.138.43.89
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_15
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: 443
+  server: 146.56.189.146
   skip-cert-verify: true
   type: trojan
   udp: true
