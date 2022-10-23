@@ -1,22 +1,29 @@
 proxies:
-- name: JP_23 |31.05Mb
-  password: 8800c518-e68a-4441-a45c-cd67855784c8
+- name: JP_42 |31.31Mb
+  password: d45e6245-926b-4283-8c72-91e229d6c5f5
   port: 443
   server: jp2.sanfen001.pics
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_24
-  password: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac
-  port: 50001
-  server: agroup.node1.t.nodelist-gfwairport.download
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_25 |22.79Mb
+- name: JP_43
   password: 94673e19-11fa-4370-8583-989e9eb1a710
   port: 443
   server: aeadjpaes01.xn--z4q48lcvp.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_44
+  password: 84773125-8f79-481c-a80b-e1f4aad86850
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_45 | 2.48Mb
+  password: 5491534e-00b5-42ff-853a-723997aadbdb
+  port: 443
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true

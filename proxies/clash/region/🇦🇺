@@ -1,8 +1,15 @@
 proxies:
-- cipher: aes-256-cfb
-  name: AU_01
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 185.167.116.24
-  type: ss
+- name: AU_01 | 9.17Mb
+  password: d45e6245-926b-4283-8c72-91e229d6c5f5
+  port: 443
+  server: kr1.sanfen001.pics
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_02 | 7.67Mb
+  password: d45e6245-926b-4283-8c72-91e229d6c5f5
+  port: 443
+  server: hk1.sanfen001.pics
+  skip-cert-verify: true
+  type: trojan
   udp: true
