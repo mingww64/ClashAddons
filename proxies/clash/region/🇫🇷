@@ -1,43 +1,50 @@
 proxies:
+- name: FR_34
+  password: origin
+  port: 443
+  server: content-provider26.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: FR_15
+  name: FR_28
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_29
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_16
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_17 |43.29Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: FR_30 |40.96Mb
+  password: Y6R9pAtvxxzmGC
+  port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_18 |44.31Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_19
+  name: FR_31
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_20 |43.99Mb
-  password: Y6R9pAtvxxzmGC
-  port: 8888
+  name: FR_32 |40.83Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_33 |41.01Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
