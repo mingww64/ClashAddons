@@ -1,139 +1,148 @@
 proxies:
-- name: CN_13 | 5.67Mb
+- name: CN_40 | 5.81Mb
   password: 182228812d1e0f23
-  port: 3389
-  server: 106.75.154.24
+  port: 3382
+  server: 120.241.144.204
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_14 |10.26Mb
+- name: CN_41 | 7.03Mb
+  password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3
+  port: 21002
+  server: 183.245.146.6
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_42
+  password: 182228812d1e0f23
+  port: 3389
+  server: 116.129.254.29
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_43
   password: 182228812d1e0f23
   port: 3384
   server: 120.241.144.204
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_15 | 3.78Mb
-  password: faf42aa0a9ad4c1e
-  port: 3389
-  server: 106.75.154.24
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_16 | 9.16Mb
+- name: CN_44
   password: 182228812d1e0f23
   port: 3385
   server: 120.241.144.204
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_18 | 7.90Mb
+- name: CN_45
+  password: 182228812d1e0f23
+  port: 3384
+  server: 116.129.253.191
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_46
+  password: faf42aa0a9ad4c1e
+  port: 3386
+  server: 120.241.144.71
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_47
+  password: faf42aa0a9ad4c1e
+  port: 3389
+  server: 116.129.253.191
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_48 |10.06Mb
   password: faf42aa0a9ad4c1e
   port: 3389
   server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_19 | 7.12Mb
+- name: CN_49
+  password: 182228812d1e0f23
+  port: 3385
+  server: 116.129.253.191
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_50
+  password: faf42aa0a9ad4c1e
+  port: 3384
+  server: 116.129.253.134
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_51
+  password: 182228812d1e0f23
+  port: 3389
+  server: 106.75.173.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_52 | 5.81Mb
+  password: 182228812d1e0f23
+  port: 3382
+  server: 116.129.253.191
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_53
+  password: 182228812d1e0f23
+  port: 3385
+  server: 116.129.253.134
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_54
+  password: faf42aa0a9ad4c1e
+  port: 3389
+  server: 106.75.154.24
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_55 | 5.06Mb
+  password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3
+  port: 11001
+  server: 183.245.146.6
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_56
+  password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3
+  port: 11002
+  server: 183.245.146.6
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_57
+  password: d4e41ff772c7fd45
+  port: 3384
+  server: 116.129.253.134
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_58
+  password: 182228812d1e0f23
+  port: 3389
+  server: 106.75.154.24
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_59 | 9.98Mb
   password: 182228812d1e0f23
   port: 3382
   server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_20 | 8.99Mb
+- name: CN_60
   password: 182228812d1e0f23
   port: 3381
   server: 120.241.144.204
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_21 | 4.87Mb
-  password: 182228812d1e0f23
-  port: 3382
-  server: 116.129.253.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_23 |10.72Mb
-  password: 182228812d1e0f23
-  port: 3382
-  server: 120.241.144.204
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_24 |10.22Mb
-  password: faf42aa0a9ad4c1e
-  port: 3389
-  server: 116.129.253.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_25 | 9.29Mb
-  password: 182228812d1e0f23
-  port: 3385
-  server: 116.129.253.134
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_26 |10.04Mb
-  password: 182228812d1e0f23
-  port: 3385
-  server: 116.129.253.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_27 | 9.20Mb
-  password: 182228812d1e0f23
-  port: 3385
-  server: 116.129.254.29
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_28 | 7.94Mb
-  password: 182228812d1e0f23
-  port: 3384
-  server: 116.129.253.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: CN_04
-  port: 11906
-  server: 111.45.22.246
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-- alterId: 0
-  cipher: auto
-  name: CN_08
-  port: 11902
-  server: 111.45.22.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-- alterId: 0
-  cipher: auto
-  name: CN_11
-  port: 11935
-  server: 111.45.22.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-- alterId: 0
-  cipher: auto
-  name: CN_12
-  port: 11927
-  server: 111.45.22.246
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2

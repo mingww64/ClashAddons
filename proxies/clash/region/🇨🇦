@@ -1,8 +1,29 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: CA_03 | 0.36Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 196.247.59.154
-  type: ss
+- name: CA_36 |119.50Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_37
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_38 |127.83Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_39
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: 149.56.141.11
+  skip-cert-verify: true
+  type: trojan
   udp: true

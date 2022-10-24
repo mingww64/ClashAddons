@@ -1,15 +1,101 @@
 proxies:
-- name: SG_18
-  password: 94673e19-11fa-4370-8583-989e9eb1a710
-  port: 33001
-  server: hk-sjfx-95s-xjfa-xmasf.jumaonet.com
+- name: SG_138
+  password: 8d1834c9-4e23-47e3-834e-363cb81b1ff7
+  port: 50001
+  server: agroup.node3.t.nodelist-gfwairport.download
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_19 |11.64Mb
-  password: 94673e19-11fa-4370-8583-989e9eb1a710
-  port: 17701
-  server: sg-aaa-sjf-4555-ass-78xa.jumaonet.com
+- name: SG_139 |11.70Mb
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: ussj.iamnotagoodman.com
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: SG_140 | 3.20Mb
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: kh.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_141 | 9.89Mb
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: de.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: SG_129 |15.47Mb
+  password: null
+  port: 50000
+  server: 81.90.188.58
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_130 | 8.91Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_131 | 9.37Mb
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_132 | 8.96Mb
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_133 | 9.12Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_134 | 8.81Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SG_135 |12.13Mb
+  network: ws
+  port: 16549
+  server: sg207.hkaa0.tk
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b19ff921-9863-4196-8cee-a37f77a05237
+  ws-opts:
+    headers:
+      Host: sg207.hkaa0.tk
+    path: /hkaa0
+- alterId: 0
+  cipher: auto
+  name: SG_137 |12.01Mb
+  network: ws
+  port: 1018
+  server: sg202.hkaa0.tk
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bdf798f4-a990-4743-e9b2-9c78ba58fb04
+  ws-opts:
+    headers:
+      Host: sg202.hkaa0.tk
+    path: /hkaa0

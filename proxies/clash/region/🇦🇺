@@ -1,15 +1,32 @@
 proxies:
-- name: AU_01 | 9.17Mb
-  password: d45e6245-926b-4283-8c72-91e229d6c5f5
+- name: AU_28
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
   port: 443
-  server: kr1.sanfen001.pics
+  server: 140.238.205.173
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_02 | 7.67Mb
-  password: d45e6245-926b-4283-8c72-91e229d6c5f5
-  port: 443
-  server: hk1.sanfen001.pics
+- name: AU_29 |26.02Mb
+  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
+  port: 48906
+  server: hg8.leifengkeji.live
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: AU_30 | 8.67Mb
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  port: 443
+  server: jgwxn3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: AU_27 |24.06Mb
+  port: 26282
+  server: 129.154.57.134
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07
