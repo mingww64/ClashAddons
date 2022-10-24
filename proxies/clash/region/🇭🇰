@@ -1,11 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: HK_100
-  port: 12356
-  server: 00000000000000000000000000000000000000000000000000000000000031a.rui77.com
+  name: HK_112 | 2.18Mb
+  network: ws
+  port: 10035
+  server: az.hk01.paopaocloud.cyou
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: a72e790f-e18a-43b0-a7a7-bcc33f144092
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  ws-opts:
+    headers:
+      Host: paopao.v2.tw04.paopaocloud.cyou
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: HK_114 | 4.90Mb
+  network: ws
+  port: 888
+  server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
+  ws-opts:
+    headers:
+      Host: edge.cjhh.mom
+    path: /je5x3pBN1vez3NQudNkB
