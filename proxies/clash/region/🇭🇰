@@ -1,7 +1,39 @@
 proxies:
+- name: HK_114
+  password: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac
+  port: 50001
+  server: agroup.node4.t.nodelist-gfwairport.download
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: HK_112 | 2.18Mb
+  name: HK_108
+  port: 12356
+  server: 00000000000000000000000000000000000000000000000000000000000031a.rui77.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a72e790f-e18a-43b0-a7a7-bcc33f144092
+- alterId: 0
+  cipher: auto
+  name: HK_110 |11.10Mb
+  network: ws
+  port: 888
+  server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
+  ws-opts:
+    headers:
+      Host: edge.cjhh.mom
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: HK_111 | 2.03Mb
   network: ws
   port: 10035
   server: az.hk01.paopaocloud.cyou
@@ -16,16 +48,11 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: HK_114 | 4.90Mb
-  network: ws
-  port: 888
-  server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
+  name: HK_113 | 0.14Mb
+  port: 30862
+  server: 23.91.100.243
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
-  ws-opts:
-    headers:
-      Host: edge.cjhh.mom
-    path: /je5x3pBN1vez3NQudNkB
+  uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9
