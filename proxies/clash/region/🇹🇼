@@ -1,32 +1,64 @@
 proxies:
-- name: TW_164 | 5.60Mb
+- name: TW_155 | 4.76Mb
   password: 6248895b-4255-4f07-9479-d198bc1eb8db
-  port: 28443
-  server: download1tw.windowsupdate1.com
+  port: 443
+  server: download1tw.windowsupdate.lol
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_167
-  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-  port: 28443
-  server: download1tw.windowsupdate1.com
+- name: TW_158
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.228
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_168
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: download1tw.windowsupdate1.com
+- name: TW_159 | 2.37Mb
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.231
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: TW_166
-  port: 39998
-  server: tw-tb-b.zc20200426.club
+- name: TW_160
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.229
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- name: TW_161 | 2.17Mb
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.226
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_162 |12.30Mb
+  password: 182228812d1e0f23
+  port: 3389
+  server: 211.72.35.152
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_163 | 4.72Mb
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_164 | 1.77Mb
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.230
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_165 | 2.01Mb
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.227
+  skip-cert-verify: true
+  type: trojan
+  udp: true
