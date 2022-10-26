@@ -1,36 +1,43 @@
 proxies:
 - cipher: aes-256-gcm
-  name: NL_130 | 9.11Mb
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 85.208.108.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_131 |13.15Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_132 |29.72Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 85.208.108.60
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_133 | 8.93Mb
+  name: NL_118 |11.19Mb
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.93
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_134 |12.83Mb
+  name: NL_119 |25.68Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 85.208.108.20
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_120 |22.08Mb
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.20
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_121 |32.12Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 85.208.108.60
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_122 |11.62Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 85.208.108.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_123 | 4.33Mb
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 85.208.108.18
   type: ss
   udp: true
