@@ -1,5 +1,12 @@
 proxies:
-- name: HK_113
+- name: HK_105
+  password: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac
+  port: 50001
+  server: agroup.node4.t.nodelist-gfwairport.download
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_106
   password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
   port: 443
   server: usa.liangyuandian.top
@@ -8,17 +15,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: HK_111
-  port: 12356
-  server: 00000000000000000000000000000000000000000000000000000000000031a.rui77.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a72e790f-e18a-43b0-a7a7-bcc33f144092
-- alterId: 0
-  cipher: auto
-  name: HK_112 | 2.11Mb
+  name: HK_101 | 2.11Mb
   network: ws
   port: 10035
   server: az.hk01.paopaocloud.cyou
