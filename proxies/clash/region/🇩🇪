@@ -1,78 +1,91 @@
 proxies:
-- name: DE_73
-  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
-  port: 443
-  server: 141.94.76.177
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_74 | 5.70Mb
+- name: DE_69 | 7.68Mb
   password: origin
   port: 443
   server: 188.40.251.19
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: DE_64 | 6.07Mb
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_65 | 6.23Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: DE_66 |45.72Mb
-  password: 97OnDEZYGja4
+- name: DE_70
+  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
-  server: 178.18.244.2
-  type: ss
+  server: 141.94.76.177
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_67 | 6.87Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_68 | 5.25Mb
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_69 | 4.88Mb
+  name: DE_59 |10.49Mb
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_70 | 4.44Mb
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: DE_60 |14.76Mb
+  password: PCnnH6SQSnfoS27
+  port: 8090
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_71 | 8.79Mb
+  name: DE_61 |11.42Mb
   password: pKEW8JPByTVTLtM
   port: 443
   server: 193.108.117.75
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: DE_62 |14.24Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_63 |15.05Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_64 | 8.16Mb
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_65 |10.02Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 193.108.117.75
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_72 |17.56Mb
+  name: DE_66 |48.72Mb
+  password: 97OnDEZYGja4
+  port: 443
+  server: 178.18.244.2
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: DE_67 |18.12Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 93.186.201.158
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: DE_68 |393.17Mb
+  network: ws
+  port: 45113
+  server: 5.161.131.122
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 157fffd5-5db2-4dbc-d55b-c350bc64bc16
+  ws-opts:
+    path: /
