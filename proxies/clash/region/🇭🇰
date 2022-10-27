@@ -1,38 +1,8 @@
 proxies:
-- name: HK_104
+- name: HK_101
   password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
   port: 443
   server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: HK_101 |12.43Mb
-  network: ws
-  port: 443
-  server: fullaccesstohongkongnet.azurewebsites.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstohongkongnet.azurewebsites.net
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: HK_102 | 2.19Mb
-  network: ws
-  port: 10035
-  server: az.hk01.paopaocloud.cyou
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
-  ws-opts:
-    headers:
-      Host: paopao.v2.tw04.paopaocloud.cyou
-    path: /v2ray

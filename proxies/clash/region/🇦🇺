@@ -1,20 +1,55 @@
 proxies:
-- name: AU_31
-  password: 8fe3b905-b933-4a3f-aa33-40a73ec93c69
-  port: 28443
-  server: 43.198.12.229
+- name: AU_29
+  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
+  port: 8935
+  server: hg5.leifengkeji.live
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_32
+- name: AU_31 |22.85Mb
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_32 | 9.82Mb
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  port: 443
+  server: jgwxn3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_33 | 9.41Mb
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: 152.67.98.30
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_34
   password: 41dbac14-48c9-402a-9c30-a63acbae2522
   port: 28443
   server: 43.198.12.229
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: AU_35
+  password: 8fe3b905-b933-4a3f-aa33-40a73ec93c69
+  port: 28443
+  server: 43.198.12.229
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_36 |13.65Mb
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  port: 443
+  server: 140.238.205.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: AU_29
+  name: AU_28
   password: Sn5B7jTqr76aCJT8
   port: 9097
   server: 185.167.116.24
@@ -22,7 +57,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: AU_30 |12.61Mb
+  name: AU_30 | 3.86Mb
   port: 26282
   server: 129.154.57.134
   skip-cert-verify: true

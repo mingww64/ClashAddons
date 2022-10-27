@@ -1,148 +1,141 @@
 proxies:
-- name: JP_121 | 8.01Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+- name: JP_118 |12.86Mb
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
   port: 443
-  server: jgwdb4.gaox.ml
+  server: 168.138.44.176
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_122 |17.27Mb
-  password: 1988268c-a841-42f2-acac-7a8c0c7e78e5
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_123 |17.62Mb
-  password: 83985788-df3e-4b91-8f5e-a9de66a79cca
+- name: JP_119 |17.50Mb
+  password: 5491534e-00b5-42ff-853a-723997aadbdb
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_124 |23.33Mb
+- name: JP_120 |18.39Mb
+  password: 96e08c45-762a-48d2-8b65-0088c3c5e3d4
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_121 |19.86Mb
+  password: 545034ab-8179-46ea-a7d4-a5c992cce000
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_122 |21.48Mb
+  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_123 |21.31Mb
+  password: 84773125-8f79-481c-a80b-e1f4aad86850
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_124 | 5.86Mb
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  port: 443
+  server: jgwdb3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_125 | 8.42Mb
   password: ed9a202f-7871-4a15-a4c1-f3a47c1f5493
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_125 |11.36Mb
-  password: 0d8285f8-33da-4076-bb24-d498bd83f2f9
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_126 |15.27Mb
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: 168.138.43.89
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_127 |31.87Mb
-  password: e45d8453-ebf1-45b3-a686-e979c06b0954
-  port: 50000
-  server: 52.140.192.138
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_128 |14.27Mb
-  password: 80b07539-c253-4526-8a80-424708ff2ced
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_129 |28.40Mb
-  password: e45d8453-ebf1-45b3-a686-e979c06b0954
-  port: 50000
-  server: 52.140.196.251
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: JP_105 |19.53Mb
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 185.172.113.102
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_108 |11.08Mb
+  name: JP_106 |19.81Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 185.172.113.106
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_109 | 8.39Mb
+  name: JP_107 |13.24Mb
   password: G!yBwPWH3Vao
   port: 803
-  server: 185.172.113.102
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_110 |15.84Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 185.172.113.102
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_111 |19.17Mb
-  password: G!yBwPWH3Vao
-  port: 802
   server: 185.172.113.106
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_112 | 8.48Mb
+  name: JP_108 | 7.79Mb
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 185.172.113.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_109 |13.23Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 185.172.113.102
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_113 |13.08Mb
+  name: JP_110 |19.75Mb
   password: G!yBwPWH3Vao
-  port: 803
-  server: 185.172.113.106
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP_114 |18.68Mb
-  password: G!yBwPWH3Vao
-  port: 807
+  port: 800
   server: 185.172.113.102
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_115 |11.47Mb
+  name: JP_111 |19.81Mb
   password: G!yBwPWH3Vao
-  port: 812
+  port: 807
   server: 185.172.113.106
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_116 |13.62Mb
+  name: JP_112 |19.47Mb
   password: G!yBwPWH3Vao
   port: 804
   server: 185.172.113.102
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_117 |18.14Mb
+  name: JP_113 |19.22Mb
   password: G!yBwPWH3Vao
-  port: 807
+  port: 812
   server: 185.172.113.106
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_118 |19.55Mb
+  name: JP_114 |16.79Mb
   password: G!yBwPWH3Vao
-  port: 802
+  port: 807
   server: 185.172.113.102
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: JP_119 |20.11Mb
+  name: JP_115 | 8.66Mb
   password: G!yBwPWH3Vao
-  port: 805
+  port: 803
+  server: 185.172.113.102
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_116 |16.54Mb
+  password: G!yBwPWH3Vao
+  port: 802
   server: 185.172.113.106
   type: ss
   udp: true
