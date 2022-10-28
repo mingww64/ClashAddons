@@ -1,26 +1,26 @@
 proxies:
-- name: CA_46 |104.21Mb
+- name: CA_49 |113.40Mb
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_47
+- name: CA_50
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_48
+- name: CA_51
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_49 |110.33Mb
+- name: CA_52 |107.28Mb
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: 149.56.141.11
@@ -28,42 +28,35 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_38 |11.44Mb
-  password: Ultr@r00t_2017
-  port: 811
-  server: 138.197.166.205
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_39 |26.90Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_40 |22.57Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_41 |13.71Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_42 |15.71Mb
+  name: CA_41 |53.85Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_43 |13.01Mb
+  name: CA_42 | 9.76Mb
+  password: Ultr@r00t_2017
+  port: 811
+  server: 138.197.166.205
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_43 |53.86Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_44 |46.25Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_46 |51.24Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
@@ -71,9 +64,9 @@ proxies:
   udp: true
 - alterId: 32
   cipher: auto
-  name: CA_44 | 5.34Mb
+  name: CA_47 |12.78Mb
   port: 443
-  server: 139.99.90.122
+  server: 139.99.91.95
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -81,9 +74,9 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 32
   cipher: auto
-  name: CA_45 |23.18Mb
+  name: CA_48 | 4.60Mb
   port: 443
-  server: 139.99.91.95
+  server: 139.99.90.122
   skip-cert-verify: true
   tls: false
   type: vmess
