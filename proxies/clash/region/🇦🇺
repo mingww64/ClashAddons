@@ -1,71 +1,46 @@
 proxies:
-- name: AU_30
+- name: AU_29 |11.52Mb
+  password: b0a3ce89-1afe-4748-b8b6-6eaf0a53f5f5
+  port: 28443
+  server: 43.198.12.229
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_31
   password: 8fe3b905-b933-4a3f-aa33-40a73ec93c69
   port: 28443
   server: 43.198.12.229
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_31 |11.07Mb
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  port: 443
-  server: jgwxn3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_32 |11.39Mb
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_33 |20.64Mb
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: 152.67.98.30
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_34 | 7.07Mb
-  password: 9010950e-8e09-486a-bf96-3b0cf22097b4
-  port: 443
-  server: kr1.sanfen001.pics
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_35 | 9.96Mb
+- name: AU_32 |26.34Mb
   password: 752a9404-c729-485e-8ea5-acb3f4fc8180
-  port: 8935
-  server: hg5.leifengkeji.live
+  port: 8939
+  server: hg10.leifengkeji.live
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_37
+- name: AU_34
   password: 41dbac14-48c9-402a-9c30-a63acbae2522
   port: 28443
   server: 43.198.12.229
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_38 |11.40Mb
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  port: 443
-  server: 140.238.205.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_39
+- name: AU_35
   password: 16c267c7-9734-4703-b3fb-5a23c2ab7fda
   port: 28443
   server: 43.198.12.229
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: AU_28 | 1.78Mb
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 185.167.116.24
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: AU_30 | 5.96Mb
+  port: 26282
+  server: 129.154.57.134
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07
