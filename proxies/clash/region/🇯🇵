@@ -1,15 +1,145 @@
 proxies:
-- name: JP_196 |26.49Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+- name: JP_185 | 7.12Mb
+  password: 10f81a15-c7c8-473b-a12a-a09f098b6236
   port: 443
-  server: jgwdb3.gaox.ml
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_197 | 6.67Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+- name: JP_186 |15.94Mb
+  password: d30afdba-ca55-463a-b26e-27080698a2a6
   port: 443
-  server: 168.138.44.176
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: JP_187 |12.70Mb
+  password: 21f204d3-b42e-466a-9cb2-b83d868dcd5f
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_188 |22.01Mb
+  password: 1bacde9b-3a1a-43eb-b091-287824dc91d3
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_189 |14.19Mb
+  password: 5491534e-00b5-42ff-853a-723997aadbdb
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_190 | 9.68Mb
+  password: 2e4c54a0-a780-4994-97c0-44eb92857d76
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_191 | 2.44Mb
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: 443
+  server: jgw2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_192 |10.61Mb
+  password: 96e08c45-762a-48d2-8b65-0088c3c5e3d4
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_193 | 9.25Mb
+  password: 84773125-8f79-481c-a80b-e1f4aad86850
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_194 |10.35Mb
+  password: 98a68cfb-42c6-4498-ac6e-7e5c203924a7
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_195 |11.13Mb
+  password: d66dccd1-90c1-4713-8972-2417a2854df2
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_197 |16.89Mb
+  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_198 |119.42Mb
+  password: 545034ab-8179-46ea-a7d4-a5c992cce000
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_199 |12.69Mb
+  password: 61f6271b-5e65-46b8-bc80-c6468a1f185e
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_201 |10.02Mb
+  password: 8c20177e-d245-4ec6-9610-34c20500d10b
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_202 | 6.41Mb
+  password: e3dcc71e-f058-43bf-bf0d-5bdf20dec071
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_203 |11.26Mb
+  password: 205f8ab6-cb17-4480-93a6-aece90b88742
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: JP_183
+  network: ws
+  port: 443
+  server: vjp3.0bad.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vjp3.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: JP_184
+  port: 12356
+  server: 00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a72e790f-e18a-43b0-a7a7-bcc33f144092
