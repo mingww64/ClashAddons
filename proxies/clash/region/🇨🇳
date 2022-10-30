@@ -1,134 +1,84 @@
 proxies:
-- name: CN_125
+- name: CN_143
   password: 182228812d1e0f23
   port: 3385
   server: 116.129.254.29
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_126
-  password: 182228812d1e0f23
+- name: CN_144
+  password: faf42aa0a9ad4c1e
   port: 3389
+  server: 106.75.154.24
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_145
+  password: faf42aa0a9ad4c1e
+  port: 3385
   server: 116.129.254.29
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_127
-  password: 182228812d1e0f23
-  port: 3383
-  server: 116.129.254.29
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_128
+- name: CN_146
   password: faf42aa0a9ad4c1e
   port: 3389
   server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_129
+- name: CN_147
   password: faf42aa0a9ad4c1e
   port: 3389
   server: 116.129.253.191
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_130
+- name: CN_148
   password: 182228812d1e0f23
   port: 3389
   server: 116.129.253.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_131
-  password: faf42aa0a9ad4c1e
-  port: 3389
-  server: 106.75.154.24
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_132
+- name: CN_149
   password: 182228812d1e0f23
   port: 3389
   server: 106.75.154.24
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_133
+- name: CN_150
   password: 182228812d1e0f23
   port: 3389
   server: 106.75.173.173
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_134
-  password: faf42aa0a9ad4c1e
-  port: 3385
+- name: CN_151
+  password: 182228812d1e0f23
+  port: 3383
   server: 116.129.254.29
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_135
-  password: 30030B00-A596-87B4-965A-511CD7E05351
-  port: 20048
-  server: oss-cn-shanghai.westdatacloud.xyz
+- name: CN_152
+  password: 182228812d1e0f23
+  port: 3389
+  server: 116.129.254.29
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_59 | 9.79Mb
+  password: a992be42-bed4-3037-8788-9e860cd635d3
+  port: 19216
+  server: 183.232.141.154
   skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: CN_108 | 2.45Mb
-  port: 11911
-  server: 111.45.22.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 454f865f-2660-3acb-a453-7c2382954196
-- alterId: 0
-  cipher: auto
-  name: CN_117
-  port: 16115
-  server: zfd-moble.gatknqh.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-- alterId: 0
-  cipher: auto
-  name: CN_118
-  port: 16108
-  server: zfd-moble.gatknqh.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-- alterId: 0
-  cipher: auto
-  name: CN_121
-  port: 9010
-  server: 111.45.22.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 454f865f-2660-3acb-a453-7c2382954196
-- alterId: 0
-  cipher: auto
-  name: CN_46
-  port: 9009
-  server: 116.129.254.184
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 454f865f-2660-3acb-a453-7c2382954196
-- alterId: 0
-  cipher: auto
-  name: CN_57
+  name: CN_110
   port: 9018
   server: 111.45.22.136
   skip-cert-verify: true
@@ -138,7 +88,67 @@ proxies:
   uuid: 454f865f-2660-3acb-a453-7c2382954196
 - alterId: 0
   cipher: auto
-  name: CN_68 | 3.68Mb
+  name: CN_117
+  port: 9025
+  server: 116.129.254.184
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 454f865f-2660-3acb-a453-7c2382954196
+- alterId: 0
+  cipher: auto
+  name: CN_118
+  port: 9022
+  server: 116.129.254.184
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 454f865f-2660-3acb-a453-7c2382954196
+- alterId: 0
+  cipher: auto
+  name: CN_120
+  port: 9027
+  server: 111.45.22.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 454f865f-2660-3acb-a453-7c2382954196
+- alterId: 0
+  cipher: auto
+  name: CN_121
+  port: 9025
+  server: 111.45.22.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 454f865f-2660-3acb-a453-7c2382954196
+- alterId: 0
+  cipher: auto
+  name: CN_123
+  port: 9026
+  server: 111.45.22.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 454f865f-2660-3acb-a453-7c2382954196
+- alterId: 0
+  cipher: auto
+  name: CN_125
+  port: 9026
+  server: 116.129.254.184
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 454f865f-2660-3acb-a453-7c2382954196
+- alterId: 0
+  cipher: auto
+  name: CN_132 | 3.68Mb
   network: ws
   port: 443
   server: 119.36.161.40
@@ -153,8 +163,8 @@ proxies:
     path: /path/120306182525
 - alterId: 0
   cipher: auto
-  name: CN_71
-  port: 11922
+  name: CN_135 | 2.45Mb
+  port: 11911
   server: 111.45.22.136
   skip-cert-verify: true
   tls: false
@@ -163,9 +173,9 @@ proxies:
   uuid: 454f865f-2660-3acb-a453-7c2382954196
 - alterId: 0
   cipher: auto
-  name: CN_74
-  port: 11910
-  server: 116.129.254.184
+  name: CN_140
+  port: 9023
+  server: 111.45.22.136
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -173,14 +183,29 @@ proxies:
   uuid: 454f865f-2660-3acb-a453-7c2382954196
 - alterId: 0
   cipher: auto
-  name: CN_83
-  port: 11916
+  name: CN_55
+  port: 9016
   server: 111.45.22.136
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 454f865f-2660-3acb-a453-7c2382954196
+- alterId: 64
+  cipher: auto
+  name: CN_58 | 5.44Mb
+  network: ws
+  port: 443
+  server: 119.36.161.40
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.69961573.xyz
+    path: /path/120306182525
 - alterId: 0
   cipher: auto
   name: CN_88

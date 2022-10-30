@@ -1,136 +1,109 @@
-trojan = zf1.windowsupdate1.com:50090, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_27 | 2.16Mb
+trojan = zf1.windowsupdate1.com:50080, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_27
 trojan = zf1.windowsupdate1.com:50020, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_28 | 3.71Mb
-trojan = zf1.windowsupdate1.com:50070, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_29 |10.43Mb
-trojan = zf1.windowsupdate1.com:50040, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_30 |10.47Mb
-trojan = jgwxn4.gaox.ml:443, password=e8c1ab3c-89b3-4933-92df-682e6dce7819, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_32 | 1.83Mb
-trojan = 152.67.98.30:443, password=e8c1ab3c-89b3-4933-92df-682e6dce7819, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_33 |15.02Mb
-trojan = 23.247.137.70:3389, password=d4e41ff772c7fd45, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=BH_34
-trojan = cat1.sshocean.net:443, password=67960bfb-00de-4a6b-9a7a-e74fc9e8b158, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_42 |127.53Mb
-trojan = cat1.sshocean.net:443, password=8b6daf15-8342-482d-b894-1239fd98ce7f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_43
-trojan = 149.56.141.11:443, password=67960bfb-00de-4a6b-9a7a-e74fc9e8b158, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_44 |132.29Mb
-trojan = 149.56.141.11:443, password=8b6daf15-8342-482d-b894-1239fd98ce7f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_45
-trojan = 116.129.254.29:3385, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_125
-trojan = 116.129.254.29:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_126
-trojan = 116.129.254.29:3383, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_127
-trojan = 116.129.253.134:3389, password=faf42aa0a9ad4c1e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_128
-trojan = 116.129.253.191:3389, password=faf42aa0a9ad4c1e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_129
-trojan = 116.129.253.134:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_130
-trojan = 106.75.154.24:3389, password=faf42aa0a9ad4c1e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_131
-trojan = 106.75.154.24:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_132
-trojan = 106.75.173.173:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_133
-trojan = 116.129.254.29:3385, password=faf42aa0a9ad4c1e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_134
-trojan = oss-cn-shanghai.westdatacloud.xyz:20048, password=30030B00-A596-87B4-965A-511CD7E05351, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_135
-trojan = v2cross.com.02.v2ce.com:443, password=3gLlCYBipVwr6Y5F, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CZ_136
-trojan = 92.118.149.85:443, password=3gLlCYBipVwr6Y5F, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CZ_137
-trojan = 89.163.220.99:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=DE_147
-trojan = 141.94.76.177:443, password=6e3b4240-38f9-4321-9b3c-bc669a34b848, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=DE_148
-trojan = 89.163.220.99:28443, password=6b4ced5e-835a-4a7a-9d03-6a46e94668cb, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=DE_149
-trojan = 51.75.76.22:443, password=c60fbf90-4b55-11ed-b935-225401db9d57, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_160
-trojan = content-provider26.cdn-delivery.akamaicd.com:443, password=origin, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_161
-trojan = 146.19.230.241:443, password=xxoo, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_162 |61.54Mb
-trojan = ukt1.sshocean.net:443, password=0f5e6d9a-49af-4bc0-b04b-503102382144, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_163 |13.49Mb
-trojan = 62.210.254.72:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_164
-trojan = de.tjvpn.org:443, password=c60fbf90-4b55-11ed-b935-225401db9d57, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_165
-trojan = 144.24.72.126:443, password=7118b5f4-0ea4-4c11-be7f-11471cb91e4a, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=GB_172 | 2.52Mb
-trojan = jgwcc1.gaox.ml:443, password=7118b5f4-0ea4-4c11-be7f-11471cb91e4a, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=GB_173 | 3.34Mb
-trojan = 210.0.158.220:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=HK_179
-trojan = 103.135.102.156:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=HK_180
-trojan = usa.liangyuandian.top:443, password=53f20cd4-b381-4a80-8059-7bcd484bbb52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=HK_181
-trojan = 103.226.139.201:443, password=idc117okt, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=ID_182 | 4.22Mb
-trojan = jgwdb4.gaox.ml:443, password=d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_183 |12.98Mb
-trojan = kr1.api-aws.com:443, password=e3dcc71e-f058-43bf-bf0d-5bdf20dec071, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_184 | 8.63Mb
-trojan = kr1.api-aws.com:443, password=205f8ab6-cb17-4480-93a6-aece90b88742, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_185 | 9.09Mb
-trojan = kr1.api-aws.com:443, password=545034ab-8179-46ea-a7d4-a5c992cce000, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_186 | 3.89Mb
-trojan = kr1.api-aws.com:443, password=61f6271b-5e65-46b8-bc80-c6468a1f185e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_187 |11.44Mb
-trojan = kr1.api-aws.com:443, password=d66dccd1-90c1-4713-8972-2417a2854df2, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_188 |17.94Mb
-trojan = kr1.api-aws.com:443, password=2e4c54a0-a780-4994-97c0-44eb92857d76, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_189 | 8.99Mb
-trojan = kr1.api-aws.com:443, password=98a68cfb-42c6-4498-ac6e-7e5c203924a7, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_190 | 7.59Mb
-trojan = kr1.api-aws.com:443, password=84773125-8f79-481c-a80b-e1f4aad86850, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_191 | 8.60Mb
-trojan = kr1.api-aws.com:443, password=d30afdba-ca55-463a-b26e-27080698a2a6, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_192 | 8.12Mb
-trojan = kr1.api-aws.com:443, password=ed9a202f-7871-4a15-a4c1-f3a47c1f5493, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_193 |11.76Mb
-trojan = kr1.api-aws.com:443, password=10f81a15-c7c8-473b-a12a-a09f098b6236, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_194 | 8.40Mb
-trojan = kr1.api-aws.com:443, password=96e08c45-762a-48d2-8b65-0088c3c5e3d4, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_195 | 8.07Mb
-trojan = kr1.api-aws.com:443, password=88452dfb-fad4-44b2-b8a1-d230d145848c, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_196 | 9.09Mb
-trojan = kr1.api-aws.com:443, password=83985788-df3e-4b91-8f5e-a9de66a79cca, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_197 |12.51Mb
-trojan = kr1.api-aws.com:443, password=33073a7c-e6d5-4271-9b19-4416afcc25b5, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_198 | 8.06Mb
-trojan = kr1.api-aws.com:443, password=8c20177e-d245-4ec6-9610-34c20500d10b, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_199 | 8.78Mb
-trojan = kr1.api-aws.com:443, password=21f204d3-b42e-466a-9cb2-b83d868dcd5f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_200 | 8.81Mb
-trojan = 168.138.44.176:443, password=8d2d5953-d649-4034-94f2-72f2df2623da, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_201 |14.87Mb
-trojan = kr1.api-aws.com:443, password=db9b6698-f01c-4fe1-93ca-d752c956c2d3, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_202 | 7.88Mb
-trojan = kr1.api-aws.com:443, password=0d8285f8-33da-4076-bb24-d498bd83f2f9, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_203 |12.93Mb
-trojan = kr1.api-aws.com:443, password=cbd08acf-2d47-4065-aafa-4201e5307f67, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_204 |14.35Mb
-trojan = kr1.api-aws.com:443, password=036ba5aa-fcb7-4e6f-95b5-a857cb354aa8, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_205 |15.07Mb
-trojan = 168.138.43.89:443, password=d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_206 |12.75Mb
-trojan = kr1.api-aws.com:443, password=edeb6377-0d40-483b-869a-8b3be9d74850, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_207 | 9.15Mb
-trojan = kr1.api-aws.com:443, password=65f7378f-edb8-4f5d-913a-641ecd853cea, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_208 |15.17Mb
-trojan = jgwdb3.gaox.ml:443, password=8d2d5953-d649-4034-94f2-72f2df2623da, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_209 |13.84Mb
-trojan = 146.56.189.146:443, password=f2117e99-9b6e-47fd-b0a9-634a0b15b998, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_210 | 2.47Mb
-trojan = kr1.api-aws.com:443, password=1988268c-a841-42f2-acac-7a8c0c7e78e5, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_211 | 8.60Mb
-trojan = kr1.api-aws.com:443, password=a153fb4e-6d1b-4db0-b03d-acb4012b7198, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_212
-trojan = kr1.api-aws.com:443, password=5491534e-00b5-42ff-853a-723997aadbdb, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_213 | 8.14Mb
-trojan = kr1.api-aws.com:443, password=dc26913c-a31c-4b3f-9c03-28a6b4283a89, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_214 | 8.95Mb
-trojan = kr1.api-aws.com:443, password=80b07539-c253-4526-8a80-424708ff2ced, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_215 |14.67Mb
-trojan = kr1.api-aws.com:443, password=ca3a57c6-9bb5-4d19-876d-4552de4bb959, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_216 |24.84Mb
-trojan = jgw2.gaox.ml:443, password=f2117e99-9b6e-47fd-b0a9-634a0b15b998, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_217 | 3.48Mb
-trojan = kr1.api-aws.com:443, password=b70b2ed8-6d35-4fe0-8ae7-4e8fa45ff326, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_218 | 2.05Mb
-trojan = kr1.api-aws.com:443, password=f2239c58-4684-4747-8985-fbca693f352b, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_219 | 8.72Mb
-trojan = kr1.api-aws.com:443, password=1bacde9b-3a1a-43eb-b091-287824dc91d3, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_220 |22.99Mb
-trojan = content-provider13.cdn-delivery.akamaicd.com:443, password=Sp3eDVp, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=NL_230 |18.75Mb
-trojan = 185.212.200.75:443, password=Sp3eDVp, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=NL_231 |10.25Mb
-trojan = ussj.iamnotagoodman.com:443, password=28bccca2-43d2-47f8-bd63-b1361ce7d362, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_236
-trojan = de.liangyuandian.top:443, password=176196e4-7cf7-4561-87a9-21a1b4e344be, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_237
-trojan = usa.liangyuandian.top:443, password=176196e4-7cf7-4561-87a9-21a1b4e344be, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_238
-trojan = sg-relay.iqyun.zone:443, password=fbb2cc06-b018-4ad0-bb27-baa4a834807f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_239
-trojan = jp.liangyuandian.top:443, password=176196e4-7cf7-4561-87a9-21a1b4e344be, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_240
-trojan = ap.liangyuandian.top:443, password=176196e4-7cf7-4561-87a9-21a1b4e344be, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_241
-trojan = kh.iamnotagoodman.com:443, password=28bccca2-43d2-47f8-bd63-b1361ce7d362, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_242
-trojan = de.iamnotagoodman.com:443, password=28bccca2-43d2-47f8-bd63-b1361ce7d362, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_243
-trojan = 211.72.35.158:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_244
-trojan = 211.72.35.155:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_245
-trojan = 211.72.35.152:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_246
-trojan = 211.72.35.153:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_247
-trojan = 211.72.35.154:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_248
-trojan = 211.72.35.156:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_249
-trojan = 211.72.35.157:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_250
-trojan = v2cross.com.04.v2ce.com:443, password=vGWCNNfBHwSY6m6M, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=UA_251
-trojan = jgwcc3.gaox.ml:443, password=b291d129-ee55-4801-a9b8-b5316e5c37b7, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_330 | 3.66Mb
-trojan = node-do-us-114514.gitspeed.cyou:443, password=FlXNBKaL, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_331 |77.87Mb
-trojan = hgc.iamnotagoodman.com:443, password=2ac7fc8a-68b5-4809-8bd2-73a593bae292, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_332
-trojan = lux.iamnotagoodman.com:443, password=2ac7fc8a-68b5-4809-8bd2-73a593bae292, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_333
-trojan = sg.liangyuandian.top:443, password=53f20cd4-b381-4a80-8059-7bcd484bbb52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_334
-trojan = jgwcc2.gaox.ml:443, password=9c822f05-cfdc-479a-9534-60f3d4127435, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_335 | 8.67Mb
-trojan = fhcarm1.gaox.ml:443, password=05742120-ce23-4cc8-88f5-6d221ce45bf4, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_336 | 2.39Mb
-trojan = 129.146.242.130:443, password=05742120-ce23-4cc8-88f5-6d221ce45bf4, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_337 |88.12Mb
-trojan = jp.iamnotagoodman.com:443, password=2ac7fc8a-68b5-4809-8bd2-73a593bae292, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_338
-trojan = 212.90.123.130:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_339
-trojan = 152.67.160.174:443, password=54080134-2cba-4535-8599-95650bd9aa54, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_340 | 8.71Mb
-trojan = id3tr.jagoan.vip:443, password=vvip-periantara, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_341 | 8.41Mb
-trojan = 45.82.253.234:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_342
-trojan = ap.liangyuandian.top:443, password=53f20cd4-b381-4a80-8059-7bcd484bbb52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_343
-trojan = youtube-bai-piao-wang-zhe-usa.98848.xyz:443, password=d1478689-439c-4590-b7ce-36e786a02dc3, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_344 | 2.78Mb
-trojan = jp.liangyuandian.top:443, password=53f20cd4-b381-4a80-8059-7bcd484bbb52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_345
-trojan = 45.88.148.234:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_346
-trojan = 155.248.172.87:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_347
-trojan = 168.138.189.17:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_348
-trojan = 138.2.113.248:443, password=9c822f05-cfdc-479a-9534-60f3d4127435, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_349 | 8.48Mb
-trojan = fhcamd2.gaox.ml:443, password=dbf9bf9c-2c3f-474a-8031-d4c00666a989, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_350 |65.27Mb
-trojan = lux.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_351
-trojan = 107.181.161.163:443, password=d1478689-439c-4590-b7ce-36e786a02dc3, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_352 | 1.92Mb
-trojan = jgwdj4.gaox.ml:443, password=c09eb137-bf68-4658-84e0-102d94b74168, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_353 |30.94Mb
-trojan = jgwdb2.gaox.ml:443, password=c19d1432-8b3e-4818-8837-3d160cf65908, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_354 |31.06Mb
-trojan = jgwhdlb2.gaox.ml:443, password=54080134-2cba-4535-8599-95650bd9aa54, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_355 |10.32Mb
-trojan = s162.s2022.xyz:23802, password=d724e4d0-841b-3b92-ac0d-70fcbbb7e934, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_356
-trojan = kh.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_357
-trojan = 138.2.113.84:443, password=b291d129-ee55-4801-a9b8-b5316e5c37b7, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_358 | 6.35Mb
-trojan = 138.2.45.243:443, password=c19d1432-8b3e-4818-8837-3d160cf65908, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_359 |30.51Mb
-trojan = node-do-us-1.gitspeed.cyou:443, password=pNDxTmWL, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_360 |69.36Mb
-trojan = jp.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_361
-trojan = 150.230.217.213:443, password=c09eb137-bf68-4658-84e0-102d94b74168, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_362 |30.75Mb
-trojan = 129.146.190.42:443, password=dbf9bf9c-2c3f-474a-8031-d4c00666a989, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_363 |88.05Mb
-trojan = sg.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_364
-trojan = ar.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_365
-trojan = de.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_366
-trojan = usla.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_367
-trojan = 51.81.82.15:443, password=c2b0a060-44b0-11ed-ad2e-1239d0255272, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_368
-trojan = hgc.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_369
-trojan = 45.11.104.94:3389, password=d4e41ff772c7fd45, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=ZZ_384
+trojan = zf1.windowsupdate1.com:50030, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_29 | 7.46Mb
+trojan = zf1.windowsupdate1.com:50070, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_30 |10.43Mb
+trojan = zf1.windowsupdate1.com:50040, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_31 |10.47Mb
+trojan = zf1.windowsupdate1.com:50060, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_32 |14.49Mb
+trojan = zf1.windowsupdate1.com:50090, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_33 | 2.16Mb
+trojan = zf1.windowsupdate1.com:50010, password=275d9aa8-b271-43d1-b1cf-1f3e6e881047, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_34 |22.95Mb
+trojan = jgwxn3.gaox.ml:443, password=cb43b7c2-b744-41c5-bcc2-fd7467b332cf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_36 |13.69Mb
+trojan = jgwxn4.gaox.ml:443, password=e8c1ab3c-89b3-4933-92df-682e6dce7819, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_37 | 8.49Mb
+trojan = 152.67.98.30:443, password=e8c1ab3c-89b3-4933-92df-682e6dce7819, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_38 |11.74Mb
+trojan = 140.238.205.173:443, password=cb43b7c2-b744-41c5-bcc2-fd7467b332cf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=AU_39 |13.48Mb
+trojan = 23.247.137.70:3389, password=d4e41ff772c7fd45, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=BH_40
+trojan = 1030tw01.fans8.xyz:4433, password=9aada6e0-3aa8-44db-ba8a-80ad3a2b1467, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_41 |20.24Mb
+trojan = 1030tw08.fans8.xyz:28912, password=9aada6e0-3aa8-44db-ba8a-80ad3a2b1467, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_42 |24.29Mb
+trojan = cat1.sshocean.net:443, password=67960bfb-00de-4a6b-9a7a-e74fc9e8b158, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_50 |134.89Mb
+trojan = 149.56.141.11:443, password=67960bfb-00de-4a6b-9a7a-e74fc9e8b158, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_51 |146.97Mb
+trojan = cat1.sshocean.net:443, password=8b6daf15-8342-482d-b894-1239fd98ce7f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_52
+trojan = 149.56.141.11:443, password=8b6daf15-8342-482d-b894-1239fd98ce7f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CA_53
+trojan = 183.232.141.154:19216, password=a992be42-bed4-3037-8788-9e860cd635d3, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_59 | 9.79Mb
+trojan = 116.129.254.29:3385, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_143
+trojan = 106.75.154.24:3389, password=faf42aa0a9ad4c1e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_144
+trojan = 116.129.254.29:3385, password=faf42aa0a9ad4c1e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_145
+trojan = 116.129.253.134:3389, password=faf42aa0a9ad4c1e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_146
+trojan = 116.129.253.191:3389, password=faf42aa0a9ad4c1e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_147
+trojan = 116.129.253.134:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_148
+trojan = 106.75.154.24:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_149
+trojan = 106.75.173.173:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_150
+trojan = 116.129.254.29:3383, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_151
+trojan = 116.129.254.29:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CN_152
+trojan = v2cross.com.02.v2ce.com:443, password=3gLlCYBipVwr6Y5F, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CZ_153
+trojan = 92.118.149.85:443, password=3gLlCYBipVwr6Y5F, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=CZ_154
+trojan = 89.163.220.99:28443, password=6b4ced5e-835a-4a7a-9d03-6a46e94668cb, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=DE_164
+trojan = 89.163.220.99:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=DE_165
+trojan = 141.94.76.177:443, password=6e3b4240-38f9-4321-9b3c-bc669a34b848, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=DE_166
+trojan = 188.40.251.19:443, password=origin, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=DE_167 | 3.84Mb
+trojan = de.tjvpn.org:443, password=c60fbf90-4b55-11ed-b935-225401db9d57, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_178
+trojan = 146.19.230.241:443, password=xxoo, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_179 |58.82Mb
+trojan = 62.210.254.72:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_180
+trojan = 51.75.76.22:443, password=c60fbf90-4b55-11ed-b935-225401db9d57, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_181
+trojan = ukt1.sshocean.net:443, password=0f5e6d9a-49af-4bc0-b04b-503102382144, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=FR_182 |13.49Mb
+trojan = jgwcc1.gaox.ml:443, password=7118b5f4-0ea4-4c11-be7f-11471cb91e4a, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=GB_189 | 3.05Mb
+trojan = 144.24.72.126:443, password=7118b5f4-0ea4-4c11-be7f-11471cb91e4a, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=GB_190 | 3.95Mb
+trojan = 103.135.102.156:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=HK_197
+trojan = usa.liangyuandian.top:443, password=53f20cd4-b381-4a80-8059-7bcd484bbb52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=HK_198
+trojan = 210.0.158.220:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=HK_199
+trojan = 103.226.139.201:443, password=idc117okt, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=ID_200 | 8.84Mb
+trojan = jgwdb3.gaox.ml:443, password=8d2d5953-d649-4034-94f2-72f2df2623da, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_202 |30.31Mb
+trojan = 168.138.43.89:443, password=d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_203 |30.24Mb
+trojan = 168.138.44.176:443, password=8d2d5953-d649-4034-94f2-72f2df2623da, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_204 |30.28Mb
+trojan = jgwdb4.gaox.ml:443, password=d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_205 |30.09Mb
+trojan = jgw2.gaox.ml:443, password=f2117e99-9b6e-47fd-b0a9-634a0b15b998, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_206 | 0.34Mb
+trojan = 146.56.189.146:443, password=f2117e99-9b6e-47fd-b0a9-634a0b15b998, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=JP_207 | 0.04Mb
+trojan = content-provider13.cdn-delivery.akamaicd.com:443, password=Sp3eDVp, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=NL_217 | 4.93Mb
+trojan = 138.124.183.226:443, password=xxoo, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=NO_218 | 3.23Mb
+trojan = 194.156.99.39:443, password=xxoo, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=RU_221
+trojan = kh.iamnotagoodman.com:443, password=28bccca2-43d2-47f8-bd63-b1361ce7d362, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_229
+trojan = sg-relay.iqyun.zone:443, password=fbb2cc06-b018-4ad0-bb27-baa4a834807f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_230
+trojan = de.liangyuandian.top:443, password=176196e4-7cf7-4561-87a9-21a1b4e344be, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_231
+trojan = jp.liangyuandian.top:443, password=176196e4-7cf7-4561-87a9-21a1b4e344be, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_232
+trojan = de.iamnotagoodman.com:443, password=28bccca2-43d2-47f8-bd63-b1361ce7d362, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_233
+trojan = ap.liangyuandian.top:443, password=176196e4-7cf7-4561-87a9-21a1b4e344be, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_234
+trojan = ussj.iamnotagoodman.com:443, password=28bccca2-43d2-47f8-bd63-b1361ce7d362, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_235
+trojan = usa.liangyuandian.top:443, password=176196e4-7cf7-4561-87a9-21a1b4e344be, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=SG_236
+trojan = 211.72.35.156:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_237
+trojan = 211.72.35.152:3389, password=182228812d1e0f23, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_238
+trojan = 211.72.35.157:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_239
+trojan = 211.72.35.153:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_240
+trojan = 211.72.35.154:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_241
+trojan = 211.72.35.158:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_242
+trojan = 211.72.35.155:3389, password=7b06d22a8a7c764f, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=TW_243
+trojan = v2cross.com.04.v2ce.com:443, password=vGWCNNfBHwSY6m6M, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=UA_244
+trojan = usla.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_319
+trojan = jp.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_320
+trojan = hgc.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_322
+trojan = de.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_323
+trojan = ar.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_324
+trojan = sg.liangyuandian.top:443, password=53f20cd4-b381-4a80-8059-7bcd484bbb52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_325
+trojan = jgwcc2.gaox.ml:443, password=9c822f05-cfdc-479a-9534-60f3d4127435, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_326 |16.48Mb
+trojan = jgwhdlb1.gaox.ml:443, password=e05c749b-7c6b-41b8-9c71-9dcf685edf4a, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_327 |10.28Mb
+trojan = 51.81.82.15:443, password=c2b0a060-44b0-11ed-ad2e-1239d0255272, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_328
+trojan = node-do-us-114514.gitspeed.cyou:443, password=FlXNBKaL, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_329 |50.31Mb
+trojan = hgc.iamnotagoodman.com:443, password=2ac7fc8a-68b5-4809-8bd2-73a593bae292, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_330
+trojan = 129.146.190.42:443, password=dbf9bf9c-2c3f-474a-8031-d4c00666a989, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_331 |80.79Mb
+trojan = jp.iamnotagoodman.com:443, password=2ac7fc8a-68b5-4809-8bd2-73a593bae292, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_332
+trojan = jgwcc3.gaox.ml:443, password=b291d129-ee55-4801-a9b8-b5316e5c37b7, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_333 | 6.21Mb
+trojan = 212.90.123.130:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_334
+trojan = 152.67.160.174:443, password=54080134-2cba-4535-8599-95650bd9aa54, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_335 |10.43Mb
+trojan = 45.82.253.234:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_336
+trojan = ap.liangyuandian.top:443, password=53f20cd4-b381-4a80-8059-7bcd484bbb52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_337
+trojan = 152.67.162.166:443, password=e05c749b-7c6b-41b8-9c71-9dcf685edf4a, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_338 | 3.97Mb
+trojan = jp.liangyuandian.top:443, password=53f20cd4-b381-4a80-8059-7bcd484bbb52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_339
+trojan = 45.88.148.234:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_340
+trojan = 107.181.161.163:443, password=d1478689-439c-4590-b7ce-36e786a02dc3, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_341 |26.17Mb
+trojan = youtube-bai-piao-wang-zhe-usa.98848.xyz:443, password=d1478689-439c-4590-b7ce-36e786a02dc3, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_342 | 9.31Mb
+trojan = 155.248.172.87:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_343
+trojan = 168.138.189.17:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_344
+trojan = fhcamd2.gaox.ml:443, password=dbf9bf9c-2c3f-474a-8031-d4c00666a989, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_345 |86.84Mb
+trojan = lux.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_346
+trojan = fhcamd1.gaox.ml:443, password=e23f408a-012e-4030-8b31-02022031cb50, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_347 |87.63Mb
+trojan = jgwhdlb2.gaox.ml:443, password=54080134-2cba-4535-8599-95650bd9aa54, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_348 |10.30Mb
+trojan = kh.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_349
+trojan = 138.2.113.84:443, password=b291d129-ee55-4801-a9b8-b5316e5c37b7, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_350 | 3.61Mb
+trojan = 141.147.191.85:28443, password=750a29bf-0a40-437f-b120-38de74ae7eaf, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_351
+trojan = sg.iamnotagoodman.com:443, password=4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_352
+trojan = node-do-us-1.gitspeed.cyou:443, password=pNDxTmWL, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_353 |148.61Mb
+trojan = lux.iamnotagoodman.com:443, password=2ac7fc8a-68b5-4809-8bd2-73a593bae292, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_354
+trojan = 138.2.113.248:443, password=9c822f05-cfdc-479a-9534-60f3d4127435, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=US_355 |23.47Mb
+trojan = 45.11.104.94:3389, password=d4e41ff772c7fd45, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=ZZ_366

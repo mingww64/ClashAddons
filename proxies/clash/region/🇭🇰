@@ -1,30 +1,30 @@
 proxies:
-- name: HK_179
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 210.0.158.220
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_180
+- name: HK_197
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   port: 28443
   server: 103.135.102.156
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_181
+- name: HK_198
   password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
   port: 443
   server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: HK_199
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 210.0.158.220
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: HK_174 | 2.01Mb
+  name: HK_192 | 2.09Mb
   network: ws
-  port: 10035
+  port: 10010
   server: az.hk01.paopaocloud.cyou
   skip-cert-verify: true
   tls: true
@@ -33,11 +33,11 @@ proxies:
   uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
   ws-opts:
     headers:
-      Host: paopao.v2.tw04.paopaocloud.cyou
+      Host: az.hk01.paopaocloud.cyou
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: HK_175 | 2.34Mb
+  name: HK_194 | 0.00Mb
   port: 30862
   server: 23.91.100.243
   skip-cert-verify: true
@@ -47,7 +47,7 @@ proxies:
   uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9
 - alterId: 0
   cipher: auto
-  name: HK_177 |10.92Mb
+  name: HK_195 |10.92Mb
   network: ws
   port: 443
   server: fullaccesstohongkongnet.azurewebsites.net
