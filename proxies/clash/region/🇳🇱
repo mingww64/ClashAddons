@@ -1,19 +1,12 @@
 proxies:
-- name: NL_181 | 6.88Mb
+- name: NL_230 |18.75Mb
   password: Sp3eDVp
   port: 443
-  server: content-provider23.cdn-delivery.akamaicd.com
+  server: content-provider13.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: NL_182 |16.56Mb
-  password: Sp3eDVp
-  port: 443
-  server: content-provider24.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_183 |10.50Mb
+- name: NL_231 |10.25Mb
   password: Sp3eDVp
   port: 443
   server: 185.212.200.75
@@ -21,51 +14,51 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: NL_174 | 7.58Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 85.208.108.93
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_175 |10.81Mb
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_176 |27.88Mb
+  name: NL_223 |31.88Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_177 | 9.07Mb
+  name: NL_224 |25.10Mb
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_178 | 8.04Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 85.208.108.20
+  name: NL_225 |31.67Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 85.208.108.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_179 |28.97Mb
+  name: NL_226 |23.70Mb
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_180 | 7.85Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 85.208.108.18
+  name: NL_227 |29.53Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 85.208.108.20
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_228 |10.63Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_229 |29.67Mb
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.20
   type: ss
   udp: true

@@ -1,29 +1,53 @@
 proxies:
-- name: AU_30 |24.72Mb
-  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
-  port: 8939
-  server: hg10.leifengkeji.live
+- name: AU_27 | 2.16Mb
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50090
+  server: zf1.windowsupdate1.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_31 |11.09Mb
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: 152.67.98.30
+- name: AU_28 | 3.71Mb
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50020
+  server: zf1.windowsupdate1.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_32 |11.12Mb
+- name: AU_29 |10.43Mb
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50070
+  server: zf1.windowsupdate1.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_30 |10.47Mb
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50040
+  server: zf1.windowsupdate1.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_32 | 1.83Mb
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
   server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_33
-  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
-  port: 8934
-  server: hg4.leifengkeji.live
+- name: AU_33 |15.02Mb
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: 152.67.98.30
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: AU_31 | 9.55Mb
+  port: 26282
+  server: 129.154.57.134
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07
