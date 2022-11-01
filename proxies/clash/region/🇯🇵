@@ -1,36 +1,29 @@
 proxies:
-- name: JP_128 |36.76Mb
-  password: cbd08acf-2d47-4065-aafa-4201e5307f67
+- name: JP_117
+  password: a153fb4e-6d1b-4db0-b03d-acb4012b7198
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_129
-  password: 2e4c54a0-a780-4994-97c0-44eb92857d76
+- name: JP_118
+  password: 8c20177e-d245-4ec6-9610-34c20500d10b
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_131 | 2.08Mb
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: jgw2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_132
-  password: 96e08c45-762a-48d2-8b65-0088c3c5e3d4
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_134 | 3.60Mb
+- name: JP_120 | 3.60Mb
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   port: 443
   server: trs11.bolab.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_121 | 3.70Mb
+  password: d30afdba-ca55-463a-b26e-27080698a2a6
+  port: 443
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true

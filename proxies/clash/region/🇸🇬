@@ -1,70 +1,98 @@
 proxies:
-- name: SG_152 |18.73Mb
-  password: 5716933f-b0d2-46bc-8004-3e99effbf0e3
-  port: 60666
-  server: sg1.sexoo.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_154
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: usa.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_155
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: ussj.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_156
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: de.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_157
+- name: SG_144
   password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
   port: 443
   server: kh.iamnotagoodman.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_158
-  password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
+- name: SG_145
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
   port: 443
-  server: sg-relay.iqyun.zone
+  server: ussj.iamnotagoodman.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_159
+- name: SG_146
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: ap.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_160
+- name: SG_147
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
-  server: de.liangyuandian.top
+  server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_161
+- name: SG_148
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: jp.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: SG_149
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: de.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_150
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
+  port: 443
+  server: de.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_151
+  password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
+  port: 443
+  server: sg-relay.iqyun.zone
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_137 | 2.25Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_138 | 3.06Mb
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_139 | 2.60Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_140 | 2.50Mb
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_141 | 2.36Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 81.90.189.41
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: SG_153 | 9.85Mb
+  name: SG_143 |20.49Mb
   network: ws
   port: 1018
   server: sg202.hkaa0.tk
