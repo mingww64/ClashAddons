@@ -1,6 +1,13 @@
 proxies:
+- name: RU_151 | 4.03Mb
+  password: xxoo
+  port: 443
+  server: 194.156.99.39
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: RU_137 |41.08Mb
+  name: RU_149 |18.64Mb
   password: vDS9G2p
   port: 21247
   server: 185.4.65.6
