@@ -1,60 +1,50 @@
 proxies:
-- name: TW_180
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.154
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_181
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.156
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_182
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_183
+- name: TW_161
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.158
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_184
-  password: 182228812d1e0f23
+- name: TW_162
+  password: 7b06d22a8a7c764f
   port: 3389
-  server: 211.72.35.152
+  server: 211.72.35.154
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_185
+- name: TW_163
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.155
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_186
+- name: TW_164
+  password: 182228812d1e0f23
+  port: 3389
+  server: 211.72.35.152
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_165
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.156
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_166
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.157
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_167
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.153
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: TW_179
-  port: 39998
-  server: tw-tb-b.zc20200426.club
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
