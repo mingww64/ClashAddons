@@ -1,36 +1,50 @@
 proxies:
-- cipher: aes-128-gcm
-  name: GB_100 |65.14Mb
-  password: shadowsocks
+- name: GB_113 | 4.19Mb
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   port: 443
-  server: 212.102.53.194
-  type: ss
+  server: jgwcc1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_114 | 2.31Mb
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  port: 443
+  server: 144.24.72.126
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_101 |69.00Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 78.129.253.9
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: GB_97 |24.65Mb
-  password: null
-  port: 50003
-  server: 5.183.100.87
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_98 |66.85Mb
+  name: GB_107 |65.38Mb
   password: G!yBwPWH3Vao
   port: 808
   server: 78.129.253.9
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_99 |61.43Mb
+  name: GB_108 |72.67Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.194
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB_109 |68.96Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.78
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_110 |68.51Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: GB_111 | 7.65Mb
+  password: null
+  port: 50003
+  server: 5.183.100.87
   type: ss
   udp: true
