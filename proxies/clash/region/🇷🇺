@@ -1,23 +1,8 @@
 proxies:
 - cipher: aes-256-cfb
-  name: RU_157 | 5.76Mb
+  name: RU_147 |11.01Mb
   password: vDS9G2p
   port: 21247
   server: 185.4.65.6
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: RU_155
-  network: ws
-  port: 80
-  server: 31.184.207.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f0c13264-45dc-4b14-c6f7-0368b2d52664
-  ws-opts:
-    headers:
-      Host: lulu.zgcvpn.link
-    path: /lulu
