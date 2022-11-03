@@ -1,48 +1,13 @@
 proxies:
-- name: CN_55
-  password: 182228812d1e0f23
-  port: 3383
-  server: 116.129.254.29
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_56
-  password: 182228812d1e0f23
+- name: CN_59 | 8.66Mb
+  password: 3c4e10af98c30972
   port: 3389
-  server: 106.75.173.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_57
-  password: 182228812d1e0f23
-  port: 3389
-  server: 116.129.254.29
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_58
-  password: 182228812d1e0f23
-  port: 3389
-  server: 106.75.154.24
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_59
-  password: faf42aa0a9ad4c1e
-  port: 3389
-  server: 116.129.253.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_60
-  password: faf42aa0a9ad4c1e
-  port: 3385
-  server: 116.129.254.29
+  server: 106.75.233.91
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_61
-  password: faf42aa0a9ad4c1e
+  password: 182228812d1e0f23
   port: 3389
   server: 106.75.154.24
   skip-cert-verify: true
@@ -50,8 +15,8 @@ proxies:
   udp: true
 - name: CN_62
   password: 182228812d1e0f23
-  port: 3389
-  server: 116.129.253.134
+  port: 3383
+  server: 116.129.254.29
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -64,6 +29,41 @@ proxies:
   udp: true
 - name: CN_64
   password: 182228812d1e0f23
+  port: 3389
+  server: 116.129.253.134
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_65
+  password: faf42aa0a9ad4c1e
+  port: 3389
+  server: 116.129.253.191
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_66
+  password: 182228812d1e0f23
+  port: 3389
+  server: 106.75.173.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_67 |11.25Mb
+  password: 182228812d1e0f23
+  port: 3385
+  server: 116.129.254.29
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_68
+  password: faf42aa0a9ad4c1e
+  port: 3389
+  server: 106.75.154.24
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_69 | 8.71Mb
+  password: faf42aa0a9ad4c1e
   port: 3385
   server: 116.129.254.29
   skip-cert-verify: true
@@ -71,7 +71,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: CN_54 | 2.55Mb
+  name: CN_58 | 1.73Mb
   network: ws
   port: 443
   server: 119.36.161.40
@@ -83,4 +83,19 @@ proxies:
   ws-opts:
     headers:
       Host: www.69961573.xyz
+    path: /path/120306182525
+- alterId: 0
+  cipher: auto
+  name: CN_60 | 2.77Mb
+  network: ws
+  port: 443
+  server: 119.36.161.40
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 946ba5df-5771-4873-a3cb-892378526147
+  ws-opts:
+    headers:
+      Host: www.99136853.xyz
     path: /path/120306182525
