@@ -1,96 +1,117 @@
 proxies:
-- name: JP_129
-  password: 205f8ab6-cb17-4480-93a6-aece90b88742
+- name: JP_129 |28.62Mb
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  port: 443
+  server: 168.138.43.89
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_130 | 4.22Mb
+  password: d66dccd1-90c1-4713-8972-2417a2854df2
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_130 | 4.73Mb
-  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_131 |62.43Mb
-  password: dc26913c-a31c-4b3f-9c03-28a6b4283a89
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_132 |13.28Mb
-  password: 0d8285f8-33da-4076-bb24-d498bd83f2f9
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_133 |25.70Mb
+- name: JP_131 |25.70Mb
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   port: 443
   server: 168.138.44.176
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_134
-  password: 036ba5aa-fcb7-4e6f-95b5-a857cb354aa8
+- name: JP_132
+  password: b70b2ed8-6d35-4fe0-8ae7-4e8fa45ff326
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_135
-  password: 83985788-df3e-4b91-8f5e-a9de66a79cca
+- name: JP_133 | 1.77Mb
+  password: 1bacde9b-3a1a-43eb-b091-287824dc91d3
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_136 | 2.98Mb
-  password: 33073a7c-e6d5-4271-9b19-4416afcc25b5
+- name: JP_135 |23.46Mb
+  password: 61f6271b-5e65-46b8-bc80-c6468a1f185e
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_137 | 2.53Mb
-  password: 545034ab-8179-46ea-a7d4-a5c992cce000
+- name: JP_136 | 3.42Mb
+  password: 1988268c-a841-42f2-acac-7a8c0c7e78e5
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_138
-  password: e3dcc71e-f058-43bf-bf0d-5bdf20dec071
+- name: JP_137 | 2.02Mb
+  password: fd6c7985-ce12-4a6b-b0d3-214ffcb89e60
+  port: 443
+  server: 3.letitbe.ink
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_139 |24.31Mb
+  password: d30afdba-ca55-463a-b26e-27080698a2a6
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: JP_140
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: 146.56.189.146
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_141 | 8.00Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: jgwdb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_142
   password: 96e08c45-762a-48d2-8b65-0088c3c5e3d4
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_143 |27.91Mb
+- name: JP_141 |20.07Mb
+  password: 84773125-8f79-481c-a80b-e1f4aad86850
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_142 | 9.57Mb
+  password: 5491534e-00b5-42ff-853a-723997aadbdb
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_143 | 8.00Mb
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  port: 443
+  server: jgwdb3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_145 | 3.28Mb
+  password: 0d8285f8-33da-4076-bb24-d498bd83f2f9
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_146 |163.23Mb
+  password: 036ba5aa-fcb7-4e6f-95b5-a857cb354aa8
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_147 | 2.53Mb
+  password: edeb6377-0d40-483b-869a-8b3be9d74850
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_148 |27.91Mb
   password: f2239c58-4684-4747-8985-fbca693f352b
   port: 443
   server: kr1.api-aws.com
