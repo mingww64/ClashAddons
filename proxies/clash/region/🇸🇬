@@ -1,105 +1,120 @@
 proxies:
-- name: SG_162
+- name: SG_168
   password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
   port: 443
   server: kh.iamnotagoodman.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_163
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: ussj.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_164
+- name: SG_169
   password: 2b2b1b4f-3372-47f7-9f90-26097c7683f9
   port: 443
   server: sg.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_165
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: de.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_166
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: jp.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_167
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: ap.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_168
+- name: SG_170
   password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
   port: 443
-  server: de.iamnotagoodman.com
+  server: ussj.iamnotagoodman.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_169
+- name: SG_171
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: SG_172
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
+  port: 443
+  server: ap.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_173
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
+  port: 443
+  server: jp.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_174
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: de.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_175
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
+  port: 443
+  server: de.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_155 | 2.14Mb
+  name: SG_161 | 1.88Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 81.90.189.41
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_156 | 1.92Mb
+  name: SG_162 | 1.63Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.41
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_157 | 2.38Mb
+  name: SG_163 | 4.63Mb
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_164 | 1.78Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 81.90.189.41
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_158 | 6.58Mb
+  name: SG_165 | 2.69Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.41
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_159 | 2.01Mb
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 81.90.189.41
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: SG_161 |17.17Mb
+  name: SG_166
   network: ws
-  port: 28256
-  server: 157.245.150.105
+  port: 443
+  server: vsg1.0bad.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vsg1.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: SG_167
+  network: ws
+  port: 80
+  server: 8.214.33.158
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 8b288b96-8351-4798-80b1-19abee46d087
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
   ws-opts:
     path: /
