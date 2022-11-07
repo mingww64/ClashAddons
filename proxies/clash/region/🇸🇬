@@ -1,97 +1,97 @@
 proxies:
-- name: SG_145
+- name: SG_149
   password: 2b2b1b4f-3372-47f7-9f90-26097c7683f9
   port: 443
   server: sg.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_146
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: de.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_147
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: de.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_148
-  password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
-  port: 443
-  server: sg-relay.iqyun.zone
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_149
+- name: SG_150
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: jp.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_150
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: kh.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: SG_151
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: ap.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_152
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_153
+- name: SG_152
   password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
   port: 443
   server: ussj.iamnotagoodman.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_140 | 8.88Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 81.90.189.41
-  type: ss
+- name: SG_153
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
+  port: 443
+  server: de.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_154
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
+  port: 443
+  server: ap.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_155
+  password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
+  port: 443
+  server: sg-relay.iqyun.zone
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_156
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: kh.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_157
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: de.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_141 | 7.46Mb
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 81.90.189.41
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_142 | 9.37Mb
+  name: SG_144 | 6.76Mb
   password: G!yBwPWH3Vao
   port: 811
   server: 81.90.189.41
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_143 | 9.66Mb
+  name: SG_145 | 8.01Mb
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_146 | 6.83Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.41
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_144 | 4.57Mb
+  name: SG_147 | 8.19Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 81.90.189.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG_148 | 3.52Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.41
