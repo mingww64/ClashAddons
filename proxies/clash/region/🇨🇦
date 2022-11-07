@@ -1,70 +1,70 @@
 proxies:
-- name: CA_43
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-  port: 443
-  server: 149.56.141.11
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_44 |12.15Mb
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: 149.56.141.11
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_45 | 5.00Mb
+- name: CA_43 | 5.00Mb
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_46
+- name: CA_44
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_45
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: 149.56.141.11
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_46 |11.69Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_36 |44.01Mb
+  name: CA_36 |28.60Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_37 |28.10Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_38 |43.76Mb
+  name: CA_37 |24.65Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_39 |26.89Mb
+  name: CA_38 |22.17Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_40 |46.93Mb
+  name: CA_39 |24.83Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_40 |29.20Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 196.247.59.154
+  type: ss
+  udp: true
 - alterId: 32
   cipher: auto
-  name: CA_41 | 7.71Mb
+  name: CA_41 |20.13Mb
   port: 443
   server: 139.99.91.95
   skip-cert-verify: true
