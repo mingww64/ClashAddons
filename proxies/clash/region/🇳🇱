@@ -1,19 +1,5 @@
 proxies:
-- name: NL_138 | 1.92Mb
-  password: Sp3eDVp
-  port: 443
-  server: content-provider24.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_139
-  password: Sp3eDVp
-  port: 443
-  server: 185.212.200.75
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_140 |31.04Mb
+- name: NL_138 |28.47Mb
   password: Sp3eDVp
   port: 443
   server: content-provider13.cdn-delivery.akamaicd.com
@@ -21,17 +7,17 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: NL_130 | 7.81Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 85.208.108.93
+  name: NL_130 |18.43Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_131 | 6.14Mb
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 85.208.108.18
+  name: NL_131 |13.32Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -42,37 +28,37 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_133 |29.88Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 85.208.108.60
+  name: NL_133 | 4.03Mb
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 85.208.108.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_134 | 6.19Mb
+  name: NL_134 | 3.78Mb
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 85.208.108.20
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_135 | 6.53Mb
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_136 |29.21Mb
+  name: NL_135 |12.16Mb
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_137 |27.52Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 85.208.108.60
+  name: NL_136 | 3.65Mb
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.20
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_137 |12.26Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
   type: ss
   udp: true

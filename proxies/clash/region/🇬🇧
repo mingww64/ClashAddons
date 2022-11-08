@@ -1,43 +1,36 @@
 proxies:
-- name: GB_104
-  password: shefelnak
-  port: 443
-  server: content-provider20.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_100 | 2.82Mb
+  name: GB_100 |39.48Mb
   password: G!yBwPWH3Vao
-  port: 808
+  port: 809
   server: 78.129.253.9
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: GB_101 |21.92Mb
-  password: null
-  port: 50003
-  server: 5.183.100.87
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
-  name: GB_102 |64.50Mb
+  name: GB_101 |65.50Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.194
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_103 |62.14Mb
+  name: GB_102 |71.32Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.78
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_99 |65.92Mb
+  name: GB_98 | 2.82Mb
   password: G!yBwPWH3Vao
-  port: 809
+  port: 808
   server: 78.129.253.9
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: GB_99 |29.60Mb
+  password: null
+  port: 50003
+  server: 5.183.100.87
   type: ss
   udp: true
