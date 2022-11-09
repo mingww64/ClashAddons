@@ -1,68 +1,50 @@
 proxies:
-- name: AU_28
-  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50030
-  server: zf1.windowsupdate1.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_29
-  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50010
-  server: zf1.windowsupdate1.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_30
-  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50020
-  server: zf1.windowsupdate1.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_31
-  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50070
-  server: zf1.windowsupdate1.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_32
-  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50040
-  server: zf1.windowsupdate1.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_33
+- name: AU_27
   password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
   port: 50080
   server: zf1.windowsupdate1.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: AU_26
-  network: ws
-  port: 80
-  server: 139.99.237.62
+- name: AU_28
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50010
+  server: zf1.windowsupdate1.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  ws-opts:
-    headers:
-      Host: static.azadrah22.com
-    path: /user
-- alterId: 0
-  cipher: auto
-  name: AU_27 | 6.99Mb
-  port: 26282
-  server: 129.154.57.134
+- name: AU_29
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50040
+  server: zf1.windowsupdate1.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07
+- name: AU_30
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50070
+  server: zf1.windowsupdate1.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_31
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50030
+  server: zf1.windowsupdate1.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_32
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50020
+  server: zf1.windowsupdate1.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: AU_33
+  password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
+  port: 50060
+  server: zf1.windowsupdate1.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
