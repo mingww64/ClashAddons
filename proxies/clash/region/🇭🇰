@@ -1,63 +1,78 @@
 proxies:
-- name: HK_119
-  password: b27c853c-714a-45a5-be55-6451595a1b69
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_120
+- name: HK_124
   password: 7778e684-f435-4166-bf9e-0256cb28bf10
   port: 443
   server: download2hkt.windowsupdate.lol
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_121 |18.89Mb
+- name: HK_125 |18.04Mb
   password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1
   port: 50418
   server: 43.229.153.148
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_122
+- name: HK_126
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   port: 28443
   server: 210.0.158.220
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_123
-  password: b1171e62-aad8-46dc-8014-1478a9aabb04
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_124
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 103.135.102.156
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_125 | 5.46Mb
-  password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
-  port: 52000
-  server: hk.vc3.hyperlinkvpn.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_126
+- name: HK_127
   password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
   port: 443
   server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: HK_128 | 5.46Mb
+  password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
+  port: 52000
+  server: hk.vc3.hyperlinkvpn.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_129
+  password: b1171e62-aad8-46dc-8014-1478a9aabb04
+  port: 443
+  server: download2hkt.windowsupdate.lol
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_130
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 103.135.102.156
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_131
+  password: b27c853c-714a-45a5-be55-6451595a1b69
+  port: 443
+  server: download2hkt.windowsupdate.lol
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: HK_116 | 2.83Mb
+  name: HK_121 | 2.10Mb
+  network: ws
+  port: 10007
+  server: ah.yd01.paopaocloud.cyou
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  ws-opts:
+    headers:
+      Host: ssru.v2.jp01.2yun.win
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: HK_122 | 2.83Mb
   port: 30862
   server: 23.91.100.243
   skip-cert-verify: true
