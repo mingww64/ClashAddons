@@ -1,13 +1,20 @@
 proxies:
-- name: TW_189
-  password: 182228812d1e0f23
+- name: TW_188
+  password: 0cc6b4268dea0ba8
   port: 3389
-  server: 60.249.3.227
+  server: 211.72.35.157
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_189 | 7.47Mb
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.156
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: TW_190
-  password: 3febb05ea76a940f
+  password: 182228812d1e0f23
   port: 3389
   server: 60.249.3.125
   skip-cert-verify: true
@@ -16,135 +23,125 @@ proxies:
 - name: TW_191
   password: 7b06d22a8a7c764f
   port: 3389
-  server: 211.72.35.154
+  server: 211.72.35.157
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: TW_192
-  password: 0cc6b4268dea0ba8
-  port: 3389
-  server: 211.72.35.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_193
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_194
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.153
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_195
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.156
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_196
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.226
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_197
-  password: 36fe28a331638747
-  port: 3389
-  server: 60.249.3.226
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_198
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_199
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.228
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_200
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_201
-  password: 0cc6b4268dea0ba8
-  port: 3389
-  server: 60.249.3.231
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_202
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.231
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_203
-  password: 182228812d1e0f23
-  port: 3389
-  server: 211.72.35.152
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_204
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.230
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_205
-  password: b09d2aaa443af97a
-  port: 3389
-  server: 211.72.35.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_206
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.158
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_207
   password: 182228812d1e0f23
   port: 3389
   server: 60.249.3.229
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: TW_186
-  port: 39999
-  server: tw-tb-c.zc20200426.club
+- name: TW_193
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.230
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- name: TW_194
+  password: b09d2aaa443af97a
+  port: 3389
+  server: 211.72.35.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_195
+  password: 182228812d1e0f23
+  port: 3389
+  server: 211.72.35.152
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_196
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.231
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_197
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_198
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.228
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_199 |16.58Mb
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.154
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_200
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.226
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_201 |20.88Mb
+  password: c58b5a1f-af92-3108-997e-ca513b1c9747
+  port: 10002
+  server: gbo02.vsvideo.shop
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_202
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.227
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_203
+  password: 0cc6b4268dea0ba8
+  port: 3389
+  server: 60.249.3.231
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_204
+  password: 36fe28a331638747
+  port: 3389
+  server: 60.249.3.226
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_205 | 7.78Mb
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.153
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_206
+  password: 3febb05ea76a940f
+  port: 3389
+  server: 60.249.3.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_207 |13.08Mb
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.158
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: TW_188
+  name: TW_187
   network: ws
   port: 443
   server: 220.130.80.179

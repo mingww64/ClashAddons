@@ -1,27 +1,27 @@
 proxies:
-- name: CA_47
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+- name: CA_45
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_46
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_48
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-  port: 443
-  server: cat1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_49
+- name: CA_47
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_50
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+- name: CA_48
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
@@ -29,7 +29,7 @@ proxies:
   udp: true
 - alterId: 32
   cipher: auto
-  name: CA_45 | 6.37Mb
+  name: CA_43 | 6.37Mb
   port: 443
   server: 139.99.91.95
   skip-cert-verify: true
@@ -39,7 +39,7 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 32
   cipher: auto
-  name: CA_46 | 2.31Mb
+  name: CA_44 | 2.31Mb
   port: 443
   server: 139.99.90.122
   skip-cert-verify: true
