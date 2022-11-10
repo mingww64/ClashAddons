@@ -1,7 +1,9 @@
 import os
+import re
+
 import requests
 import yaml
-import re
+
 from . import regExpresser
 
 
@@ -82,25 +84,29 @@ which cause undefined / no such file errors'''  # i can use function though...
             exit("No available node.")
         else:
             print("Node Available: ", self.available_count)
+
         def download_rules(rulesets):
             rules = yaml.safe_load(open(rulesets).read())
             # Possible feature: download local rules.
-            path_url = [(x['path'], x['url']) for x in rules['rule-providers'].values() if x['type'] == 'http']
+            path_url = [(x['path'], x['url'])
+                        for x in rules['rule-providers'].values() if x['type'] == 'http']
             with open(self.rules, 'r') as rules_dot_yaml:
                 rule_content = rules_dot_yaml.read()
             for path, url in path_url:
-                destdir = os.path.join(dir, 'rules/clash', os.path.normpath(os.path.dirname(path)))
+                destdir = os.path.join(
+                    dir, 'rules/clash', os.path.normpath(os.path.dirname(path)))
                 dest = os.path.join(dir, 'rules/clash', os.path.normpath(path))
                 os.makedirs(destdir, exist_ok=True)
                 with open(dest, 'w') as rule:
                     print(f'Downloading: {url} --> {dest}')
-                    rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
+                    rule.write(requests.get(
+                        url).content.decode('utf-8', 'ignore'))
             # Substitute url
-                rule_content = rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
+                rule_content = rule_content.replace(url, os.path.join(
+                    self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
             with open(self.rules, 'w') as rules_dot_yaml:
                 rules_dot_yaml.write(rule_content)
         download_rules(self.rules)
-
 
     def subconverter(self, read_dir, out_dir):
         if 'Subconverter' in self.parse_conf and type(self.parse_conf['Subconverter']) == list:

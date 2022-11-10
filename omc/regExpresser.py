@@ -6,9 +6,11 @@
 # <proxy group>'s <proxies>
 # ChinaG's [6x]HKT --> ChinaG_6x's [6x]HKT
 
-import re
 import os
+import re
+
 import yaml
+
 
 class SafeLoaderIgnoreUnknown(yaml.SafeLoader):
     def ignore_unknown(self, node):
