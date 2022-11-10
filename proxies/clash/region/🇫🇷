@@ -1,113 +1,120 @@
 proxies:
-- name: FR_105
-  password: Sp3eDVp
-  port: 443
-  server: 51.77.71.131
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: FR_106
-  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
-  port: 443
-  server: ukt1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_107
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
-  port: 443
-  server: de.tjvpn.org
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_108
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
-  port: 443
-  server: 51.75.76.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_109
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 62.210.254.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_110 |32.81Mb
-  password: xxoo
-  port: 443
-  server: 146.19.230.241
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_111
   password: origin
   port: 443
   server: content-provider12.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: FR_100
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
-  type: ss
+- name: FR_107
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 62.210.254.72
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_108 |48.77Mb
+  password: xxoo
+  port: 443
+  server: 146.19.230.241
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_109
+  password: Sp3eDVp
+  port: 443
+  server: 51.77.71.131
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_110
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
+  port: 443
+  server: de.tjvpn.org
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_111
+  password: origin
+  port: 443
+  server: content-provider26.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_112
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
+  port: 443
+  server: 51.75.76.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_113
+  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+  port: 443
+  server: ukt1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: FR_101 |42.14Mb
+  name: FR_100 |28.18Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_101
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: FR_102
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 62.210.113.98
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_103
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_104 |43.41Mb
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_96 |38.39Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_97
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_98
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_99 |41.05Mb
+  name: FR_103 |43.12Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_104
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_105 |42.61Mb
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_97 |39.43Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_98
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_99
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 62.210.113.98
   type: ss
   udp: true

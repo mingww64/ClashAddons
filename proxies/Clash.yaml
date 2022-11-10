@@ -4,19 +4,27 @@ mixed-port: 8899
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:6170
+external-controller: 0.0.0.0:6170
+external-ui: "/usr/share/yacd"
 experimental:
   ignore-resolve-fail: true
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
 dns:
   enable: true
   # ipv6: false
-  listen: 0.0.0.0:53
+  listen: 127.0.0.1:7874
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
     - 223.6.6.6
+    - 1.2.4.8
+    - 192.168.0.1
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -224,6 +232,15 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
+    🇰🇷:
+      type: http
+      path: "./proxy_provider/🇰🇷.yaml"
+      url: https://clashaddons.pages.dev/proxies/clash/region/🇰🇷
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
     🇩🇪:
       type: http
       path: "./proxy_provider/🇩🇪.yaml"
@@ -292,6 +309,7 @@ proxy-groups:
   - 🇦🇺
   - 🇷🇺
   - 🇫🇷
+  - 🇰🇷
   - 🇩🇪
   - 🇺🇸
   - 🇳🇱
@@ -329,6 +347,7 @@ proxy-groups:
   - 🇦🇺
   - 🇷🇺
   - 🇫🇷
+  - 🇰🇷
   - 🇩🇪
   - 🇺🇸
   - 🇳🇱
@@ -362,6 +381,7 @@ proxy-groups:
   - 🇦🇺
   - 🇷🇺
   - 🇫🇷
+  - 🇰🇷
   - 🇩🇪
   - 🇺🇸
   - 🇳🇱
@@ -396,6 +416,7 @@ proxy-groups:
   - 🇦🇺
   - 🇷🇺
   - 🇫🇷
+  - 🇰🇷
   - 🇩🇪
   - 🇺🇸
   - 🇳🇱
@@ -422,6 +443,7 @@ proxy-groups:
   - 🇦🇺
   - 🇷🇺
   - 🇫🇷
+  - 🇰🇷
   - 🇩🇪
   - 🇺🇸
   - 🇳🇱
@@ -449,6 +471,7 @@ proxy-groups:
   - 🇦🇺
   - 🇷🇺
   - 🇫🇷
+  - 🇰🇷
   - 🇩🇪
   - 🇺🇸
   - 🇳🇱
@@ -579,6 +602,16 @@ proxy-groups:
   interval: 300
   tolerance: 180
 
+- name: 🇰🇷
+  type: url-test
+  
+  use:
+  - 🇰🇷
+  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 180
+
 - name: 🇩🇪
   type: url-test
   
@@ -641,60 +674,74 @@ proxy-groups:
 
 
 
+script:
+  shortcuts:
+    common_port: dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587,
+      853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229,
+      5230, 8080, 8443, 8880, 8888, 8889] and network == 'tcp'
+  code: |
+    def main(ctx, metadata):
+        directkeywordlist = ["baidu"]
+        for directkeyword in directkeywordlist:
+          if directkeyword in metadata["host"]:
+            ctx.log('[Script] matched keyword %s use direct' % directkeyword)
+            return "DIRECT"
+
+
 rule-providers:
   Unbreak:
     type: http
     behavior: classical
     path: "./RuleSet/Unbreak.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/Unbreak.yaml
     interval: 86400
   Advertising:
     type: http
     behavior: classical
     path: "./RuleSet/Advertising.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/Advertising.yaml
     interval: 86400
   Hijacking:
     type: http
     behavior: classical
     path: "./RuleSet/Hijacking.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/Hijacking.yaml
     interval: 86400
   Privacy:
     type: http
     behavior: classical
     path: "./RuleSet/Privacy.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/Privacy.yaml
     interval: 86400
   Streaming:
     type: http
     behavior: classical
     path: "./RuleSet/StreamingMedia/Streaming.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/StreamingMedia/Streaming.yaml
     interval: 86400
   StreamingSE:
     type: http
     behavior: classical
     path: "./RuleSet/StreamingMedia/StreamingSE.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/StreamingMedia/StreamingSE.yaml
     interval: 86400
   Global:
     type: http
     behavior: classical
     path: "./RuleSet/Global.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/Global.yaml
     interval: 86400
   China:
     type: http
     behavior: classical
     path: "./RuleSet/China.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/China.yaml
     interval: 86400
   ChinaIP:
     type: http
     behavior: ipcidr
     path: "./RuleSet/Extra/ChinaIP.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
+    url: https://clashaddons.pages.dev/proxies/rules/clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
 rules:
 - RULE-SET,Unbreak,DIRECT
@@ -715,4 +762,7 @@ rules:
 - RULE-SET,ChinaIP,Domestic
 - IP-CIDR,119.28.28.28/32,DIRECT
 - IP-CIDR,182.254.116.0/24,DIRECT
+
+- DOMAIN-KEYWORD,crunchyroll,Streaming
+- SCRIPT,common_port,DIRECT
 - MATCH,Others
