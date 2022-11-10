@@ -1,0 +1,9 @@
+    ${name}:
+      type: http
+      path: "./proxy_provider/${name}.yaml"
+      url: ${location}
+      interval: 3600
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300

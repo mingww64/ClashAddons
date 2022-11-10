@@ -1,0 +1,46 @@
+Enabled: true
+Output Dir: proxies
+Git:
+  email: 41898282+github-actions[bot]@users.noreply.github.com
+  name: github-actions[bot]
+SCServer: 127.0.0.1:25500
+SCServerRemote: suc.usuc.cc
+Storage: https://clashaddons.pages.dev
+Template: 
+  Clash: ./template/clash # Directory
+  Quantumult X: https://raw.githubusercontent.com/wmyfelix/Rules-For-Quantumult-X/main/Sample.conf # File
+ProxyProviders:
+  ss: https://sspool.herokuapp.com/ss/sub
+  ss-sip002: https://sspool.herokuapp.com/sip002/sub
+  ssr: https://sspool.herokuapp.com/ssr/sub
+  vmess: https://sspool.herokuapp.com/vmess/sub
+  trojan: https://sspool.herokuapp.com/trojan/sub
+ClashProviders:
+  target: clash
+  list: true
+  udp: true
+  emoji: true
+  sort: true
+QuantumultXRemotes: 
+  target: quanx
+  list: true
+Exclude:
+  All: 🇨🇳
+  region: 限速|游戏|game
+Exclude Args: 
+  syntax: 奈飞小铺|过期时间|剩余流量|官网|机场|维护
+  whitelist: 
+  - ChinaG
+Subconverter:
+  - ss
+  - ssr
+  - v2ray
+  - clash
+  - quanx
+#Group Classify: 
+#  Chi: \d*\.*\d+(?:x|X|倍|倍率)
+#  Yah: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
+Rules:
+  Clash:
+    head: template/clash/head.yml
+    rules: template/clash/connershua/rules.yml 

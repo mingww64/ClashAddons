@@ -1,0 +1,48 @@
+name: Update Provider
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+  push:
+      branches:
+          - dev
+  schedule:
+      - cron: '20 12,18 * * *'
+  watch:
+      types: 
+          - started
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  UpdateProviders:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Runs a single command using the runners shell
+    - name: Deploy SubConverter
+      run: |
+        docker run -d --restart=always -p 25500:25500 -v $(readlink -f ./):$(readlink -f ./) tindy2013/subconverter:latest
+        sleep 10
+        curl http://127.0.0.1:25500/version
+    - name: Checkout This Branch
+      uses: actions/checkout@v2
+      with:
+        path: exec
+    - name: Checkout Deployment Branch
+      uses: actions/checkout@v2
+      with:
+        ref: deploy
+        path: deploy
+    - name: Convert Providers
+      run: |
+        cd exec
+        python omc.py
+    - name: Commit & push
+      run: | 
+        cp -r exec/proxies deploy
+        cd deploy
+        bash ../exec/check_commit.sh
+        git push
