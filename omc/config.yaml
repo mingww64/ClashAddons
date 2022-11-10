@@ -1,20 +1,22 @@
 Enabled: true
 Output Dir: proxies
 Git:
-  email: 41898282+github-actions[bot]@users.noreply.github.com
-  name: github-actions[bot]
+  email: felicia@realnet.ml
+  name: FeliciaWen
 SCServer: 127.0.0.1:25500
 SCServerRemote: suc.usuc.cc
-Storage: https://clashaddons.pages.dev
+Storage: https://realnet.ga
 Template: 
   Clash: ./template/clash # Directory
   Quantumult X: https://raw.githubusercontent.com/wmyfelix/Rules-For-Quantumult-X/main/Sample.conf # File
 ProxyProviders:
-  ss: https://sspool.herokuapp.com/ss/sub
-  ss-sip002: https://sspool.herokuapp.com/sip002/sub
-  ssr: https://sspool.herokuapp.com/ssr/sub
-  vmess: https://sspool.herokuapp.com/vmess/sub
-  trojan: https://sspool.herokuapp.com/trojan/sub
+  YahahaNPO: http://sub.yahahanpo.top/link/MPsna0K3Q1JBfwNf?mu=1
+  YahahaLTD: http://yahahasub.com/link/oSmrgjMRXcAcz0O8?mu=0
+  Sakura: https://subscribe.connect-node.net/link/qSJlYVsRF85rIGWC?clash=1
+  Getfree: https://rss.getfree.win/link/WXdDzEXi5DVXpOc1?sub=1
+  ADSL: https://rss.epon.cloud/link/wRa8eyB5WguX7iOM?sub=1
+  ChinaG: https://a.luxury/link/cHDgH9k2VEv56gkv?clash=2
+  JDYun: https://subscribe.somersaultcloud.xyz/link/PyXlvYUgoMajTtan?sub=3&extend=1
 ClashProviders:
   target: clash
   list: true
@@ -25,7 +27,7 @@ QuantumultXRemotes:
   target: quanx
   list: true
 Exclude:
-  All: 🇨🇳
+  All: 🇨🇳|🇲🇳
   region: 限速|游戏|game
 Exclude Args: 
   syntax: 奈飞小铺|过期时间|剩余流量|官网|机场|维护
@@ -37,9 +39,9 @@ Subconverter:
   - v2ray
   - clash
   - quanx
-#Group Classify: 
-#  Chi: \d*\.*\d+(?:x|X|倍|倍率)
-#  Yah: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
+Group Classify: 
+  ChinaG: \d*\.*\d+(?:x|X|倍|倍率)
+  YahahaLTD: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
 Rules:
   Clash:
     head: template/clash/head.yml
