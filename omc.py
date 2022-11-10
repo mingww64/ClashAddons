@@ -1,5 +1,6 @@
-from omc import confluX, nationAttitude, transformer
 import sys
+
+from omc import confluX, nationAttitude, transformer
 
 config = transformer.Kit('./omc/config.yaml')
 dirx = config.parse_conf['Output Dir']
