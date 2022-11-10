@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
       branches:
-          - OMC
+          - dev
   schedule:
       - cron: '20 12,18 * * *'
   watch:
