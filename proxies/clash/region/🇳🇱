@@ -1,71 +1,71 @@
 proxies:
-- name: NL_175 | 5.76Mb
+- name: NL_193 | 8.33Mb
   password: Sp3eDVp
   port: 443
   server: content-provider13.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: NL_176
+- name: NL_194 |33.06Mb
   password: Sp3eDVp
   port: 443
-  server: content-provider23.cdn-delivery.akamaicd.com
+  server: content-provider24.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: NL_166 | 3.80Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_167 |26.92Mb
+  name: NL_185 |29.36Mb
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_168 | 6.13Mb
+  name: NL_186 |23.48Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_187 |27.47Mb
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_169 |19.73Mb
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 85.208.108.60
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_170 | 3.94Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 85.208.108.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_171 | 4.21Mb
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_172 |26.14Mb
+  name: NL_188 |19.20Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_173 | 2.72Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 85.208.108.93
+  name: NL_189 |30.67Mb
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 85.208.108.60
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_190 |28.15Mb
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.20
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_191 |29.80Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 85.208.108.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_192 |11.06Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 85.208.108.20
   type: ss
   udp: true
