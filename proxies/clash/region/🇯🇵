@@ -1,15 +1,22 @@
 proxies:
-- name: JP_164
-  password: 21f204d3-b42e-466a-9cb2-b83d868dcd5f
+- name: JP_162
+  password: 14bdba6dede262387ebdebaa706e1c90
   port: 443
-  server: kr1.api-aws.com
+  server: trs15.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_165 |18.55Mb
+- name: JP_164
+  password: 7a566d21dfcd0f12490275fd3dd3cfc4
+  port: 443
+  server: trs09.bolab.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_165 |11.78Mb
   password: 14bdba6dede262387ebdebaa706e1c90
   port: 443
-  server: trs05.bolab.net
+  server: trs02.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -20,60 +27,24 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_167 | 3.55Mb
+- name: JP_167 | 6.42Mb
   password: 14bdba6dede262387ebdebaa706e1c90
   port: 443
-  server: trs07.bolab.net
+  server: trs01.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_168
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  port: 443
-  server: trs09.bolab.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_169 |10.33Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: jgwdb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_170 | 1.99Mb
+- name: JP_168 | 1.99Mb
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 2053
   server: official.tokyometropolis.kherson.ua
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_172 | 6.93Mb
+- name: JP_169 | 7.74Mb
   password: 14bdba6dede262387ebdebaa706e1c90
   port: 443
-  server: trs02.bolab.net
+  server: trs05.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_173
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: 146.56.189.146
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: JP_162
-  network: ws
-  port: 443
-  server: vjp1.0bad.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      Host: vjp1.0bad.com
-    path: /chat

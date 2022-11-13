@@ -1,7 +1,7 @@
 proxies:
 - name: AU_29
   password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50010
+  port: 50030
   server: zf1.windowsupdate1.com
   skip-cert-verify: true
   type: trojan
@@ -29,21 +29,21 @@ proxies:
   udp: true
 - name: AU_33
   password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50060
+  port: 50080
   server: zf1.windowsupdate1.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: AU_34
   password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50080
+  port: 50010
   server: zf1.windowsupdate1.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: AU_35
   password: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  port: 50030
+  port: 50060
   server: zf1.windowsupdate1.com
   skip-cert-verify: true
   type: trojan
@@ -60,10 +60,10 @@ proxies:
   uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07
 - alterId: 0
   cipher: auto
-  name: AU_28 |21.60Mb
+  name: AU_28 | 4.80Mb
   network: ws
-  port: 42517
-  server: 43.128.228.119
+  port: 49517
+  server: 43.201.51.2
   skip-cert-verify: true
   tls: false
   type: vmess

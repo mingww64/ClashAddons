@@ -1,8 +1,29 @@
 proxies:
-- name: HK_155
-  password: b27c853c-714a-45a5-be55-6451595a1b69
+- name: HK_152
+  password: f828c5db-daa0-470f-86ab-f4a9ebdb272c
   port: 443
-  server: download2hkt.windowsupdate.lol
+  server: hgc.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_153
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 210.0.158.220
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_154
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 103.135.102.156
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_155
+  password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
+  port: 443
+  server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -14,44 +35,29 @@ proxies:
   type: trojan
   udp: true
 - name: HK_157
-  password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
+  password: 7778e684-f435-4166-bf9e-0256cb28bf10
   port: 443
-  server: usa.liangyuandian.top
+  server: download2hkt.windowsupdate.lol
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: HK_158
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 103.135.102.156
+  password: b27c853c-714a-45a5-be55-6451595a1b69
+  port: 443
+  server: download2hkt.windowsupdate.lol
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: HK_159
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 210.0.158.220
+  password: b1171e62-aad8-46dc-8014-1478a9aabb04
+  port: 443
+  server: download2hkt.windowsupdate.lol
   skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
   name: HK_151 | 2.19Mb
-  network: ws
-  port: 10010
-  server: az.hk01.paopaocloud.cyou
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
-  ws-opts:
-    headers:
-      Host: az.hk01.paopaocloud.cyou
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: HK_154 | 2.19Mb
   network: ws
   port: 10035
   server: az.hk01.paopaocloud.cyou
