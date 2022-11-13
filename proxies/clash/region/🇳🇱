@@ -1,69 +1,83 @@
 proxies:
-- name: NL_193 | 7.18Mb
+- name: NL_186 | 3.71Mb
+  password: Sp3eDVp
+  port: 443
+  server: content-provider23.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: NL_187 |11.90Mb
   password: Sp3eDVp
   port: 443
   server: content-provider13.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: NL_194 |33.06Mb
+- name: NL_188 | 2.32Mb
   password: Sp3eDVp
   port: 443
   server: content-provider24.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: NL_185 |22.20Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 85.208.108.60
-  type: ss
+- name: NL_189 |16.36Mb
+  password: Sp3eDVp
+  port: 443
+  server: 185.212.200.75
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: NL_186 | 6.43Mb
+  name: NL_178 | 7.46Mb
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.93
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_187 | 6.92Mb
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 85.208.108.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_188 |23.51Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 85.208.108.60
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_189 |22.34Mb
+  name: NL_179 |28.20Mb
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_190 | 6.68Mb
+  name: NL_180 |29.80Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 85.208.108.60
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_181 | 7.98Mb
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.20
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_191 | 6.72Mb
+  name: NL_182 | 4.59Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_192 | 6.40Mb
+  name: NL_183 |27.30Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 85.208.108.60
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_184 | 7.76Mb
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 85.208.108.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_185 | 4.51Mb
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 85.208.108.20

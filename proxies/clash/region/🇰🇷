@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: KR_177 | 3.63Mb
+  name: KR_174 |13.78Mb
   network: ws
   port: 42517
-  server: 54.180.117.118
+  server: 54.180.131.191
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: KR_178 | 3.25Mb
+  name: KR_175
   network: ws
   port: 42517
   server: 52.79.182.230
@@ -27,49 +27,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: KR_179
-  network: ws
-  port: 43417
-  server: 13.125.5.159
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_180 |19.02Mb
-  network: ws
-  port: 42517
-  server: 13.125.24.153
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_181 |11.15Mb
+  name: KR_176 | 9.89Mb
   network: ws
   port: 42517
   server: 54.180.150.171
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_182 | 9.31Mb
-  network: ws
-  port: 42517
-  server: 54.180.152.188
   skip-cert-verify: true
   tls: false
   type: vmess

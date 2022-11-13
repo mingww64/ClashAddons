@@ -1,25 +1,4 @@
 proxies:
-- name: HK_152
-  password: b1171e62-aad8-46dc-8014-1478a9aabb04
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_153
-  password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
-  port: 443
-  server: usa.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_154
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 103.135.102.156
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: HK_155
   password: b27c853c-714a-45a5-be55-6451595a1b69
   port: 443
@@ -34,32 +13,54 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_157 |11.40Mb
-  password: 66ab1fb2-48c4-4587-978f-a44d1cfd68de
-  port: 23002
-  server: hk-02.proxyvip.top
+- name: HK_157
+  password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
+  port: 443
+  server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: HK_158
-  password: 7778e684-f435-4166-bf9e-0256cb28bf10
-  port: 443
-  server: download2hkt.windowsupdate.lol
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 103.135.102.156
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_159
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 210.0.158.220
   skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: HK_149 |14.15Mb
+  name: HK_151 | 2.19Mb
   network: ws
-  port: 443
-  server: fullaccesstohongkongnet.azurewebsites.net
+  port: 10010
+  server: az.hk01.paopaocloud.cyou
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
   ws-opts:
     headers:
-      Host: fullaccesstohongkongnet.azurewebsites.net
-    path: /ws
+      Host: az.hk01.paopaocloud.cyou
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: HK_154 | 2.19Mb
+  network: ws
+  port: 10035
+  server: az.hk01.paopaocloud.cyou
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  ws-opts:
+    headers:
+      Host: paopao.v2.tw04.paopaocloud.cyou
+    path: /v2ray
