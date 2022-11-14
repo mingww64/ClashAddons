@@ -151,15 +151,6 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    ssr:
-      type: http
-      path: "./proxy_provider/ssr.yaml"
-      url: https://clashaddons.pages.dev/proxies/clash/ssr
-      interval: 3600
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     🇺🇦:
       type: http
       path: "./proxy_provider/🇺🇦.yaml"
@@ -337,7 +328,6 @@ proxy-groups:
   - trojan
   - ss-sip002
   - vmess
-  - ssr
   - 🇺🇦
   - 🇯🇵
   - 🇨🇦
@@ -371,7 +361,6 @@ proxy-groups:
   - trojan
   - ss-sip002
   - vmess
-  - ssr
   - 🇺🇦
   - 🇯🇵
   - 🇨🇦
@@ -406,7 +395,6 @@ proxy-groups:
   - trojan
   - ss-sip002
   - vmess
-  - ssr
   - 🇺🇦
   - 🇯🇵
   - 🇨🇦
@@ -433,7 +421,6 @@ proxy-groups:
   - trojan
   - ss-sip002
   - vmess
-  - ssr
   - 🇺🇦
   - 🇯🇵
   - 🇨🇦
@@ -461,7 +448,6 @@ proxy-groups:
   - trojan
   - ss-sip002
   - vmess
-  - ssr
   - 🇺🇦
   - 🇯🇵
   - 🇨🇦
@@ -506,16 +492,6 @@ proxy-groups:
   
   use:
   - vmess
-  
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 180
-
-- name: ssr
-  type: url-test
-  
-  use:
-  - ssr
   
   url: http://www.gstatic.com/generate_204
   interval: 300
