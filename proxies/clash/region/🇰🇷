@@ -1,7 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: KR_152 |12.74Mb
+  name: KR_238 | 2.14Mb
+  port: 5432
+  server: kr-direct.node002.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+- alterId: 0
+  cipher: auto
+  name: KR_239 |15.28Mb
+  network: ws
+  port: 42517
+  server: 54.180.150.171
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: KR_240 |12.74Mb
   network: ws
   port: 42517
   server: 13.124.228.70
@@ -14,7 +37,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: KR_153 |13.28Mb
+  name: KR_241 |13.28Mb
   network: ws
   port: 42517
   server: 52.79.182.230
@@ -27,23 +50,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: KR_154 |20.51Mb
+  name: KR_242 |20.51Mb
   network: ws
   port: 42517
   server: 13.125.24.153
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_155 |20.09Mb
-  network: ws
-  port: 42517
-  server: 54.180.152.188
   skip-cert-verify: true
   tls: false
   type: vmess
