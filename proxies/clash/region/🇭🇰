@@ -1,69 +1,90 @@
 proxies:
-- name: HK_153
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 210.0.158.220
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_154
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 103.135.102.156
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_155
-  password: b1171e62-aad8-46dc-8014-1478a9aabb04
+- name: HK_116 |25.28Mb
+  password: 99ce20e7-2525-41b6-98ce-fb6c222fb54a
   port: 443
-  server: download2hkt.windowsupdate.lol
+  server: hk2.kfcnode.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_156
-  password: 7778e684-f435-4166-bf9e-0256cb28bf10
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_157
-  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
-  port: 443
-  server: sg.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_158
-  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
-  port: 443
-  server: ca.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_159
-  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
-  port: 443
-  server: usa.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_160
-  password: b27c853c-714a-45a5-be55-6451595a1b69
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_161
+- name: HK_121
   password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
   port: 443
   server: usa.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_162
+- name: HK_122
+  password: 7778e684-f435-4166-bf9e-0256cb28bf10
+  port: 443
+  server: download2hkt.windowsupdate.lol
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_123
+  password: b1171e62-aad8-46dc-8014-1478a9aabb04
+  port: 443
+  server: download2hkt.windowsupdate.lol
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_124
+  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
+  port: 443
+  server: ca.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_125 | 1.99Mb
+  password: f8d19ba5-8684-45f2-8523-77dbea588955
+  port: 443
+  server: sg.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_126
+  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
+  port: 443
+  server: usa.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_127
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 103.135.102.156
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_128
   password: 5d07a7bd-3696-4bc2-ab37-e7082c86f5cb
+  port: 443
+  server: download2hkt.windowsupdate.lol
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_129
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 210.0.158.220
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_130
+  password: f8d19ba5-8684-45f2-8523-77dbea588955
+  port: 443
+  server: kh.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_131
+  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
+  port: 443
+  server: sg.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_132
+  password: b27c853c-714a-45a5-be55-6451595a1b69
   port: 443
   server: download2hkt.windowsupdate.lol
   skip-cert-verify: true
@@ -71,9 +92,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: HK_152 | 2.30Mb
+  name: HK_117 | 2.17Mb
   network: ws
-  port: 10010
+  port: 10035
   server: az.hk01.paopaocloud.cyou
   skip-cert-verify: true
   tls: true
@@ -82,5 +103,5 @@ proxies:
   uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
   ws-opts:
     headers:
-      Host: az.hk01.paopaocloud.cyou
+      Host: paopao.v2.tw04.paopaocloud.cyou
     path: /v2ray
