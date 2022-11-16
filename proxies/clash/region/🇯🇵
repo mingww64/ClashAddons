@@ -1,57 +1,123 @@
 proxies:
-- name: JP_229 | 1.60Mb
-  password: 14bdba6dede262387ebdebaa706e1c90
+- name: JP_156 | 4.80Mb
+  password: 1bacde9b-3a1a-43eb-b091-287824dc91d3
   port: 443
-  server: trs15.bolab.net
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_230 | 5.32Mb
-  password: 14bdba6dede262387ebdebaa706e1c90
+- name: JP_157
+  password: 83985788-df3e-4b91-8f5e-a9de66a79cca
   port: 443
-  server: trs05.bolab.net
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_232 |15.01Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+- name: JP_158
+  password: 0d8285f8-33da-4076-bb24-d498bd83f2f9
   port: 443
-  server: 168.138.44.176
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_233 |18.00Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+- name: JP_159
+  password: 5491534e-00b5-42ff-853a-723997aadbdb
   port: 443
-  server: jgwdb3.gaox.ml
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_234
+- name: JP_160
+  password: 65f7378f-edb8-4f5d-913a-641ecd853cea
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_161 | 6.53Mb
+  password: d66dccd1-90c1-4713-8972-2417a2854df2
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_162
+  password: 96e08c45-762a-48d2-8b65-0088c3c5e3d4
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_163
+  password: 88452dfb-fad4-44b2-b8a1-d230d145848c
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_164
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   port: 443
   server: trs09.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_235 | 2.70Mb
-  password: 14bdba6dede262387ebdebaa706e1c90
+- name: JP_165
+  password: edeb6377-0d40-483b-869a-8b3be9d74850
   port: 443
-  server: trs11.bolab.net
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_236 | 3.72Mb
-  password: 14bdba6dede262387ebdebaa706e1c90
+- name: JP_166
+  password: 2e4c54a0-a780-4994-97c0-44eb92857d76
   port: 443
-  server: trs07.bolab.net
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_237
-  password: 8d1834c9-4e23-47e3-834e-363cb81b1ff7
-  port: 50001
-  server: agroup.node1.t.nodelist-gfwairport.download
+- alterId: 0
+  cipher: auto
+  name: JP_153
+  network: ws
+  port: 80
+  server: jp5.elknode.top
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22data.video.qiyi.com%22%7D'
+    path: /qatjpji
+- alterId: 0
+  cipher: auto
+  name: JP_154
+  network: ws
+  port: 80
+  server: jp4.elknode.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22data.video.qiyi.com%22%7D'
+    path: /qatjpji
+- alterId: 0
+  cipher: auto
+  name: JP_155
+  network: ws
+  port: 80
+  server: jp3.elknode.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22data.video.qiyi.com%22%7D'
+    path: /qatjpji

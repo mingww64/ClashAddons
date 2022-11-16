@@ -1,36 +1,36 @@
 proxies:
-- cipher: aes-256-cfb
-  name: GB_206 |10.08Mb
-  password: null
-  port: 50003
-  server: 5.183.100.87
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_207 |41.21Mb
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 78.129.253.9
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_208 |42.29Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 78.129.253.9
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
-  name: GB_209 |11.79Mb
+  name: GB_132 |72.47Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.78
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_133 |66.85Mb
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 78.129.253.9
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: GB_134 |19.01Mb
+  password: null
+  port: 50003
+  server: 5.183.100.87
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: GB_210 |11.57Mb
+  name: GB_135 |52.42Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.194
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_136 |67.44Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
   type: ss
   udp: true

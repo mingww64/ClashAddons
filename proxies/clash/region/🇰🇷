@@ -1,7 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: KR_238 | 2.14Mb
+  name: KR_167
+  network: ws
+  port: 80
+  server: kr5.elknode.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22data.video.qiyi.com%22%7D'
+    path: /qatjpji
+- alterId: 0
+  cipher: auto
+  name: KR_168 |28.67Mb
+  network: ws
+  port: 42517
+  server: 54.180.131.191
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: KR_169 | 3.71Mb
   port: 5432
   server: kr-direct.node002.xyz
   skip-cert-verify: true
@@ -9,55 +37,3 @@ proxies:
   type: vmess
   udp: true
   uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
-- alterId: 0
-  cipher: auto
-  name: KR_239 |15.28Mb
-  network: ws
-  port: 42517
-  server: 54.180.150.171
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_240 |12.74Mb
-  network: ws
-  port: 42517
-  server: 13.124.228.70
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_241 |13.28Mb
-  network: ws
-  port: 42517
-  server: 52.79.182.230
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_242 |20.51Mb
-  network: ws
-  port: 42517
-  server: 13.125.24.153
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
