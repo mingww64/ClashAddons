@@ -1,70 +1,77 @@
 proxies:
-- name: CA_35 |54.22Mb
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-  port: 443
-  server: 149.56.141.11
+- name: CA_31 |171.09Mb
+  password: 8a4b7ed7-3e24-48d5-93d2-2c58a2e8305d
+  port: 10045
+  server: 172.105.101.103
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_36 |38.08Mb
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-  port: 443
-  server: cat1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_37
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: 149.56.141.11
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_38
+- name: CA_39 |129.83Mb
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_28 | 8.77Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.154
-  type: ss
+- name: CA_40 |165.08Mb
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_41 |127.10Mb
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: 149.56.141.11
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_42 |91.93Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_29 |11.37Mb
+  name: CA_32 | 2.49Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_30 | 8.43Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_31 |13.05Mb
+  name: CA_33 |15.75Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_32 |10.34Mb
+  name: CA_34 | 3.79Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_35 | 4.81Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_36 | 5.35Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 196.247.59.154
+  type: ss
+  udp: true
 - alterId: 32
   cipher: auto
-  name: CA_33 | 4.53Mb
+  name: CA_37 | 5.16Mb
   port: 443
   server: 139.99.90.122
   skip-cert-verify: true
@@ -74,7 +81,7 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 32
   cipher: auto
-  name: CA_34 |20.89Mb
+  name: CA_38 | 5.52Mb
   port: 443
   server: 139.99.91.95
   skip-cert-verify: true
