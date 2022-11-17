@@ -1,113 +1,57 @@
 proxies:
-- name: TW_225
+- name: TW_233
+  password: 0cc6b4268dea0ba8
+  port: 3389
+  server: 60.249.3.231
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_234
   password: 3febb05ea76a940f
   port: 3389
   server: 60.249.3.125
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_226
+- name: TW_235
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_236
+  password: 182228812d1e0f23
+  port: 3389
+  server: 211.72.35.152
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_237
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.156
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: TW_227
+- name: TW_238
   password: 0cc6b4268dea0ba8
   port: 3389
   server: 211.72.35.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_228
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.153
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_229
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.158
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_230
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_231
-  password: 0cc6b4268dea0ba8
-  port: 3389
-  server: 60.249.3.231
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_232
-  password: 0cc6b4268dea0ba8
-  port: 3389
-  server: 211.72.35.152
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_233
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.230
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_234
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_235
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_236 | 2.19Mb
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 65012
-  server: 210-64-18-99.nhost.00cdn.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_237
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.231
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: TW_238 | 1.09Mb
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 65015
-  server: 210-64-18-99.nhost.00cdn.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: TW_239
-  password: b09d2aaa443af97a
+  password: 182228812d1e0f23
   port: 3389
-  server: 211.72.35.155
+  server: 60.249.3.231
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: TW_240
   password: 182228812d1e0f23
   port: 3389
-  server: 211.72.35.152
+  server: 60.249.3.230
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -118,3 +62,60 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: TW_242
+  password: 182228812d1e0f23
+  port: 3389
+  server: 60.249.3.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_243
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.157
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_244
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.158
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_246
+  password: 0cc6b4268dea0ba8
+  port: 3389
+  server: 211.72.35.152
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_247
+  password: 7b06d22a8a7c764f
+  port: 3389
+  server: 211.72.35.153
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW_248
+  password: b09d2aaa443af97a
+  port: 3389
+  server: 211.72.35.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: TW_232
+  network: ws
+  port: 443
+  server: 220.130.80.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 70206490-8292-4242-b263-e7d11589362e
+  ws-opts:
+    headers:
+      Host: wx.adbse.xyz
+    path: /down
