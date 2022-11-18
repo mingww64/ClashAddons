@@ -1,113 +1,127 @@
 proxies:
-- name: FR_141
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
+- name: FR_104
+  password: origin
   port: 443
-  server: 51.75.76.22
+  server: 51.77.71.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_142
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 62.210.254.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_143
+- name: FR_105
   password: origin
   port: 443
   server: content-provider12.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_144
+- name: FR_115
   password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
   server: de.tjvpn.org
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_145 |31.50Mb
+- name: FR_116
+  password: origin
+  port: 443
+  server: content-provider26.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_117
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 62.210.254.72
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_118
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
+  port: 443
+  server: 51.75.76.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_119 |48.35Mb
   password: xxoo
   port: 443
   server: 146.19.230.241
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_146 | 2.84Mb
+- name: FR_120
+  password: Sp3eDVp
+  port: 443
+  server: 51.77.71.131
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_121 | 5.98Mb
   password: 0f5e6d9a-49af-4bc0-b04b-503102382144
   port: 443
   server: ukt1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_147
-  password: Sp3eDVp
-  port: 443
-  server: content-provider5.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: FR_132 |43.92Mb
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_133
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 195.154.200.150
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_134
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_135 |43.14Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_136 |43.19Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_137
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_138 |39.68Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_139
+  name: FR_106
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 62.210.113.98
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_140
+  name: FR_107
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_108
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_109
   password: KixLvKzwjekG00rm
   port: 8080
   server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_110 |42.13Mb
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_111 | 7.96Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_112
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_113 |43.83Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_114 |38.65Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
   type: ss
   udp: true

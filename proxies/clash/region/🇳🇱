@@ -1,5 +1,12 @@
 proxies:
-- name: NL_199 | 7.47Mb
+- name: NL_166 |55.25Mb
+  password: Sp3eDVp
+  port: 443
+  server: content-provider24.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: NL_167 |17.74Mb
   password: Sp3eDVp
   port: 443
   server: content-provider13.cdn-delivery.akamaicd.com
@@ -7,58 +14,58 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: NL_190 |27.05Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 85.208.108.60
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_191 | 6.97Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 85.208.108.93
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_192 | 6.13Mb
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_193 | 6.42Mb
+  name: NL_157 | 8.22Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_194 |26.40Mb
+  name: NL_158 |29.95Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 85.208.108.60
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_159 | 7.03Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_160 |30.76Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_195 | 3.61Mb
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 85.208.108.18
+  name: NL_161 | 8.05Mb
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.20
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_196 |24.02Mb
+  name: NL_162 | 8.13Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 85.208.108.20
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_163 |31.04Mb
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_197 | 4.37Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 85.208.108.20
+  name: NL_164 | 7.96Mb
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 85.208.108.18
   type: ss
   udp: true
