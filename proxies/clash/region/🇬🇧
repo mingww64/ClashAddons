@@ -1,36 +1,64 @@
 proxies:
-- cipher: aes-128-gcm
-  name: GB_122 |69.01Mb
-  password: shadowsocks
+- name: GB_167 |12.21Mb
+  password: drpzqcrmquWSuZKNd7
   port: 443
-  server: 212.102.53.194
-  type: ss
+  server: hk1-6.dimsumyumcha.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_168 |24.05Mb
+  password: drpzqcrmquWSuZKNd7
+  port: 443
+  server: hk1-2.dimsumyumcha.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_169 | 9.46Mb
+  password: drpzqcrmquWSuZKNd7
+  port: 443
+  server: hk1-8.dimsumyumcha.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_170 |16.52Mb
+  password: drpzqcrmquWSuZKNd7
+  port: 443
+  server: hk1-7.dimsumyumcha.com
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_123 |63.29Mb
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 78.129.253.9
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_124 |62.26Mb
+  name: GB_171 |36.98Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 78.129.253.9
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: GB_125 |33.59Mb
+  name: GB_172 |24.45Mb
   password: null
   port: 50003
   server: 5.183.100.87
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: GB_126 |68.97Mb
+  name: GB_173 |26.09Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.78
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB_174 |72.33Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.194
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_175 |62.78Mb
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 78.129.253.9
   type: ss
   udp: true
