@@ -1,91 +1,22 @@
 proxies:
-- name: JP_189
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: 133.167.100.203
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_191
-  password: 1bacde9b-3a1a-43eb-b091-287824dc91d3
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_192
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  port: 443
-  server: trs09.bolab.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_193
-  password: 5491534e-00b5-42ff-853a-723997aadbdb
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_194
-  password: 1988268c-a841-42f2-acac-7a8c0c7e78e5
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_195
-  password: 84773125-8f79-481c-a80b-e1f4aad86850
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_196 |32.61Mb
+- name: JP_166 |17.71Mb
   password: 496202d8-19c4-4023-ad85-04217a74e790
   port: 10001
   server: 172.104.85.224
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_198 |33.26Mb
+- name: JP_167
+  password: 7a566d21dfcd0f12490275fd3dd3cfc4
+  port: 443
+  server: trs09.bolab.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_169 |32.60Mb
   password: 496202d8-19c4-4023-ad85-04217a74e790
   port: 10001
   server: 172.105.203.114
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_200
-  password: dc26913c-a31c-4b3f-9c03-28a6b4283a89
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_201
-  password: 545034ab-8179-46ea-a7d4-a5c992cce000
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: JP_188
-  port: 12356
-  server: 00000000000000000000000000000000000000000000000000000000000033a.rui77.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-- alterId: 0
-  cipher: auto
-  name: JP_190
-  port: 50001
-  server: agroup.node1.v.nodelist-gfwairport.download
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e00b75c0-3211-4acb-abc6-cec81b3fab8e

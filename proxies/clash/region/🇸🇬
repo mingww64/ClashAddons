@@ -1,106 +1,85 @@
 proxies:
-- name: SG_226
-  password: b341f309-7e2b-45c4-a316-9e23037e3711
-  port: 443
-  server: sg.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_227
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: jp.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_228 |21.19Mb
-  password: 496202d8-19c4-4023-ad85-04217a74e790
-  port: 10001
-  server: 68.183.228.213
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_229
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: kh.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_230 |14.78Mb
-  password: 496202d8-19c4-4023-ad85-04217a74e790
-  port: 10001
-  server: 128.199.112.21
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_231
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: de.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_232
-  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
-  port: 443
-  server: jp.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_233
-  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
-  port: 443
-  server: uk.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_234
-  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
-  port: 443
-  server: ap.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_235
-  password: b341f309-7e2b-45c4-a316-9e23037e3711
-  port: 443
-  server: ap.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_236
-  password: 2b2b1b4f-3372-47f7-9f90-26097c7683f9
-  port: 443
-  server: sg.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_237
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: ap.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_238
+- name: SG_191
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: de.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_239
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: usa.liangyuandian.top
+- name: SG_192 |14.93Mb
+  password: 496202d8-19c4-4023-ad85-04217a74e790
+  port: 10001
+  server: 128.199.112.21
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_240 |23.37Mb
+- name: SG_193
+  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
+  port: 443
+  server: jp.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_194
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
+  port: 443
+  server: jp.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_195
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: kh.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_196 |21.97Mb
+  password: 496202d8-19c4-4023-ad85-04217a74e790
+  port: 10001
+  server: 68.183.228.213
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_197 |24.15Mb
   password: FLpONjB2Lb
   port: 443
   server: 139.162.45.139
   skip-cert-verify: true
   type: trojan
+  udp: true
+- name: SG_198
+  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
+  port: 443
+  server: uk.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_199
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: de.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SG_187
+  port: 40771
+  server: lll.277428.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 61194810-5193-48bc-eb0a-7978a059d681
+- cipher: aes-256-cfb
+  name: 🇸🇬 sg-am3.eqsunshine.com:32001
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: 3g0dHlKME
+  port: 32001
+  protocol: origin
+  protocol-param: ''
+  server: sg-am3.eqsunshine.com
+  type: ssr
   udp: true
