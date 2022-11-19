@@ -1,3 +1,4 @@
 proxies:
   - {name: 94.102.57.163:11708, server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: WWW.YOUNEED.WIN, obfs-param: WWW.YOUNEED.WIN, udp: true}
   - {name: 94.102.57.163:11708 2, server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: ssr.zhujicn2.net:22666, server: ssr.zhujicn2.net, port: 22666, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}

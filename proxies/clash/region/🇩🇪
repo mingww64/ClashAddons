@@ -1,162 +1,71 @@
 proxies:
-- name: DE_121 |17.64Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au1-4.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_122 |16.41Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au1-2.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_123 |24.73Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au2-2.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_124 |25.98Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au2-3.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_125 |17.38Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au2-1.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_126 |12.39Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au3-2.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_127 |17.08Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au1-3.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_128 |22.09Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au3-4.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_129 |23.13Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au1-1.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_130 | 9.58Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au2-4.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_131 |26.51Mb
-  password: drpzqcrmquWSuZKNd7
-  port: 443
-  server: au3-3.vegemitepie.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_140
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 89.163.220.99
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_141
+- name: DE_145
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
   server: 141.94.76.177
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_142
+- name: DE_146
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
   port: 28443
   server: 89.163.220.99
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_143 | 2.34Mb
-  password: null
-  port: 443
-  server: trojan-ctb-sg01.globalssh.xyz
+- name: DE_147
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 89.163.220.99
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_132 | 9.01Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_133 | 7.97Mb
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: DE_134 |45.19Mb
-  password: 97OnDEZYGja4
-  port: 443
-  server: 178.18.244.2
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_135 | 7.89Mb
+  name: DE_137 |13.52Mb
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_136 | 6.88Mb
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_137 | 8.39Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_138 | 6.86Mb
+  name: DE_138 |23.79Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_139 | 9.09Mb
+  name: DE_139 |13.38Mb
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_140 |22.59Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_141 |31.17Mb
   password: faBAoD54k87UJG7
   port: 2376
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_142 | 7.83Mb
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_143 | 7.66Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
   server: 193.108.117.75
   type: ss
   udp: true
