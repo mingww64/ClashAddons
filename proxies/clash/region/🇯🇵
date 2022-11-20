@@ -1,22 +1,61 @@
 proxies:
-- name: JP_166 |17.71Mb
-  password: 496202d8-19c4-4023-ad85-04217a74e790
-  port: 10001
-  server: 172.104.85.224
+- name: JP_200
+  password: 36443c4f-4487-48a6-8438-57bd7700b916
+  port: 443
+  server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_167
+- name: JP_203
+  password: 1988268c-a841-42f2-acac-7a8c0c7e78e5
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_204
+  password: 1bacde9b-3a1a-43eb-b091-287824dc91d3
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_206
+  password: 2e4c54a0-a780-4994-97c0-44eb92857d76
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_209
+  password: 84773125-8f79-481c-a80b-e1f4aad86850
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_210
+  password: b70b2ed8-6d35-4fe0-8ae7-4e8fa45ff326
+  port: 443
+  server: kr1.api-aws.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_211
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   port: 443
   server: trs09.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_169 |32.60Mb
-  password: 496202d8-19c4-4023-ad85-04217a74e790
-  port: 10001
-  server: 172.105.203.114
-  skip-cert-verify: true
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇯🇵 jp-am48-6.eqnode.net:8081
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: eAokbaDN6
+  port: 8081
+  protocol: origin
+  protocol-param: ''
+  server: jp-am48-6.eqnode.net
+  type: ssr
   udp: true
