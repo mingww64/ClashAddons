@@ -1,26 +1,26 @@
 proxies:
-- name: CA_32
+- name: CA_37
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_33 |97.85Mb
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: cat1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_34
+- name: CA_38
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_35 |68.85Mb
+- name: CA_39 |122.11Mb
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_40 |113.36Mb
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
@@ -28,43 +28,43 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_25 |19.43Mb
+  name: CA_30 |35.68Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_26 |15.41Mb
+  name: CA_31 |28.72Mb
   password: G!yBwPWH3Vao
-  port: 801
+  port: 809
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_27 |13.27Mb
+  name: CA_32 |29.78Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_28 |15.03Mb
+  name: CA_33 |25.13Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_29 |32.03Mb
+  name: CA_34 |26.97Mb
   password: G!yBwPWH3Vao
-  port: 809
+  port: 801
   server: 196.247.59.154
   type: ss
   udp: true
 - alterId: 32
   cipher: auto
-  name: CA_30 | 8.72Mb
+  name: CA_35 |14.46Mb
   port: 443
   server: 139.99.91.95
   skip-cert-verify: true
@@ -74,7 +74,7 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 32
   cipher: auto
-  name: CA_31 | 5.48Mb
+  name: CA_36 | 8.40Mb
   port: 443
   server: 139.99.90.122
   skip-cert-verify: true

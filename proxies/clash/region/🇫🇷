@@ -1,127 +1,127 @@
 proxies:
-- name: FR_150 |30.05Mb
-  password: xxoo
-  port: 443
-  server: 146.19.230.241
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_151
+- name: FR_129
   password: origin
   port: 443
-  server: 51.77.71.134
+  server: 176.31.83.90
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_152
+- name: FR_130
   password: origin
   port: 443
   server: content-provider26.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_153
+- name: FR_140
   password: origin
   port: 443
   server: content-provider12.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_154
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 62.210.254.72
+- name: FR_141
+  password: origin
+  port: 443
+  server: 51.77.71.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_155
+- name: FR_142
   password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
   server: de.tjvpn.org
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_156
-  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
-  port: 443
-  server: ukt1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_157
-  password: Sp3eDVp
-  port: 443
-  server: 51.77.71.131
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_158
+- name: FR_143
   password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
   server: 51.75.76.22
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: FR_144
+  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+  port: 443
+  server: ukt1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_145
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 62.210.254.72
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_146 |41.56Mb
+  password: xxoo
+  port: 443
+  server: 146.19.230.241
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: FR_141
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 195.154.200.150
+  name: FR_131 |39.56Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_142 |44.03Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_143
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_144
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_145
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_146 |43.37Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_147 |43.21Mb
+  name: FR_132 |43.51Mb
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_148
+  name: FR_133 |42.97Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_134
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_135
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_136
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 62.210.113.98
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_149 |36.40Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
+  name: FR_137 |44.18Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_138
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_139
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
   type: ss
   udp: true

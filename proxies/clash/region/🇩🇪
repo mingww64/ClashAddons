@@ -1,26 +1,33 @@
 proxies:
-- name: DE_136
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 89.163.220.99
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_137
+- name: DE_124
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
   port: 28443
   server: 89.163.220.99
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_139
+- name: DE_125 | 3.20Mb
+  password: null
+  port: 443
+  server: trojan-ctb-sg01.globalssh.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_126
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
   server: 141.94.76.177
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_140 |51.62Mb
+- name: DE_127
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 89.163.220.99
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_128 |47.43Mb
   password: origin
   port: 443
   server: 188.40.251.19
@@ -28,64 +35,64 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: DE_129 |11.63Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_130 |14.67Mb
+  name: DE_115 |41.53Mb
   password: e4FCWrgpkji3QY
   port: 9102
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_131 | 9.37Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_132 |18.89Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_133 |16.96Mb
+  name: DE_116 |22.32Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_134 |19.63Mb
+  name: DE_117 |20.69Mb
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_135 | 9.08Mb
+  name: DE_118 |17.78Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_120 |17.86Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 193.108.117.75
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: DE_121 |31.51Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_122 |38.02Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 193.108.117.75
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: DE_128 |49.38Mb
+  name: DE_123 |55.47Mb
   network: ws
-  port: 30166
-  server: 167.235.229.49
+  port: 11789
+  server: 5.75.170.33
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: ba19c5f2-0cea-402e-f296-50b4791dcc59
+  uuid: e8f87479-4edb-4de2-f67e-0519a6793479
   ws-opts:
     path: /

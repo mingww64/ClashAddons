@@ -1,6 +1,13 @@
 proxies:
+- cipher: aes-256-gcm
+  name: RU_203
+  password: null
+  port: 23456
+  server: 31.192.232.218
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: RU_219 |17.01Mb
+  name: RU_204 | 4.48Mb
   password: vDS9G2p
   port: 21247
   server: 185.4.65.6

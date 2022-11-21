@@ -1,115 +1,95 @@
 proxies:
-- name: SG_228
-  password: 2b2b1b4f-3372-47f7-9f90-26097c7683f9
-  port: 443
-  server: sg.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_229
-  password: b341f309-7e2b-45c4-a316-9e23037e3711
-  port: 443
-  server: ap.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_230
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: de.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_231
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: ap.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_232
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  port: 443
-  server: kh.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_233
+- name: SG_209
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: de.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_234
+- name: SG_210
+  password: 2b2b1b4f-3372-47f7-9f90-26097c7683f9
+  port: 443
+  server: sg.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_211
   password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
+  port: 443
+  server: jp.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_212
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: ap.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_235
+- name: SG_213
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
   server: jp.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_236
-  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
+- name: SG_214
+  password: b341f309-7e2b-45c4-a316-9e23037e3711
   port: 443
-  server: uk.liangyuandian.top
+  server: ap.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_237
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
-  port: 443
-  server: usa.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_238
-  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
-  port: 443
-  server: jp.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_239 |22.83Mb
-  password: FLpONjB2Lb
-  port: 443
-  server: 139.162.45.139
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_240
+- name: SG_215
   password: b341f309-7e2b-45c4-a316-9e23037e3711
   port: 443
   server: sg.liangyuandian.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: SG_226
+- name: SG_216
+  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
-  server: 00000000000000000000000000000000000000000000000000000000000006a.rui77.com
+  server: usa.liangyuandian.top
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-- alterId: 0
-  cipher: auto
-  name: SG_227 |22.35Mb
-  port: 40771
-  server: lll.277428.xyz
+- name: SG_217
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: kh.iamnotagoodman.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 61194810-5193-48bc-eb0a-7978a059d681
+- name: SG_218
+  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
+  port: 443
+  server: uk.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_219 |14.87Mb
+  password: FLpONjB2Lb
+  port: 443
+  server: 139.162.45.139
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_220
+  password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
+  port: 443
+  server: ap.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_221
+  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
+  port: 443
+  server: de.iamnotagoodman.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 🇸🇬 sg-am3.eqsunshine.com:32001
   obfs: tls1.2_ticket_auth
