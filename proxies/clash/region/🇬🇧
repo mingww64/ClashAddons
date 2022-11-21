@@ -1,50 +1,64 @@
 proxies:
-- name: GB_147 |53.49Mb
+- name: GB_149 |62.29Mb
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: jgwld1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_154 | 7.24Mb
+- name: GB_156
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  port: 443
+  server: 132.145.51.172
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_157 |57.98Mb
   password: shefelnak
   port: 443
   server: content-provider20.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: GB_148 |73.61Mb
-  password: shadowsocks
+- name: GB_159
+  password: efd30354-baf5-4508-afa0-91ef8e59c5ec
   port: 443
-  server: 212.102.53.78
-  type: ss
+  server: uk-do.cloudfast.one
+  skip-cert-verify: true
+  type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: GB_149 |62.71Mb
+  name: GB_150 |72.82Mb
   password: shadowsocks
   port: 443
   server: 212.102.53.194
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_150 |14.63Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 78.129.253.9
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: GB_151 | 1.96Mb
+  name: GB_151 | 7.40Mb
   password: null
   port: 50003
   server: 5.183.100.87
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_152 |14.59Mb
+  name: GB_152 |35.18Mb
   password: G!yBwPWH3Vao
   port: 808
   server: 78.129.253.9
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_153 |35.31Mb
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB_154 |17.23Mb
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.78
   type: ss
   udp: true

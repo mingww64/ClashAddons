@@ -1,120 +1,148 @@
 proxies:
 - name: CN_100
   password: bab40563-cafe-39c1-9d76-c3e627d73758
-  port: 20009
-  server: 20009.purefast2.com
+  port: 20012
+  server: 20012.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_101
   password: bab40563-cafe-39c1-9d76-c3e627d73758
-  port: 20010
-  server: 20010.purefast2.com
+  port: 20009
+  server: 20009.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_102
   password: bab40563-cafe-39c1-9d76-c3e627d73758
-  port: 20004
-  server: 20004.purefast2.com
+  port: 20010
+  server: 20010.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_103
-  password: bab40563-cafe-39c1-9d76-c3e627d73758
-  port: 20008
-  server: 20008.purefast2.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_104
-  password: bab40563-cafe-39c1-9d76-c3e627d73758
-  port: 20011
-  server: 20011.purefast2.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_105
-  password: 3febb05ea76a940f
-  port: 3389
-  server: 106.75.239.176
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_106
-  password: 83a3b688-04e5-3c28-85b7-82698a174e41
-  port: 20010
-  server: 20010.purefast2.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_107
-  password: 83a3b688-04e5-3c28-85b7-82698a174e41
-  port: 20014
-  server: 20014.purefast2.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_108
-  password: 83a3b688-04e5-3c28-85b7-82698a174e41
-  port: 20005
-  server: 20005.purefast2.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_109
-  password: bab40563-cafe-39c1-9d76-c3e627d73758
-  port: 20005
-  server: 20005.purefast2.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_110
-  password: faf42aa0a9ad4c1e
-  port: 3389
-  server: 116.129.253.134
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_111
-  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-  port: 30020
-  server: 223.111.202.148
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_112
-  password: 182228812d1e0f23
-  port: 3389
-  server: 116.129.253.134
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_43
-  password: 5f42a7e5-1b5a-3f89-a75a-306e68d8ac1a
-  port: 20010
-  server: 20010.purefast2.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_44
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
   port: 30010
   server: 223.111.202.148
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_45
+- name: CN_104
+  password: bab40563-cafe-39c1-9d76-c3e627d73758
+  port: 20008
+  server: 20008.purefast2.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_105
+  password: bab40563-cafe-39c1-9d76-c3e627d73758
+  port: 20011
+  server: 20011.purefast2.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_106
+  password: 3febb05ea76a940f
+  port: 3389
+  server: 106.75.239.176
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_107
+  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
+  port: 30080
+  server: 223.111.202.148
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_108
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
   port: 30070
   server: 223.111.202.148
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_46
+- name: CN_109
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-  port: 30030
+  port: 30050
   server: 223.111.202.148
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_110
+  password: 83a3b688-04e5-3c28-85b7-82698a174e41
+  port: 20006
+  server: 20006.purefast2.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_111
+  password: 182228812d1e0f23
+  port: 3389
+  server: 116.129.253.134
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_112
+  password: faf42aa0a9ad4c1e
+  port: 3389
+  server: 116.129.253.134
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_113
+  password: 83a3b688-04e5-3c28-85b7-82698a174e41
+  port: 20010
+  server: 20010.purefast2.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_114
+  password: bab40563-cafe-39c1-9d76-c3e627d73758
+  port: 20005
+  server: 20005.purefast2.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_115
+  password: 83a3b688-04e5-3c28-85b7-82698a174e41
+  port: 20005
+  server: 20005.purefast2.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_116
+  password: bab40563-cafe-39c1-9d76-c3e627d73758
+  port: 20004
+  server: 20004.purefast2.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_40
+  password: 3A44655F-8BAF-9FF8-F1A9-6B031F937B3F
+  port: 20052
+  server: cos-ap-beijing.westdatacloud.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_41
+  password: FA0FBA6B-99EC-0DB0-9DB1-70FD0D03EC16
+  port: 20052
+  server: cos-ap-beijing.westdatacloud.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_42
+  password: 2AE0C3C5-6377-DD90-283E-F3B5C426D9CE
+  port: 20052
+  server: cos-ap-beijing.westdatacloud.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_46
+  password: 07730e7a-427a-35b5-8095-b70a6535fd23
+  port: 20004
+  server: 20004.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -175,16 +203,16 @@ proxies:
   type: trojan
   udp: true
 - name: CN_55
-  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
-  port: 30080
+  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+  port: 30030
   server: 223.111.202.148
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CN_56
-  password: 83a3b688-04e5-3c28-85b7-82698a174e41
-  port: 20006
-  server: 20006.purefast2.com
+  password: 5f42a7e5-1b5a-3f89-a75a-306e68d8ac1a
+  port: 20010
+  server: 20010.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -203,9 +231,9 @@ proxies:
   type: trojan
   udp: true
 - name: CN_59
-  password: 07730e7a-427a-35b5-8095-b70a6535fd23
-  port: 20004
-  server: 20004.purefast2.com
+  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+  port: 30020
+  server: 223.111.202.148
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -322,177 +350,197 @@ proxies:
   type: trojan
   udp: true
 - name: CN_76
+  password: 6eab3d62-eeb2-4b07-a174-944a09fe805a
+  port: 16802
+  server: h15r.centaur.network
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_77
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   port: 20004
   server: 20004.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_77
+- name: CN_78
   password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
   port: 16805
   server: v1r.centaur.network
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_78
+- name: CN_79
   password: e199b516-00f9-469e-9ee5-fe609b4bc34e
   port: 16802
   server: p3r.centaur.network
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_79
+- name: CN_80
+  password: 6eab3d62-eeb2-4b07-a174-944a09fe805a
+  port: 16804
+  server: h15r.centaur.network
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CN_81
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   port: 20013
   server: 20013.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_80
+- name: CN_82
   password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06
   port: 20011
   server: 20011.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_81
-  password: e199b516-00f9-469e-9ee5-fe609b4bc34e
-  port: 16809
-  server: p3r.centaur.network
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_82
+- name: CN_83
   password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
   port: 16802
   server: v1r.centaur.network
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_83
+- name: CN_84
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   port: 20008
   server: 20008.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_84
+- name: CN_85
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   port: 20010
   server: 20010.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_85
+- name: CN_86
   password: 0cc6b4268dea0ba8
   port: 3389
   server: 106.75.128.213
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_86
+- name: CN_87
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   port: 20007
   server: 20007.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_87
+- name: CN_88
   password: 0cc6b4268dea0ba8
   port: 3389
   server: 120.132.12.54
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_88
+- name: CN_89
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   port: 20012
   server: 20012.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_89
+- name: CN_90
   password: 36fe28a331638747
   port: 3389
   server: 42.240.131.142
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_90
+- name: CN_91
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   port: 20013
   server: 20013.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_91
+- name: CN_92
   password: 182228812d1e0f23
   port: 3389
   server: 106.75.154.24
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_92
+- name: CN_93
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   port: 20003
   server: 20003.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_93
+- name: CN_94
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   port: 20007
   server: 20007.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_94
+- name: CN_95
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   port: 20002
   server: 20002.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_95
+- name: CN_96
   password: 3c4e10af98c30972
   port: 3389
   server: 106.75.233.91
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_96
+- name: CN_97
   password: 8b475d9e868e43e0
   port: 3389
   server: 106.75.157.65
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_97
+- name: CN_98
   password: 83a3b688-04e5-3c28-85b7-82698a174e41
   port: 20012
   server: 20012.purefast2.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_98
+- name: CN_99
   password: 3c4e10af98c30972
   port: 3389
   server: 106.75.240.227
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CN_99
-  password: bab40563-cafe-39c1-9d76-c3e627d73758
-  port: 20012
-  server: 20012.purefast2.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: CN_42
+  name: CN_39
+  port: 16129
+  server: zfd-moble.gatknqh.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
+- alterId: 0
+  cipher: auto
+  name: CN_43
   port: 16116
+  server: zfd-moble.gatknqh.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
+- alterId: 0
+  cipher: auto
+  name: CN_44
+  port: 16132
   server: zfd-moble.gatknqh.cn
   skip-cert-verify: true
   tls: false
