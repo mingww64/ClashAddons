@@ -1,57 +1,84 @@
 proxies:
-- name: JP_161 | 2.12Mb
+- name: JP_173 | 2.12Mb
   password: 14bdba6dede262387ebdebaa706e1c90
   port: 443
   server: trs12.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_162 |19.95Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: 168.138.44.176
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_163 |27.97Mb
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: jgwdb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: JP_165 |12.00Mb
-  password: dc26913c-a31c-4b3f-9c03-28a6b4283a89
+- name: JP_180
+  password: 5491534e-00b5-42ff-853a-723997aadbdb
   port: 443
   server: kr1.api-aws.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_167
+- name: JP_181 | 1.87Mb
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.ivano-frankivsk.ua
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP_182
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   port: 443
   server: trs09.bolab.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_168
-  password: d66dccd1-90c1-4713-8972-2417a2854df2
+- name: JP_185 |27.97Mb
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
   port: 443
-  server: kr1.api-aws.com
+  server: jgwdb3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_169
-  password: 61f6271b-5e65-46b8-bc80-c6468a1f185e
+- name: JP_186 | 9.81Mb
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
   port: 443
-  server: kr1.api-aws.com
+  server: 168.138.44.176
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: JP_171
-  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
-  port: 443
-  server: kr1.api-aws.com
+- alterId: 0
+  cipher: auto
+  name: JP_175
+  port: 80
+  server: 00000000000000000000000000000000000000000000000000000000000003a.rui77.com
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+- alterId: 0
+  cipher: auto
+  name: JP_176
+  port: 50001
+  server: agroup.node1.v.nodelist-gfwairport.download
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e00b75c0-3211-4acb-abc6-cec81b3fab8e
+- alterId: 0
+  cipher: auto
+  name: JP_177
+  port: 52356
+  server: 00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- cipher: aes-256-cfb
+  name: 🇯🇵 jp-am48-6.eqnode.net:8081
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: eAokbaDN6
+  port: 8081
+  protocol: origin
+  protocol-param: ''
+  server: jp-am48-6.eqnode.net
+  type: ssr
   udp: true

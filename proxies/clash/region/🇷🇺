@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: RU_273 | 4.48Mb
-  password: vDS9G2p
-  port: 21247
-  server: 185.4.65.6
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
   http-opts:
@@ -15,7 +8,7 @@ proxies:
     method: GET
     path:
     - /
-  name: RU_275
+  name: RU_218
   network: http
   port: 37672
   server: 176.119.159.245
