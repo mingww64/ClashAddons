@@ -1,19 +1,16 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - apple.com
-    method: GET
-    path:
-    - /
-  name: RU_218
-  network: http
-  port: 37672
-  server: 176.119.159.245
+  name: RU_185
+  network: ws
+  port: 80
+  server: cl-gl2d3b3310.gcdn.co
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
+  uuid: 938415bb-7df2-14dc-992d-8904a5bb6df2
+  ws-opts:
+    headers:
+      Host: "tls.weoworks.ml\r\ntls.weoworks.ml"
+    path: /
