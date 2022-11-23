@@ -1,36 +1,7 @@
 proxies:
-- name: AU_19 |22.59Mb
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  port: 443
-  server: jgwxn3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: AU_20 |20.38Mb
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  port: 443
-  server: 140.238.205.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: AU_17
-  network: ws
-  port: 80
-  server: 139.99.237.62
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  ws-opts:
-    headers:
-      Host: static.azadrah22.com
-    path: /user
-- alterId: 0
-  cipher: auto
-  name: AU_18
+  name: AU_15
   port: 12356
   server: 00000000000000000000000000000000000000000000000000000000000034a.rui77.com
   skip-cert-verify: true

@@ -1,8 +1,16 @@
 proxies:
-- name: IN_152
-  password: 1eded6fc-8b28-33df-a93f-6491de5f7a12
-  port: 443
-  server: ind1.elknode.top
+- alterId: 0
+  cipher: auto
+  name: IN_158 |10.73Mb
+  network: ws
+  port: 20
+  server: 45.79.120.243
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: d380107c-54f3-4da6-d034-18ed66152f07
+  ws-opts:
+    headers:
+      Host: 45.79.120.243
+    path: /
