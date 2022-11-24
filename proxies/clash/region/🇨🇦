@@ -1,47 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CA_24 |12.10Mb
+  name: CA_24 |21.67Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_25 |12.54Mb
+  name: CA_25 |26.05Mb
   password: G!yBwPWH3Vao
-  port: 801
+  port: 803
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_26 |20.02Mb
+  name: CA_26 |15.59Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_27 |18.70Mb
+  name: CA_27 |11.38Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_28 |18.14Mb
+  name: CA_28 |17.95Mb
   password: G!yBwPWH3Vao
-  port: 803
+  port: 801
   server: 196.247.59.154
   type: ss
   udp: true
-- name: CA_30 |13.47Mb
+- name: CA_30 | 2.59Mb
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_31 |13.60Mb
+- name: CA_31 | 5.56Mb
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
@@ -64,7 +64,7 @@ proxies:
   udp: true
 - alterId: 32
   cipher: auto
-  name: CA_29 |12.43Mb
+  name: CA_29 |19.89Mb
   port: 443
   server: 139.99.91.95
   skip-cert-verify: true
