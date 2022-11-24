@@ -1,7 +1,14 @@
 proxies:
+- cipher: aes-256-cfb
+  name: RU_222 | 6.26Mb
+  password: vDS9G2p
+  port: 21247
+  server: 185.4.65.6
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: RU_185
+  name: RU_224
   network: ws
   port: 80
   server: cl-gl2d3b3310.gcdn.co

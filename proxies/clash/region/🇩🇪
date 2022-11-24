@@ -1,97 +1,113 @@
 proxies:
-- name: DE_103
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 89.163.220.99
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_104
-  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-  port: 28443
-  server: 89.163.220.99
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_105
-  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
-  port: 443
-  server: 141.94.76.177
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_106 | 2.99Mb
-  password: null
-  port: 443
-  server: trojan-ctb-sg01.globalssh.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: DE_100 | 7.97Mb
+  name: DE_112 |28.24Mb
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_94 | 8.39Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
+  name: DE_113 | 8.31Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_95 | 8.12Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8881
+  name: DE_114 |11.48Mb
+  password: e4FCWrgpkji3QY
+  port: 9102
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_96 |46.88Mb
+  name: DE_115 |40.20Mb
   password: 97OnDEZYGja4
   port: 443
   server: 178.18.244.2
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_97 | 9.09Mb
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_98 | 6.94Mb
+  name: DE_116 |12.09Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_99 | 9.82Mb
+  name: DE_117 |11.81Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_118 | 8.73Mb
   password: faBAoD54k87UJG7
   port: 2376
   server: 193.108.117.75
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: DE_119 | 9.07Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- name: DE_122 | 5.20Mb
+  password: null
+  port: 443
+  server: trojan-ctb-sg01.globalssh.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_123
+  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
+  port: 443
+  server: 141.94.76.177
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_124
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 89.163.220.99
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_125 |45.96Mb
+  password: origin
+  port: 443
+  server: 188.40.251.19
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_126
+  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+  port: 28443
+  server: 89.163.220.99
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: DE_101
+  name: DE_120 |199.17Mb
   network: ws
-  port: 58130
-  server: 159.89.13.84
+  port: 3389
+  server: 5.161.105.171
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: bcd266dc-d6e9-4ea4-8285-dba7e4b167b2
+  uuid: 06d52c29-1230-49a7-8fa6-66dbc9749a95
   ws-opts:
+    headers:
+      Host: 5.161.105.171
     path: /
 - alterId: 0
   cipher: auto
-  name: DE_102 |199.80Mb
+  name: DE_121 |212.64Mb
   network: ws
   port: 80
   server: 5.161.105.171
