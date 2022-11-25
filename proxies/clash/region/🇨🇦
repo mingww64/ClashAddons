@@ -1,62 +1,62 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CA_24 |21.67Mb
+  name: CA_18 |32.04Mb
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_19 |26.12Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_25 |26.05Mb
+  name: CA_20 |39.86Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_26 |15.59Mb
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_27 |11.38Mb
+  name: CA_21 |50.21Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_28 |17.95Mb
+  name: CA_22 |39.76Mb
   password: G!yBwPWH3Vao
-  port: 801
+  port: 809
   server: 196.247.59.154
   type: ss
   udp: true
-- name: CA_30 | 2.59Mb
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+- name: CA_24
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_31 | 5.56Mb
+- name: CA_25
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_26
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_32
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-  port: 443
-  server: cat1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_33
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+- name: CA_27
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
@@ -64,7 +64,7 @@ proxies:
   udp: true
 - alterId: 32
   cipher: auto
-  name: CA_29 |19.89Mb
+  name: CA_23 |20.44Mb
   port: 443
   server: 139.99.91.95
   skip-cert-verify: true
