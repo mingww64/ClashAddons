@@ -1,70 +1,70 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CA_18 | 7.13Mb
+  name: CA_20 | 6.20Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_19 |10.60Mb
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_20 | 6.50Mb
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 196.247.59.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CA_21 |10.80Mb
+  name: CA_21 |10.13Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_22 | 6.74Mb
+  name: CA_22 | 4.60Mb
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_23 |10.39Mb
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 196.247.59.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA_24 | 3.56Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
   udp: true
-- name: CA_24
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-  port: 443
-  server: 149.56.141.11
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_25
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: cat1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: CA_26
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
-  server: 149.56.141.11
+  server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CA_27
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_28
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_29
+  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+  port: 443
+  server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 32
   cipher: auto
-  name: CA_23 | 5.71Mb
+  name: CA_25 | 3.91Mb
   port: 443
   server: 139.99.91.95
   skip-cert-verify: true

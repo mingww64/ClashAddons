@@ -1,71 +1,78 @@
 proxies:
 - cipher: aes-256-gcm
-  name: NL_184 | 3.43Mb
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_185 | 3.51Mb
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 85.208.108.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_186 | 3.14Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 85.208.108.20
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_187 |24.04Mb
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 85.208.108.60
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_188 | 3.59Mb
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 85.208.108.93
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_189 | 6.42Mb
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 85.208.108.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: NL_190 |24.56Mb
+  name: NL_130 |27.54Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.60
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: NL_191 |31.56Mb
+  name: NL_131 | 5.43Mb
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.20
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_132 |32.79Mb
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_133 | 7.56Mb
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 85.208.108.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_134 | 7.23Mb
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 85.208.108.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_135 |25.62Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 85.208.108.60
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NL_136 |14.40Mb
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.60
   type: ss
   udp: true
-- name: NL_183 |52.67Mb
+- cipher: aes-256-gcm
+  name: NL_137 | 5.80Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 85.208.108.20
+  type: ss
+  udp: true
+- name: NL_139 |39.20Mb
+  password: Sp3eDVp
+  port: 443
+  server: content-provider13.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: NL_140 |47.92Mb
   password: 3dacbaa8-784b-430c-9c1e-57d33648981d
   port: 443
   server: 5.255.103.209
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: NL_193 |29.17Mb
+- name: NL_141 | 2.01Mb
   password: Sp3eDVp
   port: 443
-  server: content-provider13.cdn-delivery.akamaicd.com
+  server: 185.212.200.75
   skip-cert-verify: true
   type: trojan
   udp: true
