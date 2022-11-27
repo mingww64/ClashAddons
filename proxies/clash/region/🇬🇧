@@ -1,36 +1,43 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: GB_245 |73.11Mb
+  name: GB_134 | 7.54Mb
   password: G!yBwPWH3Vao
-  port: 808
+  port: 809
   server: 78.129.253.9
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: GB_246 | 7.71Mb
+  name: GB_135 |31.84Mb
   password: null
   port: 50003
   server: 5.183.100.87
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_247 |33.01Mb
+  name: GB_136 | 7.54Mb
   password: G!yBwPWH3Vao
-  port: 809
+  port: 808
   server: 78.129.253.9
   type: ss
   udp: true
-- name: GB_248 | 3.44Mb
+- name: GB_137 | 2.99Mb
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  port: 443
+  server: jgwcc1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB_138 | 9.61Mb
   password: shefelnak
   port: 443
   server: content-provider20.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_249 | 2.65Mb
+- name: GB_139 | 1.80Mb
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   port: 443
-  server: jgwcc1.gaox.ml
+  server: 144.24.72.126
   skip-cert-verify: true
   type: trojan
   udp: true

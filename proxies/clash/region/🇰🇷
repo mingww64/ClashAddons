@@ -1,12 +1,5 @@
 proxies:
-- name: KR_305 | 2.14Mb
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2083
-  server: official.seoulcitygovernment.com.ua
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: KR_306 | 9.30Mb
+- name: KR_180
   password: 3dacbaa8-784b-430c-9c1e-57d33648981d
   port: 443
   server: 52.141.26.55
@@ -15,7 +8,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: KR_303 |29.07Mb
+  name: KR_178 | 8.99Mb
   network: ws
   port: 42517
   server: 54.180.131.191
@@ -28,10 +21,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: KR_304 |24.93Mb
+  name: KR_179
   network: ws
   port: 42517
-  server: 54.180.156.175
+  server: 54.180.150.171
   skip-cert-verify: true
   tls: false
   type: vmess

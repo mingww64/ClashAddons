@@ -1,143 +1,134 @@
 proxies:
 - cipher: aes-256-gcm
-  name: FR_227
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_228 |39.44Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_229 |40.48Mb
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_230
+  name: FR_118
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_231
+  name: FR_119 |41.14Mb
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_120
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 62.210.113.98
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_232
+  name: FR_121
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_122 |43.80Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_123
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_233 |43.35Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
+  name: FR_124 |39.08Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_234 |43.44Mb
+  name: FR_125 |39.98Mb
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_235
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: FR_126
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
-- name: FR_238
-  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+- name: FR_115
+  password: Sp3eDVp
   port: 443
-  server: ukt1.sshocean.net
+  server: content-provider5.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_239
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 62.210.254.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_240
-  password: opentunnel.net-trhrst5ju45s
+- name: FR_116
+  password: origin
   port: 443
-  server: ukt-2.opensvr.net
+  server: 51.77.71.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_241 |18.68Mb
-  password: xxoo
+- name: FR_117 | 8.97Mb
+  password: 67e200f1-4ff5-42ca-8425-3f16f7986c29
   port: 443
-  server: 146.19.230.241
+  server: t1.samsung.bforward2.uk
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_242
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
-  port: 443
-  server: de.tjvpn.org
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_243
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
-  port: 443
-  server: 51.75.76.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_244
+- name: FR_127
   password: origin
   port: 443
   server: content-provider12.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: FR_236
-  network: ws
+- name: FR_128
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
-  server: 51.75.188.6
+  server: de.tjvpn.org
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: b2737260-b925-4434-9ca1-6116fa8ab83c
-  ws-opts:
-    headers:
-      Host: node1.wblogw1.tk
-    path: /cw21sadd3
-- alterId: 0
-  cipher: auto
-  name: FR_237
-  network: ws
+- name: FR_129
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 62.210.254.72
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_130
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
-  server: 51.195.140.208
+  server: 51.75.76.22
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: b2737260-b925-4434-9ca1-6116fa8ab83c
-  ws-opts:
-    headers:
-      Host: node1.wblogw1.tk
-    path: /cw21sadd3
+- name: FR_131
+  password: origin
+  port: 443
+  server: 176.31.83.90
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_132
+  password: origin
+  port: 443
+  server: content-provider26.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_133
+  password: Sp3eDVp
+  port: 443
+  server: 51.77.71.131
+  skip-cert-verify: true
+  type: trojan
+  udp: true
