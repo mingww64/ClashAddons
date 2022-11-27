@@ -1,15 +1,18 @@
 proxies:
-- name: AU_17 |19.18Mb
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+- name: AU_17 |11.30Mb
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   port: 443
-  server: 140.238.205.173
+  server: jgwxn4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: AU_18 |20.03Mb
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  port: 443
-  server: jgwxn3.gaox.ml
+- alterId: 0
+  cipher: auto
+  name: AU_16
+  port: 12356
+  server: 00000000000000000000000000000000000000000000000000000000000034a.rui77.com
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489

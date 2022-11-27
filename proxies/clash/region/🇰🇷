@@ -1,5 +1,5 @@
 proxies:
-- name: KR_180
+- name: KR_173
   password: 3dacbaa8-784b-430c-9c1e-57d33648981d
   port: 443
   server: 52.141.26.55
@@ -8,23 +8,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: KR_178 | 8.99Mb
+  name: KR_171
   network: ws
   port: 42517
-  server: 54.180.131.191
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_179
-  network: ws
-  port: 42517
-  server: 54.180.150.171
+  server: 52.79.182.230
   skip-cert-verify: true
   tls: false
   type: vmess
