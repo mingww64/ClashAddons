@@ -1,5 +1,5 @@
 proxies:
-- name: RU_189 | 3.35Mb
+- name: RU_150 | 2.10Mb
   password: xxoo
   port: 443
   server: 194.156.99.39
@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: RU_188
+  name: RU_148
   network: ws
   port: 80
   server: cl-gl2d3b3310.gcdn.co
@@ -21,3 +21,21 @@ proxies:
     headers:
       Host: "tls.weoworks.ml\r\ntls.weoworks.ml"
     path: /
+- alterId: 64
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - apple.com
+    method: GET
+    path:
+    - /
+  name: RU_149
+  network: http
+  port: 37672
+  server: 176.119.159.245
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
