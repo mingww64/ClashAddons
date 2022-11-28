@@ -1,34 +1,25 @@
 proxies:
-- name: KR_133
+- name: KR_359
   password: 3dacbaa8-784b-430c-9c1e-57d33648981d
   port: 443
   server: 52.141.26.55
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: KR_361 | 2.14Mb
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2083
+  server: official.seoulcitygovernment.com.ua
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: KR_130 |28.97Mb
-  network: ws
-  port: 42517
-  server: 54.180.131.191
+  name: KR_358
+  port: 52356
+  server: 00000000000000000000000000000000000000000000000000000000000028a.rui77.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: KR_131 |25.66Mb
-  network: ws
-  port: 42517
-  server: 54.180.117.118
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    path: /
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa

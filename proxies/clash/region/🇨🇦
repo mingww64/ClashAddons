@@ -1,77 +1,77 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CA_24 |10.79Mb
+  name: CA_21 |25.31Mb
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_25 | 9.33Mb
+  name: CA_22 |18.51Mb
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_26 |10.49Mb
+  name: CA_23 |16.07Mb
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_27 |13.30Mb
+  name: CA_24 |29.47Mb
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_28 |35.22Mb
+  name: CA_25 |30.27Mb
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
   udp: true
-- name: CA_23 | 6.43Mb
+- name: CA_20 | 1.23Mb
   password: b345cf5c-a24f-468e-b110-0011a134cd47
   port: 443
   server: tw1111.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_30 |116.47Mb
+- name: CA_27 |34.76Mb
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: cat1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_31 |44.26Mb
+- name: CA_28 |46.09Mb
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   port: 443
   server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: CA_32
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: 149.56.141.11
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CA_33
+- name: CA_29
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: cat1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: CA_30
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
   skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 32
   cipher: auto
-  name: CA_29 | 5.10Mb
+  name: CA_26 |16.20Mb
   port: 443
   server: 139.99.91.95
   skip-cert-verify: true
