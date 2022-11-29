@@ -21,58 +21,65 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_143 |42.94Mb
+  name: FR_143 |43.96Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_144 |39.16Mb
+  name: FR_144 |38.93Mb
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 54.36.174.181
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_145
+  name: FR_145 |43.76Mb
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_146
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_146 |42.75Mb
+  name: FR_147 |43.17Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_147
+  name: FR_148
   password: KixLvKzwjekG00rm
   port: 8080
   server: 149.202.82.172
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: FR_148 |40.58Mb
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- name: FR_149
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
+- name: FR_139 |12.57Mb
+  password: 67e200f1-4ff5-42ca-8425-3f16f7986c29
   port: 443
-  server: de.tjvpn.org
+  server: t1.samsung.bforward2.uk
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_150 |42.40Mb
+- name: FR_149 |40.32Mb
   password: xxoo
   port: 443
   server: 146.19.230.241
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_150 |23.22Mb
+  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+  port: 443
+  server: ukt1.sshocean.net
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -84,9 +91,9 @@ proxies:
   type: trojan
   udp: true
 - name: FR_152
-  password: Sp3eDVp
+  password: opentunnel.net-trhrst5ju45s
   port: 443
-  server: content-provider5.cdn-delivery.akamaicd.com
+  server: ukt-2.opensvr.net
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -105,43 +112,16 @@ proxies:
   type: trojan
   udp: true
 - name: FR_155
-  password: Sp3eDVp
-  port: 443
-  server: 51.77.71.131
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_156
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   port: 28443
   server: 62.210.254.72
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_157 | 6.44Mb
-  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+- name: FR_156
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
-  server: ukt1.sshocean.net
+  server: de.tjvpn.org
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_158
-  password: origin
-  port: 443
-  server: 176.31.83.90
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: FR_139
-  network: ws
-  port: 2209
-  server: 94.23.100.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 57a7f1ab-b562-488b-9367-207f32e32d39
-  ws-opts:
-    path: /

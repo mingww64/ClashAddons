@@ -1,12 +1,5 @@
 proxies:
-- name: KR_202 |10.44Mb
-  password: dd86a105-00c1-41ba-899c-c31aa74f4539
-  port: 443
-  server: 01.KRIX.ANRUN-IX.TOP
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: KR_205 | 1.97Mb
+- name: KR_215 | 1.97Mb
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 2083
   server: official.seoulcitygovernment.com.ua
@@ -15,10 +8,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: KR_203 |13.78Mb
+  name: KR_214 |10.19Mb
   network: ws
   port: 42517
-  server: 52.79.182.230
+  server: 54.180.117.118
   skip-cert-verify: true
   tls: false
   type: vmess
