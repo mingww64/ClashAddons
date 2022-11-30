@@ -1,124 +1,131 @@
 proxies:
 - cipher: aes-256-gcm
-  name: FR_140
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 62.210.113.98
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_141
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_142
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 195.154.200.150
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_143 |43.96Mb
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_144 |38.93Mb
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR_145 |43.76Mb
+  name: FR_61 |43.14Mb
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_146
+  name: FR_62 |43.59Mb
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_63 |38.93Mb
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_64
   password: TEzjfAYq2IjtuoS
-  port: 6697
+  port: 6679
+  server: 62.210.113.98
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_65
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 195.154.200.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_66
+  password: RexnBgU7EV5ADxG
+  port: 7002
   server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_147 |43.17Mb
+  name: FR_67
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR_68 |42.58Mb
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: FR_148
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: FR_69
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   server: 149.202.82.172
   type: ss
   udp: true
-- name: FR_139 |12.57Mb
-  password: 67e200f1-4ff5-42ca-8425-3f16f7986c29
+- name: FR_60 |39.89Mb
+  password: 784d5c1f-69d8-4967-bc61-426983744ee5
   port: 443
-  server: t1.samsung.bforward2.uk
+  server: t2.google.bforward2.uk
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_149 |40.32Mb
-  password: xxoo
-  port: 443
-  server: 146.19.230.241
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_150 |23.22Mb
-  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
-  port: 443
-  server: ukt1.sshocean.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_151
-  password: origin
-  port: 443
-  server: content-provider12.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_152
-  password: opentunnel.net-trhrst5ju45s
-  port: 443
-  server: ukt-2.opensvr.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: FR_153
+- name: FR_70
   password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
   server: 51.75.76.22
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_154
+- name: FR_71
   password: origin
   port: 443
   server: 51.77.71.134
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_155
+- name: FR_72
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   port: 28443
   server: 62.210.254.72
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: FR_156
+- name: FR_73
+  password: Sp3eDVp
+  port: 443
+  server: content-provider5.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_74
+  password: opentunnel.net-trhrst5ju45s
+  port: 443
+  server: ukt-2.opensvr.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_75 |10.18Mb
+  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+  port: 443
+  server: ukt1.sshocean.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_76 |35.23Mb
+  password: xxoo
+  port: 443
+  server: 146.19.230.241
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_77
+  password: origin
+  port: 443
+  server: content-provider12.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: FR_78
   password: c60fbf90-4b55-11ed-b935-225401db9d57
   port: 443
   server: de.tjvpn.org
