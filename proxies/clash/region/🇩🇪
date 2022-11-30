@@ -1,99 +1,99 @@
 proxies:
 - cipher: aes-256-gcm
-  name: DE_46 |42.66Mb
+  name: DE_39 |14.93Mb
   password: KixLvKzwjekG00rm
   port: 8080
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_47 |42.35Mb
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: DE_48 |12.06Mb
-  password: 97OnDEZYGja4
-  port: 443
-  server: 178.18.244.2
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_49 |42.09Mb
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_50 |39.64Mb
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 193.108.117.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE_51 |37.84Mb
+  name: DE_40 | 9.92Mb
   password: e4FCWrgpkji3QY
   port: 9102
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_52 |37.32Mb
+  name: DE_41 |10.51Mb
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_53 |35.08Mb
+  name: DE_42 |10.81Mb
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_43 |13.24Mb
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE_44 |10.21Mb
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 193.108.117.75
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE_54 |41.00Mb
+  name: DE_45 | 7.24Mb
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 193.108.117.75
   type: ss
   udp: true
-- name: DE_55
+- cipher: aes-256-gcm
+  name: DE_46 |11.85Mb
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 193.108.117.75
+  type: ss
+  udp: true
+- name: DE_47
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   port: 28443
   server: 89.163.220.99
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_56
-  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-  port: 28443
-  server: 89.163.220.99
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: DE_57 |10.77Mb
-  password: null
+- name: DE_48
+  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
-  server: trojan-ctb-sg01.globalssh.xyz
+  server: 141.94.76.177
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_58 |38.75Mb
+- name: DE_49 |17.61Mb
   password: origin
   port: 443
   server: 188.40.251.19
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: DE_59
-  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
+- name: DE_50
+  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+  port: 28443
+  server: 89.163.220.99
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_51 |19.75Mb
+  password: null
   port: 443
-  server: 141.94.76.177
+  server: trojan-ctb-sg01.globalssh.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: DE_52 |47.86Mb
+  password: TvBypqQJ9b
+  port: 443
+  server: bdvasxmahl.injafarvpnwebelieve.gq
   skip-cert-verify: true
   type: trojan
   udp: true
