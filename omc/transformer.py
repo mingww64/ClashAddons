@@ -94,7 +94,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                 print("{}'s {}: {}".format(provider, x, subc_url))
                 txt = requests.get(subc_url).content.decode('utf-8', 'ignore')
                 if self.check_if_available(txt, x, provider):
-                    merged_provider += f'# {provider}\n{txt}\n'
+                    merged_provider += f'# {provider}\nproxies:\n{txt.replace("proxies:\n","")}\n'
                     os.makedirs(f'{dir}/{x}/', exist_ok=True)
                     with open(f'{dir}/{x}/' + provider, 'w+') as f:
                         f.write(txt)
