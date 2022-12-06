@@ -4,55 +4,55 @@ rule-providers:
     type: http
     behavior: classical
     path: "./RuleSet/Unbreak.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/Unbreak.yaml
     interval: 86400
   Advertising:
     type: http
     behavior: classical
     path: "./RuleSet/Advertising.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/Advertising.yaml
     interval: 86400
   Hijacking:
     type: http
     behavior: classical
     path: "./RuleSet/Hijacking.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/Hijacking.yaml
     interval: 86400
   Privacy:
     type: http
     behavior: classical
     path: "./RuleSet/Privacy.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/Privacy.yaml
     interval: 86400
   Streaming:
     type: http
     behavior: classical
     path: "./RuleSet/StreamingMedia/Streaming.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/StreamingMedia/Streaming.yaml
     interval: 86400
   StreamingSE:
     type: http
     behavior: classical
     path: "./RuleSet/StreamingMedia/StreamingSE.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/StreamingMedia/StreamingSE.yaml
     interval: 86400
   Global:
     type: http
     behavior: classical
     path: "./RuleSet/Global.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/Global.yaml
     interval: 86400
   China:
     type: http
     behavior: classical
     path: "./RuleSet/China.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/China.yaml
     interval: 86400
   ChinaIP:
     type: http
     behavior: ipcidr
     path: "./RuleSet/Extra/ChinaIP.yaml"
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
+    url: https://realnet.ga/proxies/rules/clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
 rules:
 - RULE-SET,Unbreak,DIRECT

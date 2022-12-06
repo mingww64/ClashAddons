@@ -10,7 +10,7 @@ import re
 class Proxy:
     '''self represents the instance of the class.'''
 
-    def __init__(self, exec_dir, schtype, output_path, rules='./template/clash/connershua/rules.yml', head='./template/clash/head.yaml', storage='https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path='./template/clash', re_exclude='🇨🇳'):
+    def __init__(self, exec_dir, output_path, schtype, rules='./template/clash/connershua/rules.yml', head='./template/clash/head.yaml', storage='https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path='./template/clash', re_exclude='🇨🇳'):
         self.storage = storage
         self.schemetype = schtype
         self.output_path = output_path
