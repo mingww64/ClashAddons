@@ -14,7 +14,7 @@ if len(sys.argv[1:]) == 0:
     nationAttitude.processor(
         dirx+'/clash', exclude=config.parse_conf['Exclude']['region'])
     # Generate proxy groups correspond to the provider's name and the region of nodes.
-    mk_clash_config = confluX.Proxy(dirx+'/clash', dirx+'/Clash.yaml', config.rules, config.head,
+    mk_clash_config = confluX.Proxy(dirx+'/clash', dirx+'/Clash.yaml', config.parse_conf['Proxy Scheme'], config.rules, config.head,
                                     config.parse_conf['Storage'], config.parse_conf['Template']['Clash'], config.parse_conf['Exclude']['All'])
     mk_clash_config.arranger()
     mk_quanx_config = confluX.QuanX(dirx+'/quanx', dirx+'/QuanX.conf',

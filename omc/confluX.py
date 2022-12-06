@@ -10,8 +10,9 @@ import re
 class Proxy:
     '''self represents the instance of the class.'''
 
-    def __init__(self, exec_dir, output_path, rules='./template/clash/connershua/rules.yml', head='./template/clash/head.yaml', storage='https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path='./template/clash', re_exclude='🇨🇳'):
+    def __init__(self, exec_dir, schtype, output_path, rules='./template/clash/connershua/rules.yml', head='./template/clash/head.yaml', storage='https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path='./template/clash', re_exclude='🇨🇳'):
         self.storage = storage
+        self.schemetype = schtype
         self.output_path = output_path
         self._All_exclude = re_exclude
         self.script = ""
@@ -42,32 +43,39 @@ class Proxy:
                 open(template_path + '/' + 'script.yml').read()
         self.urltest = self.urltest.substitute(
             url='http://www.gstatic.com/generate_204', interval=300, tolerance=180)
-        self.name_path, self.icon_path = self.get_filename(exec_dir)
+        self.name_path, self.icon_path, self.hidden_path = self.get_filename(exec_dir)
 
     def get_filename(self, _dir):
-        name_path, region_icons = dict(), dict()
+        name_path, region_icons , hidden_path= dict(), dict(), dict()
         # recognize sub dirs as well.
         for root, dirs, names in os.walk(_dir):
             for name in names:
-                if root.split('/')[-1] == 'region':
-                    # fix NT "\".
-                    region_icons[name] = os.path.join(
+                if name[0] == '.':
+                    hidden_path[name] = os.path.join(
+                        root, name).replace('\\', '/')
+                elif root.split('/')[-1] == 'region':
+                     region_icons[name] = os.path.join(
                         root, name).replace('\\', '/')
                 else:
                     # fix NT "\".
                     name_path[name] = os.path.join(
                         root, name).replace('\\', '/')
-        return name_path, region_icons
+        return name_path, region_icons, hidden_path
 
     def gen_proxy_providers(self):
         ret = ""
-        for v in [self.name_path, self.icon_path]:
+        for v in [self.name_path, self.icon_path, self.hidden_path]:
             for x, y in v.items():
                 ret += self.proxy_providers.substitute(
                     name=x, location=self.storage + '/' + y)
         return ret
 
     def gen_all_proxies(self):
+        def proxies_scheme(schtype=self.schemetype):
+            if schtype == 'icon': return all_icon_proxies()
+            if schtype == 'named': return all_named_proxies()
+            if schtype == 'both': return all_proxies()
+            return all_proxies()
         def all_icon_proxies():
             ret = ""
             for x in self.icon_path:
@@ -76,7 +84,13 @@ class Proxy:
                 else:
                     ret += f"\t- {x}\n"
             return ret
-
+        
+        def all_named_proxies():
+            ret = ""
+            for x in self.name_path:
+                ret += f"\t- {x}\n"
+            return ret    
+        
         def all_proxies():
             ret = ""
             for v in [self.name_path, self.icon_path]:
@@ -104,23 +118,23 @@ class Proxy:
                     continue  # Pass Bulit-in.
                 elif x == 'Proxy':
                     ret += self.proxy_groups.substitute(
-                        name=x, type='select', proxies='proxies:\n\t- All\n' + all_proxies()+'\n\t- DIRECT', uses='', urltest='')
+                        name=x, type='select', proxies='proxies:\n\t- All\n' + proxies_scheme()+'\n\t- DIRECT', uses='', urltest='')
                 elif x in ['Domestic', 'China', 'StreamingSE']:
                     # DIRECT by default. with proxies.
                     ret += self.proxy_groups.substitute(
-                        name=x, type='select', proxies='proxies:\n\t- DIRECT\n\t- Proxy\n' + all_proxies(), uses='', urltest='')
+                        name=x, type='select', proxies='proxies:\n\t- DIRECT\n\t- Proxy\n' + proxies_scheme(), uses='', urltest='')
                 else:
                     ret += self.proxy_groups.substitute(
-                        name=x, type='select', proxies='proxies:\n\t- Proxy\n'+all_proxies() + '\n\t- DIRECT', uses='', urltest='')
+                        name=x, type='select', proxies='proxies:\n\t- Proxy\n'+ proxies_scheme() + '\n\t- DIRECT', uses='', urltest='')
             return ret
-        return self.proxy_groups.substitute(name='All', type='url-test', proxies="proxies:\n" + all_icon_proxies(), uses='', urltest=self.urltest) + gen_rules()
+        return self.proxy_groups.substitute(name='All', type='url-test', proxies='', uses='.merged_provider', urltest=self.urltest) + gen_rules()
 
     def gen_each_proxies(self):
         ret = ""
         for v in [self.name_path, self.icon_path]:
             for x in v:
                 ret += self.proxy_groups.substitute(
-                    name=x, type='url-test', proxies='', uses=f"use:\n\t- {x}", urltest=self.urltest)
+                    name=x, type='select', proxies='', uses=f"use:\n\t- {x}", urltest='')
         return ret
 
     def arranger(self):
