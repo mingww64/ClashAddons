@@ -33,7 +33,8 @@ def whoami():
     return inspect.stack()[2][3]
 
 def whosdaddy():
-    return inspect.stack()[3][1]
+    if '<module>' in inspect.stack()[3][3]: return inspect.stack()[3][1]
+    return inspect.stack()[3][3]
 
 def Shell(t, *r):
     t = str(t)
