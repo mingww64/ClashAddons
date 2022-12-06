@@ -2,7 +2,9 @@ import os
 import requests
 import yaml
 import re
-from . import regExpresser
+
+from omc import encolored
+from omc import regExpresser
 
 
 class Kit:
@@ -14,10 +16,10 @@ which cause undefined / no such file errors'''  # i can use function though...
     def __init__(self, path):
         if os.path.exists(path):
             if path != self.config_path:
-                print("{} -> {}".format(self.config_path, path))
+                encolored.Debug("{} -> {}".format(self.config_path, path))
             self.__dict__['config_path'] = path
         elif os.path.exists(self.config_path):
-            print(
+            encolored.Warn(
                 f'the given path: {path} is not exist, fallback to {self.config_path}')
         else:
             exit(f'{self.config_path} not found.')
@@ -40,7 +42,7 @@ which cause undefined / no such file errors'''  # i can use function though...
         def set_unavailable():
             self.unavailable_providers.append(provider_name)
             return False
-        print(num, 'Lines')
+        encolored.Debug(num, ' Lines')
         if num == 0 and typ == 'clash':
             return set_unavailable()
         if ' = ' not in content and ', ' not in content and num == 0 and typ == 'quanx':
@@ -77,7 +79,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                 dest = os.path.join(dir, 'rules/clash', os.path.normpath(path))
                 os.makedirs(destdir, exist_ok=True)
                 with open(dest, 'w') as rule:
-                    print(f'Downloading: {url} --> {dest}')
+                    encolored.Info(f'Downloading: {url} --> ', dest)
                     rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
             # Substitute url
                 rule_content = rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
@@ -91,7 +93,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                 quanx_args = load_args('QuantumultXRemotes', provider)
                 subc_url = "http://{}/sub?url={}&{}".format(
                     self.subc, url, locals()[x+'_args'])
-                print("{}'s {}: {}".format(provider, x, subc_url))
+                encolored.Debug("{}'s {}: ".format(provider, x), url)
                 txt = requests.get(subc_url).content.decode('utf-8', 'ignore')
                 if self.check_if_available(txt, x, provider):
                     os.makedirs(f'{dir}/{x}/', exist_ok=True)
@@ -107,7 +109,7 @@ which cause undefined / no such file errors'''  # i can use function though...
         if self.available_count == 0:
             exit("No available node.")
         else:
-            print("Node Available: ", self.available_count)
+            encolored.Info("Node Available: ", self.available_count)
         download_rules(self.rules)
 
     def subconverter(self, read_dir, out_dir):
@@ -136,4 +138,4 @@ which cause undefined / no such file errors'''  # i can use function though...
                     continue
                 regExpresser.run(syntax, "{}/{}".format(read_dir, provider))
         else:
-            print('Group Classify Disabled.')
+            encolored.Skip('Group Classify Disabled.')

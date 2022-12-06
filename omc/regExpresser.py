@@ -9,6 +9,7 @@
 import re
 import os
 import yaml
+from omc import encolored
 
 class SafeLoaderIgnoreUnknown(yaml.SafeLoader):
     def ignore_unknown(self, node):
@@ -57,7 +58,7 @@ def run(syx, file_path):
     _plain = []
     _matched_list = []
     file_name = file_path.split('/')[-1]
-    print("processing: ", file_path)
+    encolored.Debug("Processing: ", file_path)
     rm_old(file_path)
     with open(file_path) as f:
         f = f.read()
@@ -74,9 +75,9 @@ def run(syx, file_path):
             else:
                 _plain.append(y)
     if _matched_list == []:
-        print("pattern cannot be matched.")
+        encolored.Warn("Pattern cannot be matched.")
     else:
-        print('Matched: ', _matched_list)
+        encolored.Info('Matched: ', _matched_list)
         # rename_original(file_path)
         for x, y in _in.items():
             with open('{}_/{}_{}'.format(file_path, file_name, x), 'w') as f:

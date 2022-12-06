@@ -4,6 +4,7 @@ import os
 import re
 import requests
 from .regExpresser import get_name, dumper
+from omc import encolored
 
 
 def gather_files(path, exclude):
@@ -16,7 +17,7 @@ def gather_files(path, exclude):
                 try:
                     _ret.update(get_name(f))
                 except TypeError: 
-                    print('Unformatted:', file)
+                    encolored.Error('Unformatted:', file)
                     exit()
     # Dict can't be motified during iteration, so change it to list.
     for name in list(_ret):
@@ -37,13 +38,13 @@ def processor(path, out="", exclude='限速|游戏|game'):
     for num, re_ in list(enumerate(re_list)):
         re_match = re_.split(',')[0]
         re_emoji = re_.split(',')[1]
-        print('Regexp: ', re_emoji)
+        encolored.Debug('Checking: ', re_emoji)
         locals()[f'list_{num}'] = []
         # use local() func mannally, otherwise would be recognize as str. because var is spliced by string.format.
         list_reg = locals()[f"list_{num}"]
         for proxies, line in list(proxies_dict.items()):
             if re.search(re_match, proxies):
-                print('\tMatched: ', proxies)
+                encolored.Info('\tMatched: ', proxies)
                 list_reg.append(line)
                 # solve duplicate match (China regexp.)
                 del proxies_dict[proxies]

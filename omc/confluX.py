@@ -1,5 +1,5 @@
-from importlib.resources import contents
 from string import Template
+from omc import encolored
 import os
 import requests
 import re
@@ -11,6 +11,7 @@ class Proxy:
     '''self represents the instance of the class.'''
 
     def __init__(self, exec_dir, output_path, schtype, rules='./template/clash/connershua/rules.yml', head='./template/clash/head.yaml', storage='https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path='./template/clash', re_exclude='🇨🇳'):
+        self.exec_dir = exec_dir
         self.storage = storage
         self.schemetype = schtype
         self.output_path = output_path
@@ -33,7 +34,7 @@ class Proxy:
             if os.path.isfile(template_file):
                 y = open(template_file).read()
             else:
-                print(f"template: {x} not exist.", exit())
+                encolored.Error(f"template: {x} not exist.", exit())
 
             names[x] = Template(y)
         if os.path.isfile(template_path + '/' + 'rules.yml'):
@@ -42,18 +43,10 @@ class Proxy:
             self.script += open(template_path + '/' + 'script.yml').read()
         self.urltest = self.urltest.substitute(
             url='http://www.gstatic.com/generate_204', interval=300, tolerance=180)
-        self.named_path, self.icon_path, self.hidden_path = self.get_filename(
-            exec_dir)
-        if schtype == 'icon':
-            self.proxy_path = self.icon_path
-        elif schtype == 'named':
-            self.proxy_path = self.named_path
-        elif schtype == 'both':
-            self.proxy_path = self.named_path | self.icon_path
-        elif schtype == 'merged':
-            self.proxy_path = self.hidden_path
+        
 
     def get_filename(self, _dir):
+    
         name_path, region_icons, hidden_path = dict(), dict(), dict()
         # recognize sub dirs as well.
         for root, dirs, names in os.walk(_dir):
@@ -127,6 +120,16 @@ class Proxy:
         return ret
 
     def arranger(self):
+        self.named_path, self.icon_path, self.hidden_path = self.get_filename(
+            self.exec_dir)
+        if self.schemetype == 'icon':
+            self.proxy_path = self.icon_path
+        elif self.schemetype == 'named':
+            self.proxy_path = self.named_path
+        elif self.schemetype == 'both':
+            self.proxy_path = self.named_path | self.icon_path
+        elif self.schemetype == 'merged':
+            self.proxy_path = self.hidden_path
         file = f"""
 {self.head}
 
