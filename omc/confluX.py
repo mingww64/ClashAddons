@@ -17,18 +17,18 @@ class Proxy:
         self._All_exclude = re_exclude
         self.script = ""
         if 'http' in rules:
-            self.rules = requests.get(rules).content.decode('utf-8')
+            self.rules = requests.get(rules).content.decode('utf-8').strip()
         else:
-            self.rules = open(rules, 'r').read()
+            self.rules = open(rules, 'r').read().strip()
         if 'rules:' not in self.rules:
             self.rules = 'rules:\n' + self.rules
         if 'http' in head:
-            self.head = requests.get(head).content.decode('utf-8')
+            self.head = requests.get(head).content.decode('utf-8').strip()
         else:
-            self.head = open(head, 'r').read()
+            self.head = open(head, 'r').read().strip()
         names = self.__dict__
         # dynamic variable. https://www.runoob.com/w3cnote/python-dynamic-var.html
-        for x in ['proxy_groups', 'proxy_providers', 'urltest']:
+        for x in ['proxy_groups_selector', 'proxy_groups_provider', 'proxy_groups_proxies', 'proxy_providers', 'urltest']:
             template_file = template_path + '/' + x
             if os.path.isfile(template_file):
                 y = open(template_file).read()
@@ -39,14 +39,22 @@ class Proxy:
         if os.path.isfile(template_path + '/' + 'rules.yml'):
             self.rules += '\n' + open(template_path + '/' + 'rules.yml').read()
         if os.path.isfile(template_path + '/' + 'script.yml'):
-            self.script += '\n' + \
-                open(template_path + '/' + 'script.yml').read()
+            self.script += open(template_path + '/' + 'script.yml').read()
         self.urltest = self.urltest.substitute(
             url='http://www.gstatic.com/generate_204', interval=300, tolerance=180)
-        self.name_path, self.icon_path, self.hidden_path = self.get_filename(exec_dir)
+        self.named_path, self.icon_path, self.hidden_path = self.get_filename(
+            exec_dir)
+        if schtype == 'icon':
+            self.proxy_path = self.icon_path
+        elif schtype == 'named':
+            self.proxy_path = self.named_path
+        elif schtype == 'both':
+            self.proxy_path = self.named_path | self.icon_path
+        elif schtype == 'merged':
+            self.proxy_path = self.hidden_path
 
     def get_filename(self, _dir):
-        name_path, region_icons , hidden_path= dict(), dict(), dict()
+        name_path, region_icons, hidden_path = dict(), dict(), dict()
         # recognize sub dirs as well.
         for root, dirs, names in os.walk(_dir):
             for name in names:
@@ -54,7 +62,7 @@ class Proxy:
                     hidden_path[name] = os.path.join(
                         root, name).replace('\\', '/')
                 elif root.split('/')[-1] == 'region':
-                     region_icons[name] = os.path.join(
+                    region_icons[name] = os.path.join(
                         root, name).replace('\\', '/')
                 else:
                     # fix NT "\".
@@ -64,39 +72,21 @@ class Proxy:
 
     def gen_proxy_providers(self):
         ret = ""
-        for v in [self.name_path, self.icon_path, self.hidden_path]:
-            for x, y in v.items():
-                ret += self.proxy_providers.substitute(
-                    name=x, location=self.storage + '/' + y)
+        for x, y in self.proxy_path.items():
+            ret += self.proxy_providers.substitute(
+                name=x, location=self.storage + '/' + y)
         return ret
 
     def gen_all_proxies(self):
-        def proxies_scheme(schtype=self.schemetype):
-            if schtype == 'icon': return all_icon_proxies()
-            if schtype == 'named': return all_named_proxies()
-            if schtype == 'both': return all_proxies()
-            return all_proxies()
-        def all_icon_proxies():
+
+        def proxies_scheme():
             ret = ""
-            for x in self.icon_path:
+            for x in self.proxy_path:
                 if re.search(self._All_exclude, x, re.IGNORECASE):
                     pass
                 else:
                     ret += f"\t- {x}\n"
-            return ret
-        
-        def all_named_proxies():
-            ret = ""
-            for x in self.name_path:
-                ret += f"\t- {x}\n"
-            return ret    
-        
-        def all_proxies():
-            ret = ""
-            for v in [self.name_path, self.icon_path]:
-                for x in v:
-                    ret += f"\t- {x}\n"
-            return ret
+            return ret.strip('\n')
 
         def gen_rules():
             # Fix needed for SCRIPT, using yaml.parser is preferred.
@@ -112,40 +102,41 @@ class Proxy:
             for x in rules_proxies:
                 if x in ['AdBlock', 'Advertising', 'Hijacking', 'Privacy']:
                     # REJECT by default. without proxies.
-                    ret += self.proxy_groups.substitute(
-                        name=x, type='select', proxies="proxies:\n\t- REJECT\n\t- DIRECT\n\t- Proxy", uses='', urltest='')
+                    ret += self.proxy_groups_selector.substitute(
+                        name=x, type='select', proxies="\t- REJECT\n\t- DIRECT\n\t- Proxy")
                 elif x in ['DIRECT', 'REJECT']:
                     continue  # Pass Bulit-in.
                 elif x == 'Proxy':
-                    ret += self.proxy_groups.substitute(
-                        name=x, type='select', proxies='proxies:\n\t- All\n' + proxies_scheme()+'\n\t- DIRECT', uses='', urltest='')
+                    ret += self.proxy_groups_selector.substitute(
+                        name=x, type='select', proxies='\t- All\n' + proxies_scheme()+'\n\t- DIRECT')
                 elif x in ['Domestic', 'China', 'StreamingSE']:
                     # DIRECT by default. with proxies.
-                    ret += self.proxy_groups.substitute(
-                        name=x, type='select', proxies='proxies:\n\t- DIRECT\n\t- Proxy\n' + proxies_scheme(), uses='', urltest='')
+                    ret += self.proxy_groups_selector.substitute(
+                        name=x, type='select', proxies='\t- DIRECT\n\t- Proxy\n' + proxies_scheme())
                 else:
-                    ret += self.proxy_groups.substitute(
-                        name=x, type='select', proxies='proxies:\n\t- Proxy\n'+ proxies_scheme() + '\n\t- DIRECT', uses='', urltest='')
+                    ret += self.proxy_groups_selector.substitute(
+                        name=x, type='select', proxies='\t- Proxy\n' + proxies_scheme() + '\n\t- DIRECT')
             return ret
-        return self.proxy_groups.substitute(name='All', type='url-test', proxies='', uses='use:\n\t- .merged_provider', urltest=self.urltest) + gen_rules()
+        return self.proxy_groups_provider.substitute(name='All', type='url-test', uses=proxies_scheme(), urltest=self.urltest) + gen_rules()
 
     def gen_each_proxies(self):
         ret = ""
-        for v in [self.name_path, self.icon_path]:
-            for x in v:
-                ret += self.proxy_groups.substitute(
-                    name=x, type='fallback', proxies='', uses=f"use:\n\t- {x}", urltest=self.urltest)
+        for x in self.proxy_path:
+            ret += self.proxy_groups_provider.substitute(
+                name=x, type='fallback', uses=f"\t- {x}", urltest=self.urltest)
         return ret
 
     def arranger(self):
         file = f"""
 {self.head}
+
 proxy-providers:
 {self.gen_proxy_providers()}
 proxy-groups:
 {self.gen_all_proxies()}
 {self.gen_each_proxies()}
 {self.script}
+
 {self.rules}
 """
         file = file.replace('\t', '  ')  # YAML dont support Tabulator key.
