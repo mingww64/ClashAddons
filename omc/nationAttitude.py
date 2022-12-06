@@ -12,9 +12,13 @@ def gather_files(path, exclude):
         exit('check regexp in Exclude:region.')
     for file in os.listdir(path):
         if os.path.isfile(path+'/'+file):
-            print('Opening: ', file)
             with open(path+'/'+file, 'r') as f:
-                _ret.update(get_name(f))
+                try:
+                    _ret.update(get_name(f))
+                except TypeError: 
+                    print('Opening: ', file)
+                    print(f.read())
+                    exit()
     # Dict can't be motified during iteration, so change it to list.
     for name in list(_ret):
         if re.search(exclude, name, re.IGNORECASE):
