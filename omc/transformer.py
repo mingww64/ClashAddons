@@ -66,22 +66,6 @@ which cause undefined / no such file errors'''  # i can use function though...
             # convert boolean to str in url
             return ret.replace('True', 'true').replace('False', 'false')
 
-        for provider, url in self.parse_conf['ProxyProviders'].items():
-            clash_args = load_args('ClashProviders', provider)
-            quanx_args = load_args('QuantumultXRemotes', provider)
-            for x in ['clash', 'quanx']:
-                subc_url = "http://{}/sub?url={}&{}".format(
-                    self.subc, url, locals()[x+'_args'])
-                print("{}'s {}: {}".format(provider, x, subc_url))
-                txt = requests.get(subc_url).content.decode('utf-8', 'ignore')
-                if self.check_if_available(txt, x, provider):
-                    os.makedirs(f'{dir}/{x}/', exist_ok=True)
-                    with open(f'{dir}/{x}/' + provider, 'w+') as f:
-                        f.write(txt)
-        if self.available_count == 0:
-            exit("No available node.")
-        else:
-            print("Node Available: ", self.available_count)
         def download_rules(rulesets):
             rules = yaml.safe_load(open(rulesets).read())
             # Possible feature: download local rules.
@@ -99,8 +83,30 @@ which cause undefined / no such file errors'''  # i can use function though...
                 rule_content = rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
             with open(self.rules, 'w') as rules_dot_yaml:
                 rules_dot_yaml.write(rule_content)
-        download_rules(self.rules)
 
+        for x in ['clash', 'quanx']:
+            merged_provider = ""
+            for provider, url in self.parse_conf['ProxyProviders'].items():
+                clash_args = load_args('ClashProviders', provider)
+                quanx_args = load_args('QuantumultXRemotes', provider)
+                subc_url = "http://{}/sub?url={}&{}".format(
+                    self.subc, url, locals()[x+'_args'])
+                print("{}'s {}: {}".format(provider, x, subc_url))
+                txt = requests.get(subc_url).content.decode('utf-8', 'ignore')
+                if self.check_if_available(txt, x, provider):
+                    merged_provider += f'# {provider}\n{txt}\n'
+                    os.makedirs(f'{dir}/{x}/', exist_ok=True)
+                    with open(f'{dir}/{x}/' + provider, 'w+') as f:
+                        f.write(txt)
+            if merged_provider != "":
+                with open(f'{dir}/{x}/merged_provider', 'w+') as f:
+                    f.write(merged_provider)
+                    
+        if self.available_count == 0:
+            exit("No available node.")
+        else:
+            print("Node Available: ", self.available_count)
+        download_rules(self.rules)
 
     def subconverter(self, read_dir, out_dir):
         if 'Subconverter' in self.parse_conf and type(self.parse_conf['Subconverter']) == list:
