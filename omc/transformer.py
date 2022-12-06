@@ -85,7 +85,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                 rules_dot_yaml.write(rule_content)
 
         for x in ['clash', 'quanx']:
-            merged_provider = ""
+            merged_provider = []
             for provider, url in self.parse_conf['ProxyProviders'].items():
                 clash_args = load_args('ClashProviders', provider)
                 quanx_args = load_args('QuantumultXRemotes', provider)
@@ -94,13 +94,13 @@ which cause undefined / no such file errors'''  # i can use function though...
                 print("{}'s {}: {}".format(provider, x, subc_url))
                 txt = requests.get(subc_url).content.decode('utf-8', 'ignore')
                 if self.check_if_available(txt, x, provider):
-                    merged_provider += f'# {provider}\nproxies:\n{txt.replace("proxies:\n","")}\n'
+                    merged_provider.append(regExpresser.get_proxies(txt))
                     os.makedirs(f'{dir}/{x}/', exist_ok=True)
                     with open(f'{dir}/{x}/' + provider, 'w+') as f:
                         f.write(txt)
-            if merged_provider != "":
+            if merged_provider != []:
                 with open(f'{dir}/{x}/merged_provider', 'w+') as f:
-                    f.write(merged_provider)
+                    regExpresser.dumper(merged_provider, f)
                     
         if self.available_count == 0:
             exit("No available node.")

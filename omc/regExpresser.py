@@ -16,10 +16,12 @@ class SafeLoaderIgnoreUnknown(yaml.SafeLoader):
 
 SafeLoaderIgnoreUnknown.add_constructor(None, SafeLoaderIgnoreUnknown.ignore_unknown)
 
+def get_proxies(content):
+    return yaml.load(content, Loader=SafeLoaderIgnoreUnknown)['proxies']
 
 def get_name(content):
     ret = {}
-    for x in yaml.load(content, Loader=SafeLoaderIgnoreUnknown)['proxies']:
+    for x in get_proxies(content):
         ret[x['name']] = x
     return ret
 
