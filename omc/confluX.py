@@ -127,7 +127,7 @@ class Proxy:
                     ret += self.proxy_groups.substitute(
                         name=x, type='select', proxies='proxies:\n\t- Proxy\n'+ proxies_scheme() + '\n\t- DIRECT', uses='', urltest='')
             return ret
-        return self.proxy_groups.substitute(name='All', type='url-test', proxies='', uses='.merged_provider', urltest=self.urltest) + gen_rules()
+        return self.proxy_groups.substitute(name='All', type='url-test', proxies='', uses='use:\n\t- .merged_provider', urltest=self.urltest) + gen_rules()
 
     def gen_each_proxies(self):
         ret = ""
