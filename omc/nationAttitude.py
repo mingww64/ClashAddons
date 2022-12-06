@@ -11,13 +11,12 @@ def gather_files(path, exclude):
     if type(exclude) != str:
         exit('check regexp in Exclude:region.')
     for file in os.listdir(path):
-        if os.path.isfile(path+'/'+file):
+        if os.path.isfile(path+'/'+file) and file[0] != '.':
             with open(path+'/'+file, 'r') as f:
                 try:
                     _ret.update(get_name(f))
                 except TypeError: 
-                    print('Opening: ', file)
-                    print(f.read())
+                    print('Unformatted:', file)
                     exit()
     # Dict can't be motified during iteration, so change it to list.
     for name in list(_ret):

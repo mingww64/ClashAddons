@@ -99,9 +99,9 @@ which cause undefined / no such file errors'''  # i can use function though...
                         f.write(txt)
                     # Only support yaml now.
                     if x == 'clash':
-                        merged_provider.append(regExpresser.get_proxies(txt))
+                        merged_provider += regExpresser.get_proxies(txt)
             if x == 'clash' and merged_provider != []:
-                with open(f'{dir}/{x}/merged_provider', 'w+') as f:
+                with open(f'{dir}/{x}/.merged_provider', 'w+') as f:
                     regExpresser.dumper(merged_provider, f)
                     
         if self.available_count == 0:
