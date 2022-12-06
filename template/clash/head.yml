@@ -8,6 +8,12 @@ external-controller: 0.0.0.0:6170
 external-ui: "/usr/share/yacd"
 experimental:
   ignore-resolve-fail: true
+profile:
+  # Store the `select` results in $HOME/.config/clash/.cache
+  # set false If you don't want this behavior
+  # when two different configurations have groups with the same name, the selected values are shared
+  store-selected: true
+  store-fake-ip: true
 tun:
   enable: true
   stack: system
