@@ -21,7 +21,7 @@ def get_proxies(content):
 
 def get_name(content):
     ret = {}
-    for x in get_proxies(content):
+    for x in yaml.load(content, Loader=SafeLoaderIgnoreUnknown)['proxies']:
         ret[x['name']] = x
     return ret
 
