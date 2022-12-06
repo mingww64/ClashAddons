@@ -94,11 +94,13 @@ which cause undefined / no such file errors'''  # i can use function though...
                 print("{}'s {}: {}".format(provider, x, subc_url))
                 txt = requests.get(subc_url).content.decode('utf-8', 'ignore')
                 if self.check_if_available(txt, x, provider):
-                    merged_provider.append(regExpresser.get_proxies(txt))
                     os.makedirs(f'{dir}/{x}/', exist_ok=True)
                     with open(f'{dir}/{x}/' + provider, 'w+') as f:
                         f.write(txt)
-            if merged_provider != []:
+                    # Only support yaml now.
+                    if x == 'clash':
+                        merged_provider.append(regExpresser.get_proxies(txt))
+            if x == 'clash' and merged_provider != []:
                 with open(f'{dir}/{x}/merged_provider', 'w+') as f:
                     regExpresser.dumper(merged_provider, f)
                     
