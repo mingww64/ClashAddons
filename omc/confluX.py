@@ -134,7 +134,7 @@ class Proxy:
         for v in [self.name_path, self.icon_path]:
             for x in v:
                 ret += self.proxy_groups.substitute(
-                    name=x, type='select', proxies='', uses=f"use:\n\t- {x}", urltest='')
+                    name=x, type='fallback', proxies='', uses=f"use:\n\t- {x}", urltest=self.urltest)
         return ret
 
     def arranger(self):
