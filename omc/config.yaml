@@ -42,7 +42,7 @@ Subconverter:
   - quanx
 Group Classify: 
   ChinaG: \d*\.*\d+(?:x|X|倍|倍率)
-  YahahaLTD: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
+  #YahahaLTD: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
 Rules:
   Clash:
     head: template/clash/head.yml
