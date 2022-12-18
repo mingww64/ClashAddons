@@ -116,7 +116,7 @@ class Proxy:
         ret = ""
         for x in self.proxy_path:
             ret += self.proxy_groups_provider.substitute(
-                name=x, type='fallback', uses=f"\t- {x}", urltest=self.urltest)
+                name=x, type='url-test', uses=f"\t- {x}", urltest=self.urltest)
         return ret
 
     def arranger(self):
