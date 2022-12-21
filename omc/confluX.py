@@ -43,10 +43,9 @@ class Proxy:
             self.script += open(template_path + '/' + 'script.yml').read()
         self.urltest = self.urltest.substitute(
             url='http://www.gstatic.com/generate_204', interval=300, tolerance=180)
-        
 
     def get_filename(self, _dir):
-    
+
         name_path, region_icons, hidden_path = dict(), dict(), dict()
         # recognize sub dirs as well.
         for root, dirs, names in os.walk(_dir):
@@ -74,7 +73,11 @@ class Proxy:
 
         def proxies_scheme():
             ret = ""
-            for x in self.proxy_path:
+            if self.schemetype == 'both':
+                proxy_path = self.named_path
+            else:
+                proxy_path = self.proxy_path
+            for x in proxy_path:
                 if re.search(self._All_exclude, x, re.IGNORECASE):
                     pass
                 else:
