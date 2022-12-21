@@ -71,12 +71,15 @@ class Proxy:
 
     def gen_all_proxies(self):
 
-        def proxies_scheme():
+        def proxies_scheme(typ='common'):
             ret = ""
-            if self.schemetype == 'both':
+
+            if typ == 'common':
+                proxy_path = self.proxy_path
+            elif typ == 'All':
                 proxy_path = self.named_path
             else:
-                proxy_path = self.proxy_path
+                exit('type must be common or All.')
             for x in proxy_path:
                 if re.search(self._All_exclude, x, re.IGNORECASE):
                     pass
@@ -113,7 +116,7 @@ class Proxy:
                     ret += self.proxy_groups_selector.substitute(
                         name=x, type='select', proxies='\t- Proxy\n' + proxies_scheme() + '\n\t- DIRECT')
             return ret
-        return self.proxy_groups_provider.substitute(name='All', type='url-test', uses=proxies_scheme(), urltest=self.urltest) + gen_rules()
+        return self.proxy_groups_provider.substitute(name='All', type='url-test', uses=proxies_scheme('All'), urltest=self.urltest) + gen_rules()
 
     def gen_each_proxies(self):
         ret = ""
