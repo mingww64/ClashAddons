@@ -28,7 +28,7 @@ QuantumultXRemotes:
   target: quanx
   list: true
 Exclude:
-  All: 🇨🇳|🇲🇳
+  All: 🇨🇳|🇲🇳|限速|游戏|game
   region: 限速|游戏|game
 Exclude Args: 
   syntax: 奈飞小铺|过期时间|剩余流量|官网|机场|维护
@@ -42,7 +42,7 @@ Subconverter:
   - quanx
 Group Classify: 
   ChinaG: \d*\.*\d+(?:x|X|倍|倍率)
-  #YahahaLTD: \d*\.*\d+(?:x|X|倍|倍率)|限速|Game|游戏|原生|IEPL|IPLC
+  YahahaLTD: 限速|Game|游戏
 Rules:
   Clash:
     head: template/clash/head.yml
