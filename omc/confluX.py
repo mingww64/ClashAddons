@@ -76,8 +76,10 @@ class Proxy:
 
             if self.schemetype != 'both':
                 proxy_path = self.proxy_path
-            elif typ == 'All' and self.schemetype == 'both':
+            elif typ == 'All':
                 proxy_path = self.icon_path
+            elif typ == 'common':
+                proxy_path = self.proxy_path
             else:
                 exit('type must be common or All.')
             for x in proxy_path:
