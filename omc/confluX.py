@@ -14,19 +14,12 @@ class Proxy:
         self.exec_dir = exec_dir
         self.storage = storage
         self.schemetype = schtype
+        self.rules_path = rules
+        self.head_path = head
         self.output_path = output_path
         self._All_exclude = re_exclude
         self.script = ""
-        if 'http' in rules:
-            self.rules = requests.get(rules).content.decode('utf-8').strip()
-        else:
-            self.rules = open(rules, 'r').read().strip()
-        if 'rules:' not in self.rules:
-            self.rules = 'rules:\n' + self.rules
-        if 'http' in head:
-            self.head = requests.get(head).content.decode('utf-8').strip()
-        else:
-            self.head = open(head, 'r').read().strip()
+        self.template_path = template_path
         names = self.__dict__
         # dynamic variable. https://www.runoob.com/w3cnote/python-dynamic-var.html
         for x in ['proxy_groups_selector', 'proxy_groups_provider', 'proxy_groups_proxies', 'proxy_providers', 'urltest']:
@@ -37,10 +30,7 @@ class Proxy:
                 encolored.Error(f"template: {x} not exist.", exit())
 
             names[x] = Template(y)
-        if os.path.isfile(template_path + '/' + 'rules.yml'):
-            self.rules += '\n' + open(template_path + '/' + 'rules.yml').read()
-        if os.path.isfile(template_path + '/' + 'script.yml'):
-            self.script += open(template_path + '/' + 'script.yml').read()
+  
         self.urltest = self.urltest.substitute(
             url='http://www.gstatic.com/generate_204', interval=300, tolerance=180)
 
@@ -62,6 +52,24 @@ class Proxy:
                         root, name).replace('\\', '/')
         return name_path, region_icons, hidden_path
 
+    def get_template(self):
+        rules = self.rules_path
+        head = self.head_path
+        template_path = self.template_path
+        if 'http' in rules:
+            self.rules = requests.get(rules).content.decode('utf-8').strip()
+        else:
+            self.rules = open(rules + '.download', 'r').read().strip()
+        if 'rules:' not in self.rules:
+            self.rules = 'rules:\n' + self.rules
+        if 'http' in head:
+            self.head = requests.get(head).content.decode('utf-8').strip()
+        else:
+            self.head = open(head, 'r').read().strip()
+        if os.path.isfile(template_path + '/' + 'rules.yml'):
+            self.rules += '\n' + open(template_path + '/' + 'rules.yml').read()
+        if os.path.isfile(template_path + '/' + 'script.yml'):
+            self.script += open(template_path + '/' + 'script.yml').read()        
     def gen_proxy_providers(self):
         ret = ""
         for x, y in self.proxy_path.items():
@@ -101,7 +109,7 @@ class Proxy:
             ret = ""
             rules_proxies.sort()
             for x in rules_proxies:
-                if x in ['AdBlock', 'Advertising', 'Hijacking', 'Privacy']:
+                if x in ['AdBlock', 'Advertising', 'Hijacking', 'Privacy', 'Reject']:
                     # REJECT by default. without proxies.
                     ret += self.proxy_groups_selector.substitute(
                         name=x, type='select', proxies="\t- REJECT\n\t- DIRECT\n\t- Proxy")
@@ -110,7 +118,7 @@ class Proxy:
                 elif x == 'Proxy':
                     ret += self.proxy_groups_selector.substitute(
                         name=x, type='select', proxies='\t- All\n' + proxies_scheme()+'\n\t- DIRECT')
-                elif x in ['Domestic', 'China', 'StreamingSE']:
+                elif x in ['Domestic', 'China', 'StreamingSE', 'Asian TV', 'Google FCM']:
                     # DIRECT by default. with proxies.
                     ret += self.proxy_groups_selector.substitute(
                         name=x, type='select', proxies='\t- DIRECT\n\t- Proxy\n' + proxies_scheme())
@@ -130,6 +138,7 @@ class Proxy:
     def arranger(self):
         self.named_path, self.icon_path, self.hidden_path = self.get_filename(
             self.exec_dir)
+        self.get_template()
         if self.schemetype == 'icon':
             self.proxy_path = self.icon_path
         elif self.schemetype == 'named':

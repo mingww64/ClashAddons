@@ -83,7 +83,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                     rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
             # Substitute url
                 rule_content = rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
-            with open(self.rules, 'w') as rules_dot_yaml:
+            with open(self.rules + '.download', 'w') as rules_dot_yaml:
                 rules_dot_yaml.write(rule_content)
 
         for x in ['clash', 'quanx']:
