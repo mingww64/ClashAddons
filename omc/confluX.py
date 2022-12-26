@@ -74,9 +74,9 @@ class Proxy:
         def proxies_scheme(typ='common'):
             ret = ""
 
-            if typ == 'common':
+            if self.schemetype != 'both':
                 proxy_path = self.proxy_path
-            elif typ == 'All':
+            elif typ == 'All' and self.schemetype == 'both':
                 proxy_path = self.icon_path
             else:
                 exit('type must be common or All.')
