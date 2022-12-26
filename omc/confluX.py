@@ -83,7 +83,7 @@ class Proxy:
             else:
                 exit('type must be common or All.')
             for x in proxy_path:
-                if re.search(self._All_exclude, x, re.IGNORECASE):
+                if typ == 'All' and re.search(self._All_exclude, x, re.IGNORECASE):
                     pass
                 else:
                     ret += f"\t- {x}\n"
