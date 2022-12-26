@@ -77,7 +77,7 @@ class Proxy:
             if typ == 'common':
                 proxy_path = self.proxy_path
             elif typ == 'All':
-                proxy_path = self.named_path
+                proxy_path = self.icon_path
             else:
                 exit('type must be common or All.')
             for x in proxy_path:
