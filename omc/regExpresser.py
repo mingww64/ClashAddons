@@ -80,8 +80,8 @@ def run(syx, file_path):
         encolored.Info('Matched: ', _matched_list)
         # rename_original(file_path)
         for x, y in _in.items():
-            with open('{}_/{}_{}'.format(file_path, file_name, x), 'w') as f:
+            with open('{}_/{}\'s {}'.format(file_path, file_name, x), 'w') as f:
                 dumper(y, f)
         if _plain != []:
-            with open('{}_/{}_plain'.format(file_path, file_name), 'w') as f:
+            with open('{}_/{}\'s Others'.format(file_path, file_name), 'w') as f:
                 dumper(_plain, f)
