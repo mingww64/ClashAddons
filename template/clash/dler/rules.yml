@@ -59,12 +59,12 @@ rule-providers:
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Letv.yaml'
     path: ./Rules/Media/Letv
     interval: 86400
-  MOO:
-    type: http
-    behavior: classical
-    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/MOO.yaml'
-    path: ./Rules/Media/MOO
-    interval: 86400
+  # MOO:
+  #   type: http
+  #   behavior: classical
+  #   url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/MOO.yaml'
+  #   path: ./Rules/Media/MOO
+  #   interval: 86400
   Netease Music:
     type: http
     behavior: classical
@@ -375,7 +375,7 @@ rules:
 - RULE-SET,IQ,Asian TV
 - RULE-SET,IQIYI,Asian TV
 - RULE-SET,Letv,Asian TV
-- RULE-SET,MOO,Asian TV
+# - RULE-SET,MOO,Asian TV
 - RULE-SET,Netease Music,Asian TV
 - RULE-SET,Tencent Video,Asian TV
 - RULE-SET,Youku,Asian TV
