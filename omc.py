@@ -29,7 +29,7 @@ else:
             config.get_providers(dirx)
         elif arg == '--subconverter':
             config.subconverter(dirx+'/quanx', dirx)
-        elif arg == '--smart_filter':
+        elif arg == '--smart-filter':
             config.classifier(dirx+'/clash')
         elif arg == '--region-spliter':
             nationAttitude.processor(
