@@ -118,7 +118,7 @@ class Proxy:
                 elif x == 'Proxy':
                     ret += self.proxy_groups_selector.substitute(
                         name=x, type='select', proxies='\t- All\n' + proxies_scheme()+'\n\t- DIRECT')
-                elif x in ['Domestic', 'China', 'StreamingSE', 'Asian TV', 'Google FCM']:
+                elif x in ['Domestic', 'China', 'StreamingSE', 'Asian TV', 'Google FCM', 'UDP', 'Other Ports', 'BitTorrent']:
                     # DIRECT by default. with proxies.
                     ret += self.proxy_groups_selector.substitute(
                         name=x, type='select', proxies='\t- DIRECT\n\t- Proxy\n' + proxies_scheme())
