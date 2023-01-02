@@ -27,11 +27,11 @@ def gather_files(path, exclude):
 
 
 def processor(path, out="", exclude='限速|游戏|game'):
+    emoji = 'template/emoji.txt'
     if out == "":
         out = path+'/region/'  # Shouldnt be same as path, make duplication.
     os.makedirs(out, exist_ok=True)
-    parsed = requests.get('https://raw.githubusercontent.com/wmyfelix/subconverter/master/base/snippets/emoji.txt',
-                          allow_redirects=True).content.decode('utf-8').replace('🇨🇳','🇹🇼',1)
+    parsed = open(emoji).read()
     re_list = parsed.strip().split('\n')
     proxies_dict = gather_files(path, exclude)
     # make a list of each region proxies and put them in for better flexbility.
