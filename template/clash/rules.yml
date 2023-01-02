@@ -1,5 +1,5 @@
 - PROCESS-NAME,qbittorrent-nox,DIRECT
 - PROCESS-NAME,qbittorrent,DIRECT
-- RULE-SET,common-port,Other Ports
-- RULE-SET,udp,UDP
+- SCRIPT,common_port,Other Ports
+- SCRIPT,udp_traffic,UDP
 - MATCH,Others
