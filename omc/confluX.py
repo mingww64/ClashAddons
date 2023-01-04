@@ -60,14 +60,12 @@ class Proxy:
             self.rules = requests.get(rules).content.decode('utf-8').strip()
         else:
             self.rules = open(rules + '.download', 'r').read().strip()
-        if 'rules:' not in self.rules:
-            self.rules = 'rules:\n' + self.rules
         if 'http' in head:
             self.head = requests.get(head).content.decode('utf-8').strip()
         else:
             self.head = open(head, 'r').read().strip()
         if os.path.isfile(template_path + '/' + 'rules.yml'):
-            self.rules += '\n' + open(template_path + '/' + 'rules.yml').read()
+            self.rules = self.rules.replace('rules:\n', open(template_path + '/' + 'rules.yml').read())
         if os.path.isfile(template_path + '/' + 'script.yml'):
             self.script += open(template_path + '/' + 'script.yml').read()        
     def gen_proxy_providers(self):
