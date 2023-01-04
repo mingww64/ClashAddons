@@ -65,7 +65,7 @@ class Proxy:
         else:
             self.head = open(head, 'r').read().strip()
         if os.path.isfile(template_path + '/' + 'rules.yml'):
-            self.rules = self.rules.replace('rules:\n', open(template_path + '/' + 'rules.yml').read())
+            self.rules = self.rules.replace('rules:\n', open(template_path + '/' + 'rules.yml').read() + '\n')
         if os.path.isfile(template_path + '/' + 'script.yml'):
             self.script += open(template_path + '/' + 'script.yml').read()        
     def gen_proxy_providers(self):
