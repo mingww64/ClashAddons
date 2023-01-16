@@ -32,7 +32,7 @@ class Proxy:
             names[x] = Template(y)
   
         self.urltest = self.urltest.substitute(
-            url='http://www.gstatic.com/generate_204', interval=300, tolerance=180)
+            url='http://www.gstatic.com/generate_204', interval=300, tolerance=10)
 
     def get_filename(self, _dir):
 
