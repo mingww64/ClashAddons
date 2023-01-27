@@ -97,7 +97,7 @@ class Proxy:
 
         def gen_rules():
             # Fix needed for SCRIPT, using yaml.parser is preferred.
-            sets = re.findall('.*RULE-SET.*|.*MATCH.*|.*SCRIPT.*|.*PROCESS-NAME.*', self.rules)
+            sets = re.findall('^- .*,.*,.*$|^- MATCH,.*$', self.rules)
             rules_proxies = []
             for x in sets:
                 # structure: RULE-SET,rules,proxy-group
