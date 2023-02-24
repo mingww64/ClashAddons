@@ -5,7 +5,7 @@ allow-lan: true
 mode: Rule
 log-level: silent
 external-controller: 0.0.0.0:6170
-external-ui: "/usr/share/yacd"
+#external-ui: "/usr/share/yacd"
 experimental:
   ignore-resolve-fail: true
 profile:
@@ -17,6 +17,7 @@ profile:
 tun:
   enable: true
   stack: system
+  auto-redir: true
   auto-route: true
   auto-detect-interface: true
 dns:
