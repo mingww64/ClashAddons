@@ -8,8 +8,8 @@ from omc import regExpresser
 
 
 class Kit:
-    '''use class to handle variables change, 
-otherwise vars will init before giving new config_path, 
+    '''use class to handle variables change,
+otherwise vars will init before giving new config_path,
 which cause undefined / no such file errors'''  # i can use function though...
     config_path = './omc/config.yaml'
 
@@ -71,18 +71,22 @@ which cause undefined / no such file errors'''  # i can use function though...
         def download_rules(rulesets):
             rules = yaml.safe_load(open(rulesets).read())
             # Possible feature: download local rules.
-            path_url = [(x['path'], x['url']) for x in rules['rule-providers'].values() if x['type'] == 'http']
+            path_url = [(x['path'], x['url'])
+                        for x in rules['rule-providers'].values() if x['type'] == 'http']
             with open(self.rules, 'r') as rules_dot_yaml:
                 rule_content = rules_dot_yaml.read()
             for path, url in path_url:
-                destdir = os.path.join(dir, 'rules/clash', os.path.normpath(os.path.dirname(path)))
+                destdir = os.path.join(
+                    dir, 'rules/clash', os.path.normpath(os.path.dirname(path)))
                 dest = os.path.join(dir, 'rules/clash', os.path.normpath(path))
                 os.makedirs(destdir, exist_ok=True)
                 with open(dest, 'w') as rule:
                     encolored.Info(f'Downloading: {url} --> ', dest)
-                    rule.write(requests.get(url).content.decode('utf-8', 'ignore'))
+                    rule.write(requests.get(
+                        url).content.decode('utf-8', 'ignore'))
             # Substitute url
-                rule_content = rule_content.replace(url, os.path.join(self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
+                rule_content = rule_content.replace(url, os.path.join(
+                    self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
             with open(self.rules + '.download', 'w') as rules_dot_yaml:
                 rules_dot_yaml.write(rule_content)
 
@@ -95,7 +99,8 @@ which cause undefined / no such file errors'''  # i can use function though...
                     self.subc, url, locals()[x+'_args'])
                 encolored.Debug("{}'s {}: ".format(provider, x), url)
                 for tries in range(3):
-                    txt = requests.get(subc_url).content.decode('utf-8', 'ignore')
+                    txt = requests.get(subc_url).content.decode(
+                        'utf-8', 'ignore')
                     if self.check_if_available(txt, x, provider):
                         os.makedirs(f'{dir}/{x}/', exist_ok=True)
                         with open(f'{dir}/{x}/' + provider, 'w+') as f:
@@ -107,7 +112,7 @@ which cause undefined / no such file errors'''  # i can use function though...
             if x == 'clash' and merged_provider != []:
                 with open(f'{dir}/{x}/.merged_provider', 'w+') as f:
                     regExpresser.dumper(merged_provider, f)
-                    
+
         if self.available_count == 0:
             exit("No available node.")
         else:

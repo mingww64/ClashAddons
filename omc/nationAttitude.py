@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import os
 import re
-import requests
 from .regExpresser import get_name, dumper
 from omc import encolored
 
@@ -16,7 +15,7 @@ def gather_files(path, exclude):
             with open(path+'/'+file, 'r') as f:
                 try:
                     _ret.update(get_name(f))
-                except TypeError: 
+                except TypeError:
                     encolored.Error('Unformatted:', file)
                     exit()
     # Dict can't be motified during iteration, so change it to list.
@@ -40,7 +39,6 @@ def processor(path, out="", exclude='限速|游戏|game'):
         re_emoji = re_.split(',')[1]
         encolored.Debug('Checking: ', re_emoji)
         locals()[f'list_{num}'] = []
-        # use local() func mannally, otherwise would be recognize as str. because var is spliced by string.format.
         list_reg = locals()[f"list_{num}"]
         for proxies, line in list(proxies_dict.items()):
             if re.search(re_match, proxies):

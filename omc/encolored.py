@@ -29,17 +29,22 @@ class Colors:
     CROSSED = "\033[9m"
     END = "\033[0m"
 
+
 def whoami():
     return inspect.stack()[2][3]
 
+
 def whosdaddy():
-    if '<module>' in inspect.stack()[3][3]: return inspect.stack()[3][1]
+    if '<module>' in inspect.stack()[3][3]:
+        return inspect.stack()[3][1]
     return inspect.stack()[3][3]
+
 
 def Shell(t, *r):
     t = str(t)
     r = ''.join(map(str, r))
-    print(Colors.GREEN+f"Shell:{whoami()}\t"+Colors.LIGHT_GREEN+t+Colors.CYAN+r+Colors.END)
+    print(Colors.GREEN+f"Shell:{whoami()}\t" +
+          Colors.LIGHT_GREEN+t+Colors.CYAN+r+Colors.END)
 
 
 def Skip(t, *r):

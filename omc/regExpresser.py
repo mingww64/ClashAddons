@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# run() ex. 
+# run() ex.
 # RegExp: [6x]
 # <proxy group>'s <proxies>
 # ChinaG's [6x]HKT --> ChinaG_6x's [6x]HKT
@@ -11,14 +11,19 @@ import os
 import yaml
 from omc import encolored
 
+
 class SafeLoaderIgnoreUnknown(yaml.SafeLoader):
     def ignore_unknown(self, node):
-        return None 
+        return None
 
-SafeLoaderIgnoreUnknown.add_constructor(None, SafeLoaderIgnoreUnknown.ignore_unknown)
+
+SafeLoaderIgnoreUnknown.add_constructor(
+    None, SafeLoaderIgnoreUnknown.ignore_unknown)
+
 
 def get_proxies(content):
     return yaml.load(content, Loader=SafeLoaderIgnoreUnknown)['proxies']
+
 
 def get_name(content):
     ret = {}

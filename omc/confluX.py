@@ -10,7 +10,8 @@ import re
 class Proxy:
     '''self represents the instance of the class.'''
 
-    def __init__(self, exec_dir, output_path, schtype, rules='./template/clash/connershua/rules.yml', head='./template/clash/head.yaml', storage='https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path='./template/clash', re_exclude='🇨🇳'):
+    def __init__(self, exec_dir, output_path, schtype, rules, head, storage,
+                 template_path, re_exclude):
         self.exec_dir = exec_dir
         self.storage = storage
         self.schemetype = schtype
@@ -21,8 +22,11 @@ class Proxy:
         self.script = ""
         self.template_path = template_path
         names = self.__dict__
-        # dynamic variable. https://www.runoob.com/w3cnote/python-dynamic-var.html
-        for x in ['proxy_groups_selector', 'proxy_groups_provider', 'proxy_groups_proxies', 'proxy_providers', 'urltest']:
+        for x in ['proxy_groups_selector',
+                  'proxy_groups_provider',
+                  'proxy_groups_proxies',
+                  'proxy_providers',
+                  'urltest']:
             template_file = template_path + '/' + x
             if os.path.isfile(template_file):
                 y = open(template_file).read()
@@ -30,7 +34,7 @@ class Proxy:
                 encolored.Error(f"template: {x} not exist.", exit())
 
             names[x] = Template(y)
-  
+
         self.urltest = self.urltest.substitute(
             url='http://www.gstatic.com/generate_204', interval=300, tolerance=10)
 
@@ -65,9 +69,11 @@ class Proxy:
         else:
             self.head = open(head, 'r').read().strip()
         if os.path.isfile(template_path + '/' + 'rules.yml'):
-            self.rules = self.rules.replace('rules:\n', open(template_path + '/' + 'rules.yml').read() + '\n')
+            self.rules = self.rules.replace('rules:\n', open(
+                template_path + '/' + 'rules.yml').read() + '\n')
         if os.path.isfile(template_path + '/' + 'script.yml'):
-            self.script += open(template_path + '/' + 'script.yml').read()        
+            self.script += open(template_path + '/' + 'script.yml').read()
+
     def gen_proxy_providers(self):
         ret = ""
         for x, y in self.proxy_path.items():
@@ -163,7 +169,7 @@ proxy-groups:
 
 
 class QuanX:
-    def __init__(self, exec_dir, output_path, storage='https://cdn.jsdelivr.net/gh/wmyfelix/ClashAddons@OMC', template_path='./template/quanx/conf', re_exclude='🇨🇳'):
+    def __init__(self, exec_dir, output_path, storage, template_path, re_exclude):
         self.storage = storage
         self.output_path = output_path
         self._All_exclude = re_exclude
