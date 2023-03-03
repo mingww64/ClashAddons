@@ -2,6 +2,7 @@ rules:
 - PROCESS-NAME,qbittorrent-nox,BitTorrent
 - PROCESS-NAME,qbittorrent,BitTorrent
 - PROCESS-NAME,ipfs,DIRECT
+- PROCESS-NAME,systemd-timesyncd,DIRECT
 - PROCESS-NAME,NetworkManager,DIRECT
 - SCRIPT,common_port,Other Ports
 - SCRIPT,udp_traffic,UDP
