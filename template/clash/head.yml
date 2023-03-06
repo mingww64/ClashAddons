@@ -3,9 +3,9 @@ socks-port: 8889
 mixed-port: 8899
 allow-lan: true
 mode: Rule
-log-level: silent
+log-level: info
 external-controller: 0.0.0.0:6170
-#external-ui: "/usr/share/yacd"
+external-ui: "/usr/share/yacd"
 experimental:
   ignore-resolve-fail: true
 profile:
