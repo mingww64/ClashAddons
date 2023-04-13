@@ -1,7 +1,6 @@
 rules:
 - PROCESS-NAME,qbittorrent-nox,BitTorrent
 - PROCESS-NAME,qbittorrent,BitTorrent
-- PROCESS-NAME,rclone,Rclone
 - PROCESS-NAME,ipfs,DIRECT
 - PROCESS-NAME,systemd-timesyncd,DIRECT
 - PROCESS-NAME,chornyd,DIRECT
@@ -10,3 +9,4 @@ rules:
 - SCRIPT,udp_traffic,UDP
 - DOMAIN-SUFFIX,crunchyroll.com,Crunchyroll
 - DOMAIN-SUFFIX,sharepoint.com,SharePoint
+- PROCESS-NAME,rclone,Rclone
