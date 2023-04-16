@@ -115,7 +115,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                         with open(f'{dir}/{x}/' + provider, 'w') as f:
                             regExpresser.dumper(yaml_txt, f)
                         self.available_count += 1
-                        merged_provider += regExpresser.get_proxies(txt)
+                        merged_provider += yaml_txt
                         break
             if x == 'clash' and merged_provider != []:
                 with open(f'{dir}/{x}/.merged_provider', 'w') as f:
