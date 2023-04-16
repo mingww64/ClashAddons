@@ -99,7 +99,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                     self.subc, url, locals()[x+'_args'])
                 encolored.Debug("{}'s {}: ".format(provider, x), url)
                 for tries in range(3):
-                    txt = requests.get(subc_url).content.decode(
+                    txt = requests.get(subc_url, header={'user-agent': 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'}).content.decode(
                         'utf-8', 'ignore')
                     if self.check_if_available(txt, x, provider):
                         os.makedirs(f'{dir}/{x}/', exist_ok=True)
