@@ -1,4 +1,5 @@
 Enabled: true
+Log Level: Info
 Output Dir: proxies
 Proxy Scheme: both
 Git:
@@ -11,19 +12,15 @@ Template:
   Clash: ./template/clash # Directory
   Quantumult X: https://raw.githubusercontent.com/wmyfelix/Rules-For-Quantumult-X/main/Sample.conf # File
 ProxyProviders:
-  #YahahaNPO: http://sub.yahahanpo.top/link/MPsna0K3Q1JBfwNf?mu=1
   YahahaLTD: http://yahahasub.top/link/2cfmpOes9QZ9mF4c?clash=1
   Sakura: https://subscribe.connect-node.net/link/qSJlYVsRF85rIGWC?clash=1
   Getfree: https://rss.getfree.win/link/WXdDzEXi5DVXpOc1?sub=1
-  ADSL: https://rss.epon.cloud/link/wRa8eyB5WguX7iOM?sub=1
-  ChinaG: https://a.luxury/link/cHDgH9k2VEv56gkv?clash=2
   JDYun: https://www.somersaultcloud.top/link/PyXlvYUgoMajTtan?clash=1&port=443
-  Miru: https://www.mirusubs.com/link/i5mLDM7XyzoJqJNj?sub=1
 ClashProviders:
   target: clash
   list: true
   udp: true
-  emoji: true
+  emoji: false
   sort: true
 QuantumultXRemotes: 
   target: quanx
@@ -42,7 +39,7 @@ Subconverter:
   - clash
   - quanx
 Group Classify: 
-  ChinaG: \d*\.*\d+(?:x|X|倍|倍率)
+#  ChinaG: \d*\.*\d+(?:x|X|倍|倍率)
   YahahaLTD: 限速|Game|游戏|IPLC
   Sakura: BT
 Rules:

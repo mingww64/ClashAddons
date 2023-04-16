@@ -317,6 +317,12 @@ rule-providers:
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Microsoft.yaml'
     path: ./Rules/Microsoft
     interval: 86400
+  ChatGPT:
+    type: http
+    behavior: classical
+    url: 'https://dler.cloud/Rules/Clash/Provider/ChatGPT.yaml'
+    path: ./Rules/ChatGPT
+    interval: 86400
   PROXY:
     type: http
     behavior: classical
@@ -419,6 +425,7 @@ rules:
 - RULE-SET,Speedtest,Speedtest
 - RULE-SET,PayPal,PayPal
 - RULE-SET,Microsoft,Microsoft
+- RULE-SET,ChatGPT,ChatGPT
 
 - RULE-SET,Apple,Apple
 

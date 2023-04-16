@@ -1,8 +1,8 @@
-from omc import confluX, nationAttitude, transformer
+from omc import confluX, nationAttitude, transformer, encolored
 import sys
-
 config = transformer.Kit('./omc/config.yaml')
 dirx = config.parse_conf['Output Dir']
+encolored.set_level(config.parse_conf['Log Level'])
 
 mk_clash_config = confluX.Proxy(dirx+'/clash', dirx+'/Clash.yaml', config.parse_conf['Proxy Scheme'], config.rules, config.head,
                                 config.parse_conf['Storage'], config.parse_conf['Template']['Clash'], config.parse_conf['Exclude']['All'])

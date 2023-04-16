@@ -99,6 +99,14 @@ which cause undefined / no such file errors'''  # i can use function though...
                     self.subc, url, locals()[x+'_args'])
                 encolored.Debug("{}'s {}: ".format(provider, x), url)
                 for tries in range(3):
+                    if x == 'clash' and (yaml_txt := regExpresser.get_proxies(requests.get(url).content.decode(
+                            'utf-8', 'ignore'))):
+                        os.makedirs(f'{dir}/{x}/', exist_ok=True)
+                        with open(f'{dir}/{x}/' + provider, 'w') as f:
+                            regExpresser.dumper(yaml_txt, f)
+                        self.available_count += 1
+                        merged_provider += yaml_txt
+                        break
                     txt = requests.get(subc_url).content.decode(
                         'utf-8', 'ignore')
                     if self.check_if_available(txt, x, provider):
@@ -109,14 +117,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                         if x == 'clash':
                             merged_provider += regExpresser.get_proxies(txt)
                         break
-                    elif x == 'clash' and (yaml_txt := regExpresser.get_proxies(requests.get(url).content.decode(
-                            'utf-8', 'ignore'))):
-                        os.makedirs(f'{dir}/{x}/', exist_ok=True)
-                        with open(f'{dir}/{x}/' + provider, 'w') as f:
-                            regExpresser.dumper(yaml_txt, f)
-                        self.available_count += 1
-                        merged_provider += yaml_txt
-                        break
+
             if x == 'clash' and merged_provider != []:
                 with open(f'{dir}/{x}/.merged_provider', 'w') as f:
                     regExpresser.dumper(merged_provider, f)
@@ -129,6 +130,7 @@ which cause undefined / no such file errors'''  # i can use function though...
 
     def subconverter(self, read_dir, out_dir):
         if 'Subconverter' in self.parse_conf and type(self.parse_conf['Subconverter']) == list:
+            os.makedirs(read_dir, exist_ok=True)
             _list = [line for file in os.listdir(read_dir) for line in open(
                 read_dir + '/' + file, 'r').readlines()]
             os.makedirs(out_dir, exist_ok=True)

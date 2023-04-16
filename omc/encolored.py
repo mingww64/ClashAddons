@@ -1,5 +1,6 @@
 import inspect
 
+def set_level(log_level): globals()["log_level"] = log_level
 
 class Colors:
     # SGR color constants
@@ -55,24 +56,27 @@ def Skip(t, *r):
 
 
 def Info(t, *r):
-    t = str(t)
-    r = ''.join(map(str, r))
-    print(Colors.BLUE+f"Info:{whoami()}\t"+Colors.LIGHT_BLUE +
-          t+Colors.LIGHT_PURPLE+r+Colors.END)
+    if log_level in ("Info", "Debug"):
+        t = str(t)
+        r = ''.join(map(str, r))
+        print(Colors.BLUE+f"Info:{whoami()}\t"+Colors.LIGHT_BLUE +
+            t+Colors.LIGHT_PURPLE+r+Colors.END)
 
 
 def Warn(t, *r):
-    t = str(t)
-    r = ''.join(map(str, r))
-    print(Colors.NEGATIVE+Colors.BROWN+f"Warning:{whoami()}\t" +
-          Colors.YELLOW+t+Colors.LIGHT_WHITE+r+Colors.END)
+    if log_level in ("Warn", "Info", "Debug"):
+        t = str(t)
+        r = ''.join(map(str, r))
+        print(Colors.NEGATIVE+Colors.BROWN+f"Warning:{whoami()}\t" +
+            Colors.YELLOW+t+Colors.LIGHT_WHITE+r+Colors.END)
 
 
 def Debug(t, *r):
-    t = str(t)
-    r = ''.join(map(str, r))
-    print(Colors.NEGATIVE+Colors.BOLD+Colors.BROWN+f"Debug:{whoami()} from {whosdaddy()}\t" +
-          Colors.YELLOW+t+Colors.LIGHT_WHITE+r+Colors.END)
+    if log_level == "Debug":
+        t = str(t)
+        r = ''.join(map(str, r))
+        print(Colors.NEGATIVE+Colors.BOLD+Colors.BROWN+f"Debug:{whoami()} from {whosdaddy()}\t" +
+            Colors.YELLOW+t+Colors.LIGHT_WHITE+r+Colors.END)
 
 
 def Error(t, *r):
