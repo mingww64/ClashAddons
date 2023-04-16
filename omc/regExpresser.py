@@ -22,11 +22,9 @@ SafeLoaderIgnoreUnknown.add_constructor(
 
 
 def get_proxies(content):
-    if type(content) == None:
-        return None
     try:
         return yaml.load(content, Loader=SafeLoaderIgnoreUnknown)['proxies']
-    except yaml.YAMLError:
+    except yaml.YAMLError or TypeError:
         return None
 
 
