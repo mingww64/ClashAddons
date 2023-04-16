@@ -44,6 +44,7 @@ which cause undefined / no such file errors'''  # i can use function though...
             return False
         encolored.Debug(num, ' Lines')
         if num == 0 and typ == 'clash':
+            encolored.Debug(provider_name, content)
             return set_unavailable()
         if ' = ' not in content and ', ' not in content and num == 0 and typ == 'quanx':
             return set_unavailable()
