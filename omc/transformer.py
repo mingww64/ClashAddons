@@ -44,7 +44,6 @@ which cause undefined / no such file errors'''  # i can use function though...
             return False
         encolored.Debug(num, ' Lines')
         if num == 0 and typ == 'clash':
-            encolored.Debug(provider_name, content)
             return set_unavailable()
         if ' = ' not in content and ', ' not in content and num == 0 and typ == 'quanx':
             return set_unavailable()
@@ -100,7 +99,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                     self.subc, url, locals()[x+'_args'])
                 encolored.Debug("{}'s {}: ".format(provider, x), url)
                 for tries in range(3):
-                    txt = requests.get(subc_url, headers={'user-agent': 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'}).content.decode(
+                    txt = requests.get(subc_url).content.decode(
                         'utf-8', 'ignore')
                     if self.check_if_available(txt, x, provider):
                         os.makedirs(f'{dir}/{x}/', exist_ok=True)
@@ -110,6 +109,12 @@ which cause undefined / no such file errors'''  # i can use function though...
                         if x == 'clash':
                             merged_provider += regExpresser.get_proxies(txt)
                         break
+                    elif x == 'clash' and (yaml_txt := regExpresser.get_proxies(requests.get(url).content.decode(
+                            'utf-8', 'ignore'))):
+                            regExpresser.dumper(yaml_txt, f'{dir}/{x}/' + provider)
+                            self.available_count += 1
+                            merged_provider += regExpresser.get_proxies(txt)
+                            break
             if x == 'clash' and merged_provider != []:
                 with open(f'{dir}/{x}/.merged_provider', 'w+') as f:
                     regExpresser.dumper(merged_provider, f)
