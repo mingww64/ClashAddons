@@ -111,6 +111,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                         break
                     elif x == 'clash' and (yaml_txt := regExpresser.get_proxies(requests.get(url).content.decode(
                             'utf-8', 'ignore'))):
+                        os.makedirs(f'{dir}/{x}/', exist_ok=True)
                         with open(f'{dir}/{x}/' + provider) as f:
                             regExpresser.dumper(yaml_txt, f)
                         self.available_count += 1
