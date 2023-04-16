@@ -103,7 +103,7 @@ which cause undefined / no such file errors'''  # i can use function though...
                         'utf-8', 'ignore')
                     if self.check_if_available(txt, x, provider):
                         os.makedirs(f'{dir}/{x}/', exist_ok=True)
-                        with open(f'{dir}/{x}/' + provider, 'w+') as f:
+                        with open(f'{dir}/{x}/' + provider, 'w') as f:
                             f.write(txt)
                         # Only support yaml now.
                         if x == 'clash':
@@ -112,13 +112,13 @@ which cause undefined / no such file errors'''  # i can use function though...
                     elif x == 'clash' and (yaml_txt := regExpresser.get_proxies(requests.get(url).content.decode(
                             'utf-8', 'ignore'))):
                         os.makedirs(f'{dir}/{x}/', exist_ok=True)
-                        with open(f'{dir}/{x}/' + provider) as f:
+                        with open(f'{dir}/{x}/' + provider, 'w') as f:
                             regExpresser.dumper(yaml_txt, f)
                         self.available_count += 1
                         merged_provider += regExpresser.get_proxies(txt)
                         break
             if x == 'clash' and merged_provider != []:
-                with open(f'{dir}/{x}/.merged_provider', 'w+') as f:
+                with open(f'{dir}/{x}/.merged_provider', 'w') as f:
                     regExpresser.dumper(merged_provider, f)
 
         if self.available_count == 0:
