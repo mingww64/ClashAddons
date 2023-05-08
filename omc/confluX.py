@@ -113,7 +113,7 @@ class Proxy:
             ret = ""
             rules_proxies.sort()
             for x in rules_proxies:
-                if x in ['AdBlock', 'Advertising', 'Hijacking', 'Privacy', 'Reject']:
+                if x in ['AdBlock', 'Advertising', 'Hijacking', 'Privacy', 'Reject', 'QUIC']:
                     # REJECT by default. without proxies.
                     ret += self.proxy_groups_selector.substitute(
                         name=x, type='select', proxies="\t- REJECT\n\t- DIRECT\n\t- Proxy")
