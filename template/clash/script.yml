@@ -4,3 +4,4 @@ script:
       853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229,
       5230, 8080, 8443, 8880, 8888, 8889] and network == 'tcp'
     quic: network == 'udp' and dst_port == '443'
+    udp_traffic: network == 'udp' and dst_port != '443'
