@@ -4,6 +4,7 @@ mixed-port: 8899
 allow-lan: true
 mode: Rule
 log-level: warning
+bind-address: '*'
 external-controller: 0.0.0.0:6170
 external-ui: "/usr/share/yacd"
 experimental:
