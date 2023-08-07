@@ -1,4 +1,10 @@
 rule-providers:
+  Anti IP:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/rule-provider.yaml'
+    path: ./Rules/Anti_IP
+    interval: 86400
   Reject:
     type: http
     behavior: classical
@@ -320,7 +326,7 @@ rule-providers:
   OpenAI:
     type: http
     behavior: classical
-    url: 'https://dler.cloud/Rules/Clash/Provider/OpenAI.yaml'
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/OpenAI.yaml'
     path: ./Rules/OpenAI
     interval: 86400
   PROXY:
@@ -353,6 +359,12 @@ rule-providers:
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Scholar.yaml'
     path: ./Rules/Scholar
     interval: 86400
+  miHoYo:
+    type: http
+    behavior: classical
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/miHoYo.yaml'
+    path: ./Rules/miHoYo
+    interval: 86400
   Domestic IPs:
     type: http
     behavior: ipcidr
@@ -366,6 +378,7 @@ rule-providers:
     path: ./Rules/LAN
     interval: 86400
 rules:
+- RULE-SET,Anti IP,DIRECT
 - RULE-SET,Reject,AdBlock
 - RULE-SET,Special,DIRECT
 
@@ -422,6 +435,7 @@ rules:
 - RULE-SET,Crypto,Crypto
 - RULE-SET,Discord,Discord
 - RULE-SET,Steam,Steam
+- RULE-SET,miHoYo,miHoYo
 - RULE-SET,Speedtest,Speedtest
 - RULE-SET,PayPal,PayPal
 - RULE-SET,Microsoft,Microsoft
