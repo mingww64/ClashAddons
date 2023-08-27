@@ -1,172 +1,203 @@
 proxies:
-- name: HK_100
-  password: b88a1a71-5250-4ddc-8337-3a28594b6192
-  port: 443
-  server: ru01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港01
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1660
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_101
-  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
-  port: 443
-  server: de01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港02
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1661
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_102
-  password: f8d19ba5-8684-45f2-8523-77dbea588955
-  port: 443
-  server: sg.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港03
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1662
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_103
-  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
-  port: 443
-  server: hk01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港04
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1663
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_104
-  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
-  port: 443
-  server: in01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港05
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1664
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm01.miruvip.com
+  type: ssr
   udp: true
-- name: HK_105
-  password: 59e806eb-8f89-4c37-a961-86ee23211300
-  port: 443
-  server: in01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港06
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1660
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_88
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 210.0.158.220
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港07
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1661
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_89
-  password: f8d19ba5-8684-45f2-8523-77dbea588955
-  port: 443
-  server: kh.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港08
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1662
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_90
-  password: 1a283480-59e2-408a-99cb-dbbb6902a7ff
-  port: 443
-  server: uk01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港09
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1663
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_91
-  password: f8d19ba5-8684-45f2-8523-77dbea588955
-  port: 443
-  server: jp.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: 香港10
+  obfs: plain
+  obfs-param: 308a121337.microsoft.com
+  password: Miru
+  port: 1664
+  protocol: auth_aes128_sha1
+  protocol-param: 21337:bgzzSo
+  server: cm03.miruvip.com
+  type: ssr
   udp: true
-- name: HK_92
-  password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
-  port: 443
-  server: usa.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_93
-  password: f8d19ba5-8684-45f2-8523-77dbea588955
-  port: 443
-  server: ru.iamnotagoodman.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_94
-  password: 59e806eb-8f89-4c37-a961-86ee23211300
-  port: 443
-  server: uk01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_95
-  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
-  port: 443
-  server: ca.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_96
-  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
-  port: 443
-  server: uk01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_97
-  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
-  port: 443
-  server: usa.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_98
-  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
-  port: 443
-  server: ru01.awcloud.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_99
-  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
-  port: 443
-  server: sg.liangyuandian.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: HK_84
+  name: 🇭🇰 香港 1G 80 ws 负载均衡-A 自动化 流媒体解锁 MPTCP Standard 自动白名单
   network: ws
-  port: 443
-  server: xh001.xmrthnode.com
-  skip-cert-verify: true
-  tls: true
+  port: '443'
+  server: hk-a.somnode.top
   type: vmess
   udp: true
-  uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
+  uuid: 23946000-b286-398a-947f-99bb4327b2b8
   ws-opts:
     headers:
-      Host: ws-aicdn.com
-    path: /index
-- alterId: 0
+      Host: tms.dingtalk.com
+    path: /ws?ed=2048
+- alterId: '0'
   cipher: auto
-  name: HK_85 | 2.07Mb
+  name: 🇭🇰 香港-I 1G 80 ws 流媒体解锁 MPTCP Standard 自动白名单
   network: ws
-  port: 10010
-  server: az.hk01.paopaocloud.cyou
-  skip-cert-verify: true
-  tls: true
+  port: '443'
+  server: hk-i.somnode.top
   type: vmess
   udp: true
-  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  uuid: 23946000-b286-398a-947f-99bb4327b2b8
   ws-opts:
     headers:
-      Host: az.hk01.paopaocloud.cyou
-    path: /v2ray
-- alterId: 0
+      Host: tms.dingtalk.com
+    path: /ws?ed=2048
+- alterId: '0'
   cipher: auto
-  name: HK_87 | 2.18Mb
+  name: 🇭🇰 香港-II 1G 80 ws 流媒体解锁 MPTCP Standard 自动白名单
   network: ws
-  port: 10035
-  server: az.hk01.paopaocloud.cyou
-  skip-cert-verify: true
-  tls: true
+  port: '443'
+  server: hk-ii.somnode.top
   type: vmess
   udp: true
-  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  uuid: 23946000-b286-398a-947f-99bb4327b2b8
   ws-opts:
     headers:
-      Host: paopao.v2.tw04.paopaocloud.cyou
-    path: /v2ray
+      Host: tms.dingtalk.com
+    path: /ws?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰 香港-III 1G 80 ws 流媒体解锁 MPTCP Standard 自动白名单
+  network: ws
+  port: '443'
+  server: hk-iii.somnode.top
+  type: vmess
+  udp: true
+  uuid: 23946000-b286-398a-947f-99bb4327b2b8
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /ws?ed=2048
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK-A-IEPL - 1G
+  obfs: http_simple
+  obfs-param: gw.alicdn.com
+  password: zrcJYalC
+  port: 20139
+  protocol: auth_sha1_v4
+  protocol-param: ''
+  server: hksz-a.underworlduu.lol
+  type: ssr
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK-B-IEPL - 1G
+  obfs: http_simple
+  obfs-param: gw.alicdn.com
+  password: zrcJYalC
+  port: 20139
+  protocol: auth_sha1_v4
+  protocol-param: ''
+  server: hksz-b.underworlduu.lol
+  type: ssr
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK-C-IEPL - 1G
+  obfs: http_simple
+  obfs-param: gw.alicdn.com
+  password: zrcJYalC
+  port: 20139
+  protocol: auth_sha1_v4
+  protocol-param: ''
+  server: hksz-c.underworlduu.lol
+  type: ssr
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK-D-IEPL - 1G
+  obfs: http_simple
+  obfs-param: gw.alicdn.com
+  password: zrcJYalC
+  port: 20139
+  protocol: auth_sha1_v4
+  protocol-param: ''
+  server: hksz-d.underworlduu.lol
+  type: ssr
