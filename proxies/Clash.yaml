@@ -133,10 +133,10 @@ clash-for-android:
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
 proxy-providers:
-    Miru:
+    YahahaLTD:
       type: http
-      path: "./proxy_provider/Miru.yaml"
-      url: https://realnet.ga/proxies/clash/Miru
+      path: "./proxy_provider/YahahaLTD.yaml"
+      url: https://realnet.ga/proxies/clash/YahahaLTD
       interval: 43200
       health-check:
         enable: true
@@ -151,10 +151,10 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    YahahaLTD:
+    Miru:
       type: http
-      path: "./proxy_provider/YahahaLTD.yaml"
-      url: https://realnet.ga/proxies/clash/YahahaLTD
+      path: "./proxy_provider/Miru.yaml"
+      url: https://realnet.ga/proxies/clash/Miru
       interval: 43200
       health-check:
         enable: true
@@ -169,10 +169,10 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    🇲🇴:
+    🇯🇵:
       type: http
-      path: "./proxy_provider/🇲🇴.yaml"
-      url: https://realnet.ga/proxies/clash/region/🇲🇴
+      path: "./proxy_provider/🇯🇵.yaml"
+      url: https://realnet.ga/proxies/clash/region/🇯🇵
       interval: 43200
       health-check:
         enable: true
@@ -187,28 +187,28 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    🇨🇳:
-      type: http
-      path: "./proxy_provider/🇨🇳.yaml"
-      url: https://realnet.ga/proxies/clash/region/🇨🇳
-      interval: 43200
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
-    🇯🇵:
-      type: http
-      path: "./proxy_provider/🇯🇵.yaml"
-      url: https://realnet.ga/proxies/clash/region/🇯🇵
-      interval: 43200
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     🇺🇸:
       type: http
       path: "./proxy_provider/🇺🇸.yaml"
       url: https://realnet.ga/proxies/clash/region/🇺🇸
+      interval: 43200
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇲🇴:
+      type: http
+      path: "./proxy_provider/🇲🇴.yaml"
+      url: https://realnet.ga/proxies/clash/region/🇲🇴
+      interval: 43200
+      health-check:
+        enable: true
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+    🇨🇳:
+      type: http
+      path: "./proxy_provider/🇨🇳.yaml"
+      url: https://realnet.ga/proxies/clash/region/🇨🇳
       interval: 43200
       health-check:
         enable: true
@@ -223,19 +223,19 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    🇹🇼:
+    🇷🇺:
       type: http
-      path: "./proxy_provider/🇹🇼.yaml"
-      url: https://realnet.ga/proxies/clash/region/🇹🇼
+      path: "./proxy_provider/🇷🇺.yaml"
+      url: https://realnet.ga/proxies/clash/region/🇷🇺
       interval: 43200
       health-check:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    🇷🇺:
+    🇹🇼:
       type: http
-      path: "./proxy_provider/🇷🇺.yaml"
-      url: https://realnet.ga/proxies/clash/region/🇷🇺
+      path: "./proxy_provider/🇹🇼.yaml"
+      url: https://realnet.ga/proxies/clash/region/🇹🇼
       interval: 43200
       health-check:
         enable: true
@@ -247,13 +247,13 @@ proxy-groups:
   type: url-test
   use:
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
@@ -267,290 +267,290 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Asian TV
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
 - name: BitTorrent
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
 - name: Crunchyroll
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Crypto
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Discord
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Disney
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Domestic
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
 - name: Global TV
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Google FCM
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
 - name: Microsoft
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Netflix
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: OpenAI
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Other Ports
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
 - name: Others
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: PayPal
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Proxy
   type: select
   proxies:
   - All
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: QUIC
   type: select
@@ -562,194 +562,194 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Scholar
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: SharePoint
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Speedtest
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Spotify
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Steam
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: Telegram
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: UDP
   type: select
   proxies:
   - DIRECT
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
 - name: YouTube
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: YouTube Music
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 - name: miHoYo
   type: select
   proxies:
   - Proxy
-  - Miru
-  - JDYun
   - YahahaLTD
+  - JDYun
+  - Miru
   - 🇸🇬
-  - 🇲🇴
-  - 🇭🇰
-  - 🇨🇳
   - 🇯🇵
+  - 🇭🇰
   - 🇺🇸
+  - 🇲🇴
+  - 🇨🇳
   - 🇰🇷
-  - 🇹🇼
   - 🇷🇺
+  - 🇹🇼
   - DIRECT
 
-- name: Miru
+- name: YahahaLTD
   type: url-test
   use:
-  - Miru
+  - YahahaLTD
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
@@ -760,10 +760,10 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
-- name: YahahaLTD
+- name: Miru
   type: url-test
   use:
-  - YahahaLTD
+  - Miru
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
@@ -774,10 +774,10 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
-- name: 🇲🇴
+- name: 🇯🇵
   type: url-test
   use:
-  - 🇲🇴
+  - 🇯🇵
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
@@ -788,24 +788,24 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
-- name: 🇨🇳
-  type: url-test
-  use:
-  - 🇨🇳
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 10
-- name: 🇯🇵
-  type: url-test
-  use:
-  - 🇯🇵
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 10
 - name: 🇺🇸
   type: url-test
   use:
   - 🇺🇸
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 10
+- name: 🇲🇴
+  type: url-test
+  use:
+  - 🇲🇴
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 10
+- name: 🇨🇳
+  type: url-test
+  use:
+  - 🇨🇳
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
@@ -816,17 +816,17 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
-- name: 🇹🇼
-  type: url-test
-  use:
-  - 🇹🇼
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 10
 - name: 🇷🇺
   type: url-test
   use:
   - 🇷🇺
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 10
+- name: 🇹🇼
+  type: url-test
+  use:
+  - 🇹🇼
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10

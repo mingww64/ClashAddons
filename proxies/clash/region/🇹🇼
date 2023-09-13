@@ -1,5 +1,38 @@
 proxies:
 - cipher: chacha20-ietf
+  name: 🇨🇳 TW-A - 100M
+  obfs: http_simple
+  obfs-param: gw.alicdn.com
+  password: zrcJYalC
+  port: 20139
+  protocol: auth_sha1_v4
+  protocol-param: ''
+  server: tw-a.underworlduu.lol
+  type: ssr
+- cipher: chacha20-ietf
+  name: 🇨🇳 TW-B - 200M
+  obfs: http_simple
+  obfs-param: gw.alicdn.com
+  password: zrcJYalC
+  port: 20139
+  protocol: auth_sha1_v4
+  protocol-param: ''
+  server: tw-b.underworlduu.lol
+  type: ssr
+- alterId: '0'
+  cipher: auto
+  name: 🇹🇼 台湾-Trail 1G 80 ws 流媒体解锁 MPTCP Basic 自动白名单
+  network: ws
+  port: '443'
+  server: tw-trail.somnode.top
+  type: vmess
+  udp: true
+  uuid: 23946000-b286-398a-947f-99bb4327b2b8
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /ws?ed=2048
+- cipher: chacha20-ietf
   name: 台湾01
   obfs: plain
   obfs-param: 308a121337.microsoft.com
@@ -65,36 +98,3 @@ proxies:
   server: cm02.miruvip.com
   type: ssr
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇹🇼 台湾-Trail 1G 80 ws 流媒体解锁 MPTCP Basic 自动白名单
-  network: ws
-  port: '443'
-  server: tw-trail.somnode.top
-  type: vmess
-  udp: true
-  uuid: 23946000-b286-398a-947f-99bb4327b2b8
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /ws?ed=2048
-- cipher: chacha20-ietf
-  name: 🇨🇳 TW-A - 100M
-  obfs: http_simple
-  obfs-param: gw.alicdn.com
-  password: zrcJYalC
-  port: 20139
-  protocol: auth_sha1_v4
-  protocol-param: ''
-  server: tw-a.underworlduu.lol
-  type: ssr
-- cipher: chacha20-ietf
-  name: 🇨🇳 TW-B - 200M
-  obfs: http_simple
-  obfs-param: gw.alicdn.com
-  password: zrcJYalC
-  port: 20139
-  protocol: auth_sha1_v4
-  protocol-param: ''
-  server: tw-b.underworlduu.lol
-  type: ssr
