@@ -133,15 +133,6 @@ clash-for-android:
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
 proxy-providers:
-    YahahaLTD:
-      type: http
-      path: "./proxy_provider/YahahaLTD.yaml"
-      url: https://realnet.ga/proxies/clash/YahahaLTD
-      interval: 43200
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     JDYun:
       type: http
       path: "./proxy_provider/JDYun.yaml"
@@ -196,15 +187,6 @@ proxy-providers:
         enable: true
         url: http://www.gstatic.com/generate_204
         interval: 300
-    🇲🇴:
-      type: http
-      path: "./proxy_provider/🇲🇴.yaml"
-      url: https://realnet.ga/proxies/clash/region/🇲🇴
-      interval: 43200
-      health-check:
-        enable: true
-        url: http://www.gstatic.com/generate_204
-        interval: 300
     🇨🇳:
       type: http
       path: "./proxy_provider/🇨🇳.yaml"
@@ -250,7 +232,6 @@ proxy-groups:
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇰🇷
   - 🇷🇺
   - 🇹🇼
@@ -267,14 +248,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -285,14 +264,12 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -302,14 +279,12 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -318,14 +293,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -335,14 +308,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -352,14 +323,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -369,14 +338,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -387,14 +354,12 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -403,14 +368,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -421,14 +384,12 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -437,14 +398,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -454,14 +413,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -471,14 +428,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -489,14 +444,12 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -505,14 +458,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -522,14 +473,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -539,14 +488,12 @@ proxy-groups:
   type: select
   proxies:
   - All
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -562,14 +509,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -579,14 +524,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -596,14 +539,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -613,14 +554,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -630,14 +569,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -647,14 +584,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -664,14 +599,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -682,14 +615,12 @@ proxy-groups:
   proxies:
   - DIRECT
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -698,14 +629,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -715,14 +644,12 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
@@ -732,27 +659,18 @@ proxy-groups:
   type: select
   proxies:
   - Proxy
-  - YahahaLTD
   - JDYun
   - Miru
   - 🇸🇬
   - 🇯🇵
   - 🇭🇰
   - 🇺🇸
-  - 🇲🇴
   - 🇨🇳
   - 🇰🇷
   - 🇷🇺
   - 🇹🇼
   - DIRECT
 
-- name: YahahaLTD
-  type: url-test
-  use:
-  - YahahaLTD
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 10
 - name: JDYun
   type: url-test
   use:
@@ -792,13 +710,6 @@ proxy-groups:
   type: url-test
   use:
   - 🇺🇸
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 10
-- name: 🇲🇴
-  type: url-test
-  use:
-  - 🇲🇴
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 10
