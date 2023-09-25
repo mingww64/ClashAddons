@@ -21,9 +21,9 @@ SafeLoaderIgnoreUnknown.add_constructor(
     None, SafeLoaderIgnoreUnknown.ignore_unknown)
 
 
-def get_proxies(content):
+def get_proxies(content, alternative_name='proxies'):
     try:
-        return yaml.load(content, Loader=SafeLoaderIgnoreUnknown)['proxies']
+        return yaml.load(content, Loader=SafeLoaderIgnoreUnknown)[alternative_name]
     except:
         return None
 
@@ -61,10 +61,10 @@ def dumper(list_dict, file):
     yaml.dump(_dump, file, allow_unicode=True)
 
 
-def run(syx, file_path):
-    _in = {}
-    _plain = []
-    _matched_list = []
+def run(regex, file_path):
+    matched_proxies = {}
+    unmatched_proxies = []
+    matched_keyword = []
     file_name = file_path.split('/')[-1]
     encolored.Debug("Processing: ", file_path)
     rm_old(file_path)
@@ -72,24 +72,24 @@ def run(syx, file_path):
         f = f.read()
         for x, y in get_name(f).items():
             # re.search.group() only return the first matched match.
-            matched = re.search(syx, x, re.IGNORECASE)
+            matched = re.search(regex, x, re.IGNORECASE)
             if matched:
-                if matched.group() not in _matched_list:
-                    _matched_list.append(matched.group())
-                    _in[matched.group()] = [y]
+                if matched.group() not in matched_keyword:
+                    matched_keyword.append(matched.group())
+                    matched_proxies[matched.group()] = [y]
                 else:
-                    _in[matched.group()] += [y]
+                    matched_proxies[matched.group()] += [y]
 
             else:
-                _plain.append(y)
-    if _matched_list == []:
-        encolored.Warn("Pattern cannot be matched.")
+                unmatched_proxies.append(y)
+    if matched_keyword == []:
+        encolored.Warn("Invaild regex: All pattern not match.", regex)
     else:
-        encolored.Info('Matched: ', _matched_list)
+        encolored.Info('Matched: ', matched_keyword)
         # rename_original(file_path)
-        for x, y in _in.items():
+        for x, y in matched_proxies.items():
             with open('{}_/{}\'s {}'.format(file_path, file_name, x), 'w') as f:
                 dumper(y, f)
-        if _plain != []:
+        if unmatched_proxies != []:
             with open('{}_/{}\'s Others'.format(file_path, file_name), 'w') as f:
-                dumper(_plain, f)
+                dumper(unmatched_proxies, f)

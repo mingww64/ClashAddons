@@ -1,5 +1,7 @@
 import inspect
 
+log_level:str
+
 def set_level(log_level): globals()["log_level"] = log_level
 
 class Colors:

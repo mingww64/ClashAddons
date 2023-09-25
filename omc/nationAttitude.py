@@ -9,7 +9,7 @@ from omc import encolored
 def gather_files(path, exclude):
     _ret = {}
     if type(exclude) != str:
-        exit('check regexp in Exclude:region.')
+        exit('Check regular expression in \'Exclude\' field')
     for file in os.listdir(path):
         if os.path.isfile(path+'/'+file) and file[0] != '.':
             with open(path+'/'+file, 'r') as f:
@@ -18,7 +18,7 @@ def gather_files(path, exclude):
                 except TypeError:
                     encolored.Error('Unformatted:', file)
                     exit()
-    # Dict can't be motified during iteration, so change it to list.
+    # list(_ret): Dict can't be motified during iteration, so turn it to list.
     for name in list(_ret):
         if re.search(exclude, name, re.IGNORECASE):
             del _ret[name]
@@ -28,7 +28,7 @@ def gather_files(path, exclude):
 def processor(path, out="", exclude='限速|游戏|game'):
     emoji = 'template/emoji.txt'
     if out == "":
-        out = path+'/region/'  # Shouldnt be same as path, make duplication.
+        out = path+'/region/'
     os.makedirs(out, exist_ok=True)
     parsed = open(emoji).read()
     re_list = parsed.strip().split('\n')
@@ -44,7 +44,7 @@ def processor(path, out="", exclude='限速|游戏|game'):
             if re.search(re_match, proxies):
                 encolored.Info('\tMatched: ', proxies)
                 list_reg.append(line)
-                # solve duplicate match (China regexp.)
+                # solve duplicated match (China regexp.)
                 del proxies_dict[proxies]
         if len(list_reg) != 0:
             with open(out + re_emoji, 'w') as f:

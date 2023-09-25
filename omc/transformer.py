@@ -5,12 +5,10 @@ import re
 
 from omc import encolored
 from omc import regExpresser
-
+from regExpresser import get_proxies as check_yaml
 
 class Kit:
-    '''use class to handle variables change,
-otherwise vars will init before giving new config_path,
-which cause undefined / no such file errors'''  # i can use function though...
+
     config_path = './omc/config.yaml'
 
     def __init__(self, path):
@@ -20,13 +18,13 @@ which cause undefined / no such file errors'''  # i can use function though...
             self.__dict__['config_path'] = path
         elif os.path.exists(self.config_path):
             encolored.Warn(
-                f'the given path: {path} is not exist, fallback to {self.config_path}')
+                f'the given path: {path} not exist, fallback to {self.config_path}')
         else:
             exit(f'{self.config_path} not found.')
         config = open(self.config_path, 'r').read()
         parse_conf = yaml.safe_load(config)
         if not parse_conf['Enabled']:
-            exit(f'omc is Disabled in its config file: {self.config_path}.')
+            exit(f'omc is disabled in its config file: {self.config_path}.')
         self.subc = parse_conf['SCServer']
         self.subc_remote = parse_conf['SCServerRemote']
         self.head = parse_conf['Rules']['Clash']['head']
@@ -76,14 +74,17 @@ which cause undefined / no such file errors'''  # i can use function though...
             with open(self.rules, 'r') as rules_dot_yaml:
                 rule_content = rules_dot_yaml.read()
             for path, url in path_url:
-                destdir = os.path.join(
-                    dir, 'rules/clash', os.path.normpath(os.path.dirname(path)))
                 dest = os.path.join(dir, 'rules/clash', os.path.normpath(path))
+                destdir = os.path.dirname(dest)
                 os.makedirs(destdir, exist_ok=True)
                 with open(dest, 'w') as rule:
                     encolored.Info(f'Downloading: {url} --> ', dest)
-                    rule.write(requests.get(
-                        url).content.decode('utf-8', 'ignore'))
+                    rules = requests.get(
+                        url).content.decode('utf-8', 'ignore')
+                    if check_yaml(rules, 'payload') != None:
+                        rule.write(rules)
+                    else:
+                        encolored.Warn("Invaild url", url)
             # Substitute url
                 rule_content = rule_content.replace(url, os.path.join(
                     self.parse_conf['Storage'], dir, 'rules/clash', os.path.normpath(path)))
@@ -155,4 +156,4 @@ which cause undefined / no such file errors'''  # i can use function though...
                     continue
                 regExpresser.run(syntax, "{}/{}".format(read_dir, provider))
         else:
-            encolored.Skip('Group Classify Disabled.')
+            encolored.Skip('Group Classifier is disabled.')
