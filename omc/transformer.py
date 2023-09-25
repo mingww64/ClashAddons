@@ -5,7 +5,7 @@ import re
 
 from omc import encolored
 from omc import regExpresser
-from regExpresser import get_proxies as check_yaml
+from .regExpresser import get_proxies as check_yaml
 
 class Kit:
 
